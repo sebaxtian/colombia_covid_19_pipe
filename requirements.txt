@@ -1,4 +1,4 @@
-# colombia_covid_19_pipe
+# colombia_covid_19_pipe requirements
 pandas
 numpy
 geopy
