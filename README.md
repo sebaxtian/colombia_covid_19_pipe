@@ -7,4 +7,76 @@ The number of new cases are increasing day by day around the world. This dataset
 
 You can get the datasets from [colombia_covid_19_pipe](https://www.kaggle.com/sebaxtian/colombia-covid-19-pipe) Kaggle Notebook Kernel.
 
-Work in progress ...
+---
+
+## Requirements
+
+See [requirements.txt](./requirements.txt) file.
+
+## Source Code
+
+See [./src](./src) directory.
+
+## Documentation
+
+| Directory | Readme    |
+|-----------|-----------|
+| ./doc     | [README.md](./doc/README.md) |
+| ./input   | [README.md](./input/README.md) |
+| ./output  | [README.md](./output/README.md) |
+| ./src     | [README.md](./src/README.md) |
+
+### How to use
+
+Please read and execute each step below:
+
+#### Step 1
+
+Create and use Python virtual environment:
+
+```bash
+$promt> python3 -m venv .venv
+$promt> source .venv/bin/activate
+```
+
+#### Step 2
+
+Install all Python requirements:
+
+```bash
+$promt> pip3 install -r requirements.txt
+```
+
+#### Step 3
+
+Run Pipeline script:
+
+```bash
+$promt> ./run.sh
+```
+
+The Pipeline output is generated within [./output](./output) directory.
+
+#### Step N
+
+> Work in progress ...
+
+---
+
+***That's all for now ...***
+
+---
+
+#### Would you like contribute?
+
+> Getting in touch with [@sebaxtianbach](https://twitter.com/sebaxtianbach)
+
+---
+
+#### License
+
+[MIT License](./LICENSE)
+
+#### About me
+
+[https://about.me/sebaxtian](https://about.me/sebaxtian)
