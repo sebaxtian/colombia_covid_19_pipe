@@ -5,12 +5,12 @@
 #
 
 # Create and Load Python environment
-echo "Setup Python environment ..."
-python3 -m venv .venv
-source .venv/bin/activate
+#echo "Setup Python environment ..."
+#python3 -m venv .venv
+#source .venv/bin/activate
 # Install Python requirements
-echo "Install Python requirements ..."
-pip3 install -r requirements.txt
+#echo "Install Python requirements ..."
+#pip3 install -r requirements.txt
 # Go to source code
 cd ./src
 # Run Python script
