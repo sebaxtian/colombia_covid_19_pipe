@@ -1,0 +1,32 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Colombia Covid 19 Pipeline
+
+on:
+  push:
+    branches: [ dev ]
+  pull_request:
+    branches: [ dev ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python3 -m pip3 install --upgrade pip3
+        pip3 install -r requirements.txt
+    - name: Colombia Covid 19 Pipeline
+      run: |
+        # Run Colombia Covid 19 Pipeline
+        ./run.sh
+        # Action Finish
+        echo "Action Finish"
