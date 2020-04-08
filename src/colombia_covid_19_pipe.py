@@ -55,7 +55,6 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 # ---
 
 # %%
-# Constants
 # Any results you write to the current directory are saved as output.
 OUTPUT_DIR = '../output'
 # URL original dataset
@@ -440,14 +439,15 @@ print(descarted_cases)
 # Reading the json as a dict
 with requests.get('https://infogram.com/api/live/flex/bc384047-e71c-47d9-b606-1eb6a29962e3/523ca417-2781-47f0-87e8-1ccc2d5c2839?') as original_dataset:
     data = original_dataset.json()
-#print(data['data'][1])
+#print(data['data'])
+#print(data['data'][2])
 
 # Get attributes and data
-attrs = data['data'][1][0]
+attrs = data['data'][2][0]
 attrs[0] = 'Periodo'
-del data['data'][1][0]
+del data['data'][2][0]
 #print(attrs)
-data = data['data'][1]
+data = data['data'][2]
 #print(data)
 
 # Build dataframe
@@ -482,7 +482,7 @@ def update_date_format(period):
 # Update date format
 covid_df_samples_processed['period'] = covid_df_samples_processed['period'].transform(lambda value: update_date_format(value))
 # Show dataframe
-covid_df_samples_processed.head()
+covid_df_samples_processed.tail()
 
 # %% [markdown]
 # ## Samples Processed

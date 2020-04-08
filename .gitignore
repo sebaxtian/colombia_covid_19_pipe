@@ -138,5 +138,5 @@ dmypy.json
 .venv
 
 # Output
-output/*
-!output/README.md
+#output/*
+#!output/README.md

@@ -5,6 +5,7 @@
 #
 
 echo "Running Colombia Covid 19 Pipeline ..."
+source .venv/bin/activate
 cd ./src
 python colombia_covid_19_pipe.py
 cd ../

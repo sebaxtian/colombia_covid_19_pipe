@@ -17,6 +17,10 @@ See [requirements.txt](./requirements.txt) file.
 
 See [./src](./src) directory.
 
+## Datasets
+
+See [./output](./src) directory.
+
 ## Documentation
 
 | Directory | Readme    |

@@ -1,0 +1,1781 @@
+id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,country_origin,care
+FQ9gHlQeq19,06/03/2020,06,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,19,F,Importado,Italia,Recuperado
+MOkbuhUrn34,09/03/2020,09,03,2020,Marzo,Lunes,Buga,Valle del Cauca,34,M,Importado,España,Recuperado
+F7AIFvjPi50,09/03/2020,09,03,2020,Marzo,Lunes,Medellin,Antioquia,50,F,Importado,España,Recuperado
+M6EjZtmx355,11/03/2020,11,03,2020,Marzo,Miercoles,Medellin,Antioquia,55,M,Relacionado,Colombia,Recuperado
+MmNJZIm9q25,11/03/2020,11,03,2020,Marzo,Miercoles,Medellin,Antioquia,25,M,Relacionado,Colombia,Recuperado
+F4fmeEkF327,11/03/2020,11,03,2020,Marzo,Miercoles,Itagui,Antioquia,27,F,Relacionado,Colombia,Casa
+FHxNiDeyr85,11/03/2020,11,03,2020,Marzo,Miercoles,Cartagena,Cartagena D.T. y C,85,F,Importado,Estados Unidos,Recuperado
+FCq20XCfi22,11/03/2020,11,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,22,F,Importado,España,Recuperado
+FLT-tvFd028,11/03/2020,11,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,28,F,Importado,España,Recuperado
+F2bp_dQjT36,12/03/2020,12,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,36,F,Importado,España,Recuperado
+FWc6G4mju42,12/03/2020,12,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,42,F,Importado,España,Casa
+F7VLFfqeO74,12/03/2020,12,03,2020,Marzo,Jueves,Neiva,Huila,74,F,Importado,Italia,Casa
+Fm0wSQf6G68,12/03/2020,12,03,2020,Marzo,Jueves,Neiva,Huila,68,F,Relacionado,Colombia,Casa
+M4pY5-42e48,13/03/2020,13,03,2020,Marzo,Viernes,Palmira,Valle del Cauca,48,M,Importado,España,Recuperado
+FwKILhMOZ30,13/03/2020,13,03,2020,Marzo,Viernes,Villavicencio,Meta,30,F,Importado,España,Recuperado
+FfkWaqBJG61,13/03/2020,13,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,61,F,Importado,Italia,Recuperado
+FPJWMqj-e73,14/03/2020,14,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,73,F,Importado,España,Recuperado
+M5JoVNlbw54,14/03/2020,14,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,54,M,Importado,España,Casa
+F93f8YPEa54,14/03/2020,14,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,54,F,Relacionado,Colombia,Recuperado
+FeU4czKk-26,14/03/2020,14,03,2020,Marzo,Sabado,Medellin,Antioquia,26,F,Relacionado,Colombia,Recuperado
+MfpJFAf7128,14/03/2020,14,03,2020,Marzo,Sabado,Medellin,Antioquia,28,M,Relacionado,Colombia,Casa
+MhfRLJo1D36,14/03/2020,14,03,2020,Marzo,Sabado,Rionegro,Antioquia,36,M,Importado,Estados Unidos,Recuperado
+MEvn2fYDU23,14/03/2020,14,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,23,M,Relacionado,Colombia,Recuperado
+FeclOEerg18,14/03/2020,14,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,18,F,Importado,España,Recuperado
+MWZxt54yG49,15/03/2020,15,03,2020,Marzo,Domingo,Cali,Valle del Cauca,49,M,Importado,España,Casa
+FfT0tdvGI30,15/03/2020,15,03,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,30,F,Relacionado,Colombia,Casa
+FV9keuhKL30,15/03/2020,15,03,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,30,F,Relacionado,Colombia,Recuperado
+Mjk57z2DH22,15/03/2020,15,03,2020,Marzo,Domingo,Dosquebradas,Risaralda,22,M,Importado,Estados Unidos,Casa
+F2uz5bv9e55,15/03/2020,15,03,2020,Marzo,Domingo,Neiva,Huila,55,F,Relacionado,Colombia,Recuperado
+FjSvDbjG648,15/03/2020,15,03,2020,Marzo,Domingo,Cucuta,Norte de Santander,48,F,Importado,España,Recuperado
+MiN6U1iI_65,15/03/2020,15,03,2020,Marzo,Domingo,Manizales,Caldas,65,M,Importado,Estados Unidos,Recuperado
+M_NpMe1xf55,15/03/2020,15,03,2020,Marzo,Domingo,Medellin,Antioquia,55,M,Importado,España,Recuperado
+M9fchB9Wd59,15/03/2020,15,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,59,M,Importado,España,Hospital
+FgECNmMhy23,15/03/2020,15,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,23,F,Importado,España,Recuperado
+MSg8fOVp554,15/03/2020,15,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,54,M,Importado,España,Recuperado
+MmVnL9xGs72,15/03/2020,15,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,72,M,Importado,Estados Unidos,Casa
+FKxwtYKa345,15/03/2020,15,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,45,F,Relacionado,Colombia,Recuperado
+MTElYgTz429,15/03/2020,15,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,29,M,Importado,España,Recuperado
+MSBTFdIh121,15/03/2020,15,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,21,M,Importado,España,Recuperado
+FwvRUhACM23,15/03/2020,15,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,23,F,Importado,España,Recuperado
+MwkmuotYr79,15/03/2020,15,03,2020,Marzo,Domingo,Neiva,Huila,79,M,Relacionado,Colombia,Recuperado
+FOn1p9fk252,15/03/2020,15,03,2020,Marzo,Domingo,Neiva,Huila,52,F,Relacionado,Colombia,Recuperado
+M52NeOljR71,15/03/2020,15,03,2020,Marzo,Domingo,Neiva,Huila,71,M,Relacionado,Colombia,Recuperado
+FTIsPHTzw24,15/03/2020,15,03,2020,Marzo,Domingo,Neiva,Huila,24,F,Relacionado,Colombia,Recuperado
+Maw2fbaIl29,15/03/2020,15,03,2020,Marzo,Domingo,Subachoque,Cundinamarca,29,M,Importado,España,Casa
+FlwrYPiRL44,16/03/2020,16,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,44,F,Relacionado,Colombia,Casa
+ME0VZvSjx38,16/03/2020,16,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
+MtRMD9tZl31,16/03/2020,16,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,31,M,Relacionado,Colombia,Recuperado
+FB_D9actp41,16/03/2020,16,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,41,F,Importado,España,Recuperado
+FBoPkfDyT67,16/03/2020,16,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,67,F,Importado,España,Recuperado
+Mk-ROGqXI24,16/03/2020,16,03,2020,Marzo,Lunes,Soacha,Cundinamarca,24,M,Importado,Ecuador,Casa
+MOwSeoOks29,16/03/2020,16,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,29,M,Importado,España,Recuperado
+Mck4-Ic3n62,16/03/2020,16,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,62,M,Importado,España,Recuperado
+FUbSru2dt42,16/03/2020,16,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,42,F,Importado,España,Casa
+FLs1fILh-58,16/03/2020,16,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,58,F,Relacionado,Colombia,Recuperado
+M_6Mtepr-34,16/03/2020,16,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,34,M,Importado,España,Recuperado
+MT-mP1hQ237,16/03/2020,16,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,37,M,Relacionado,Colombia,Recuperado
+MX4xrdXs_27,17/03/2020,17,03,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,27,M,Relacionado,Colombia,Casa
+M1oEChitm20,17/03/2020,17,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,20,M,Importado,España,Recuperado
+M5tNjV6y824,17/03/2020,17,03,2020,Marzo,Martes,Bucaramanga,Santander,24,M,Importado,España,Casa
+MSFQaALcv21,17/03/2020,17,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,21,M,Importado,España,Recuperado
+MA3VkMzOr32,17/03/2020,17,03,2020,Marzo,Martes,Cali,Valle del Cauca,32,M,Importado,Italia,Casa
+F5jbU6iyK26,17/03/2020,17,03,2020,Marzo,Martes,Cali,Valle del Cauca,26,F,Importado,Francia,Casa
+MYVBfdu4W31,17/03/2020,17,03,2020,Marzo,Martes,Bogota,Bogota D.C.,31,M,Importado,España,Casa
+Med5CKrLW64,17/03/2020,17,03,2020,Marzo,Martes,Bogota,Bogota D.C.,64,M,Relacionado,Colombia,Casa
+Fh90_sh4r40,17/03/2020,17,03,2020,Marzo,Martes,Bogota,Bogota D.C.,40,F,Importado,España,Recuperado
+MpgPxFpNJ21,17/03/2020,17,03,2020,Marzo,Martes,Bogota,Bogota D.C.,21,M,Importado,España,Casa
+MKsHdIEQw72,17/03/2020,17,03,2020,Marzo,Martes,Bogota,Bogota D.C.,72,M,Importado,España,Hospital UCI
+Fqp-7Angc22,17/03/2020,17,03,2020,Marzo,Martes,Bogota,Bogota D.C.,22,F,Importado,Estados Unidos,Recuperado
+FBDXU2xjS37,17/03/2020,17,03,2020,Marzo,Martes,Bogota,Bogota D.C.,37,F,Importado,Turquía,Casa
+MAUz1kFaX54,17/03/2020,17,03,2020,Marzo,Martes,Cucuta,Norte de Santander,54,M,Relacionado,Colombia,Casa
+FqeQ5mqfn22,17/03/2020,17,03,2020,Marzo,Martes,Cucuta,Norte de Santander,22,F,Relacionado,Colombia,Casa
+F1i57A36y54,17/03/2020,17,03,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,54,F,Relacionado,Colombia,Recuperado
+Mr1SQdqez18,17/03/2020,17,03,2020,Marzo,Martes,Bogota,Bogota D.C.,18,M,Relacionado,Colombia,Casa
+FwAQ-Uw_849,17/03/2020,17,03,2020,Marzo,Martes,Bogota,Bogota D.C.,49,F,Relacionado,Colombia,Recuperado
+FzdSvPsmg46,18/03/2020,18,03,2020,Marzo,Miercoles,Armenia,Quindio,46,F,Importado,Italia,Recuperado
+MrWiHwrG518,18/03/2020,18,03,2020,Marzo,Miercoles,Armenia,Quindio,18,M,Importado,España,Recuperado
+F82sc7PDB39,18/03/2020,18,03,2020,Marzo,Miercoles,Palmira,Valle del Cauca,39,F,Relacionado,Colombia,Recuperado
+M0tebHsBF9,18/03/2020,18,03,2020,Marzo,Miercoles,Palmira,Valle del Cauca,9,M,Relacionado,Colombia,Recuperado
+FmuQMOGyo53,18/03/2020,18,03,2020,Marzo,Miercoles,Palmira,Valle del Cauca,53,F,Relacionado,Colombia,Recuperado
+FbRZYvxl049,18/03/2020,18,03,2020,Marzo,Miercoles,Cali,Valle del Cauca,49,F,Importado,Estados Unidos,Casa
+MPmD5TLWa54,18/03/2020,18,03,2020,Marzo,Miercoles,Cali,Valle del Cauca,54,M,Importado,España,Casa
+MlFmRvACn56,18/03/2020,18,03,2020,Marzo,Miercoles,Cali,Valle del Cauca,56,M,Importado,Estados Unidos,Casa
+MohdFIVbl51,18/03/2020,18,03,2020,Marzo,Miercoles,Cali,Valle del Cauca,51,M,Importado,Ecuador,Casa
+FndJRsXHZ42,18/03/2020,18,03,2020,Marzo,Miercoles,Cali,Valle del Cauca,42,F,Relacionado,Colombia,Casa
+MgktZjL6m29,18/03/2020,18,03,2020,Marzo,Miercoles,Pereira,Risaralda,29,M,Importado,Francia,Recuperado
+MbACvJpTS45,18/03/2020,18,03,2020,Marzo,Miercoles,Cajica,Cundinamarca,45,M,Importado,España,Recuperado
+Mx1DvhxuT36,18/03/2020,18,03,2020,Marzo,Miercoles,Ibague,Tolima,36,M,Relacionado,Colombia,Recuperado
+FoXzpvoBg39,18/03/2020,18,03,2020,Marzo,Miercoles,Bucaramanga,Santander,39,F,Importado,España,Casa
+FaPjTezX553,18/03/2020,18,03,2020,Marzo,Miercoles,Neiva,Huila,53,F,Relacionado,Colombia,Casa
+M8ZaNcuIy32,18/03/2020,18,03,2020,Marzo,Miercoles,Cajica,Cundinamarca,32,M,Importado,España,Recuperado
+MLmEvHPyA50,18/03/2020,18,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,50,M,Relacionado,Colombia,Casa
+F7iIlCuf826,18/03/2020,18,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,26,F,Importado,España,Recuperado
+MwYodS1fG53,18/03/2020,18,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,53,M,Importado,Estados Unidos,Casa
+Mj92ABpJ369,18/03/2020,18,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,69,M,Importado,Turquía,Hospital UCI
+FNlmuoFjp37,18/03/2020,18,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,37,F,Importado,Estados Unidos,Casa
+MfUnGICTk24,18/03/2020,18,03,2020,Marzo,Miercoles,Cartagena,Cartagena D.T. y C,24,M,Importado,Estados Unidos,Casa
+MTJIxszRn21,18/03/2020,18,03,2020,Marzo,Miercoles,Cartagena,Cartagena D.T. y C,21,M,Importado,España,Casa
+M2Y6neNg416,18/03/2020,18,03,2020,Marzo,Miercoles,Ibague,Tolima,16,M,Relacionado,Colombia,Casa
+M4qA0E4Np21,18/03/2020,18,03,2020,Marzo,Miercoles,Pereira,Risaralda,21,M,Importado,España,Casa
+MnQDjLRSx18,18/03/2020,18,03,2020,Marzo,Miercoles,Dosquebradas,Risaralda,18,M,Importado,España,Casa
+Mv4dktGpI79,18/03/2020,18,03,2020,Marzo,Miercoles,Pereira,Risaralda,79,M,Importado,España,Recuperado
+F2VN3dyxG24,19/03/2020,19,03,2020,Marzo,Jueves,Cartagena,Cartagena D.T. y C,24,F,Importado,España,Casa
+FnI-Mc3ry48,19/03/2020,19,03,2020,Marzo,Jueves,Barranquilla,Barranquilla D.E.,48,F,Importado,España,Recuperado
+Fo3qF2o7P23,19/03/2020,19,03,2020,Marzo,Jueves,Palmira,Valle del Cauca,23,F,Importado,España,Casa
+M8RXDTJ7q44,19/03/2020,19,03,2020,Marzo,Jueves,Medellin,Antioquia,44,M,Importado,España,Recuperado
+MByngQaOE56,19/03/2020,19,03,2020,Marzo,Jueves,Medellin,Antioquia,56,M,Importado,España,Casa
+FmEpWqmvN57,19/03/2020,19,03,2020,Marzo,Jueves,Medellin,Antioquia,57,F,Importado,España,Casa
+MyQV13R9Z54,19/03/2020,19,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,54,M,Importado,España,Casa
+FfFLtKfh662,19/03/2020,19,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,62,F,Importado,Estados Unidos,Casa
+Mm3EgKfJG60,19/03/2020,19,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,60,M,Relacionado,Colombia,Casa
+MDTVrRWi130,19/03/2020,19,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,30,M,Importado,España,Casa
+MsKXkvsUA33,19/03/2020,19,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,33,M,Importado,Italia,Casa
+MhGnpPZM949,19/03/2020,19,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,49,M,Importado,Estados Unidos,Recuperado
+MbsmgAjkM29,19/03/2020,19,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,29,M,Importado,Ecuador,Recuperado
+F1RF6KjfZ40,19/03/2020,19,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,40,F,Relacionado,Colombia,Casa
+MMiJ23gDs28,19/03/2020,19,03,2020,Marzo,Jueves,Cucuta,Norte de Santander,28,M,Importado,España,Casa
+MDYvMSK7650,19/03/2020,19,03,2020,Marzo,Jueves,Cucuta,Norte de Santander,50,M,Relacionado,Colombia,Recuperado
+M6wkQLMP524,19/03/2020,19,03,2020,Marzo,Jueves,Cucuta,Norte de Santander,24,M,Relacionado,Colombia,Casa
+F9PGY496f23,19/03/2020,19,03,2020,Marzo,Jueves,Armenia,Quindio,23,F,Relacionado,Colombia,Recuperado
+MZsYKHaAw61,19/03/2020,19,03,2020,Marzo,Jueves,Popayan,Cauca,61,M,Importado,España,Casa
+FEBA-gRfn32,19/03/2020,19,03,2020,Marzo,Jueves,Popayan,Cauca,32,F,Importado,España,Casa
+F4BkKpjlO38,19/03/2020,19,03,2020,Marzo,Jueves,Viterbo,Caldas,38,F,Importado,España,Recuperado
+FC4iqzk_N76,19/03/2020,19,03,2020,Marzo,Jueves,Neiva,Huila,76,F,Relacionado,Colombia,Casa
+Mq3hNViJo47,19/03/2020,19,03,2020,Marzo,Jueves,Cartagena,Cartagena D.T. y C,47,M,Importado,España,Recuperado
+FqcwGmupW52,19/03/2020,19,03,2020,Marzo,Jueves,Barranquilla,Barranquilla D.E.,52,F,Importado,Estados Unidos,Recuperado
+FTHZF0bs230,19/03/2020,19,03,2020,Marzo,Jueves,Barranquilla,Barranquilla D.E.,30,F,Relacionado,Colombia,Casa
+MTlv6f1UF58,19/03/2020,19,03,2020,Marzo,Jueves,Soacha,Cundinamarca,58,M,Relacionado,Colombia,Casa
+F6aqkQ6FW26,20/03/2020,20,03,2020,Marzo,Viernes,Pereira,Risaralda,26,F,Importado,España,Casa
+Mb9al53XA53,20/03/2020,20,03,2020,Marzo,Viernes,Anapoima,Cundinamarca,53,M,Importado,Estados Unidos,Casa
+F386JFv9x22,20/03/2020,20,03,2020,Marzo,Viernes,Medellin,Antioquia,22,F,Importado,España,Recuperado
+M0TRVw0Bv33,20/03/2020,20,03,2020,Marzo,Viernes,Cali,Valle del Cauca,33,M,Relacionado,Colombia,Casa
+MdVySmt0e51,20/03/2020,20,03,2020,Marzo,Viernes,Rionegro,Antioquia,51,M,Relacionado,Colombia,Recuperado
+MUzJORUMn28,20/03/2020,20,03,2020,Marzo,Viernes,La Estrella,Antioquia,28,M,Relacionado,Colombia,Casa
+FMvaZUMr444,20/03/2020,20,03,2020,Marzo,Viernes,Medellin,Antioquia,44,F,Importado,Alemania,Casa
+MLdZDK9c637,20/03/2020,20,03,2020,Marzo,Viernes,Medellin,Antioquia,37,M,Relacionado,Colombia,Casa
+MkzmF7QNJ54,20/03/2020,20,03,2020,Marzo,Viernes,Envigado,Antioquia,54,M,Importado,España,Casa
+MjxNY7hOe54,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,54,M,Importado,Ecuador,Casa
+Mfn_aQoY630,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,30,M,Importado,España,Recuperado
+MHzyp3HhT34,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,34,M,Importado,Brasil,Casa
+F4TDJI41t62,20/03/2020,20,03,2020,Marzo,Viernes,Medellin,Antioquia,62,F,Importado,Croacia,Recuperado
+F1qO0z1pD35,20/03/2020,20,03,2020,Marzo,Viernes,Medellin,Antioquia,35,F,Importado,Italia,Casa
+Mtpe230-r46,20/03/2020,20,03,2020,Marzo,Viernes,Envigado,Antioquia,46,M,Importado,España,Casa
+McKR3nMAG41,20/03/2020,20,03,2020,Marzo,Viernes,Medellin,Antioquia,41,M,Importado,Panamá,Casa
+F_BQjs2co18,20/03/2020,20,03,2020,Marzo,Viernes,Medellin,Antioquia,18,F,Relacionado,Colombia,Casa
+F48h9r4Gj31,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,31,F,Relacionado,Colombia,Casa
+FTOMdsTBE25,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,25,F,Relacionado,Colombia,Casa
+McZQ1Gc_U32,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,32,M,Relacionado,Colombia,Casa
+MpLweBpa_37,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,37,M,Importado,Alemania,Casa
+FiohCfsvq29,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,29,F,Importado,Italia,Recuperado
+MzLYq1zTB47,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,47,M,Importado,Ecuador,Casa
+MtT3mbYgQ65,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,65,M,Importado,Estados Unidos,Fallecido
+FqIhNyfA253,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,53,F,Relacionado,Colombia,Fallecido
+M80Ssw8_L40,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,40,M,Importado,Jamaica,Casa
+MkKGXQenL20,20/03/2020,20,03,2020,Marzo,Viernes,Santa Marta,Santa Marta D.T. y C.,20,M,Importado,España,Casa
+FkMY_Zrmh28,20/03/2020,20,03,2020,Marzo,Viernes,Chia,Cundinamarca,28,F,Importado,España,Recuperado
+MMH6urz2Z88,20/03/2020,20,03,2020,Marzo,Viernes,Santa Marta,Santa Marta D.T. y C.,88,M,Relacionado,Colombia,Fallecido
+Mmk6CVoiA32,20/03/2020,20,03,2020,Marzo,Viernes,Madrid,Cundinamarca,32,M,Relacionado,Colombia,Casa
+MfHiUvNcQ34,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,34,M,Importado,Estados Unidos,Casa
+FSIF9XziH42,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,42,F,Importado,Estados Unidos,Casa
+FJP-mONQt22,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,22,F,Importado,Estados Unidos,Casa
+MY9x3EaWk25,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,25,M,Importado,Estados Unidos,Casa
+MorsvqjwG28,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,28,M,Relacionado,Colombia,Hospital UCI
+FERqMxCwj67,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,67,F,Importado,España,Recuperado
+FrnSBMrk632,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,32,F,Relacionado,Colombia,Casa
+Fqv_a5gbL45,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,45,F,Relacionado,Colombia,Casa
+F0Ivhqd4B46,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,46,F,Relacionado,Colombia,Casa
+Fk2u7f1vQ25,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,25,F,Importado,España,Hospital
+FnZ0b4Yqu42,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,42,F,Relacionado,Colombia,Casa
+FJnYxbB2O45,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,45,F,Importado,Grecia,Casa
+FSXUH9b7N21,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,21,F,Relacionado,Colombia,Casa
+M2pSMzjqk27,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,27,M,Relacionado,Colombia,Casa
+F21DAQ2Eq65,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,65,F,Importado,México,Casa
+M3huCq3Z870,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,70,M,Importado,México,Casa
+FjFQPej7h23,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,23,F,Importado,España,Recuperado
+FXobWZX5B26,21/03/2020,21,03,2020,Marzo,Sabado,Ibague,Tolima,26,F,Importado,Estados Unidos,Hospital UCI
+MsgAx5s0128,21/03/2020,21,03,2020,Marzo,Sabado,Cartagena,Cartagena D.T. y C,28,M,Relacionado,Colombia,Casa
+MYkuLotin28,21/03/2020,21,03,2020,Marzo,Sabado,Cartagena,Cartagena D.T. y C,28,M,Importado,Estados Unidos,Casa
+FcWsOl1EC44,21/03/2020,21,03,2020,Marzo,Sabado,Cartagena,Cartagena D.T. y C,44,F,Relacionado,Colombia,Casa
+Ma2nLK_CD27,21/03/2020,21,03,2020,Marzo,Sabado,Villa del Rosario,Norte de Santander,27,M,Importado,España,Casa
+FPwa4WN7s22,21/03/2020,21,03,2020,Marzo,Sabado,Manizales,Caldas,22,F,Importado,Estados Unidos,Casa
+Fox6i0-FA44,21/03/2020,21,03,2020,Marzo,Sabado,Cucuta,Norte de Santander,44,F,Relacionado,Colombia,Casa
+FBCYGrK7g48,21/03/2020,21,03,2020,Marzo,Sabado,Cali,Valle del Cauca,48,F,Importado,Ecuador,Casa
+Fp2miqKOH41,21/03/2020,21,03,2020,Marzo,Sabado,Cartago,Valle del Cauca,41,F,Importado,Estados Unidos,Recuperado
+Ffda1R_hH58,21/03/2020,21,03,2020,Marzo,Sabado,Palmira,Valle del Cauca,58,F,Relacionado,Colombia,Casa
+F4kxj6WKX50,21/03/2020,21,03,2020,Marzo,Sabado,Palmira,Valle del Cauca,50,F,Importado,España,Casa
+MXZz8vX5F74,21/03/2020,21,03,2020,Marzo,Sabado,Cali,Valle del Cauca,74,M,Relacionado,Colombia,Hospital UCI
+FQa7bo_zr70,21/03/2020,21,03,2020,Marzo,Sabado,Cali,Valle del Cauca,70,F,Relacionado,Colombia,Fallecido
+F-pV8Y7fJ81,21/03/2020,21,03,2020,Marzo,Sabado,Cali,Valle del Cauca,81,F,Importado,Estados Unidos,Recuperado
+MtuSz4A9H28,21/03/2020,21,03,2020,Marzo,Sabado,Cali,Valle del Cauca,28,M,Importado,España,Casa
+MNw1AjN8517,21/03/2020,21,03,2020,Marzo,Sabado,Palmira,Valle del Cauca,17,M,Importado,Estados Unidos,Casa
+FimPsU2fz30,21/03/2020,21,03,2020,Marzo,Sabado,Cali,Valle del Cauca,30,F,Relacionado,Colombia,Casa
+FmrwYzxtZ53,21/03/2020,21,03,2020,Marzo,Sabado,Cali,Valle del Cauca,53,F,Importado,Italia,Casa
+FeTs0jeX863,21/03/2020,21,03,2020,Marzo,Sabado,Palmira,Valle del Cauca,63,F,Importado,España,Casa
+FrULDlFgO65,21/03/2020,21,03,2020,Marzo,Sabado,Pereira,Risaralda,65,F,Importado,Estados Unidos,Casa
+FyDRG9ruT50,21/03/2020,21,03,2020,Marzo,Sabado,Neiva,Huila,50,F,Importado,España,Casa
+MFHorlV7w58,21/03/2020,21,03,2020,Marzo,Sabado,Cartagena,Cartagena D.T. y C,58,M,Relacionado,Colombia,Fallecido
+M0pSvxJOI39,21/03/2020,21,03,2020,Marzo,Sabado,Medellin,Antioquia,39,M,Importado,España,Casa
+MsYSNT3wj28,21/03/2020,21,03,2020,Marzo,Sabado,Guarne,Antioquia,28,M,Importado,Estados Unidos,Casa
+Fyci94yvu53,21/03/2020,21,03,2020,Marzo,Sabado,Cartagena,Cartagena D.T. y C,53,F,Relacionado,Colombia,Recuperado
+FTcCdK_Gb50,21/03/2020,21,03,2020,Marzo,Sabado,Chia,Cundinamarca,50,F,Importado,España,Recuperado
+MZwFYyZPA26,21/03/2020,21,03,2020,Marzo,Sabado,Bello,Antioquia,26,M,Importado,España,Recuperado
+FaAI_7K4z24,21/03/2020,21,03,2020,Marzo,Sabado,Barranquilla,Barranquilla D.E.,24,F,Importado,Estados Unidos,Casa
+Mfo29cwZD35,21/03/2020,21,03,2020,Marzo,Sabado,Barranquilla,Barranquilla D.E.,35,M,Importado,Estados Unidos,Recuperado
+MVAeHPqNa28,21/03/2020,21,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,28,M,Relacionado,Colombia,Casa
+FN5etHNIy60,21/03/2020,21,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,60,F,Importado,España,Casa
+M1Ymfl12041,21/03/2020,21,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,41,M,Importado,Guatemala,Hospital UCI
+MX8Y4TGOj62,21/03/2020,21,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,62,M,Importado,España,Casa
+FFcDw9vUI68,21/03/2020,21,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,68,F,Importado,Londres,Recuperado
+MBHp7Qaq-55,21/03/2020,21,03,2020,Marzo,Sabado,Soacha,Cundinamarca,55,M,Importado,Turquía,Casa
+MuZ7n1uIe25,22/03/2020,22,03,2020,Marzo,Domingo,Calarca,Quindio,25,M,Importado,España,Casa
+FZ3l6tZj758,22/03/2020,22,03,2020,Marzo,Domingo,Armenia,Quindio,58,F,Relacionado,Colombia,Casa
+Mskhz9_Je30,22/03/2020,22,03,2020,Marzo,Domingo,Valledupar,Cesar,30,M,Importado,España,Recuperado
+FRnpe2Wqc56,22/03/2020,22,03,2020,Marzo,Domingo,Dosquebradas,Risaralda,56,F,Relacionado,Colombia,Casa
+FWixN1WpT57,22/03/2020,22,03,2020,Marzo,Domingo,Dosquebradas,Risaralda,57,F,Importado,Grecia,Casa
+Mr3y2sE4U45,22/03/2020,22,03,2020,Marzo,Domingo,Dosquebradas,Risaralda,45,M,Importado,España,Hospital UCI
+M0DbtC5Mj33,22/03/2020,22,03,2020,Marzo,Domingo,Pereira,Risaralda,33,M,Importado,España,Casa
+FIA0ZMIjv24,22/03/2020,22,03,2020,Marzo,Domingo,La Dorada,Caldas,24,F,Relacionado,Colombia,Casa
+MKoWcNGs051,22/03/2020,22,03,2020,Marzo,Domingo,Chinchina,Caldas,51,M,Importado,España,Casa
+FxvnhO5RK47,22/03/2020,22,03,2020,Marzo,Domingo,Chinchina,Caldas,47,F,Relacionado,Colombia,Casa
+FW4f1LANS49,22/03/2020,22,03,2020,Marzo,Domingo,Bucaramanga,Santander,49,F,Importado,República Dominicana,Casa
+M3ei7O15E36,22/03/2020,22,03,2020,Marzo,Domingo,San Andres,San Andres,36,M,Relacionado,Colombia,Casa
+FfJatPHM673,22/03/2020,22,03,2020,Marzo,Domingo,Pereira,Risaralda,73,F,Importado,Estados Unidos,Casa
+MNQm_fZEa19,22/03/2020,22,03,2020,Marzo,Domingo,Ibague,Tolima,19,M,Relacionado,Colombia,Casa
+MP2H_eKy-22,22/03/2020,22,03,2020,Marzo,Domingo,Cali,Valle del Cauca,22,M,Relacionado,Colombia,Casa
+Fj7nvBFf641,22/03/2020,22,03,2020,Marzo,Domingo,Yumbo,Valle del Cauca,41,F,Relacionado,Colombia,Casa
+MJLc8m5le28,22/03/2020,22,03,2020,Marzo,Domingo,Cali,Valle del Cauca,28,M,Importado,Estados Unidos,Casa
+Mwsn5joaJ26,22/03/2020,22,03,2020,Marzo,Domingo,Cali,Valle del Cauca,26,M,Importado,España,Casa
+FTECIUZ3P38,22/03/2020,22,03,2020,Marzo,Domingo,Yopal,Casanare,38,F,Relacionado,Colombia,Recuperado
+FZFS62UH038,22/03/2020,22,03,2020,Marzo,Domingo,Armenia,Quindio,38,F,Relacionado,Colombia,Recuperado
+FiM8IDi0q46,22/03/2020,22,03,2020,Marzo,Domingo,Cali,Valle del Cauca,46,F,Relacionado,Colombia,Casa
+F_dLMHCj-59,22/03/2020,22,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,59,F,Relacionado,Colombia,Fallecido
+M06mywXnR64,22/03/2020,22,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,64,M,Relacionado,Colombia,Recuperado
+Mw3z6tkr-41,22/03/2020,22,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,41,M,Relacionado,Colombia,Casa
+MoEWCRQpk47,22/03/2020,22,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,47,M,Importado,España,Hospital
+MqCFzV2J052,22/03/2020,22,03,2020,Marzo,Domingo,Guatape,Antioquia,52,M,Relacionado,Colombia,Recuperado
+MX-a3LXVJ32,22/03/2020,22,03,2020,Marzo,Domingo,Medellin,Antioquia,32,M,Importado,España,Casa
+FPwpd4Eiy61,22/03/2020,22,03,2020,Marzo,Domingo,Medellin,Antioquia,61,F,Importado,España,Casa
+MdEWRCyeM41,22/03/2020,22,03,2020,Marzo,Domingo,Rionegro,Antioquia,41,M,Importado,España,Casa
+MapuOga7o41,22/03/2020,22,03,2020,Marzo,Domingo,Bello,Antioquia,41,M,Importado,España,Hospital UCI
+F3gGYjOqi58,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,58,F,Relacionado,Colombia,Recuperado
+MusMPS6_Y49,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,49,M,Importado,Estados Unidos,Casa
+MRIUS4RlH40,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,40,M,Importado,España,Casa
+MHOm6uHg352,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,52,M,Importado,Panamá,Casa
+FGc4HpuA172,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,72,F,Importado,Turquía,Casa
+MWOowrLFg28,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,28,M,Relacionado,Colombia,Casa
+MNWamOEHQ26,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,26,M,Relacionado,Colombia,Casa
+FGe1Z0IcU30,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,30,F,Importado,República Dominicana,Casa
+FFRP02FWC38,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,F,Importado,España,Casa
+MtQX15_IN76,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,76,M,En estudio,Colombia,Fallecido
+MLJQB5L7k55,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,55,M,Importado,Estados Unidos,Casa
+Fcqfd0cxn32,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,32,F,Relacionado,Colombia,Casa
+FKdmbPyl734,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,34,F,Relacionado,Colombia,Casa
+FOYfHuLhM45,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,45,F,Importado,España,Recuperado
+F9dCfosZv19,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,19,F,Importado,Estados Unidos,Casa
+FT2BD3Is457,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,57,F,Importado,Turquía,Casa
+MAnY29gEH80,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,80,M,Relacionado,Colombia,Hospital
+Mcas3HKmL26,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,26,M,Importado,Turquía,Casa
+MajFBceEb35,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,35,M,Importado,España,Recuperado
+MyWL8fZ7R41,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,41,M,Importado,Inglaterra,Hospital
+M_LGhbX5z61,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,M,Relacionado,Colombia,Fallecido
+MfWsS9fG339,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,39,M,Importado,Isla San Martín,Casa
+MU_btBUMl59,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,59,M,Importado,España,Casa
+FJlIOY5Wf39,23/03/2020,23,03,2020,Marzo,Lunes,Envigado,Antioquia,39,F,Importado,España,Casa
+McsL1py8j54,23/03/2020,23,03,2020,Marzo,Lunes,Cajica,Cundinamarca,54,M,Importado,Ecuador,Casa
+FPuMLkP_984,23/03/2020,23,03,2020,Marzo,Lunes,Cartagena,Cartagena D.T. y C,84,F,Relacionado,Colombia,Casa
+Mjpn8bdyC21,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,21,M,Importado,Estados Unidos,Casa
+FRxgFBmNf37,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,37,F,Importado,España,Casa
+Ma6S_eKPG56,23/03/2020,23,03,2020,Marzo,Lunes,Chia,Cundinamarca,56,M,Relacionado,Colombia,Hospital
+FjL8DOVc-58,23/03/2020,23,03,2020,Marzo,Lunes,Cartagena,Cartagena D.T. y C,58,F,Relacionado,Colombia,Casa
+F9tUkODn821,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,21,F,Importado,España,Casa
+F2GYRb8M147,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,47,F,Importado,España,Casa
+M-uCRXpxj87,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,87,M,Importado,Panamá,Hospital
+MHP2CWbOY30,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,30,M,Importado,Estados Unidos,Casa
+FUuY2xNVe21,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,21,F,Importado,España,Casa
+MGMT2RxfH52,23/03/2020,23,03,2020,Marzo,Lunes,Cota,Cundinamarca,52,M,Importado,Puerto Rico,Casa
+F9ZDLh9Y636,23/03/2020,23,03,2020,Marzo,Lunes,Sabaneta,Antioquia,36,F,Importado,Estados Unidos,Casa
+Mw5NaYle464,23/03/2020,23,03,2020,Marzo,Lunes,Armenia,Quindio,64,M,Importado,España,Hospital UCI
+MDHKR-krw29,23/03/2020,23,03,2020,Marzo,Lunes,Villamaria,Caldas,29,M,Importado,Ecuador,Casa
+F7jl1w7HM63,23/03/2020,23,03,2020,Marzo,Lunes,Palmira,Valle del Cauca,63,F,Importado,España,Casa
+Mkz42uaIy51,23/03/2020,23,03,2020,Marzo,Lunes,Trujillo,Valle del Cauca,51,M,Importado,España,Casa
+MMv5sIzKG40,23/03/2020,23,03,2020,Marzo,Lunes,Cali,Valle del Cauca,40,M,Importado,Estados Unidos,Hospital UCI
+MWweArWXz56,23/03/2020,23,03,2020,Marzo,Lunes,Cali,Valle del Cauca,56,M,Relacionado,Colombia,Casa
+FUdrYhpqH65,23/03/2020,23,03,2020,Marzo,Lunes,Cali,Valle del Cauca,65,F,Importado,España,Casa
+FS5Yp8-3r42,23/03/2020,23,03,2020,Marzo,Lunes,Palmira,Valle del Cauca,42,F,Relacionado,Colombia,Casa
+FgXt3Tk7x83,23/03/2020,23,03,2020,Marzo,Lunes,Neiva,Huila,83,F,Relacionado,Colombia,Fallecido
+M0RmN9siq25,23/03/2020,23,03,2020,Marzo,Lunes,Soacha,Cundinamarca,25,M,En estudio,Colombia,Casa
+MTpKIGf9i29,23/03/2020,23,03,2020,Marzo,Lunes,Pacho,Cundinamarca,29,M,Importado,España,Casa
+FhUie1hy949,23/03/2020,23,03,2020,Marzo,Lunes,Dosquebradas,Risaralda,49,F,Importado,Grecia,Casa
+Fe-3rfe6O63,23/03/2020,23,03,2020,Marzo,Lunes,Santa Marta,Santa Marta D.T. y C.,63,F,Relacionado,Colombia,Casa
+FNwhU_OKD23,23/03/2020,23,03,2020,Marzo,Lunes,El Retiro,Antioquia,23,F,Importado,España,Casa
+FbX3qjKZ043,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,43,F,Importado,Estados Unidos,Casa
+FnOMoQV-N30,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,30,F,Importado,Ecuador,Casa
+FATiQwJx-30,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,30,F,Importado,Estados Unidos,Casa
+Mw-9XfiQu42,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,42,M,Relacionado,Colombia,Casa
+FMk-_l4gi25,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,25,F,Relacionado,Colombia,Casa
+M4c79Lny320,23/03/2020,23,03,2020,Marzo,Lunes,Envigado,Antioquia,20,M,Importado,Londres,Casa
+Mw4GeOXok58,23/03/2020,23,03,2020,Marzo,Lunes,Villavicencio,Meta,58,M,Importado,Ecuador,Casa
+FQqE3Ti2R60,23/03/2020,23,03,2020,Marzo,Lunes,Villavicencio,Meta,60,F,Importado,Ecuador,Casa
+FV3RTm-DZ29,23/03/2020,23,03,2020,Marzo,Lunes,Sabaneta,Antioquia,29,F,Importado,Turquía,Casa
+FvdhAS-aR29,23/03/2020,23,03,2020,Marzo,Lunes,Apartado,Antioquia,29,F,Importado,Turquía,Casa
+FWsONDWkL33,23/03/2020,23,03,2020,Marzo,Lunes,Villavicencio,Meta,33,F,Importado,Estados Unidos,Casa
+FPNWnXz7f74,23/03/2020,23,03,2020,Marzo,Lunes,Itagui,Antioquia,74,F,Importado,Estados Unidos,Hospital UCI
+MrBhHyetT30,23/03/2020,23,03,2020,Marzo,Lunes,Bello,Antioquia,30,M,Importado,Estados Unidos,Casa
+MgxEWJg2a29,23/03/2020,23,03,2020,Marzo,Lunes,Villavicencio,Meta,29,M,Importado,Ecuador,Casa
+M6VoswNdi29,23/03/2020,23,03,2020,Marzo,Lunes,Rionegro,Antioquia,29,M,Importado,Brasil,Casa
+MEMJSbNnI31,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,31,M,Importado,Chile,Casa
+F6DcnpT9o21,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,21,F,En estudio,Colombia,Casa
+MBgLEG5p_59,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,59,M,Importado,Estados Unidos,Casa
+Fd6ewGdzC28,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,28,F,Importado,Estados Unidos,Casa
+FdVMyxD0T40,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,40,F,En estudio,Colombia,Casa
+FCsa95JmA18,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,18,F,En estudio,Colombia,Casa
+FaNXySw-u48,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,48,F,En estudio,Colombia,Casa
+M_pkubyBT62,24/03/2020,24,03,2020,Marzo,Martes,Ipiales,Narino,62,M,Importado,Ecuador,Casa
+M4wv9seJt49,24/03/2020,24,03,2020,Marzo,Martes,Cucuta,Norte de Santander,49,M,Importado,Canadá,Casa
+MkRMCU7Se18,24/03/2020,24,03,2020,Marzo,Martes,Cucuta,Norte de Santander,18,M,Importado,Estados Unidos,Casa
+MB-w50BUs37,24/03/2020,24,03,2020,Marzo,Martes,Mosquera,Cundinamarca,37,M,Relacionado,Colombia,Casa
+M5sERIMAh77,24/03/2020,24,03,2020,Marzo,Martes,Cucuta,Norte de Santander,77,M,Relacionado,Colombia,Casa
+FVt7deVUv62,24/03/2020,24,03,2020,Marzo,Martes,Ibague,Tolima,62,F,Importado,España,Casa
+MDW-sRok956,24/03/2020,24,03,2020,Marzo,Martes,Ibague,Tolima,56,M,Importado,España,Casa
+FL6cw7Lmv23,24/03/2020,24,03,2020,Marzo,Martes,Ibague,Tolima,23,F,Importado,Estados Unidos,Casa
+FC-GsSa3U55,24/03/2020,24,03,2020,Marzo,Martes,Ibague,Tolima,55,F,Importado,España,Casa
+F0xaCdBG-15,24/03/2020,24,03,2020,Marzo,Martes,Viterbo,Caldas,15,F,Relacionado,Colombia,Casa
+MpwMSIWxD57,24/03/2020,24,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,57,M,Importado,Panamá,Casa
+Fy5eH2kYw19,24/03/2020,24,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,19,F,Importado,España,Casa
+MMLw6k9ij61,24/03/2020,24,03,2020,Marzo,Martes,Pereira,Risaralda,61,M,Relacionado,Colombia,Fallecido
+F36Fyo3QL32,24/03/2020,24,03,2020,Marzo,Martes,Pereira,Risaralda,32,F,Relacionado,Colombia,Casa
+Mf_wApe4R33,24/03/2020,24,03,2020,Marzo,Martes,Valledupar,Cesar,33,M,Relacionado,Colombia,Casa
+FswyzR7-051,24/03/2020,24,03,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,51,F,Importado,España,Casa
+MicQJNCMg42,24/03/2020,24,03,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,42,M,Importado,Brasil,Casa
+M6uqKeAzU37,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,37,M,Importado,Costa Rica,Casa
+FMt9BFM3w38,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,38,F,Importado,España,Hospital UCI
+MCNYUfV5B79,24/03/2020,24,03,2020,Marzo,Martes,Pereira,Risaralda,79,M,Importado,España,Casa
+MlIghjle323,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,23,M,Relacionado,Colombia,Casa
+MJY8Vwek959,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,59,M,Relacionado,Colombia,Hospital UCI
+M8Wqkzd2Z24,24/03/2020,24,03,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,24,M,Relacionado,Colombia,Casa
+Mj7bsEju422,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,22,M,Relacionado,Colombia,Casa
+FVFcYGVHO56,24/03/2020,24,03,2020,Marzo,Martes,La Union,Valle del Cauca,56,F,Importado,Londres,Casa
+F8-sZPWQd34,24/03/2020,24,03,2020,Marzo,Martes,Cartago,Valle del Cauca,34,F,Importado,España,Casa
+M7gruPp5G36,24/03/2020,24,03,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,36,M,Relacionado,Colombia,Casa
+MtQUr4tjm68,24/03/2020,24,03,2020,Marzo,Martes,Neiva,Huila,68,M,Relacionado,Colombia,Casa
+F67X29tjs47,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,47,F,Relacionado,Colombia,Casa
+F4IADjgXC26,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,26,F,Importado,Estados Unidos,Casa
+MLA2oEbzu56,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,56,M,Relacionado,Colombia,Casa
+Fl7oZuq-r53,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,53,F,Relacionado,Colombia,Casa
+MtogilPLM87,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,87,M,Relacionado,Colombia,Casa
+FFGrMUlzO43,24/03/2020,24,03,2020,Marzo,Martes,Villavicencio,Meta,43,F,Importado,España,Casa
+Fdo7V5ZUz36,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,36,F,Relacionado,Colombia,Casa
+F70WTAhQ833,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,33,F,Relacionado,Colombia,Casa
+MFOH0dhU754,24/03/2020,24,03,2020,Marzo,Martes,Fusagasuga,Cundinamarca,54,M,Importado,Turquía,Casa
+MfbDdjJxw58,24/03/2020,24,03,2020,Marzo,Martes,La Calera,Cundinamarca,58,M,Relacionado,Colombia,Hospital
+Mri_Bgp4Y33,24/03/2020,24,03,2020,Marzo,Martes,Villeta,Cundinamarca,33,M,Importado,España,Casa
+M1LoHzjdP41,24/03/2020,24,03,2020,Marzo,Martes,Palermo,Huila,41,M,Importado,Ecuador,Casa
+FKUp4jKwA29,24/03/2020,24,03,2020,Marzo,Martes,San Pedro,Valle del Cauca,29,F,Relacionado,Colombia,Casa
+FC7wjyq3G44,24/03/2020,24,03,2020,Marzo,Martes,Villeta,Cundinamarca,44,F,Importado,España,Casa
+MdsFy8Sq432,24/03/2020,24,03,2020,Marzo,Martes,Anapoima,Cundinamarca,32,M,Importado,España,Casa
+MusnwAjHT42,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,42,M,Relacionado,Colombia,Casa
+Fzn_HaiGc58,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,58,F,Importado,España,Casa
+FR3d5o7ua42,24/03/2020,24,03,2020,Marzo,Martes,Neiva,Huila,42,F,Relacionado,Colombia,Casa
+MQKZ9pima33,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,33,M,Relacionado,Colombia,Casa
+F3jbyxaTS80,24/03/2020,24,03,2020,Marzo,Martes,Villavicencio,Meta,80,F,Importado,Estados Unidos,Casa
+M3-l9V52g46,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,46,M,Importado,Ecuador,Casa
+Moi3NwoQR23,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,23,M,Importado,España,Casa
+FpbQiKTu121,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,21,F,Relacionado,Colombia,Casa
+MlBEsAN4564,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,64,M,Importado,España,Casa
+MxRjqKTnb34,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,34,M,Relacionado,Colombia,Casa
+F9MS-F92u28,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,28,F,Relacionado,Colombia,Casa
+FlG23bq5v34,24/03/2020,24,03,2020,Marzo,Martes,Armenia,Quindio,34,F,Importado,España,Casa
+MaBiUPxMp41,24/03/2020,24,03,2020,Marzo,Martes,Darien,Valle del Cauca,41,M,Importado,España,Casa
+Fj64dQNkG61,24/03/2020,24,03,2020,Marzo,Martes,Funza,Cundinamarca,61,F,Relacionado,Colombia,Casa
+F3hDZ5W_683,24/03/2020,24,03,2020,Marzo,Martes,Santa Marta,Santa Marta D.T. y C.,83,F,Relacionado,Colombia,Hospital
+Mn9pWQnse70,24/03/2020,24,03,2020,Marzo,Martes,Manizales,Caldas,70,M,Importado,Estados Unidos,Casa
+M4qAtTGYB39,24/03/2020,24,03,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,39,M,Importado,Estados Unidos,Casa
+MK3d2RK8c29,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,29,M,Relacionado,Colombia,Hospital UCI
+M40h7UbxM28,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,28,M,Relacionado,Colombia,Casa
+FwamZefY248,24/03/2020,24,03,2020,Marzo,Martes,Popayan,Cauca,48,F,Relacionado,Colombia,Casa
+MMrkiqj3752,24/03/2020,24,03,2020,Marzo,Martes,Tulua,Valle del Cauca,52,M,Importado,Ecuador,Casa
+M26xmLd0C45,24/03/2020,24,03,2020,Marzo,Martes,Tulua,Valle del Cauca,45,M,Importado,Estados Unidos,Casa
+FSeL42SR523,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,23,F,Relacionado,Colombia,Casa
+Fz0xsl_-S34,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,34,F,Relacionado,Colombia,Casa
+Fvs7Kevba48,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,48,F,Importado,España,Casa
+FMgZGBMhl58,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,58,F,Importado,Puerto Rico,Casa
+M3tr-v3Cj61,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,61,M,Importado,Puerto Rico,Casa
+MQ04h8N-E63,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,63,M,Relacionado,Colombia,Casa
+MFyKpr9zL51,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,51,M,Importado,México,Casa
+Mxijh3xLt59,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,59,M,Importado,Venezuela,Hospital
+FFyPQSEg543,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,43,F,Relacionado,Colombia,Hospital UCI
+MrIWVszhv29,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,29,M,Importado,Estados Unidos,Casa
+MOV78TxFX73,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,73,M,Relacionado,Colombia,Fallecido
+FVJzT4VRh74,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,74,F,Relacionado,Colombia,Casa
+MBuakRGLf48,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,48,M,Relacionado,Colombia,Casa
+FGQS06Rf245,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,45,F,Importado,España,Casa
+M8bZuHe3434,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,34,M,Importado,México,Casa
+Ma-I6UaNO66,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,66,M,Importado,Estados Unidos,Hospital
+Msb_qaxve45,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,45,M,Relacionado,Colombia,Casa
+FQD5Omti644,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,44,F,Importado,Canadá,Casa
+FRvIkhi8627,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,27,F,Relacionado,Colombia,Casa
+Fi6QySiq_51,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,51,F,Relacionado,Colombia,Casa
+MoDRmAhvK21,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,21,M,Importado,España,Casa
+FDE5zowJN60,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,60,F,Importado,España,Casa
+F3nfsSm2k30,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,30,F,Importado,Londres,Casa
+FQsdOVQ5K70,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,70,F,Importado,España,Casa
+Mgv5y2HFm21,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,21,M,Importado,México,Casa
+MY37vhLoO58,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,58,M,Importado,Puerto Rico,Casa
+MmQGTuYlN39,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,39,M,Relacionado,Colombia,Casa
+MmcIT16FY25,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,25,M,Importado,España,Casa
+FpPTjAItw25,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,25,F,Importado,España,Casa
+MpHd6Cl_g45,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,45,M,Importado,Ecuador,Casa
+F-AeKsahU43,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,43,F,Relacionado,Colombia,Casa
+FOCcw35tn33,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,33,F,Importado,Ecuador,Casa
+F_3ht5LBc23,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,23,F,Importado,México,Casa
+F2d9i_2Gy57,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,57,F,Relacionado,Colombia,Hospital UCI
+MRsGWuRjC63,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,63,M,Relacionado,Colombia,Casa
+MelvFienE48,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,48,M,Importado,Brasil,Casa
+Mfkp52fqg62,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,62,M,En estudio,Colombia,Hospital UCI
+MUMyZwUji35,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,35,M,Importado,España,Casa
+F6qMGrkVQ52,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,52,F,Relacionado,Colombia,Casa
+F8nexP8YV69,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,69,F,En estudio,Colombia,Casa
+Mjtn6Mivb35,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,35,M,Relacionado,Colombia,Casa
+MucY-dLyM58,25/03/2020,25,03,2020,Marzo,Miercoles,Santa Marta,Santa Marta D.T. y C.,58,M,Relacionado,Colombia,Casa
+F3tFAVzRr21,25/03/2020,25,03,2020,Marzo,Miercoles,Soledad,Atlantico,21,F,Relacionado,Colombia,Casa
+F4idCv8rZ50,25/03/2020,25,03,2020,Marzo,Miercoles,Cartagena,Cartagena D.T. y C,50,F,Relacionado,Colombia,Casa
+FL7GS4Kvu28,25/03/2020,25,03,2020,Marzo,Miercoles,Pereira,Risaralda,28,F,Relacionado,Colombia,Casa
+M7RfF4Cjr64,25/03/2020,25,03,2020,Marzo,Miercoles,Pereira,Risaralda,64,M,Importado,Estados Unidos,Casa
+FSD60NKbg80,25/03/2020,25,03,2020,Marzo,Miercoles,Cali,Valle del Cauca,80,F,Relacionado,Colombia,Casa
+FO4laHJS841,25/03/2020,25,03,2020,Marzo,Miercoles,Cartagena,Cartagena D.T. y C,41,F,Relacionado,Colombia,Casa
+MV96sSyf-54,25/03/2020,25,03,2020,Marzo,Miercoles,Cartagena,Cartagena D.T. y C,54,M,Relacionado,Colombia,Casa
+MfHDo4fw144,25/03/2020,25,03,2020,Marzo,Miercoles,Ibague,Tolima,44,M,Importado,Estados Unidos,Casa
+MzncINgjZ48,25/03/2020,25,03,2020,Marzo,Miercoles,El Dovio,Valle del Cauca,48,M,Importado,Italia,Casa
+M-rHzZUpg38,25/03/2020,25,03,2020,Marzo,Miercoles,Cartagena,Cartagena D.T. y C,38,M,Relacionado,Colombia,Casa
+FDt3o2Rx650,25/03/2020,25,03,2020,Marzo,Miercoles,Armenia,Quindio,50,F,Relacionado,Colombia,Casa
+MpIY9-pfg9,25/03/2020,25,03,2020,Marzo,Miercoles,Palmira,Valle del Cauca,9,M,Relacionado,Colombia,Casa
+M8woPYmHT33,25/03/2020,25,03,2020,Marzo,Miercoles,Armenia,Quindio,33,M,Relacionado,Colombia,Casa
+MZnyPWZ9l25,25/03/2020,25,03,2020,Marzo,Miercoles,Barranquilla,Barranquilla D.E.,25,M,Importado,Estados Unidos,Casa
+MIcHGzEYh19,25/03/2020,25,03,2020,Marzo,Miercoles,Armenia,Quindio,19,M,Relacionado,Colombia,Casa
+FJHzdm7Ok38,25/03/2020,25,03,2020,Marzo,Miercoles,Cartagena,Cartagena D.T. y C,38,F,Relacionado,Colombia,Casa
+FI25CtwpG28,25/03/2020,25,03,2020,Marzo,Miercoles,Cucuta,Norte de Santander,28,F,Relacionado,Colombia,Casa
+FmlYn2m4G36,25/03/2020,25,03,2020,Marzo,Miercoles,Medellin,Antioquia,36,F,Relacionado,Colombia,Casa
+Mm07W6eCY28,25/03/2020,25,03,2020,Marzo,Miercoles,La Dorada,Caldas,28,M,Relacionado,Colombia,Casa
+F35LQPKAy73,25/03/2020,25,03,2020,Marzo,Miercoles,Cucuta,Norte de Santander,73,F,Relacionado,Colombia,Casa
+FdpExloQS43,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,43,F,Relacionado,Colombia,Casa
+FYGvub25J55,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,55,F,Relacionado,Colombia,Casa
+FphPLjpv334,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,34,F,Relacionado,Colombia,Casa
+MVQ_yjts837,25/03/2020,25,03,2020,Marzo,Miercoles,Medellin,Antioquia,37,M,Importado,Brasil,Casa
+Fcw2XEuKS57,25/03/2020,25,03,2020,Marzo,Miercoles,Santana,Boyaca,57,F,Relacionado,Colombia,Casa
+FoZvlJPMe35,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,35,F,Relacionado,Colombia,Casa
+MPa38Ygus52,25/03/2020,25,03,2020,Marzo,Miercoles,Cota,Cundinamarca,52,M,Relacionado,Colombia,Casa
+M1UbFvOhG40,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,40,M,Relacionado,Colombia,Casa
+MTyFGHTOB48,25/03/2020,25,03,2020,Marzo,Miercoles,Popayan,Cauca,48,M,Relacionado,Colombia,Casa
+F7NJgTy4C24,25/03/2020,25,03,2020,Marzo,Miercoles,Medellin,Antioquia,24,F,Relacionado,Colombia,Casa
+F5_wJPeVK33,25/03/2020,25,03,2020,Marzo,Miercoles,Bucaramanga,Santander,33,F,Importado,México,Casa
+Fb-Jy1b8O32,25/03/2020,25,03,2020,Marzo,Miercoles,Bello,Antioquia,32,F,Importado,España,Casa
+FzXmCxHk_26,25/03/2020,25,03,2020,Marzo,Miercoles,Manizales,Caldas,26,F,Importado,España,Casa
+FuVigYqTf50,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,50,F,Importado,España,Casa
+FwX60sMht35,25/03/2020,25,03,2020,Marzo,Miercoles,Cali,Valle del Cauca,35,F,Importado,Estados Unidos,Casa
+MLnYFgLXJ58,25/03/2020,25,03,2020,Marzo,Miercoles,Palmira,Valle del Cauca,58,M,Relacionado,Colombia,Casa
+MwxQVT_PJ29,25/03/2020,25,03,2020,Marzo,Miercoles,Villavicencio,Meta,29,M,Importado,Estados Unidos,Casa
+FnJ_yBb1045,25/03/2020,25,03,2020,Marzo,Miercoles,Popayan,Cauca,45,F,Relacionado,Colombia,Casa
+Mv7-YcvGw26,25/03/2020,25,03,2020,Marzo,Miercoles,Popayan,Cauca,26,M,Relacionado,Colombia,Casa
+MMcsafK9S72,25/03/2020,25,03,2020,Marzo,Miercoles,Armenia,Quindio,72,M,Relacionado,Colombia,Casa
+FstrowsSL44,25/03/2020,25,03,2020,Marzo,Miercoles,Cucuta,Norte de Santander,44,F,Relacionado,Colombia,Casa
+MYMDle4qr15,25/03/2020,25,03,2020,Marzo,Miercoles,Frontino,Antioquia,15,M,Relacionado,Colombia,Casa
+Fg6dSDqvi19,25/03/2020,25,03,2020,Marzo,Miercoles,Barranquilla,Barranquilla D.E.,19,F,Importado,España,Casa
+Mt4fnwOA334,25/03/2020,25,03,2020,Marzo,Miercoles,Medellin,Antioquia,34,M,Relacionado,Colombia,Casa
+MeyLpK65428,25/03/2020,25,03,2020,Marzo,Miercoles,Medellin,Antioquia,28,M,En estudio,Colombia,Casa
+FYizhcY5l32,25/03/2020,25,03,2020,Marzo,Miercoles,Medellin,Antioquia,32,F,Relacionado,Colombia,Casa
+Mo1AfKxW433,25/03/2020,25,03,2020,Marzo,Miercoles,Cucuta,Norte de Santander,33,M,En estudio,Colombia,Casa
+FIlkoMITV3,25/03/2020,25,03,2020,Marzo,Miercoles,Popayan,Cauca,3,F,Relacionado,Colombia,Casa
+FtoHOutF232,25/03/2020,25,03,2020,Marzo,Miercoles,Popayan,Cauca,32,F,Relacionado,Colombia,Casa
+Fkrs1OkHt45,25/03/2020,25,03,2020,Marzo,Miercoles,Popayan,Cauca,45,F,Relacionado,Colombia,Casa
+FGTXz4t2u50,25/03/2020,25,03,2020,Marzo,Miercoles,Barranquilla,Barranquilla D.E.,50,F,Importado,Estados Unidos,Casa
+Ff5pBZ6FQ19,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,19,F,Importado,Alemania,Casa
+FVTz6_dOg40,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,40,F,Relacionado,Colombia,Casa
+FIi3U4R7B33,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
+F6lIkR81U37,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,37,F,Importado,México,Casa
+MQMPWz2Rm41,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,41,M,Importado,México,Casa
+FtUCy8bhA30,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,30,F,Importado,Ecuador,Casa
+FpDd6op1X84,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,84,F,Relacionado,Colombia,Hospital
+FeojYQDKU61,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,61,F,Relacionado,Colombia,Casa
+FW2blUWEf57,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,57,F,Importado,Estados Unidos,Casa
+MDMnSRFq042,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,42,M,Relacionado,Colombia,Hospital
+MdS4y7BVz50,26/03/2020,26,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,50,M,Importado,Ecuador,Casa
+M9cIsBS4z51,26/03/2020,26,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,51,M,En estudio,Colombia,Casa
+MFb-WaKAk39,26/03/2020,26,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,39,M,Relacionado,Colombia,Casa
+MrRT_cxI730,26/03/2020,26,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,30,M,Relacionado,Colombia,Casa
+FqtiOdZYF37,26/03/2020,26,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,37,F,Importado,España,Casa
+MUGchw7qC22,26/03/2020,26,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,22,M,Importado,España,Casa
+MoswPNoaA27,26/03/2020,26,03,2020,Marzo,Jueves,Cali,Valle del Cauca,27,M,Relacionado,Colombia,Casa
+Mt0GbR1pn69,26/03/2020,26,03,2020,Marzo,Jueves,Tunja,Boyaca,69,M,Importado,España,Casa
+MKoF_P35w32,26/03/2020,26,03,2020,Marzo,Jueves,Cali,Valle del Cauca,32,M,Importado,Estados Unidos,Casa
+Mf6njoL-784,26/03/2020,26,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,84,M,Relacionado,Colombia,Fallecido
+MWPKF5f9M85,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,85,M,Importado,España,Hospital UCI
+M8T6AKBry65,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,65,M,Relacionado,Colombia,Casa
+F1UyWl1eS23,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,23,F,En estudio,Colombia,Casa
+MgWml3Y9s35,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,35,M,Importado,Panamá,Casa
+Flm4tMf_F32,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,32,F,Importado,Panamá,Casa
+MSXdEkHyV34,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,34,M,Importado,Estados Unidos,Casa
+Mjm-HMht748,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,48,M,Importado,España,Casa
+FX5mDhXdF42,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,42,F,Importado,España,Recuperado
+F9PEYJFcg28,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,28,F,Importado,Chile,Casa
+MxFIgqyTb28,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,28,M,Relacionado,Colombia,Casa
+MBnOXzgym31,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,31,M,Relacionado,Colombia,Casa
+MEsqo804550,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,50,M,Importado,Ecuador,Casa
+MO_-cDEk027,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,27,M,Importado,Brasil,Casa
+M1K_3iktb52,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,52,M,Importado,Francia,Casa
+FJfA_NJtl34,27/3/2020,27,3,2020,Marzo,Viernes,Tocancipa,Cundinamarca,34,F,Importado,España,Casa
+FSJYHzhl047,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,47,F,Importado,España,Casa
+MuBnvk2lU35,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,35,M,Importado,España,Casa
+MzUVwDIsu37,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,37,M,En estudio,Colombia,Casa
+MvhJ-KPCN72,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,72,M,En estudio,Colombia,Fallecido
+FcU1Qdk0t74,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,74,F,En estudio,Colombia,Hospital
+MQI9rujMe35,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,35,M,Importado,España,Casa
+M-wSD1-3l71,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,71,M,En estudio,Colombia,Casa
+MI6YDLSV771,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,71,M,Relacionado,Colombia,Hospital UCI
+MHET4jGCq50,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,50,M,Importado,España,Casa
+F_uHbFaXf80,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,80,F,Importado,España,Casa
+FprFb-TSv30,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,30,F,Relacionado,Colombia,Casa
+Fm8iTjEnA24,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,24,F,Relacionado,Colombia,Casa
+MhagNz6pv20,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,20,M,Relacionado,Colombia,Casa
+MInQtlhrM47,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,47,M,Relacionado,Colombia,Casa
+Mx9Iido7B26,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,26,M,Relacionado,Colombia,Casa
+FIJN21VZt24,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,24,F,Relacionado,Colombia,Casa
+FbGPyhOTl62,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,62,F,Importado,Francia,Casa
+Mm_kFomxi37,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,37,M,Importado,Estados Unidos,Casa
+MTn5IPT6t32,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,32,M,Importado,Ecuador,Casa
+F1_Et0oDn36,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,36,F,Relacionado,Colombia,Casa
+FORCl4O0x56,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,56,F,Relacionado,Colombia,Casa
+FY-QhlT_r33,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
+MOuTp6ARr51,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,51,M,Relacionado,Colombia,Casa
+MUakfOKpH43,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,43,M,Relacionado,Colombia,Casa
+F01-uvp5234,27/3/2020,27,3,2020,Marzo,Viernes,Santa Marta,Santa Marta D.T. y C.,34,F,Relacionado,Colombia,Casa
+FGUFgl7c-47,27/3/2020,27,3,2020,Marzo,Viernes,Puerto Colombia,Atlantico,47,F,En estudio,Colombia,Casa
+ML1kqULwA25,27/3/2020,27,3,2020,Marzo,Viernes,Barranquilla,Barranquilla D.E.,25,M,Importado,España,Fallecido
+MIj6NVGgx26,27/3/2020,27,3,2020,Marzo,Viernes,Armenia,Quindio,26,M,Importado,Estados Unidos,Casa
+MaPNE-lpT50,27/3/2020,27,3,2020,Marzo,Viernes,Soledad,Atlantico,50,M,Relacionado,Colombia,Fallecido
+MbZ0iEn4X24,27/3/2020,27,3,2020,Marzo,Viernes,Armenia,Quindio,24,M,Importado,Francia,Casa
+Fmf87Epqe34,27/3/2020,27,3,2020,Marzo,Viernes,Armenia,Quindio,34,F,Relacionado,Colombia,Casa
+F5frKHGn949,27/3/2020,27,3,2020,Marzo,Viernes,Santa Marta,Santa Marta D.T. y C.,49,F,Relacionado,Colombia,Casa
+M9AXbf9EQ81,27/3/2020,27,3,2020,Marzo,Viernes,Manizales,Caldas,81,M,Relacionado,Colombia,Casa
+Mezki_eAu37,28/3/2020,28,3,2020,Marzo,Sabado,Mosquera,Cundinamarca,37,M,Importado,Egipto,Casa
+FAPc2HAza57,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,57,F,Relacionado,Colombia,Casa
+MdNMSCLD-30,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,30,M,Importado,Costa Rica,Casa
+MVj9ALhkQ51,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,51,M,Relacionado,Colombia,Fallecido
+FG23RYSuF27,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,27,F,Relacionado,Colombia,Casa
+Mh_6Hbfvj9,28/3/2020,28,3,2020,Marzo,Sabado,Palmira,Valle del Cauca,9,M,Relacionado,Colombia,Casa
+FoX1bUp8960,28/3/2020,28,3,2020,Marzo,Sabado,Palmira,Valle del Cauca,60,F,Relacionado,Colombia,Casa
+F3HjEQtwZ29,28/3/2020,28,3,2020,Marzo,Sabado,Sahagun,Cordoba,29,F,Importado,España,Casa
+Mao5i-plT54,28/3/2020,28,3,2020,Marzo,Sabado,Pasto,Narino,54,M,Importado,México,Casa
+FXSpdH06E16,28/3/2020,28,3,2020,Marzo,Sabado,Valledupar,Cesar,16,F,Importado,Inglaterra,Casa
+MJoKlW7RV16,28/3/2020,28,3,2020,Marzo,Sabado,Polonuevo,Atlantico,16,M,En estudio,Colombia,Casa
+MuZNFJEL-29,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,29,M,En estudio,Colombia,Casa
+MdDwzA7bH40,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,40,M,Relacionado,Colombia,Casa
+M60IL_35P33,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,33,M,Importado,Ecuador,Casa
+MsPEKMqJk42,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,42,M,En estudio,Colombia,Casa
+MJNfWvDzQ39,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,39,M,Importado,Ecuador,Casa
+MDcoZHyfF43,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,43,M,Importado,México,Casa
+FPyMQiPwJ82,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,82,F,En estudio,Colombia,Casa
+MIadR7I6j41,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,41,M,Importado,Jamaica,Casa
+MlCSg8lNI53,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,53,M,Relacionado,Colombia,Casa
+F_JeCFV5955,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,55,F,En estudio,Colombia,Hospital UCI
+Mdo09J-k249,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,49,M,En estudio,Colombia,Hospital UCI
+F3YTcMGK658,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,58,F,Relacionado,Colombia,Casa
+FMysieTR538,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,38,F,Relacionado,Colombia,Casa
+Fr7AbKyt031,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,31,F,Relacionado,Colombia,Casa
+Ftcj4Hx1N64,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,64,F,Relacionado,Colombia,Casa
+FCdpjJHXE48,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,48,F,En estudio,Colombia,Fallecido
+FJjSu07RT33,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
+MhP6TFBV035,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+FcBjEtczC57,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,57,F,En estudio,Colombia,Fallecido
+M6TC-3FW730,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,30,M,Relacionado,Colombia,Casa
+MfNoc1fM054,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,54,M,En estudio,Colombia,Casa
+FN3F2rNIQ53,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,53,F,Relacionado,Colombia,Casa
+FoEczdBkb38,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,38,F,Importado,Cuba,Recuperado
+MWQaJxWg630,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Hospital
+MELXypeli38,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,38,M,Importado,España,Casa
+FHZkGiJPN31,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,31,F,Importado,Europa,Casa
+Mb12KoQkW38,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
+Mm9ZS57Wy37,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,37,M,Importado,España,Casa
+Fg1vXxiHm68,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,68,F,Importado,Estados Unidos,Hospital
+Mjfz10jl843,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,43,M,Relacionado,Colombia,Casa
+M3g86y3bD26,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,26,M,Relacionado,Colombia,Casa
+MLjcRxLlP62,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,62,M,Relacionado,Colombia,Casa
+MNaOo4X0I30,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Hospital
+MxtU6oxCN37,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,37,M,Importado,México,Casa
+FXt562XWc33,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
+Fyk1YUFEr67,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,67,F,Importado,Jamaica,Hospital UCI
+Fr98mhSas67,28/3/2020,28,3,2020,Marzo,Sabado,Villapinzon,Cundinamarca,67,F,Relacionado,Colombia,Fallecido
+Mt5yXjs7S39,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,39,M,Relacionado,Colombia,Casa
+FPFNmOPCl50,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,50,F,Importado,España,Casa
+MBvilW-Qg58,28/3/2020,28,3,2020,Marzo,Sabado,Cartago,Valle del Cauca,58,M,Importado,España,Casa
+FTx9wJ8ZI28,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,28,F,Relacionado,Colombia,Casa
+M8bOQ-8WS72,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,72,M,Importado,España,Hospital
+F3YgdTl9a47,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,47,F,Importado,España,Casa
+MjZNkBj4s27,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,27,M,Relacionado,Colombia,Hospital
+FSR9VLSWo27,28/3/2020,28,3,2020,Marzo,Sabado,Medellin,Antioquia,27,F,Importado,Estados Unidos,Casa
+Ftd4UbL1e52,28/3/2020,28,3,2020,Marzo,Sabado,Montebello,Antioquia,52,F,Importado,Panamá,Casa
+MYW8GPYly21,28/3/2020,28,3,2020,Marzo,Sabado,Sabaneta,Antioquia,21,M,Importado,Alemania,Casa
+FHVEiSMZ824,28/3/2020,28,3,2020,Marzo,Sabado,Medellin,Antioquia,24,F,Importado,Estados Unidos,Casa
+F1Z5aP1wX32,28/3/2020,28,3,2020,Marzo,Sabado,Medellin,Antioquia,32,F,Importado,Estados Unidos,Casa
+MOorG2OC625,28/3/2020,28,3,2020,Marzo,Sabado,Chinchina,Caldas,25,M,Relacionado,Colombia,Casa
+MVxoGNYcg59,28/3/2020,28,3,2020,Marzo,Sabado,Armenia,Quindio,59,M,Importado,Estados Unidos,Casa
+FfZ-48Xr246,28/3/2020,28,3,2020,Marzo,Sabado,Medellin,Antioquia,46,F,Importado,España,Casa
+MszF1aDIS55,28/3/2020,28,3,2020,Marzo,Sabado,Santa Rosa,Antioquia,55,M,Importado,Jamaica,Casa
+MY90UV2an54,28/3/2020,28,3,2020,Marzo,Sabado,Barranquilla,Barranquilla D.E.,54,M,Relacionado,Colombia,Casa
+FAWBxZhUL37,28/3/2020,28,3,2020,Marzo,Sabado,Barranquilla,Barranquilla D.E.,37,F,Relacionado,Colombia,Casa
+M-x07ufig58,28/3/2020,28,3,2020,Marzo,Sabado,Turbaco,Bolivar,58,M,Relacionado,Colombia,Casa
+MY10iu7Mh31,28/3/2020,28,3,2020,Marzo,Sabado,Cartagena,Cartagena D.T. y C,31,M,Relacionado,Colombia,Casa
+MPZTdsPBA47,28/3/2020,28,3,2020,Marzo,Sabado,Barranquilla,Barranquilla D.E.,47,M,Importado,España,Casa
+F1GYE-bJA51,29/3/2020,29,3,2020,Marzo,Domingo,Envigado,Antioquia,51,F,Importado,Turquía,Casa
+MNiZIVN2R60,29/3/2020,29,3,2020,Marzo,Domingo,Envigado,Antioquia,60,M,En estudio,Colombia,Hospital
+FzVWnLNEI82,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,82,F,Importado,Panamá,Casa
+M_yLnhVDK42,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,42,M,Importado,España,Hospital UCI
+MS5kWpNdX73,29/3/2020,29,3,2020,Marzo,Domingo,Bello,Antioquia,73,M,Importado,España,Casa
+FQBkTjedD64,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,64,F,Relacionado,Colombia,Casa
+MO2zo-Ojv46,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,46,M,Relacionado,Colombia,Casa
+FYMGCQh0v12,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,12,F,Relacionado,Colombia,Casa
+MjXJOLjQw32,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,32,M,Relacionado,Colombia,Casa
+FG6sb1LiH62,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,62,F,Importado,Ecuador,Casa
+Mg38JlgI936,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,36,M,Relacionado,Colombia,Fallecido
+MA6HBEA7Z45,29/3/2020,29,3,2020,Marzo,Domingo,Palmira,Valle del Cauca,45,M,Importado,Emiratos Árabes,Casa
+MWAN7SWKI25,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,25,M,Relacionado,Colombia,Casa
+FmA-2rGvt42,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,42,F,Importado,España,Casa
+F9hFYH9KE62,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,62,F,Importado,Alemania,Casa
+M-6xZcJte38,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
+F7jEM2Bmq45,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,45,F,Relacionado,Colombia,Casa
+Fyv4cNlYR45,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,45,F,Relacionado,Colombia,Casa
+MnFmU8tGR45,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,45,M,Importado,Isla San Martín,Casa
+ForcPFtCj42,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,42,F,Relacionado,Colombia,Casa
+FhCOE1Mku42,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,42,F,Relacionado,Colombia,Casa
+MC1RATzOn62,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,62,M,Importado,Puerto Rico,Hospital UCI
+McCnpVjHK29,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,29,M,Relacionado,Colombia,Casa
+Mc0OrbkNq70,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,70,M,Relacionado,Colombia,Casa
+Ff7H9bz6U60,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,60,F,Relacionado,Colombia,Casa
+FBIxh_KUp50,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,50,F,Importado,Panamá,Casa
+MsaKNIth929,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,29,M,Relacionado,Colombia,Casa
+FtDnofWau69,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,69,F,Importado,España,Casa
+M6N8O_63552,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,52,M,Relacionado,Colombia,Casa
+FlGTde3gY58,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,58,F,Importado,México,Hospital UCI
+MncaJenXt46,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,46,M,Relacionado,Colombia,Casa
+MWkRlrtug68,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,68,M,En estudio,Colombia,Hospital
+FQkRCqQil26,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,26,F,Relacionado,Colombia,Casa
+M2tOrvJG-38,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
+FMuP6kMT_25,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,25,F,Importado,Estados Unidos,Casa
+FNma0LvXD22,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,22,F,Importado,Estados Unidos,Casa
+MZkTu5h_L33,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,33,M,Relacionado,Colombia,Casa
+Fv0n9ivFc34,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,34,F,Importado,España,Casa
+F7Li0JR9O28,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,28,F,Importado,Bélgica,Casa
+F1WNTmj7D42,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,42,F,Relacionado,Colombia,Casa
+M_6YmwM-N51,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,51,M,Importado,España,Casa
+MK_AVhcw965,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,65,M,Relacionado,Colombia,Casa
+MS7B1OSLs57,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,57,M,En estudio,Colombia,Hospital
+Mbro3QXRv34,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,34,M,Relacionado,Colombia,Casa
+McWiPmpAR30,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,30,M,Relacionado,Colombia,Casa
+FwmBz7nKG33,29/3/2020,29,3,2020,Marzo,Domingo,Bello,Antioquia,33,F,Importado,Jamaica,Casa
+M_gsZb_Tx29,29/3/2020,29,3,2020,Marzo,Domingo,Bello,Antioquia,29,M,Importado,Panamá,Casa
+FaRPTnEDG61,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,61,F,Relacionado,Colombia,Casa
+FtNOE0tTa8,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,8,F,Relacionado,Colombia,Casa
+FfG1HkXMp30,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,30,F,Relacionado,Colombia,Casa
+MaSG6DWXn26,29/3/2020,29,3,2020,Marzo,Domingo,Neiva,Huila,26,M,Relacionado,Colombia,Casa
+FPmyOqcu721,29/3/2020,29,3,2020,Marzo,Domingo,Neiva,Huila,21,F,Relacionado,Colombia,Casa
+Mj7hYwaT326,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,26,M,Relacionado,Colombia,Casa
+MiXGW8Hr636,29/3/2020,29,3,2020,Marzo,Domingo,Valledupar,Cesar,36,M,Importado,España,Casa
+F2P3-rRKj16,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,16,F,Relacionado,Colombia,Casa
+F_ZTgSs1c42,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,42,F,Relacionado,Colombia,Casa
+F8P3nCrRM24,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,24,F,Relacionado,Colombia,Casa
+FL3Rd9BlQ24,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,24,F,Relacionado,Colombia,Casa
+F8Ke6x8jm29,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,29,F,Relacionado,Colombia,Casa
+MTIm0ZT4n64,29/3/2020,29,3,2020,Marzo,Domingo,Barranquilla,Barranquilla D.E.,64,M,Relacionado,Colombia,Hospital UCI
+FHFmcREKo21,29/3/2020,29,3,2020,Marzo,Domingo,Sincelejo,Sucre,21,F,Relacionado,Colombia,Casa
+FTeNgzuOf39,29/3/2020,29,3,2020,Marzo,Domingo,Villamaria,Caldas,39,F,Importado,España,Casa
+FYj-Gyq5h28,29/3/2020,29,3,2020,Marzo,Domingo,Barranquilla,Barranquilla D.E.,28,F,Relacionado,Colombia,Casa
+MDzf_0AeJ1,29/3/2020,29,3,2020,Marzo,Domingo,Barranquilla,Barranquilla D.E.,1,M,Relacionado,Colombia,Casa
+MSVdEyOl935,29/3/2020,29,3,2020,Marzo,Domingo,Barranquilla,Barranquilla D.E.,35,M,Relacionado,Colombia,Casa
+FTxalvkJj33,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,33,F,Relacionado,Colombia,Fallecido
+Mt6KHFtrs41,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,41,M,Importado,Estados Unidos,Casa
+MVP1puVYH24,29/3/2020,29,3,2020,Marzo,Domingo,La Ceja,Antioquia,24,M,En estudio,Colombia,Casa
+M-vrSLAGi80,29/3/2020,29,3,2020,Marzo,Domingo,San Francisco,Antioquia,80,M,En estudio,Colombia,Hospital UCI
+F8sXm5AlH40,29/3/2020,29,3,2020,Marzo,Domingo,Envigado,Antioquia,40,F,Relacionado,Colombia,Casa
+FVBrYm0py24,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,24,F,Importado,España,Casa
+F2NcVj2Kb18,29/3/2020,29,3,2020,Marzo,Domingo,Envigado,Antioquia,18,F,Relacionado,Colombia,Casa
+FWa1Em36g5,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,5,F,En estudio,Colombia,Casa
+F3D8A9Gsc63,29/3/2020,29,3,2020,Marzo,Domingo,Envigado,Antioquia,63,F,Importado,España,Casa
+MQODltrVI50,29/3/2020,29,3,2020,Marzo,Domingo,Rionegro,Antioquia,50,M,Relacionado,Colombia,Casa
+Mw1zMpq4042,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,42,M,Importado,Estados Unidos,Casa
+FeOWH7Gro80,29/3/2020,29,3,2020,Marzo,Domingo,Bucaramanga,Santander,80,F,Importado,Brasil,Casa
+MiJWDTir758,29/3/2020,29,3,2020,Marzo,Domingo,Bucaramanga,Santander,58,M,Importado,Panamá,Casa
+Mo9FNIrsa24,29/3/2020,29,3,2020,Marzo,Domingo,Bucaramanga,Santander,24,M,Importado,México,Casa
+MCUj5gGtJ46,29/3/2020,29,3,2020,Marzo,Domingo,Floridablanca,Santander,46,M,Relacionado,Colombia,Casa
+M_hsRl6Pd35,29/3/2020,29,3,2020,Marzo,Domingo,Lorica,Cordoba,35,M,Relacionado,Colombia,Casa
+FGX17qlAE72,29/3/2020,29,3,2020,Marzo,Domingo,Oicata,Boyaca,72,F,Importado,Francia,Casa
+Fbn7CjbwI55,29/3/2020,29,3,2020,Marzo,Domingo,Dosquebradas,Risaralda,55,F,Importado,Turquía,Casa
+F7XBox7Vq62,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,62,F,Relacionado,Colombia,Casa
+FRvdsnRPY6,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,6,F,Relacionado,Colombia,Casa
+Mk12tTS_c63,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,63,M,Relacionado,Colombia,Casa
+FGMoqYDVW66,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,66,F,Relacionado,Colombia,Casa
+FMxnVrFvy54,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,54,F,Relacionado,Colombia,Casa
+M23GTa5HU61,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,61,M,Relacionado,Colombia,Casa
+MKPLdtK0u32,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,32,M,Relacionado,Colombia,Casa
+McbNVvE8L47,29/3/2020,29,3,2020,Marzo,Domingo,Dosquebradas,Risaralda,47,M,Importado,Panamá,Casa
+FbZiqtjcA45,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,45,F,Importado,Francia,Casa
+MusLNApoD25,29/3/2020,29,3,2020,Marzo,Domingo,Arjona,Bolivar,25,M,Relacionado,Colombia,Casa
+F1TyfCU8422,29/3/2020,29,3,2020,Marzo,Domingo,Arjona,Bolivar,22,F,Importado,Turquía,Casa
+FZM8LPSxy73,30/3/2020,30,3,2020,Marzo,Lunes,Santana,Boyaca,73,F,Relacionado,Colombia,Casa
+F3SRoF4C621,30/3/2020,30,3,2020,Marzo,Lunes,Cucuta,Norte de Santander,21,F,Importado,Panamá,Casa
+MSzhMaSbW60,30/3/2020,30,3,2020,Marzo,Lunes,Sopo,Cundinamarca,60,M,Importado,Estados Unidos,Casa
+MThcA7HFV35,30/3/2020,30,3,2020,Marzo,Lunes,Chia,Cundinamarca,35,M,Importado,Ecuador,Casa
+MUdQcnUuI65,30/3/2020,30,3,2020,Marzo,Lunes,Villapinzon,Cundinamarca,65,M,Relacionado,Colombia,Fallecido
+Fic60V3WG54,30/3/2020,30,3,2020,Marzo,Lunes,Soacha,Cundinamarca,54,F,Importado,Estados Unidos,Casa
+FbZN95md732,30/3/2020,30,3,2020,Marzo,Lunes,Neiva,Huila,32,F,Relacionado,Colombia,Casa
+FgVyNPvGD64,30/3/2020,30,3,2020,Marzo,Lunes,Neiva,Huila,64,F,Relacionado,Colombia,Fallecido
+FdeXn3dky27,30/3/2020,30,3,2020,Marzo,Lunes,Neiva,Huila,27,F,Importado,España,Casa
+M3yapKVxs45,30/3/2020,30,3,2020,Marzo,Lunes,Palermo,Huila,45,M,Relacionado,Colombia,Casa
+Fxh8-0aZD33,30/3/2020,30,3,2020,Marzo,Lunes,Palermo,Huila,33,F,Importado,Ecuador,Casa
+FTRbxJT7e44,30/3/2020,30,3,2020,Marzo,Lunes,Cartagena,Cartagena D.T. y C,44,F,Relacionado,Colombia,Fallecido
+FGQvA-GVK36,30/3/2020,30,3,2020,Marzo,Lunes,Cartagena,Cartagena D.T. y C,36,F,Importado,México,Casa
+FxZmBV5Ai49,30/3/2020,30,3,2020,Marzo,Lunes,Cartagena,Cartagena D.T. y C,49,F,Relacionado,Colombia,Hospital UCI
+F5xvyWHG628,30/3/2020,30,3,2020,Marzo,Lunes,Santa Marta,Santa Marta D.T. y C.,28,F,Relacionado,Colombia,Casa
+FpzPxVyOM65,30/3/2020,30,3,2020,Marzo,Lunes,La Dorada,Caldas,65,F,Relacionado,Colombia,Casa
+FVC8g5VMw26,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,26,F,Importado,Ecuador,Casa
+MMwservVa31,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,31,M,Importado,Estados Unidos,Casa
+FgGZoIgtw45,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,45,F,Importado,España,Casa
+MoyxpGg3268,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,68,M,Relacionado,Colombia,Fallecido
+METyFHEg524,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,24,M,Relacionado,Colombia,Casa
+M_Wwe4VKC34,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,34,M,Importado,España,Casa
+F7nGC-l9337,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,37,F,Relacionado,Colombia,Casa
+M_Zw4R8cb36,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,36,M,En estudio,Colombia,Casa
+Mu4QU2u0x25,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,25,M,Importado,Londres,Casa
+MK4DRVKes53,30/3/2020,30,3,2020,Marzo,Lunes,La Estrella,Antioquia,53,M,Relacionado,Colombia,Casa
+MDUyLPFbX64,30/3/2020,30,3,2020,Marzo,Lunes,Envigado,Antioquia,64,M,Relacionado,Colombia,Casa
+FwBtFHwe319,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,19,F,Relacionado,Colombia,Casa
+MYCIpiGrZ82,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,82,M,Importado,Estados Unidos,Casa
+FXtJPAvdb35,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,35,F,Relacionado,Colombia,Casa
+M3I7SQ32B31,30/3/2020,30,3,2020,Marzo,Lunes,Barranquilla,Barranquilla D.E.,31,M,Relacionado,Colombia,Hospital UCI
+MpV3XhpJs50,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Hospital
+MO5oQ3YEF48,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,48,M,En estudio,Colombia,Recuperado
+MQvoV-ryB32,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,32,M,En estudio,Colombia,Hospital
+M32nf4uGU26,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,26,M,Importado,Estados Unidos,Casa
+FyC0cG71o47,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,Relacionado,Colombia,Casa
+Mfat8Hm9B38,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,Importado,Londres,Casa
+FUg0TSX8-29,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
+FBReupXwQ36,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,36,F,Importado,Londres,Casa
+M2b8D061L38,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,En estudio,Colombia,Casa
+FY5t1MTbr75,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,75,F,En estudio,Colombia,Hospital UCI
+MEzhKBkCw27,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,27,M,En estudio,Colombia,Hospital
+FWDpX08A551,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,F,Importado,Estados Unidos,Casa
+Fm_aHr4LX54,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,54,F,En estudio,Colombia,Casa
+MONxyhWgE52,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,52,M,En estudio,Colombia,Casa
+Ml5Jyil0-23,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,23,M,Importado,Londres,Hospital
+MxPLagxQR50,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,50,M,Importado,Jamaica,Casa
+MXr-SdHB661,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,M,Importado,Jamaica,Casa
+FGVadOXSk61,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,F,Importado,Jamaica,Casa
+MXij-yB6O73,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,73,M,Relacionado,Colombia,Casa
+Fsk-fCAZY51,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,F,Relacionado,Colombia,Casa
+Me1FktX7R28,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,28,M,En estudio,Colombia,Casa
+Fwe0CGHVU33,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,33,F,Importado,Isla San Martín,Casa
+MhA6vIRkH38,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,Importado,Isla San Martín,Casa
+F6RZUn_Pq38,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,F,Importado,Isla San Martín,Casa
+M7wYvxXzd31,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,31,M,Importado,Isla San Martín,Casa
+MTbW9BP2k74,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,74,M,Importado,Isla San Martín,Casa
+Mynj5Yy2R29,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,29,M,Importado,España,Casa
+F4tH184Vq51,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,F,Relacionado,Colombia,Hospital
+FjgEf5hYy21,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,21,F,En estudio,Colombia,Casa
+MgYi4H1r757,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,57,M,Importado,Argentina,Casa
+Fgf6esgIZ61,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,F,En estudio,Colombia,Hospital UCI
+MrE81PIiK35,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+M41VbahBS30,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Casa
+FLwkb-Itu31,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,31,F,Importado,Estados Unidos,Casa
+M03R-iVCx46,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,46,M,En estudio,Colombia,Casa
+Mns2zhtQr84,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,84,M,Importado,Argentina,Casa
+FFYN4UFZe47,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,En estudio,Colombia,Hospital
+FcTBs1GaE72,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,72,F,Importado,Egipto,Casa
+MxlL5Jgsp65,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,65,M,Importado,España,Casa
+FsZ5cOkoL33,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,33,F,Importado,Turquía,Casa
+FmtAM8mYS68,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,68,F,Importado,Estados Unidos,Casa
+M4tOe6ro351,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,M,Relacionado,Colombia,Casa
+MCR7qWmnL2,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,2,M,Relacionado,Colombia,Casa
+FCroMPtVq47,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,Relacionado,Colombia,Casa
+MQf1ItAlY44,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,44,M,En estudio,Colombia,Hospital UCI
+M7RUseCN_50,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Hospital
+FrRv2frU930,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,30,F,Relacionado,Colombia,Casa
+FCcpx2kyq27,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,27,F,En estudio,Colombia,Casa
+MRJlDmGS635,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,35,M,Importado,España,Casa
+MGY_N3Goe36,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,36,M,Relacionado,Colombia,Casa
+MY5RHPYCE28,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,28,M,Importado,España,Casa
+FIevsDFgu25,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,25,F,Relacionado,Colombia,Casa
+Fi8AbRIwJ47,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,Relacionado,Colombia,Casa
+FN3BA9QsC2,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,2,F,Relacionado,Colombia,Casa
+FeGw0Vg9b64,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,64,F,En estudio,Colombia,Hospital UCI
+M6aPb36rC51,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,M,Importado,Francia,Casa
+MvEAXJvF366,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,66,M,Relacionado,Colombia,Casa
+MBT2isBQC88,30/3/2020,30,3,2020,Marzo,Lunes,Palmira,Valle del Cauca,88,M,Relacionado,Colombia,Casa
+FFiYQ7zB526,30/3/2020,30,3,2020,Marzo,Lunes,Cartago,Valle del Cauca,26,F,Relacionado,Colombia,Casa
+MyZisLyj227,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,27,M,Relacionado,Colombia,Casa
+FO7bqwAYy55,30/3/2020,30,3,2020,Marzo,Lunes,Palmira,Valle del Cauca,55,F,Importado,España,Casa
+MLaUvu7rh17,30/3/2020,30,3,2020,Marzo,Lunes,Palmira,Valle del Cauca,17,M,Relacionado,Colombia,Casa
+Mpwq1BpmR22,30/3/2020,30,3,2020,Marzo,Lunes,Palmira,Valle del Cauca,22,M,Importado,España,Casa
+M5YpvgOTx83,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,83,M,Relacionado,Colombia,Hospital
+F-Oy7g-YV63,30/3/2020,30,3,2020,Marzo,Lunes,Cartago,Valle del Cauca,63,F,Importado,Panamá,Casa
+FokEi-hg069,31/3/2020,31,3,2020,Marzo,Martes,Palmira,Valle del Cauca,69,F,Importado,España,Casa
+F7oUlhDG925,31/3/2020,31,3,2020,Marzo,Martes,Cartago,Valle del Cauca,25,F,Importado,España,Casa
+M7zTX9IlB44,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,44,M,En estudio,Colombia,Casa
+MhrZd9mw654,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,54,M,Relacionado,Colombia,Hospital
+FXmhcZNTo20,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,20,F,Importado,España,Casa
+MsFmMt-Ae28,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,28,M,Importado,España,Casa
+MacHm_xyT26,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,26,M,Relacionado,Colombia,Casa
+M-9vPUsb826,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,26,M,En estudio,Colombia,Hospital UCI
+ML2QXcvtu32,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,32,M,Importado,España,Casa
+FkUWVhuzR30,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,30,F,Importado,España,Casa
+Mj6-ZiGrH38,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,38,M,Importado,España,Casa
+MRwhY8rIX0,31/3/2020,31,3,2020,Marzo,Martes,Tumaco,Narino,0,M,Importado,Ecuador,Casa
+FTNZnepoa76,31/3/2020,31,3,2020,Marzo,Martes,Pasto,Narino,76,F,Importado,España,Casa
+MwgmVkwJC46,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,46,M,Relacionado,Colombia,Hospital
+Mp1A3HpCY41,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,41,M,Relacionado,Colombia,Recuperado
+Mktcjxk5E38,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,38,M,Relacionado,Colombia,Casa
+MHCn1-HYd31,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,31,M,Importado,Estados Unidos,Recuperado
+MbplvrbUY27,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,27,M,Relacionado,Colombia,Casa
+MsIVM5UmY40,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,40,M,Relacionado,Colombia,Casa
+MDXb5TIBi21,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,21,M,Relacionado,Colombia,Casa
+MzMsLjQuA26,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,26,M,Importado,Estados Unidos,Casa
+M-6TAZ-tl42,31/3/2020,31,3,2020,Marzo,Martes,Riohacha,La Guajira,42,M,Importado,Estados Unidos,Casa
+MR5XzlPUo70,31/3/2020,31,3,2020,Marzo,Martes,Santa Marta,Santa Marta D.T. y C.,70,M,Relacionado,Colombia,Casa
+MgZk9mJFW43,31/3/2020,31,3,2020,Marzo,Martes,Santa Marta,Santa Marta D.T. y C.,43,M,Relacionado,Colombia,Casa
+FM7RmYLuZ57,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,57,F,Relacionado,Colombia,Casa
+Fve94wvWM32,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,32,F,Relacionado,Colombia,Casa
+M3_EefZoU44,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,44,M,Importado,España,Casa
+MPZr-3PpL24,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,24,M,Importado,Estados Unidos,Casa
+MWgZ16WHn25,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,25,M,Importado,Estados Unidos,Casa
+MQh0xZQGz77,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,77,M,Importado,Turquía,Fallecido
+FxBsbj_hz30,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,30,F,Relacionado,Colombia,Casa
+F9YpNwlx355,31/3/2020,31,3,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,55,F,Relacionado,Colombia,Recuperado
+FpRz0GNXi30,31/3/2020,31,3,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,30,F,Relacionado,Colombia,Casa
+MOpyYdZeR59,31/3/2020,31,3,2020,Marzo,Martes,Sabaneta,Antioquia,59,M,Importado,Estados Unidos,Casa
+FLgfxNLnM67,31/3/2020,31,3,2020,Marzo,Martes,Medellin,Antioquia,67,F,En estudio,Colombia,Hospital UCI
+M_-Cjz_TL66,31/3/2020,31,3,2020,Marzo,Martes,Medellin,Antioquia,66,M,Importado,Marruecos,Casa
+F39h7S4wK56,31/3/2020,31,3,2020,Marzo,Martes,Medellin,Antioquia,56,F,Relacionado,Colombia,Casa
+MjH2lyj1x67,31/3/2020,31,3,2020,Marzo,Martes,Medellin,Antioquia,67,M,En estudio,Colombia,Hospital UCI
+Mey-1Oe2a57,31/3/2020,31,3,2020,Marzo,Martes,Chia,Cundinamarca,57,M,Importado,México,Casa
+MRf59oDF319,31/3/2020,31,3,2020,Marzo,Martes,Cota,Cundinamarca,19,M,Importado,Puerto Rico,Casa
+FGP6rW5ds50,31/3/2020,31,3,2020,Marzo,Martes,Cota,Cundinamarca,50,F,Importado,Puerto Rico,Casa
+MPYcO3ZQw57,31/3/2020,31,3,2020,Marzo,Martes,Cota,Cundinamarca,57,M,Importado,Puerto Rico,Casa
+FPMs6WPvS42,31/3/2020,31,3,2020,Marzo,Martes,Cota,Cundinamarca,42,F,Importado,Puerto Rico,Casa
+FqhJstmO525,31/3/2020,31,3,2020,Marzo,Martes,Cajica,Cundinamarca,25,F,En estudio,Colombia,Casa
+FnaHEonDb50,31/3/2020,31,3,2020,Marzo,Martes,Cota,Cundinamarca,50,F,Relacionado,Colombia,Casa
+FgjdFn-Vo81,31/3/2020,31,3,2020,Marzo,Martes,Zipaquira,Cundinamarca,81,F,En estudio,Colombia,Fallecido
+FEKcRr51H47,31/3/2020,31,3,2020,Marzo,Martes,Cajica,Cundinamarca,47,F,Importado,México,Casa
+FbVu1EstX31,31/3/2020,31,3,2020,Marzo,Martes,Villavicencio,Meta,31,F,Importado,Estados Unidos,Casa
+FE2-ZprGq29,31/3/2020,31,3,2020,Marzo,Martes,Villavicencio,Meta,29,F,Importado,Estados Unidos,Casa
+FI5nESI4a29,31/3/2020,31,3,2020,Marzo,Martes,Villavicencio,Meta,29,F,Importado,Estados Unidos,Casa
+MOSbALJ8142,31/3/2020,31,3,2020,Marzo,Martes,Cucuta,Norte de Santander,42,M,En estudio,Colombia,Casa
+MkKWLVIne26,31/3/2020,31,3,2020,Marzo,Martes,Puerto Santander,Norte de Santander,26,M,Relacionado,Colombia,Casa
+Fhj7qUv8I50,31/3/2020,31,3,2020,Marzo,Martes,Cucuta,Norte de Santander,50,F,Importado,Canadá,Casa
+M2obxt2iw25,31/3/2020,31,3,2020,Marzo,Martes,Bucaramanga,Santander,25,M,Importado,México,Casa
+MqFB6JqnV34,31/3/2020,31,3,2020,Marzo,Martes,Bucaramanga,Santander,34,M,Importado,Estados Unidos,Casa
+MiN5caAv-57,31/3/2020,31,3,2020,Marzo,Martes,Floridablanca,Santander,57,M,Importado,Estados Unidos,Casa
+M8iEe-NVy36,31/3/2020,31,3,2020,Marzo,Martes,Neiva,Huila,36,M,Relacionado,Colombia,Casa
+FeYDd3epf33,31/3/2020,31,3,2020,Marzo,Martes,Neiva,Huila,33,F,Relacionado,Colombia,Casa
+FGCT0NtcO61,31/3/2020,31,3,2020,Marzo,Martes,Neiva,Huila,61,F,Relacionado,Colombia,Casa
+FWaQ_r1do18,31/3/2020,31,3,2020,Marzo,Martes,Pereira,Risaralda,18,F,Relacionado,Colombia,Casa
+MFe5b6FAy9,31/3/2020,31,3,2020,Marzo,Martes,Pereira,Risaralda,9,M,Importado,España,Casa
+FDXKTZf1z30,31/3/2020,31,3,2020,Marzo,Martes,Pereira,Risaralda,30,F,Importado,España,Casa
+FMJSmaEfN32,31/3/2020,31,3,2020,Marzo,Martes,Pereira,Risaralda,32,F,Relacionado,Colombia,Hospital
+MljrpzlIa32,31/3/2020,31,3,2020,Marzo,Martes,Pereira,Risaralda,32,M,Importado,España,Casa
+F_GZNQyPs22,31/3/2020,31,3,2020,Marzo,Martes,Pereira,Risaralda,22,F,Importado,Estados Unidos,Casa
+MigePBE5Q84,31/3/2020,31,3,2020,Marzo,Martes,Tunja,Boyaca,84,M,En estudio,Colombia,Fallecido
+FgPQ8yg2M70,31/3/2020,31,3,2020,Marzo,Martes,Togui,Boyaca,70,F,Relacionado,Colombia,Casa
+MEZpMcE9y49,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,49,M,Relacionado,Colombia,Casa
+MrR1VsSBA28,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,28,M,Relacionado,Colombia,Casa
+MWgOSYWC733,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,33,M,Relacionado,Colombia,Hospital
+M8vFJiQnk69,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,69,M,Relacionado,Colombia,Casa
+FkS7pBkLH2,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,2,F,Relacionado,Colombia,Casa
+F_9CzS_BX39,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,39,F,Relacionado,Colombia,Casa
+MRasnW9ZU50,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,50,M,Importado,Ecuador,Casa
+F1YzIUpNA15,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,15,F,Importado,Estados Unidos,Casa
+MhO_5bV-F30,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,30,M,Importado,Estados Unidos,Casa
+MkRPswLHO27,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,27,M,Relacionado,Colombia,Casa
+MrdfbwQJE32,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,32,M,Relacionado,Colombia,Hospital UCI
+FnoVgmR-d58,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,58,F,Importado,Turquía,Casa
+FXDEktRB056,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,56,F,Relacionado,Colombia,Casa
+MJunogJsH13,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,13,M,Relacionado,Colombia,Casa
+FGFPfp48_66,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,66,F,Relacionado,Colombia,Hospital UCI
+MSOaNBDik45,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,45,M,Relacionado,Colombia,Hospital
+FDdyQn4Uk40,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,40,F,Importado,México,Recuperado
+FeJ7pHFBo55,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,55,F,Relacionado,Colombia,Casa
+MzFb7ZzkD18,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,18,M,Importado,Inglaterra,Casa
+MjkM03SUz56,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,56,M,Relacionado,Colombia,Casa
+Fm-plNB_v65,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,65,F,En estudio,Colombia,Hospital UCI
+MVnlNkVE-36,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,36,M,Relacionado,Colombia,Casa
+MuABK-kGO35,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+MCV6PQCaT31,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,31,M,En estudio,Colombia,Casa
+MoblyaoRM49,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,49,M,En estudio,Colombia,Hospital UCI
+FvfHByv6D43,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,43,F,En estudio,Colombia,Casa
+FNwq9-Nc628,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,28,F,En estudio,Colombia,Casa
+MJwq6bLha32,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,32,M,En estudio,Colombia,Casa
+M4vwCrzS141,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,41,M,En estudio,Colombia,Casa
+FfplWMN0r38,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,38,F,En estudio,Colombia,Casa
+MIWZdHRSg18,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,18,M,En estudio,Colombia,Casa
+Mo60c8o7w35,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Hospital
+FMWHDGMNg31,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,31,F,Relacionado,Colombia,Casa
+FTwYXvTS920,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,20,F,En estudio,Colombia,Casa
+MjEIYOjkW2,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,2,M,En estudio,Colombia,Casa
+MTtuzcTr037,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,37,M,En estudio,Colombia,Casa
+FYGXxyY3S29,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
+MNwfnEXTR38,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,38,M,En estudio,Colombia,Hospital
+FEzrxAI5S54,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,54,F,En estudio,Colombia,Casa
+FK_4TSgn130,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,30,F,En estudio,Colombia,Casa
+FHgue6Wh_44,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,44,F,En estudio,Colombia,Casa
+FP5VO630m9,01/04/2020,01,04,2020,Abril,Miercoles,Montenegro,Quindio,9,F,Relacionado,Colombia,Casa
+FRukHrCDy35,01/04/2020,01,04,2020,Abril,Miercoles,Montenegro,Quindio,35,F,Relacionado,Colombia,Casa
+FPDnquTOw51,01/04/2020,01,04,2020,Abril,Miercoles,Bello,Antioquia,51,F,Relacionado,Colombia,Casa
+FDA3i7a9j21,01/04/2020,01,04,2020,Abril,Miercoles,Envigado,Antioquia,21,F,Importado,España,Casa
+MJ_AWKTjG29,01/04/2020,01,04,2020,Abril,Miercoles,Bello,Antioquia,29,M,Relacionado,Colombia,Hospital
+FOJ7XTFyx45,01/04/2020,01,04,2020,Abril,Miercoles,Medellin,Antioquia,45,F,Relacionado,Colombia,Casa
+MXFJBvqDR82,01/04/2020,01,04,2020,Abril,Miercoles,Envigado,Antioquia,82,M,En estudio,Colombia,Hospital
+FzQdGTk-S48,01/04/2020,01,04,2020,Abril,Miercoles,Ibague,Tolima,48,F,Importado,Estados Unidos,Casa
+MGViYyn-q25,01/04/2020,01,04,2020,Abril,Miercoles,Floridablanca,Santander,25,M,Relacionado,Colombia,Casa
+MT1StfP2s61,01/04/2020,01,04,2020,Abril,Miercoles,Barranquilla,Barranquilla D.E.,61,M,Relacionado,Colombia,Casa
+Fj7J2s1GM57,01/04/2020,01,04,2020,Abril,Miercoles,Cumbal,Narino,57,F,Importado,Ecuador,Casa
+Mmktw3ILY58,01/04/2020,01,04,2020,Abril,Miercoles,Cumbal,Narino,58,M,Importado,Ecuador,Casa
+Fd0Z5OdLQ16,01/04/2020,01,04,2020,Abril,Miercoles,Cartago,Valle del Cauca,16,F,Importado,Francia,Casa
+MLjC5R8uA41,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,41,M,Relacionado,Colombia,Casa
+Mys_6Kwlo58,01/04/2020,01,04,2020,Abril,Miercoles,Ulloa,Valle del Cauca,58,M,Importado,Estados Unidos,Casa
+FgKxB7H4i68,01/04/2020,01,04,2020,Abril,Miercoles,Yumbo,Valle del Cauca,68,F,Importado,España,Casa
+FBU8ZDkh-19,01/04/2020,01,04,2020,Abril,Miercoles,Santander de Quilichao,Cauca,19,F,En estudio,Colombia,Fallecido
+F2_lcIEN-16,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,16,F,En estudio,Colombia,Casa
+MaUvuXaB731,01/04/2020,01,04,2020,Abril,Miercoles,San Andres,San Andres,31,M,Relacionado,Colombia,Casa
+F73ovrx1S26,01/04/2020,01,04,2020,Abril,Miercoles,Cota,Cundinamarca,26,F,Relacionado,Colombia,Casa
+MuEZCR8Fc15,01/04/2020,01,04,2020,Abril,Miercoles,Soacha,Cundinamarca,15,M,En estudio,Colombia,Casa
+FbHIFvaq843,01/04/2020,01,04,2020,Abril,Miercoles,Funza,Cundinamarca,43,F,Relacionado,Colombia,Casa
+MQ081DQoA39,01/04/2020,01,04,2020,Abril,Miercoles,Tocancipa,Cundinamarca,39,M,En estudio,Colombia,Hospital
+My_p9d0Hj35,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,35,M,Importado,México,Casa
+MWYn1mW-V57,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,57,M,En estudio,Colombia,Hospital
+F3fSEVBjw47,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,47,F,En estudio,Colombia,Casa
+F9Lv1EI5623,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,23,F,En estudio,Colombia,Casa
+FXcykQ0SV47,01/04/2020,01,04,2020,Abril,Miercoles,Tulua,Valle del Cauca,47,F,Relacionado,Colombia,Casa
+Fkixha4L331,01/04/2020,01,04,2020,Abril,Miercoles,Yumbo,Valle del Cauca,31,F,Relacionado,Colombia,Casa
+MpgcLGp1t4,01/04/2020,01,04,2020,Abril,Miercoles,Yumbo,Valle del Cauca,4,M,Relacionado,Colombia,Casa
+ML51SVPxh50,01/04/2020,01,04,2020,Abril,Miercoles,CALI,Valle del Cauca,50,M,Importado,Estados Unidos,Casa
+FnwNVSnOy21,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,21,F,Importado,República Dominicana,Casa
+FQcHvSzAX42,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,42,F,Relacionado,Colombia,Casa
+FuqNRfX2961,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,61,F,Importado,España,Casa
+FBrIdZitn26,01/04/2020,01,04,2020,Abril,Miercoles,Neiva,Huila,26,F,Relacionado,Colombia,Casa
+MYixULSAD45,01/04/2020,01,04,2020,Abril,Miercoles,Neiva,Huila,45,M,Relacionado,Colombia,Casa
+FZ0Ejw_Ac39,01/04/2020,01,04,2020,Abril,Miercoles,Neiva,Huila,39,F,Relacionado,Colombia,Casa
+FZnQxMLmK50,01/04/2020,01,04,2020,Abril,Miercoles,Neiva,Huila,50,F,Relacionado,Colombia,Casa
+M_vhQ-H3y47,01/04/2020,01,04,2020,Abril,Miercoles,Neiva,Huila,47,M,En estudio,Colombia,Hospital UCI
+Ml2bjNCUI59,01/04/2020,01,04,2020,Abril,Miercoles,Neiva,Huila,59,M,Relacionado,Colombia,Hospital UCI
+Fa-1ieIPq43,01/04/2020,01,04,2020,Abril,Miercoles,Santa Marta,Santa Marta D.T. y C.,43,F,Relacionado,Colombia,Casa
+McLxNqeRv41,01/04/2020,01,04,2020,Abril,Miercoles,Santa Marta,Santa Marta D.T. y C.,41,M,En estudio,Colombia,Casa
+M0MWiRJ-631,01/04/2020,01,04,2020,Abril,Miercoles,Villavicencio,Meta,31,M,Importado,México,Casa
+Mqmu_KoFP26,01/04/2020,01,04,2020,Abril,Miercoles,Yopal,Casanare,26,M,Relacionado,Colombia,Casa
+MDU6YoOdh36,01/04/2020,01,04,2020,Abril,Miercoles,Valledupar,Cesar,36,M,Relacionado,Colombia,Casa
+MVno_CjfO70,01/04/2020,01,04,2020,Abril,Miercoles,Valledupar,Cesar,70,M,Relacionado,Colombia,Hospital UCI
+M2WwLO2Xu33,01/04/2020,01,04,2020,Abril,Miercoles,Valledupar,Cesar,33,M,Relacionado,Colombia,Casa
+MM82qnMpy33,01/04/2020,01,04,2020,Abril,Miercoles,Valledupar,Cesar,33,M,Relacionado,Colombia,Casa
+MgSqokhAW27,01/04/2020,01,04,2020,Abril,Miercoles,Valledupar,Cesar,27,M,Relacionado,Colombia,Casa
+FaBF9R_O364,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,64,F,Importado,Aruba,Casa
+F26REcF-W46,01/04/2020,01,04,2020,Abril,Miercoles,cali,Valle del Cauca,46,F,Relacionado,Colombia,Casa
+FgZjREhbP19,01/04/2020,01,04,2020,Abril,Miercoles,Yumbo,Valle del Cauca,19,F,Relacionado,Colombia,Casa
+FbeAY5VWZ39,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,39,F,Relacionado,Colombia,Casa
+Mac5mxwtN12,01/04/2020,01,04,2020,Abril,Miercoles,Palmira,Valle del Cauca,12,M,Relacionado,Colombia,Casa
+M7nvfS7iy64,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,64,M,En estudio,Colombia,Hospital UCI
+FFa9Hb23668,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,68,F,Importado,Suiza,Casa
+MbJwujRLe36,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,36,M,Relacionado,Colombia,Casa
+MRcMhq95p45,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,45,M,Relacionado,Colombia,Casa
+M8itVd8sK32,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,32,M,Importado,Estados Unidos,Casa
+M9k8-npNe51,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,51,M,Importado,Aruba,Casa
+Fu8LCbqyp44,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,44,F,Importado,México,Casa
+MF98rbFfn46,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,46,M,Importado,Estados Unidos,Casa
+FVPnlmTbd39,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,39,F,Relacionado,Colombia,Casa
+F0EO61KqY35,01/04/2020,01,04,2020,Abril,Miercoles,Cali,Valle del Cauca,35,F,Importado,Estados Unidos,Casa
+M8vrJS8t333,01/04/2020,01,04,2020,Abril,Miercoles,Popayan,Cauca,33,M,En estudio,Colombia,Hospital
+FVi4r8VhU32,01/04/2020,01,04,2020,Abril,Miercoles,Popayan,Cauca,32,F,Relacionado,Colombia,Casa
+Mn9tb_j6437,01/04/2020,01,04,2020,Abril,Miercoles,Armenia,Quindio,37,M,Relacionado,Colombia,Casa
+FhwYQR-mH58,01/04/2020,01,04,2020,Abril,Miercoles,Armenia,Quindio,58,F,Relacionado,Colombia,Casa
+MN0dwkNGx22,01/04/2020,01,04,2020,Abril,Miercoles,Filandia,Quindio,22,M,Importado,Estados Unidos,Casa
+F_UE9hid255,01/04/2020,01,04,2020,Abril,Miercoles,Ibague,Tolima,55,F,Importado,Jamaica,Casa
+Fw0WJpM8i63,01/04/2020,01,04,2020,Abril,Miercoles,Ibague,Tolima,63,F,Importado,España,Casa
+FupfiC4nN26,01/04/2020,01,04,2020,Abril,Miercoles,Ibague,Tolima,26,F,Importado,Estados Unidos,Casa
+MoUQVjNmM31,01/04/2020,01,04,2020,Abril,Miercoles,Ibague,Tolima,31,M,En estudio,Colombia,Casa
+MqMJv0uTc57,01/04/2020,01,04,2020,Abril,Miercoles,Barranquilla,Barranquilla D.E.,57,M,Importado,Estados Unidos,Casa
+MN7QtF2nI40,01/04/2020,01,04,2020,Abril,Miercoles,Circasia,Quindio,40,M,Importado,Estados Unidos,Casa
+FBS8qmB3z41,01/04/2020,01,04,2020,Abril,Miercoles,Circasia,Quindio,41,F,Importado,Estados Unidos,Casa
+Mg307tBRm63,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,63,M,En estudio,Colombia,Casa
+FWljuxWrH15,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,15,F,En estudio,Colombia,Casa
+FFfDi7sKZ39,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,39,F,En estudio,Colombia,Casa
+FPcoE_PmX49,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,49,F,Importado,Estados Unidos,Casa
+MUYmPyU2a73,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,73,M,En estudio,Colombia,Fallecido
+Mx3-rONJ572,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,72,M,En estudio,Colombia,Fallecido
+MasEiNOpG35,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+M8gX3Oiav50,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Hospital UCI
+FeoJWTPh951,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,51,F,En estudio,Colombia,Recuperado
+MGoliz8Ea54,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,54,M,En estudio,Colombia,Casa
+FNum9z1Ca31,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,31,F,En estudio,Colombia,Casa
+MSDT8xpeL32,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,32,M,En estudio,Colombia,Casa
+F-iMJchdo23,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,23,F,En estudio,Colombia,Casa
+FF1MnXbPQ30,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,30,F,En estudio,Colombia,Casa
+FxflaB_YI44,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,44,F,En estudio,Colombia,Casa
+F63jmn6pl17,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,17,F,En estudio,Colombia,Casa
+F0ZkWIzfv39,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,39,F,En estudio,Colombia,Casa
+Fy3aKCycP30,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,30,F,En estudio,Colombia,Casa
+MZheVtZOm56,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,56,M,En estudio,Colombia,Casa
+MYFC5N-fX24,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,24,M,En estudio,Colombia,Casa
+Ms8fPzs_M54,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,54,M,En estudio,Colombia,Casa
+MDgA1bDyq29,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,29,M,En estudio,Colombia,Casa
+FbzypqbFE26,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,26,F,En estudio,Colombia,Casa
+FDwOnV2EW32,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,32,F,Relacionado,Colombia,Casa
+Fh9YkQViS66,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,66,F,En estudio,Colombia,Casa
+Fx6_Qk4uV54,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,54,F,En estudio,Colombia,Hospital
+Fism4GLCo56,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,56,F,En estudio,Colombia,Casa
+Ff765PuUq42,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,42,F,En estudio,Colombia,Casa
+MMEjy5wFC23,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,23,M,En estudio,Colombia,Casa
+MM-EkHYt324,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,24,M,En estudio,Colombia,Casa
+MXxOS8Kov12,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,12,M,En estudio,Colombia,Hospital
+FVyeYlQMF64,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,64,F,En estudio,Colombia,Casa
+Fi3gDciw529,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,29,F,Relacionado,Colombia,Casa
+MlgymnjTx32,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,32,M,Relacionado,Colombia,Casa
+Fmj2oid5v21,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,21,F,En estudio,Colombia,Casa
+F_tNjd_ZG22,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,22,F,Relacionado,Colombia,Casa
+Foj0Zao6D58,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,58,F,En estudio,Colombia,Casa
+F6rUzBxIl53,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,53,F,En estudio,Colombia,Hospital
+FJbtaKJVZ56,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,56,F,Relacionado,Colombia,Casa
+M5jd12LBz56,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,56,M,Relacionado,Colombia,Casa
+MhoOwEKFg41,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,41,M,Relacionado,Colombia,Casa
+Fc5dblU7r31,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,31,F,Relacionado,Colombia,Casa
+MlAgP0lxk31,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,31,M,Relacionado,Colombia,Casa
+FNsg3Cqzm40,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,40,F,En estudio,Colombia,Casa
+FqZvHoqt227,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,27,F,Relacionado,Colombia,Casa
+FsZFYzsmG39,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,39,F,Relacionado,Colombia,Casa
+Mu7HdP8qv26,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,26,M,Relacionado,Colombia,Casa
+M51OmD-eQ39,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,39,M,Importado,Estados Unidos,Hospital
+F5jqDYcQ-59,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,59,F,En estudio,Colombia,Casa
+Fjl9vOjLX71,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,71,F,En estudio,Colombia,Hospital UCI
+F9KU4A92q44,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,44,F,En estudio,Colombia,Hospital
+FiX39d8rG24,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,24,F,Relacionado,Colombia,Casa
+FAt6inAz82,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,2,F,En estudio,Colombia,Casa
+MajCu9a4N20,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,20,M,En estudio,Colombia,Casa
+MBOPsTrWf31,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,31,M,Importado,Francia,Casa
+MO7Yg8hbL40,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,40,M,Importado,México,Casa
+FgTGsxi5f34,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,34,F,Importado,Francia,Casa
+M1Ib3n1Qq70,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,70,M,Importado,Estados Unidos,Recuperado
+FcQ4_UVyO74,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,74,F,Relacionado,Colombia,Hospital
+MC_zY6bv530,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,30,M,Importado,Brasil,Casa
+MoT3AuMbv23,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,23,M,En estudio,Colombia,Casa
+FQ48lSi6n31,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,31,F,Relacionado,Colombia,Recuperado
+FRb1A6vN826,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,26,F,En estudio,Colombia,Casa
+MPxswAbvc38,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
+MYZ3OVtnh49,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,49,M,Importado,Turquía,Hospital
+FG6ymZ4I936,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,36,F,Importado,Turquía,Casa
+FqfJAHQCl27,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,27,F,En estudio,Colombia,Casa
+MphInedof26,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,26,M,Importado,España,Casa
+MKR5ACoJM75,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,75,M,Relacionado,Colombia,Hospital
+FpgkHUpfs79,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,79,F,Relacionado,Colombia,Hospital UCI
+F0YSZerxI33,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
+FGuQLbR1v37,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,37,F,Importado,Alemania,Casa
+FrcTPDuC461,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,61,F,Importado,Israel Egipto,Casa
+FGUOntG9o25,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,25,F,Importado,Estados Unidos,Casa
+FSXYpEtuR38,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,38,F,En estudio,Colombia,Hospital
+F1L8OQ1iX39,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,39,F,Relacionado,Colombia,Fallecido
+FCXw85I3y45,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,45,F,Relacionado,Colombia,Casa
+MTnSzsfax47,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,47,M,Relacionado,Colombia,Casa
+FyeLVnQiW47,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,47,F,En estudio,Colombia,Hospital
+FTJNluU9X60,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,60,F,En estudio,Colombia,Hospital UCI
+FWLVXPzvR33,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Hospital
+MDvMA35iX33,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,33,M,En estudio,Colombia,Hospital UCI
+FFs5M7mR232,01/04/2020,01,04,2020,Abril,Miercoles,Santa Rosa,Antioquia,32,F,Importado,Panamá,Casa
+FfXF7KCl340,02/04/2020,02,04,2020,Abril,Jueves,Rionegro,Antioquia,40,F,Importado,Estados Unidos,Hospital
+FQrbHkQyB51,02/04/2020,02,04,2020,Abril,Jueves,Envigado,Antioquia,51,F,Importado,Panamá,Hospital
+Mh7Jskq9Z43,02/04/2020,02,04,2020,Abril,Jueves,Medellin,Antioquia,43,M,Relacionado,Colombia,Casa
+FnfJNYPho63,02/04/2020,02,04,2020,Abril,Jueves,Medellin,Antioquia,63,F,Importado,España,Casa
+Fo6ldXI5p52,02/04/2020,02,04,2020,Abril,Jueves,Medellin,Antioquia,52,F,Importado,Turquía,Casa
+FW4fFiJlt41,02/04/2020,02,04,2020,Abril,Jueves,Medellin,Antioquia,41,F,En estudio,Colombia,Casa
+M85ZEQ83a51,02/04/2020,02,04,2020,Abril,Jueves,Rionegro,Antioquia,51,M,Importado,Estados Unidos,Casa
+F5Mi_ecBI37,02/04/2020,02,04,2020,Abril,Jueves,Medellin,Antioquia,37,F,Importado,Turquía,Casa
+FePbq-e5h39,02/04/2020,02,04,2020,Abril,Jueves,Rionegro,Antioquia,39,F,Importado,Estados Unidos,Casa
+MAhCOL_ti68,02/04/2020,02,04,2020,Abril,Jueves,Itagui,Antioquia,68,M,Importado,Estados Unidos,Casa
+Fb6wcxP_T30,02/04/2020,02,04,2020,Abril,Jueves,Medellin,Antioquia,30,F,Relacionado,Colombia,Casa
+FXrJDcn9L38,02/04/2020,02,04,2020,Abril,Jueves,Medellin,Antioquia,38,F,Importado,España,Casa
+MRf4OURjr33,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,33,M,En estudio,Colombia,Fallecido
+FjAwgZdSU40,02/04/2020,02,04,2020,Abril,Jueves,Anserma,Caldas,40,F,Importado,España,Casa
+FPJjDQPHI57,02/04/2020,02,04,2020,Abril,Jueves,Cali,Valle del Cauca,57,F,En estudio,Colombia,Hospital
+MdTY5Ug_H50,02/04/2020,02,04,2020,Abril,Jueves,Cali,Valle del Cauca,50,M,En estudio,Colombia,Hospital
+FD6P3MF_y44,02/04/2020,02,04,2020,Abril,Jueves,Palmira,Valle del Cauca,44,F,Importado,Estados Unidos,Casa
+MAFyeRZL246,02/04/2020,02,04,2020,Abril,Jueves,Cucuta,Norte de Santander,46,M,Importado,España,Casa
+MkyfjTkoE42,02/04/2020,02,04,2020,Abril,Jueves,Cucuta,Norte de Santander,42,M,Importado,Perú,Casa
+FET-PmDAI70,02/04/2020,02,04,2020,Abril,Jueves,Medellin,Antioquia,70,F,En estudio,Colombia,Casa
+F29LiwubD30,02/04/2020,02,04,2020,Abril,Jueves,Medellin,Antioquia,30,F,Importado,España,Casa
+M-u5GZAq026,02/04/2020,02,04,2020,Abril,Jueves,Envigado,Antioquia,26,M,Importado,México,Casa
+FSusmleE-30,02/04/2020,02,04,2020,Abril,Jueves,Bello,Antioquia,30,F,En estudio,Colombia,Casa
+M20xJ7fdq50,02/04/2020,02,04,2020,Abril,Jueves,Don Matias,Antioquia,50,M,Importado,Estados Unidos,Casa
+MjEVoWQ7w78,02/04/2020,02,04,2020,Abril,Jueves,Caldas,Antioquia,78,M,Relacionado,Colombia,Casa
+MRbzvPSBp37,02/04/2020,02,04,2020,Abril,Jueves,Bello,Antioquia,37,M,Importado,España,Casa
+F2gCBhNs322,02/04/2020,02,04,2020,Abril,Jueves,Medellin,Antioquia,22,F,Relacionado,Colombia,Casa
+M9AejL9-R55,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,55,M,Importado,Perú,Hospital UCI
+F4LuQ64ZK41,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,41,F,En estudio,Colombia,Casa
+M-paxwqk360,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,60,M,En estudio,Colombia,Hospital
+Mv3iYB91j59,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,59,M,Relacionado,Colombia,Hospital UCI
+FbPCF6OnN60,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,60,F,Importado,España,Casa
+M-GYs7uCe23,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,23,M,En estudio,Colombia,Casa
+MjbSxtjPC35,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,35,M,Importado,Turquía,Casa
+FSw76Ntum59,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,59,F,Importado,Estados Unidos,Casa
+MlWmIiEgN36,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,36,M,En estudio,Colombia,Casa
+F0y3eDPpo66,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,66,F,En estudio,Colombia,Casa
+Mp1Nov7Gt39,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,39,M,Importado,Francia,Casa
+MV2hMt1v662,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,62,M,Importado,España,Casa
+Fa1kh_uE430,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,30,F,En estudio,Colombia,Casa
+MF0Q4cyfK71,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,71,M,Importado,Estados Unidos,Casa
+F9-VCgwyn66,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,66,F,Importado,Estados Unidos,Casa
+F56aNrYIM60,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,60,F,En estudio,Colombia,Casa
+MqGCfYq3y57,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,57,M,Importado,Brasil,Casa
+FNviKdj7R21,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,21,F,En estudio,Colombia,Casa
+MIBPvAdW-24,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,24,M,En estudio,Colombia,Casa
+M5XmpiLnI29,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,29,M,Importado,Estados Unidos,Casa
+M94ZTAy2044,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,44,M,En estudio,Colombia,Casa
+Ftf9DUj8B28,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,28,F,En estudio,Colombia,Casa
+FVS9DPTxo50,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,50,F,En estudio,Colombia,Casa
+FNsJIxtol38,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,38,F,Importado,Brasil,Casa
+FR-5wtAWQ39,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,39,F,En estudio,Colombia,Casa
+FsYGRj93t52,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,52,F,En estudio,Colombia,Casa
+FNeQnp-IK74,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,74,F,En estudio,Colombia,Casa
+MmWQ1Cmvl50,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,50,M,Importado,Brasil,Casa
+MKayYGzFh62,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,62,M,En estudio,Colombia,Casa
+F9ZM_ghAb39,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,39,F,Importado,España,Casa
+FFif7NVj_84,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,84,F,Relacionado,Colombia,Hospital
+FVHocQjNe55,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,55,F,Importado,Francia,Casa
+FdYGQ_rFo59,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,59,F,Importado,Francia,Casa
+F7Dvil7Bw5,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,5,F,En estudio,Colombia,Casa
+M7unE0AFU25,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,25,M,Importado,España,Casa
+FpM2Kwpf_47,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,47,F,Importado,México,Casa
+M_R2QPS1x60,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,60,M,En estudio,Colombia,Casa
+FQXWkxyjS37,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,37,F,En estudio,Colombia,Casa
+Me0YaZvRO69,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,69,M,En estudio,Colombia,Casa
+FeR3M8w9N67,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,67,F,En estudio,Colombia,Fallecido
+MzeEUjzyJ59,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,59,M,En estudio,Colombia,Casa
+F-Y9Waw0g28,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,28,F,Relacionado,Colombia,Casa
+FtRKlPz3667,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,67,F,Importado,Estados Unidos,Casa
+Fl92iOH_M29,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
+FfbrV6fkm32,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,32,F,En estudio,Colombia,Casa
+MGrtFA_Ql40,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,40,M,Importado,Arabia,Casa
+F8CSNk8Z125,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,25,F,En estudio,Colombia,Casa
+F58_dp5v922,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,22,F,En estudio,Colombia,Casa
+MZG9SPCqD69,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,69,M,En estudio,Colombia,Casa
+M36g9QXLK0,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,0,M,En estudio,Colombia,Casa
+F5MYn7Ep147,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,47,F,En estudio,Colombia,Casa
+MP2iA-I3Y60,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,60,M,En estudio,Colombia,Casa
+FKODlVMRs29,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
+MGI1OCXpf10,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,10,M,Relacionado,Colombia,Casa
+FmVMQ01AG27,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,27,F,Relacionado,Colombia,Casa
+MDogPGbi052,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,52,M,Relacionado,Colombia,Casa
+FoyK0_oaN49,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,49,F,Relacionado,Colombia,Casa
+MlbR5rW3t50,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Hospital UCI
+FHIzGKH8p47,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,47,F,En estudio,Colombia,Casa
+F2x0tN29K34,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,34,F,Relacionado,Colombia,Casa
+MLYefIzq634,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,34,M,En estudio,Colombia,Casa
+Mx5Y8sdcS20,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,20,M,Importado,Estados Unidos,Casa
+FY9A1_5GU42,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,42,F,En estudio,Colombia,Casa
+MDkyu1lPa32,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,32,M,Importado,México,Casa
+MBiuDcBQE28,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,28,M,Importado,Estados Unidos,Casa
+F2M6VpmSO38,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,38,F,En estudio,Colombia,Casa
+MIoZ7MRb53,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,3,M,En estudio,Colombia,Casa
+MWmvHSWle48,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,48,M,En estudio,Colombia,Casa
+MPdr5NPsu22,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,22,M,Importado,España,Casa
+MB6wElyg043,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,43,M,En estudio,Colombia,Hospital
+Flx8Ms5uR54,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,54,F,Relacionado,Colombia,Casa
+M9_8EW9df57,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,57,M,En estudio,Colombia,Hospital UCI
+M8gZwWcBs57,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,57,M,En estudio,Colombia,Hospital
+FSBuKTiRa28,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,28,F,Relacionado,Colombia,Casa
+MJE6PSYCt58,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,58,M,Relacionado,Colombia,Casa
+FiFy4diZ726,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,26,F,En estudio,Colombia,Casa
+MnMu8mncj75,03/04/2020,03,04,2020,Abril,Viernes,Palmira,Valle del Cauca,75,M,Importado,Estados Unidos,Hospital UCI
+F7XWmCAjk85,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,85,F,En estudio,Colombia,Fallecido
+Fw37VSXjG62,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,62,F,En estudio,Colombia,Hospital
+M8dDqipIF49,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,49,M,Importado,España,Hospital
+Fo1bkaqm-67,03/04/2020,03,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,67,F,Relacionado,Colombia,Casa
+MnNM3p_Zy25,03/04/2020,03,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,25,M,Relacionado,Colombia,Casa
+MhB8kKRWH13,03/04/2020,03,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,13,M,Relacionado,Colombia,Casa
+FYRDQVYjd48,03/04/2020,03,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,48,F,Relacionado,Colombia,Casa
+FTPWMri_m23,03/04/2020,03,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,23,F,Relacionado,Colombia,Casa
+F-voUEtrT62,03/04/2020,03,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,62,F,Relacionado,Colombia,Casa
+MZ9D4QZWn72,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,72,M,Relacionado,Colombia,Hospital
+FaNsOEV_e23,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,23,F,En estudio,Colombia,Casa
+MdcTjmJZ357,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,57,M,En estudio,Colombia,Hospital
+MwhGHTwKZ25,03/04/2020,03,04,2020,Abril,Viernes,Cali,Valle del Cauca,25,M,En estudio,Colombia,Casa
+F1vUi23_a38,03/04/2020,03,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,38,F,Relacionado,Colombia,Casa
+MMgBL9MWZ56,03/04/2020,03,04,2020,Abril,Viernes,Neiva,Huila,56,M,Relacionado,Colombia,Casa
+MCc6hEJQI47,03/04/2020,03,04,2020,Abril,Viernes,Neiva,Huila,47,M,Relacionado,Colombia,Casa
+FLec69LmV37,03/04/2020,03,04,2020,Abril,Viernes,Medellin,Antioquia,37,F,Relacionado,Colombia,Casa
+FL_tkMpyI33,03/04/2020,03,04,2020,Abril,Viernes,Medellin,Antioquia,33,F,En estudio,Colombia,Casa
+M6Y_pc2-H46,03/04/2020,03,04,2020,Abril,Viernes,Medellin,Antioquia,46,M,Importado,España,Casa
+FwAuepg-_29,03/04/2020,03,04,2020,Abril,Viernes,Envigado,Antioquia,29,F,Importado,España,Casa
+MHtV0bMoU58,03/04/2020,03,04,2020,Abril,Viernes,Medellin,Antioquia,58,M,En estudio,Colombia,Casa
+FMfWtLMzR23,03/04/2020,03,04,2020,Abril,Viernes,Medellin,Antioquia,23,F,Importado,Turquía,Casa
+FU9lgn1iQ52,03/04/2020,03,04,2020,Abril,Viernes,Sabaneta,Antioquia,52,F,Importado,Estados Unidos,Casa
+M6rCnS5xV53,03/04/2020,03,04,2020,Abril,Viernes,Medellin,Antioquia,53,M,En estudio,Colombia,Casa
+FP7FpUPuZ34,03/04/2020,03,04,2020,Abril,Viernes,Medellin,Antioquia,34,F,Relacionado,Colombia,Casa
+MsnzmXsor43,03/04/2020,03,04,2020,Abril,Viernes,Medellin,Antioquia,43,M,Relacionado,Colombia,Casa
+FuHneqOLy73,03/04/2020,03,04,2020,Abril,Viernes,Pereira,Risaralda,73,F,Relacionado,Colombia,Hospital
+MY0emrzka0,03/04/2020,03,04,2020,Abril,Viernes,Pereira,Risaralda,0,M,Relacionado,Colombia,Casa
+FsfKR6qMj47,03/04/2020,03,04,2020,Abril,Viernes,Ibague,Tolima,47,F,Importado,Estados Unidos,Casa
+FYWj8osx-24,03/04/2020,03,04,2020,Abril,Viernes,Cucuta,Norte de Santander,24,F,Relacionado,Colombia,Casa
+FBfHSsrk094,03/04/2020,03,04,2020,Abril,Viernes,Villavicencio,Meta,94,F,Relacionado,Colombia,Fallecido
+F5HswbcC_31,03/04/2020,03,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,31,F,Importado,Alemania,Casa
+MzuRXJWwe55,03/04/2020,03,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,55,M,En estudio,Colombia,Casa
+FtJ0FY6UW74,03/04/2020,03,04,2020,Abril,Viernes,Cucuta,Norte de Santander,74,F,Importado,Venezuela,Fallecido
+FQkLt4nlq44,03/04/2020,03,04,2020,Abril,Viernes,Choachi,Cundinamarca,44,F,En estudio,Colombia,Hospital
+M4CE61wFG34,03/04/2020,03,04,2020,Abril,Viernes,Soacha,Cundinamarca,34,M,En estudio,Colombia,Casa
+FVN6RrAho27,03/04/2020,03,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,27,F,Relacionado,Colombia,Casa
+FnH2o1qLb24,03/04/2020,03,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,24,F,Relacionado,Colombia,Casa
+FvuFNnfIg1,03/04/2020,03,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,1,F,En estudio,Colombia,Casa
+FgJzblpu-0,03/04/2020,03,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,0,F,Relacionado,Colombia,Casa
+FRgZByfdL40,03/04/2020,03,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,40,F,Relacionado,Colombia,Casa
+FFafBJ_AU31,03/04/2020,03,04,2020,Abril,Viernes,Cucuta,Norte de Santander,31,F,En estudio,Colombia,Casa
+Mmv3_dXLR54,03/04/2020,03,04,2020,Abril,Viernes,Cucuta,Norte de Santander,54,M,En estudio,Colombia,Hospital UCI
+Fp5SoLxvF28,03/04/2020,03,04,2020,Abril,Viernes,Medellin,Antioquia,28,F,En estudio,Colombia,Casa
+Mad2y41Ot47,03/04/2020,03,04,2020,Abril,Viernes,Medellin,Antioquia,47,M,Importado,México,Casa
+MtvsaPKTb71,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,71,M,En estudio,Colombia,Hospital
+MwhVmawqi45,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,45,M,En estudio,Colombia,Hospital
+MYVlkps_635,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+MRY8-3gej70,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,70,M,En estudio,Colombia,Hospital
+FUFAC7d8Z88,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,88,F,En estudio,Colombia,Hospital
+Fw9GXEjk552,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,52,F,En estudio,Colombia,Casa
+MGcsRvkrC27,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,27,M,Importado,Estados Unidos,Hospital
+FYKv1LYJE71,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,71,F,En estudio,Colombia,Fallecido
+FSORB5tC221,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,21,F,En estudio,Colombia,Casa
+MGi03aGEv41,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,41,M,En estudio,Colombia,Casa
+MFrGki4Uw29,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,29,M,En estudio,Colombia,Casa
+MuTsYyu-446,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,46,M,En estudio,Colombia,Hospital
+F2tdEqQjX70,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,70,F,En estudio,Colombia,Hospital
+MBELMO7Iz36,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,36,M,En estudio,Colombia,Fallecido
+MqDQiZq8L33,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,33,M,En estudio,Colombia,Casa
+M6m3Sn62U26,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,26,M,En estudio,Colombia,Casa
+F6MHnl6dh66,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,66,F,En estudio,Colombia,Hospital
+FV95dCVvh83,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,83,F,En estudio,Colombia,Hospital
+FZGfaCcsY44,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,44,F,Importado,España,Casa
+Ftqrs0t6O34,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,34,F,En estudio,Colombia,Casa
+F_SlvXpo762,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,62,F,En estudio,Colombia,Casa
+MYMtbZYy953,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,53,M,En estudio,Colombia,Hospital
+MGbjtF6mZ64,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,64,M,En estudio,Colombia,Casa
+MSMTCzQOP82,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,82,M,En estudio,Colombia,Fallecido
+FYQNCrGle26,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,26,F,En estudio,Colombia,Casa
+FFNLOSJ897,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,7,F,En estudio,Colombia,Casa
+F_vaGtKN241,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,41,F,En estudio,Colombia,Casa
+FMsz30akH51,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,51,F,En estudio,Colombia,Casa
+MPiUVhSAW58,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,58,M,Importado,Estados Unidos,Casa
+FEGBv6ENn45,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,45,F,En estudio,Colombia,Casa
+MHxR4fm_G26,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,26,M,En estudio,Colombia,Fallecido
+FaHkXZaNS95,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,95,F,En estudio,Colombia,Hospital
+MdZx-WBwn19,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,19,M,En estudio,Colombia,Hospital
+MfTpy2W_G48,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,48,M,En estudio,Colombia,Casa
+FjNmlg49w71,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,71,F,En estudio,Colombia,Casa
+FZb7Y8Er_30,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,30,F,Importado,Estados Unidos,Casa
+FsPWYK5gF45,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,45,F,En estudio,Colombia,Casa
+MhdJ5zEAO76,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,76,M,En estudio,Colombia,Casa
+FAOq3ifCv34,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,34,F,En estudio,Colombia,Casa
+F8-1xk8pz31,03/04/2020,03,04,2020,Abril,Viernes,Madrid,Cundinamarca,31,F,En estudio,Colombia,Casa
+MItcbf_2748,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,48,M,En estudio,Colombia,Hospital
+MyW3uKr0C47,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,47,M,En estudio,Colombia,Casa
+Mmnj1wmRu11,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,11,M,En estudio,Colombia,Casa
+MEh0d3MLJ46,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,46,M,En estudio,Colombia,Casa
+FTvqLRTk864,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,64,F,En estudio,Colombia,Casa
+MMswexMRf55,03/04/2020,03,04,2020,Abril,Viernes,Soledad,Atlantico,55,M,Relacionado,Colombia,Casa
+Fw1lzZDHj39,03/04/2020,03,04,2020,Abril,Viernes,Envigado,Antioquia,39,F,En estudio,Colombia,Casa
+MWDKfyWnE78,03/04/2020,03,04,2020,Abril,Viernes,Itagui,Antioquia,78,M,Importado,Jamaica,Casa
+M0JQyE7WT26,03/04/2020,03,04,2020,Abril,Viernes,Medellin,Antioquia,26,M,Importado,Estados unidos,Casa
+F-i0uHPZQ59,03/04/2020,03,04,2020,Abril,Viernes,Itagui,Antioquia,59,F,Importado,Jamaica,Casa
+FPDrFIPBt9,03/04/2020,03,04,2020,Abril,Viernes,Itagui,Antioquia,9,F,Importado,Jamaica,Casa
+FPV1U7P2g54,03/04/2020,03,04,2020,Abril,Viernes,Itagui,Antioquia,54,F,Importado,Jamaica,Casa
+M2rWJViaj25,03/04/2020,03,04,2020,Abril,Viernes,Cocorna,Antioquia,25,M,Importado,Australia,Casa
+FhOk5tybC31,04/04/2020,04,04,2020,Abril,Sabado,Medellin,Antioquia,31,F,Relacionado,Colombia,Casa
+Mb46BIb7N81,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,81,M,Importado,Panamá,Hospital UCI
+Med2mORU-54,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,54,M,En estudio,Colombia,Hospital
+F41w5xzoG44,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,44,F,Relacionado,Colombia,Casa
+MUz5V8UBS50,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,50,M,En estudio,Colombia,Hospital
+FHnKoQM1Z57,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,57,F,En estudio,Colombia,Hospital UCI
+MX74H-Xbk62,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,62,M,En estudio,Colombia,Hospital
+FEZ9kQpzg55,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,55,F,En estudio,Colombia,Hospital UCI
+FFoIuwixv31,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,31,F,Relacionado,Colombia,Hospital UCI
+MABKCxqQo41,04/04/2020,04,04,2020,Abril,Sabado,Medellin,Antioquia,41,M,En estudio,Colombia,Casa
+MhFESawyl51,04/04/2020,04,04,2020,Abril,Sabado,Sabaneta,Antioquia,51,M,En estudio,Colombia,Casa
+M4tGuM3xF64,04/04/2020,04,04,2020,Abril,Sabado,Monteria,Cordoba,64,M,Relacionado,Colombia,Fallecido
+FMyBdrbkv53,04/04/2020,04,04,2020,Abril,Sabado,La Estrella,Antioquia,53,F,Relacionado,Colombia,Casa
+MHA7BDHvs42,04/04/2020,04,04,2020,Abril,Sabado,Togui,Boyaca,42,M,Relacionado,Colombia,Casa
+FweC6d7sp40,04/04/2020,04,04,2020,Abril,Sabado,Togui,Boyaca,40,F,Relacionado,Colombia,Casa
+FrtgqEP9N29,04/04/2020,04,04,2020,Abril,Sabado,Togui,Boyaca,29,F,Relacionado,Colombia,Casa
+MXuGOY4Hc72,04/04/2020,04,04,2020,Abril,Sabado,Togui,Boyaca,72,M,Relacionado,Colombia,Casa
+MIr0XhIWm50,04/04/2020,04,04,2020,Abril,Sabado,Togui,Boyaca,50,M,Relacionado,Colombia,Casa
+M5JfA0_pa20,04/04/2020,04,04,2020,Abril,Sabado,Togui,Boyaca,20,M,Relacionado,Colombia,Casa
+MCQ7BsDin2,04/04/2020,04,04,2020,Abril,Sabado,Togui,Boyaca,2,M,Relacionado,Colombia,Casa
+FnXfKeIoC41,04/04/2020,04,04,2020,Abril,Sabado,Neiva,Huila,41,F,Relacionado,Colombia,Casa
+MsgJ1CsWj53,04/04/2020,04,04,2020,Abril,Sabado,Neiva,Huila,53,M,Relacionado,Colombia,Casa
+FgYWCbpuj58,04/04/2020,04,04,2020,Abril,Sabado,Mosquera,Cundinamarca,58,F,En estudio,Colombia,Hospital UCI
+FWp43YZcl36,04/04/2020,04,04,2020,Abril,Sabado,Cajica,Cundinamarca,36,F,En estudio,Colombia,Casa
+FqDznUb7536,04/04/2020,04,04,2020,Abril,Sabado,Chia,Cundinamarca,36,F,Relacionado,Colombia,Casa
+FP78jTQ6-28,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,28,F,Importado,Ecuador,Casa
+M436_diWX54,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,54,M,Importado,España,Casa
+MixYrGL6n42,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,42,M,En estudio,Colombia,Casa
+M2_L5lZft28,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,28,M,En estudio,Colombia,Casa
+FOtK0y3Vu60,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,60,F,En estudio,Colombia,Casa
+F0FG3QNqz42,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,42,F,En estudio,Colombia,Casa
+FNugwiNpK93,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,93,F,En estudio,Colombia,Hospital
+FoH-ER2Sp57,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,57,F,En estudio,Colombia,Casa
+MzYph6OUM60,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,60,M,En estudio,Colombia,Casa
+FUFXdVz-837,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,37,F,En estudio,Colombia,Casa
+FDB7CMsmu21,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,21,F,En estudio,Colombia,Casa
+FC2nx7vEi26,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,26,F,Importado,Dubai,Casa
+Fp5q4FnuZ36,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,36,F,En estudio,Colombia,Casa
+M_dfP7T6V57,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,57,M,En estudio,Colombia,Casa
+FoS6GwOsB54,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,54,F,En estudio,Colombia,Casa
+FR4EIfQwn32,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,32,F,En estudio,Colombia,Casa
+MO4iC6Yd527,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,27,M,Importado,Estados Unidos,Casa
+FkwBcZkui25,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,25,F,Importado,Estados Unidos,Casa
+MaQotMjJm48,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,48,M,En estudio,Colombia,Casa
+FBV_jgB3A76,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,76,F,En estudio,Colombia,Casa
+MOToqB97u28,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,28,M,Importado,España,Casa
+F5ZC0qGRu12,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,12,F,En estudio,Colombia,Casa
+MUpndH5Ta23,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,23,M,Importado,Estados Unidos,Casa
+F6ykmgXnQ41,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,41,F,En estudio,Colombia,Casa
+MqHxMLgKI73,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,73,M,En estudio,Colombia,Casa
+FB_lOFwED58,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,58,F,En estudio,Colombia,Hospital
+M-BmxoQ9032,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,32,M,Importado,Ecuador,Casa
+F8O61IFJM26,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,26,F,En estudio,Colombia,Casa
+F-pnL7-Eg26,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,26,F,Importado,Estados Unidos,Casa
+Fiz8jS9nO66,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,66,F,En estudio,Colombia,Casa
+MKDu_WOEX55,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,55,M,Importado,Panamá,Casa
+MK-ZhbDEP30,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Casa
+MtODi-Wd212,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,12,M,En estudio,Colombia,Casa
+FMQ-RUkTH67,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,67,F,Importado,España,Casa
+FEwBCyEJU39,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,39,F,En estudio,Colombia,Casa
+M2PctkCBR92,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,92,M,En estudio,Colombia,Casa
+FwY4fEwiy36,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,36,F,En estudio,Colombia,Casa
+F35NxLW8E67,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,67,F,En estudio,Colombia,Casa
+F5K4Cf5mb29,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,29,F,Importado,Estados Unidos,Casa
+Mxp0eCPMg52,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,52,M,En estudio,Colombia,Hospital
+Mw2j_IO0B5,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,5,M,Relacionado,Colombia,Casa
+FICNeiI5038,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,38,F,Relacionado,Colombia,Casa
+FHkG0sHlS32,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,32,F,En estudio,Colombia,Casa
+F7OBdb79T48,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,48,F,Importado,España,Casa
+MQlN_XQ8f34,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,34,M,Importado,Estados Unidos,Casa
+Fbk-iqB9d32,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,32,F,En estudio,Colombia,Casa
+MhJ9nj63o35,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+FBaikhBrI28,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,28,F,En estudio,Colombia,Casa
+M1CPqgzok18,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,18,M,En estudio,Colombia,Casa
+MJKCVjQen46,04/04/2020,04,04,2020,Abril,Sabado,Chia,Cundinamarca,46,M,Importado,República Dominicana,Hospital
+MXfO4B2ie41,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,41,M,En estudio,Colombia,Casa
+FCUseEQuL67,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,67,F,En estudio,Colombia,Casa
+MiBmHP0Lh85,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,85,M,En estudio,Colombia,Fallecido
+Mo_NFmAq126,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,26,M,En estudio,Colombia,Casa
+Mw12gGPuv58,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,58,M,En estudio,Colombia,Casa
+F4Z0kF4mw32,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,32,F,Importado,Estados Unidos,Casa
+MxUaq03tv61,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,61,M,Importado,Ecuador,Casa
+M1oxtNpMa32,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,32,M,En estudio,Colombia,Casa
+F6i5PF6pK64,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,64,F,En estudio,Colombia,Casa
+MNcz6Z7yr28,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,28,M,Importado,España,Casa
+MSXnmC1hY30,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Casa
+F1WjCl1QB29,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
+Fd4LSlpZi37,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,37,F,En estudio,Colombia,Casa
+FgptzoBuf41,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,41,F,En estudio,Colombia,Casa
+M5eG32WfC62,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,62,M,En estudio,Colombia,Casa
+FFO5c0F_z42,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,42,F,En estudio,Colombia,Casa
+MlMJYSlXG66,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,66,M,Importado,Jamaica,Hospital
+MteFfcxDb57,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,57,M,En estudio,Colombia,Casa
+FLSp6xyvU22,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,22,F,En estudio,Colombia,Casa
+MFatTr3Zc51,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,51,M,En estudio,Colombia,Casa
+MM1gscAea54,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,54,M,En estudio,Colombia,Casa
+MZFNLQz7y63,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,63,M,En estudio,Colombia,Hospital
+FrXglp6iJ29,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
+MzkIjhzbB59,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,59,M,En estudio,Colombia,Casa
+MfZFOXWsc75,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,75,M,Importado,Egipto,Casa
+MCqzXJplR33,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,33,M,En estudio,Colombia,Casa
+MfebmFfEY24,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,24,M,En estudio,Colombia,Casa
+M9dRSoIfW31,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,31,M,En estudio,Colombia,Casa
+FHzys-eJp25,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,25,F,En estudio,Colombia,Casa
+MPqsVkPvJ72,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,72,M,En estudio,Colombia,Fallecido
+MXB-TpNGw18,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,18,M,En estudio,Colombia,Casa
+FtoWe1t5T61,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,61,F,En estudio,Colombia,Casa
+MytBbNyDE32,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,32,M,Importado,España,Casa
+M0yAL5mOD36,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,36,M,En estudio,Colombia,Casa
+MW9edrZDF65,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,65,M,En estudio,Colombia,Casa
+FyFIg6GzQ29,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
+FAMRmxvwO35,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,35,F,En estudio,Colombia,Casa
+FB7Lxjshv33,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,33,F,En estudio,Colombia,Casa
+MERbZWmXP35,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+FO_ZLBtAR52,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,52,F,En estudio,Colombia,Casa
+MT1Kaqs3z59,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,59,M,Importado,Panamá,Hospital
+MJl2-SZYb55,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,55,M,En estudio,Colombia,Hospital
+Fi-t7yl3O27,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,27,F,En estudio,Colombia,Casa
+FfUEixc5e63,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,63,F,Relacionado,Colombia,Fallecido
+M68Isy0Fd43,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,43,M,En estudio,Colombia,Casa
+M3xh1s3P946,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,46,M,En estudio,Colombia,Casa
+Mb7gYtbn_90,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,90,M,En estudio,Colombia,Fallecido
+MU9A1LUwB78,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,78,M,En estudio,Colombia,Hospital
+FqcNBHMK429,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
+FEVtusUB927,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,27,F,En estudio,Colombia,Casa
+F9O-YG9iw73,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,73,F,Importado,México,Casa
+FCGkiKhyZ23,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,23,F,En estudio,Colombia,Casa
+MaD-QuaNY48,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,48,M,Importado,Honduras,Casa
+MglZKG6Sp36,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,36,M,En estudio,Colombia,Casa
+MrphVaqvS20,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,20,M,En estudio,Colombia,Casa
+FKV70v1Sq34,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,34,F,En estudio,Colombia,Casa
+FaFmctMRG33,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,33,F,En estudio,Colombia,Casa
+FLZ0SBkYd29,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,29,F,Importado,República Dominicana,Casa
+M02aopgQH48,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,48,M,Importado,Canadá,Hospital
+FOtcubOmL29,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,29,F,Importado,Estados Unidos,Casa
+MomtW_rTN40,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,40,M,En estudio,Colombia,Casa
+MN3ebJ60W32,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,32,M,Relacionado,Colombia,Casa
+Mj6HkM4ls41,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,41,M,Importado,Panamá,Casa
+FlFQLCl9j45,04/04/2020,04,04,2020,Abril,Sabado,Cali,Valle del Cauca,45,F,Relacionado,Colombia,Casa
+MFR1ClQNe70,05/04/2020,05,04,2020,Abril,Domingo,Barranquilla,Barranquilla D.E.,70,M,Relacionado,Colombia,Hospital
+M1eBUfPQV34,05/04/2020,05,04,2020,Abril,Domingo,Medellin,Antioquia,34,M,Importado,Perú,Casa
+F0dn1J0kP37,05/04/2020,05,04,2020,Abril,Domingo,Medellin,Antioquia,37,F,Relacionado,Colombia,Casa
+MXY8aIXe051,05/04/2020,05,04,2020,Abril,Domingo,Envigado,Antioquia,51,M,Importado,Estados Unidos,Hospital
+MRqHheRvB40,05/04/2020,05,04,2020,Abril,Domingo,Medellin,Antioquia,40,M,Relacionado,Colombia,Casa
+FfNdC9IqZ28,05/04/2020,05,04,2020,Abril,Domingo,Envigado,Antioquia,28,F,Relacionado,Colombia,Casa
+F4GelbuNp25,05/04/2020,05,04,2020,Abril,Domingo,Guarne,Antioquia,25,F,Importado,México,Casa
+MCXKHljMG43,05/04/2020,05,04,2020,Abril,Domingo,Itagui,Antioquia,43,M,En estudio,Colombia,Hospital
+MIejFCA_u55,05/04/2020,05,04,2020,Abril,Domingo,Medellin,Antioquia,55,M,Importado,Estados Unidos,Casa
+MiUPQCIwX47,05/04/2020,05,04,2020,Abril,Domingo,Montebello,Antioquia,47,M,Relacionado,Colombia,Casa
+FMXdEy8Kv78,05/04/2020,05,04,2020,Abril,Domingo,Montebello,Antioquia,78,F,Relacionado,Colombia,Casa
+MiQbrSzGZ64,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,64,M,En estudio,Colombia,Hospital UCI
+MjJGFuLzb47,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,47,M,En estudio,Colombia,Hospital
+MDchT9lM-38,05/04/2020,05,04,2020,Abril,Domingo,Guacari,Valle del Cauca,38,M,En estudio,Colombia,Casa
+Fhwm9AhiW38,05/04/2020,05,04,2020,Abril,Domingo,Barranquilla,Barranquilla D.E.,38,F,Importado,Estados Unidos,Casa
+MtUX7ZtPa43,05/04/2020,05,04,2020,Abril,Domingo,Soledad,Atlantico,43,M,En estudio,Colombia,Fallecido
+FMe60nmyf44,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,44,F,En estudio,Colombia,Hospital UCI
+F6g4miGnf34,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,34,F,En estudio,Colombia,Hospital
+FHqVKUMop25,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,25,F,En estudio,Colombia,Hospital UCI
+FFgGoVe5h53,05/04/2020,05,04,2020,Abril,Domingo,Itagui,Antioquia,53,F,Relacionado,Colombia,Casa
+Mmybq3GsY37,05/04/2020,05,04,2020,Abril,Domingo,Apartado,Antioquia,37,M,En estudio,Colombia,Casa
+M3orUHt7v58,05/04/2020,05,04,2020,Abril,Domingo,Medellin,Antioquia,58,M,En estudio,Colombia,Hospital
+FYvLEinSB32,05/04/2020,05,04,2020,Abril,Domingo,Bello,Antioquia,32,F,En estudio,Colombia,Casa
+FeF4-NeEt8,05/04/2020,05,04,2020,Abril,Domingo,Cota,Cundinamarca,8,F,Relacionado,Colombia,Casa
+FqVxOB-0b45,05/04/2020,05,04,2020,Abril,Domingo,Zipaquira,Cundinamarca,45,F,Importado,Estados Unidos,Casa
+MRoJmj8EN52,05/04/2020,05,04,2020,Abril,Domingo,Tenjo,Cundinamarca,52,M,En estudio,Colombia,Hospital
+MwmO0TvCh51,05/04/2020,05,04,2020,Abril,Domingo,Bello,Antioquia,51,M,En estudio,Colombia,Casa
+MNthqWN0n37,05/04/2020,05,04,2020,Abril,Domingo,Apartado,Antioquia,37,M,Importado,Turquía,Casa
+FRhMIo2p454,05/04/2020,05,04,2020,Abril,Domingo,Medellin,Antioquia,54,F,Relacionado,Colombia,Casa
+FNuazfNC949,05/04/2020,05,04,2020,Abril,Domingo,Bello,Antioquia,49,F,Relacionado,Colombia,Casa
+MPB8ft3uJ40,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,40,M,En estudio,Colombia,Casa
+MkyHPXkq325,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,25,M,Relacionado,Colombia,Casa
+FPe07iHca49,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,49,F,Relacionado,Colombia,Casa
+FHx38mcOX38,05/04/2020,05,04,2020,Abril,Domingo,Palmira,Valle del Cauca,38,F,Relacionado,Colombia,Casa
+F1Rltw1Gh40,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,40,F,Relacionado,Colombia,Casa
+MhANIRTue53,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,53,M,Importado,España,Casa
+FKMpYgb8-34,05/04/2020,05,04,2020,Abril,Domingo,Medellin,Antioquia,34,F,En estudio,Colombia,Hospital
+F71xpVoCh50,05/04/2020,05,04,2020,Abril,Domingo,Soledad,Atlantico,50,F,En estudio,Colombia,Casa
+FjS2XdnMp23,05/04/2020,05,04,2020,Abril,Domingo,Medellin,Antioquia,23,F,Relacionado,Colombia,Casa
+MWPpfJWId27,05/04/2020,05,04,2020,Abril,Domingo,Caldas,Antioquia,27,M,Relacionado,Colombia,Casa
+FwNo36cG763,05/04/2020,05,04,2020,Abril,Domingo,Medellin,Antioquia,63,F,Importado,República Dominicana,Casa
+FCQjuaT_F26,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,26,F,En estudio,Colombia,Casa
+MZczT94kr31,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,31,M,En estudio,Colombia,Hospital
+MYyxvFM9q35,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,35,M,En estudio,Colombia,Hospital
+FOYRDC6yu43,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,43,F,En estudio,Colombia,Hospital
+MlSTaIVFq26,05/04/2020,05,04,2020,Abril,Domingo,Buenaventura,Valle del Cauca,26,M,En estudio,Colombia,Hospital
+M3u-fX3m_37,05/04/2020,05,04,2020,Abril,Domingo,Acacias,Meta,37,M,Relacionado,Colombia,Casa
+MxSXDn0Qr34,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,34,M,Importado,Estados Unidos,Casa
+FpwcDMpdi59,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,59,F,En estudio,Colombia,Casa
+MfTPAHfJ757,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,57,M,En estudio,Colombia,Fallecido
+M2F4i6nWv37,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,37,M,Importado,Estados Unidos,Casa
+F9v-bG9fR34,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,34,F,Importado,España,Casa
+FUCPuS2Zt45,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,45,F,Importado,Estados Unidos,Casa
+FcmpsVA5h49,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,49,F,En estudio,Colombia,Casa
+MIJCqZIxQ31,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,31,M,En estudio,Colombia,Hospital
+MYDHa-Omp66,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,66,M,En estudio,Colombia,Hospital
+MlQcbS_ZL62,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,62,M,En estudio,Colombia,Hospital
+FliKID0Sa22,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,22,F,Relacionado,Colombia,Casa
+FaKSFW_-O33,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,33,F,En estudio,Colombia,Casa
+MUM-RCObZ50,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Hospital
+MCYGv_C0P36,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,36,M,En estudio,Colombia,Casa
+M85FDw_yq28,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,28,M,En estudio,Colombia,Casa
+MemwKrB1O31,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,31,M,Importado,Estados Unidos,Casa
+MxK6wj-bO48,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,48,M,En estudio,Colombia,Hospital
+FoTcDPo5d50,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,50,F,En estudio,Colombia,Casa
+F3yzmfMCk84,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,84,F,En estudio,Colombia,Casa
+FU_fE58Bd45,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,45,F,En estudio,Colombia,Casa
+MkAwj9kYx48,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,48,M,En estudio,Colombia,Casa
+MqrE1aqcM37,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,37,M,En estudio,Colombia,Casa
+MD-dF46Lw42,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,42,M,En estudio,Colombia,Casa
+M3knTcmPd44,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,44,M,En estudio,Colombia,Casa
+Fjh03aMTf32,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,32,F,En estudio,Colombia,Casa
+MQYLPK8oT38,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,38,M,En estudio,Colombia,Hospital
+MarTc4ajn71,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,71,M,En estudio,Colombia,Hospital
+FKwtA0zUc49,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,49,F,En estudio,Colombia,Casa
+MWQ8nkaiU19,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,19,M,En estudio,Colombia,Casa
+FeW6wpoB997,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,97,F,En estudio,Colombia,Hospital
+MxKtgqxC575,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,75,M,En estudio,Colombia,Hospital
+FFQVovFth56,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,56,F,En estudio,Colombia,Hospital
+Mz3DVgAbr49,06/04/2020,06,04,2020,Abril,Lunes,Barrancabermeja,Santander,49,M,En estudio,Colombia,Hospital UCI
+MdAF0zsNb65,06/04/2020,06,04,2020,Abril,Lunes,Floridablanca,Santander,65,M,Relacionado,Colombia,Hospital UCI
+FDb1xqDay87,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,87,F,En estudio,Colombia,Hospital
+MmtnvrXdy25,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,25,M,En estudio,Colombia,Casa
+MytiTDyU_29,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,29,M,En estudio,Colombia,Casa
+MaEqUn0I-52,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,52,M,En estudio,Colombia,Hospital
+MrRnNbeyp37,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,37,M,En estudio,Colombia,Casa
+MDQz35DFq52,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,52,M,En estudio,Colombia,Casa
+MUC2flU0F23,06/04/2020,06,04,2020,Abril,Lunes,Bello,Antioquia,23,M,En estudio,Colombia,Casa
+MfJrGeUQo32,06/04/2020,06,04,2020,Abril,Lunes,Sabaneta,Antioquia,32,M,Relacionado,Colombia,Casa
+FLoRxOVb133,06/04/2020,06,04,2020,Abril,Lunes,Caldas,Antioquia,33,F,Relacionado,Colombia,Casa
+MvEqoyeBD63,06/04/2020,06,04,2020,Abril,Lunes,Sabaneta,Antioquia,63,M,Relacionado,Colombia,Casa
+F7dZim-oR42,06/04/2020,06,04,2020,Abril,Lunes,Cali,Valle del Cauca,42,F,En estudio,Colombia,Hospital
+MlBYZnyWA39,06/04/2020,06,04,2020,Abril,Lunes,Cali,Valle del Cauca,39,M,Relacionado,Colombia,Casa
+Me9rp2dtL88,06/04/2020,06,04,2020,Abril,Lunes,El Dovio,Valle del Cauca,88,M,En estudio,Colombia,Casa
+MWkFnGwrV64,06/04/2020,06,04,2020,Abril,Lunes,El Dovio,Valle del Cauca,64,M,En estudio,Colombia,Casa
+MTmNVgh5X22,06/04/2020,06,04,2020,Abril,Lunes,Yumbo,Valle del Cauca,22,M,Importado,Estados Unidos,Casa
+MUvGB-Yza48,06/04/2020,06,04,2020,Abril,Lunes,Cali,Valle del Cauca,48,M,Relacionado,Colombia,Casa
+MrmbXE_KR49,06/04/2020,06,04,2020,Abril,Lunes,Cali,Valle del Cauca,49,M,Relacionado,Colombia,Casa
+MJKTEhxdC59,06/04/2020,06,04,2020,Abril,Lunes,Cali,Valle del Cauca,59,M,Relacionado,Colombia,Hospital
+MRLgNFe5T39,06/04/2020,06,04,2020,Abril,Lunes,Buenaventura,Valle del Cauca,39,M,Relacionado,Colombia,Hospital UCI
+MH_j-kHRe20,06/04/2020,06,04,2020,Abril,Lunes,Barranquilla,Barranquilla D.E.,20,M,Relacionado,Colombia,Casa
+MiTUf3W0Q69,06/04/2020,06,04,2020,Abril,Lunes,Rionegro,Antioquia,69,M,En estudio,Colombia,Hospital
+FOk5LZ7Wq11,06/04/2020,06,04,2020,Abril,Lunes,Medellin,Antioquia,11,F,Relacionado,Colombia,Casa
+FWBcNVzRp55,06/04/2020,06,04,2020,Abril,Lunes,Sabaneta,Antioquia,55,F,En estudio,Colombia,Casa
+FMLrquUxV55,06/04/2020,06,04,2020,Abril,Lunes,Medellin,Antioquia,55,F,En estudio,Colombia,Casa
+Mwm1KofRL59,06/04/2020,06,04,2020,Abril,Lunes,Medellin,Antioquia,59,M,En estudio,Colombia,Hospital
+Mqc1GsqPD52,06/04/2020,06,04,2020,Abril,Lunes,Medellin,Antioquia,52,M,Relacionado,Colombia,Casa
+F45YtkiNP91,06/04/2020,06,04,2020,Abril,Lunes,Medellin,Antioquia,91,F,En estudio,Colombia,Fallecido
+Mk5VAhuIc48,06/04/2020,06,04,2020,Abril,Lunes,Cali,Valle del Cauca,48,M,En estudio,Colombia,Hospital
+FHQgowVA161,06/04/2020,06,04,2020,Abril,Lunes,Cali,Valle del Cauca,61,F,En estudio,Colombia,Hospital
+FQkAicQV557,06/04/2020,06,04,2020,Abril,Lunes,Cali,Valle del Cauca,57,F,En estudio,Colombia,Hospital UCI
+F2vY6_spc54,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,54,F,Importado,Estados Unidos,Casa
+MFxamt0cw66,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,66,M,Importado,Turquía,Hospital
+Fj-7c5Rb639,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,39,F,En estudio,Colombia,Casa
+FDkyPCD7m70,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,70,F,Importado,Egipto,Casa
+M95XGfdix55,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,55,M,En estudio,Colombia,Casa
+MxNUeE2wW31,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,31,M,En estudio,Colombia,Hospital
+FBIgEkia127,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,27,F,En estudio,Colombia,Casa
+FuPo4JMTs27,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,27,F,En estudio,Colombia,Casa
+F4e2NuKsG21,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,21,F,En estudio,Colombia,Casa
+FKdJiyDOa35,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,35,F,En estudio,Colombia,Casa
+F5APS35yY31,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,31,F,En estudio,Colombia,Casa
+FzTAepzV-46,06/04/2020,06,04,2020,Abril,Lunes,Chia,Cundinamarca,46,F,En estudio,Colombia,Casa
+FbKTL0uBV33,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,33,F,En estudio,Colombia,Casa
+MWF0gsIkn61,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,61,M,En estudio,Colombia,Casa
+MqYJ_4q2L76,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,76,M,En estudio,Colombia,Hospital UCI
+M2MCEK2Ig57,06/04/2020,06,04,2020,Abril,Lunes,Subachoque,Cundinamarca,57,M,En estudio,Colombia,Casa
+F-y6adn2887,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,87,F,En estudio,Colombia,Casa
+FW4n5EPjK44,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,44,F,En estudio,Colombia,Casa
+MF7RaGKw-30,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Casa
+MqPdTFpO050,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Hospital
+Fp9ts61yJ15,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,15,F,En estudio,Colombia,Hospital
+MMPdm3rgw86,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,86,M,En estudio,Colombia,Hospital
+FGa3X5_0I30,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,30,F,En estudio,Colombia,Casa
+Mwcs7TSZp42,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,42,M,En estudio,Colombia,Casa
+MGVjbEGhC37,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,37,M,Importado,Estados Unidos,Casa
+FnZU4pnrW45,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,45,F,En estudio,Colombia,Casa
+FQyWpX7Yz34,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,34,F,Importado,Perú,Casa
+FmZ7elJiK52,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,52,F,En estudio,Colombia,Casa
+M-U2mLpsj47,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,47,M,En estudio,Colombia,Casa
+F-0hejZBM59,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,59,F,En estudio,Colombia,Casa
+FU_GhRdSe50,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,50,F,En estudio,Colombia,Hospital
+M9cTCXKBI63,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,63,M,En estudio,Colombia,Hospital
+FIwjyrIDb74,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,74,F,En estudio,Colombia,Hospital UCI
+FlFiLIlKh8,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,8,F,En estudio,Colombia,Casa
+FwUrhWwKc66,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,66,F,En estudio,Colombia,Hospital
+F1ON524K-85,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,85,F,Importado,España,Casa
+M5eMYoKZ355,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,55,M,En estudio,Colombia,Casa
+FS6x_ZNXy26,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,26,F,En estudio,Colombia,Casa
+FPG4zOPXr29,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
+FTPRveUQt31,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,31,F,En estudio,Colombia,Casa
+MhYCQPMFn23,06/04/2020,06,04,2020,Abril,Lunes,San Juan de Rio Seco,Cundinamarca,23,M,En estudio,Colombia,Casa
+MHhlNdK7b35,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+M47s1M4wG15,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,15,M,En estudio,Colombia,Casa
+Four_bo3J16,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,16,F,En estudio,Colombia,Casa
+Fy4KJvWH31,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,1,F,En estudio,Colombia,Casa
+Fq7G1wcxS31,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,31,F,En estudio,Colombia,Casa
+MWH7mypvV34,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,34,M,En estudio,Colombia,Casa
+FbFW413fi67,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,67,F,Importado,Egipto,Casa
+F6H8r16U553,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,53,F,En estudio,Colombia,Casa
+FGMEnKjT_51,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,51,F,En estudio,Colombia,Casa
+MZANlJXij82,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,82,M,En estudio,Colombia,Casa
+MXxBpCV0650,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Casa
+MMnrQlgiw45,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,45,M,En estudio,Colombia,Casa
+FcLHN4uCO45,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,45,F,En estudio,Colombia,Casa
+FKLRFSo6b66,06/04/2020,06,04,2020,Abril,Lunes,Bogota,Bogota D.C.,66,F,En estudio,Colombia,Hospital
+M02Ln90Fi55,06/04/2020,06,04,2020,Abril,Lunes,Cali,Valle del Cauca,55,M,En estudio,Colombia,Hospital UCI
+FufAS5mlW3,06/04/2020,06,04,2020,Abril,Lunes,Popayan,Cauca,3,F,Relacionado,Colombia,Fallecido
+FpTfRdQyu42,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,42,F,En estudio,Colombia,Casa
+M_TAel8xX15,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,15,M,Relacionado,Colombia,Casa
+FcCJ29-w130,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,30,F,En estudio,Colombia,Casa
+FBI2cCBiX55,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,55,F,En estudio,Colombia,Casa
+M_K1Vr_8273,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,73,M,En estudio,Colombia,Hospital UCI
+FNpqgkNn831,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,31,F,Importado,Panamá,Casa
+Mj9fRgy4t29,07/04/2020,07,04,2020,Abril,Martes,Cartagena,Cartagena D.T. y C,29,M,En estudio,Colombia,Casa
+FG7a5N8Me76,07/04/2020,07,04,2020,Abril,Martes,Cartagena,Cartagena D.T. y C,76,F,En estudio,Colombia,Casa
+MnbhQWOcA68,07/04/2020,07,04,2020,Abril,Martes,Cartagena,Cartagena D.T. y C,68,M,En estudio,Colombia,Hospital
+M4q6xP4YZ65,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,65,M,Relacionado,Colombia,Casa
+MKSPJOUfN59,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,59,M,Importado,Brasil,Casa
+FIiXQmMLo69,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,69,F,Relacionado,Colombia,Casa
+MyZ7s4iT344,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,44,M,Relacionado,Colombia,Casa
+MRZDLPw6B28,07/04/2020,07,04,2020,Abril,Martes,Yarumal,Antioquia,28,M,Importado,Curazao,Casa
+FoaOAQqem15,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,15,F,Importado,Estados Unidos,Casa
+MVnqCxvUD59,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,59,M,Relacionado,Colombia,Casa
+FzACpXwyd40,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,40,F,Relacionado,Colombia,Casa
+FH0kX4PUa37,07/04/2020,07,04,2020,Abril,Martes,Soledad,Atlantico,37,F,En estudio,Colombia,Casa
+FJj4TcIYR8,07/04/2020,07,04,2020,Abril,Martes,Soledad,Atlantico,8,F,En estudio,Colombia,Casa
+MtTWkrw2v43,07/04/2020,07,04,2020,Abril,Martes,Barranquilla,Barranquilla D.E.,43,M,En estudio,Colombia,Casa
+FI-0bdoZN9,07/04/2020,07,04,2020,Abril,Martes,Soledad,Atlantico,9,F,En estudio,Colombia,Casa
+FH_gnAHrR63,07/04/2020,07,04,2020,Abril,Martes,Soledad,Atlantico,63,F,En estudio,Colombia,Casa
+MSXt43bqE6,07/04/2020,07,04,2020,Abril,Martes,Soledad,Atlantico,6,M,En estudio,Colombia,Casa
+McPl6Ach962,07/04/2020,07,04,2020,Abril,Martes,Barranquilla,Barranquilla D.E.,62,M,En estudio,Colombia,Hospital
+FSf_9VzsI72,07/04/2020,07,04,2020,Abril,Martes,Barranquilla,Barranquilla D.E.,72,F,En estudio,Colombia,Casa
+FDvP_u9tN68,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,68,F,En estudio,Colombia,Casa
+MIvJHkIVb35,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,35,M,En estudio,Colombia,Casa
+MK3dlGCOg26,07/04/2020,07,04,2020,Abril,Martes,Cartago,Valle del Cauca,26,M,En estudio,Colombia,Casa
+FUOQAuEJR56,07/04/2020,07,04,2020,Abril,Martes,Soacha,Cundinamarca,56,F,Relacionado,Colombia,Casa
+MB_aT6F8735,07/04/2020,07,04,2020,Abril,Martes,Madrid,Cundinamarca,35,M,En estudio,Colombia,Casa
+FhjkVWyd420,07/04/2020,07,04,2020,Abril,Martes,Zipaquira,Cundinamarca,20,F,Relacionado,Colombia,Casa
+FRhBV0vKZ32,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,32,F,En estudio,colombia,Casa
+MaTjw47Vo50,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Hospital
+MTKhwvHSy29,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,29,M,Relacionado,Colombia,Casa
+M_UpXD_fg55,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,55,M,En estudio,colombia,Casa
+F4-RtNhbv47,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,47,F,Importado,España,Casa
+FuwHRP5j057,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,57,F,Importado,españa,Casa
+F6M0P1paZ60,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,60,F,Importado,República Dominicana,Casa
+MCjOzKr4p40,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,40,M,En estudio,colombia,Casa
+FmQX3jBw442,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,42,F,En estudio,colombia,Casa
+FS5wYq-L653,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,53,F,En estudio,colombia,Casa
+FIw-Kei3521,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,21,F,En estudio,colombia,Casa
+M7RM964cD28,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,28,M,En estudio,colombia,Casa
+M78pzAKW029,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,29,M,En estudio,colombia,Casa
+FJx0u3lkt23,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,23,F,En estudio,colombia,Casa
+MJ8gPkJsK51,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,51,M,Importado,Estados unidos,Casa
+FQ136ovwt27,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,27,F,En estudio,colombia,Casa
+MlSuiFxyU29,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,29,M,En estudio,colombia,Casa
+FHBvY7sSd45,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,45,F,En estudio,colombia,Casa
+FqKVXQqlN39,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,39,F,En estudio,colombia,Casa
+M8IDnyR9G30,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,30,M,Importado,Puerto Rico,Casa
+ME-ob6WMz77,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,77,M,En estudio,colombia,Hospital
+F6NMlTx8V73,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,73,F,En estudio,colombia,Hospital
+FYCuFxa9I73,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,73,F,En estudio,colombia,Hospital
+FVdS5oPBJ48,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,48,F,En estudio,colombia,Hospital
+FY-jcUTho69,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,69,F,En estudio,colombia,Hospital
+FMnRxEBy738,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,38,F,En estudio,colombia,Casa
+FS8M_2AIj43,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,43,F,Relacionado,Colombia,Casa
+FDeHfIT3A46,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,46,F,Relacionado,Colombia,Casa
+MN5CIuNP236,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,36,M,Relacionado,Colombia,Casa
+Mc-qNfI8H34,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,34,M,Relacionado,Colombia,Casa
+FGRhLeslX31,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,31,F,Relacionado,Colombia,Casa
+FQYfdJQKU22,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,22,F,Importado,Estados unidos,Casa
+Fae4JGaYg48,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,48,F,En estudio,colombia,Hospital
+M1Fd9Jlmj62,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,62,M,En estudio,colombia,Hospital
+FYIPOuUZe54,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,54,F,Relacionado,Colombia,Casa
+FjulWFBbs53,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,53,F,Relacionado,Colombia,Casa
+Mg2RxWBzD44,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,44,M,Relacionado,Colombia,Casa
+MYSyd7FOs36,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,36,M,Importado,Estados unidos,Casa
+FCpamwolI61,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,61,F,Relacionado,Colombia,Casa
+MGgzcjIxa24,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,24,M,Importado,España,Casa
+FgXoKCa8l52,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,52,F,Importado,Perú,Casa
+FpiechPmA39,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,39,F,Relacionado,Colombia,Casa
+FeWzFmyPv49,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,49,F,En estudio,colombia,Casa
+MDZtsM-Nz29,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,29,M,Relacionado,Colombia,Casa
+MEOjheH4q51,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,51,M,En estudio,colombia,Casa
+M_2KPE_1870,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,70,M,Relacionado,Colombia,Casa
+MLU_PTLdV64,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,64,M,Relacionado,Colombia,Casa
+Fv5NxZvF731,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,31,F,En estudio,colombia,Casa
+MmElx0dWX35,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,35,M,En estudio,colombia,Casa
+Fhb5BPhG253,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,53,F,Importado,Estados unidos,Casa
+MkK6-2kxi37,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,37,M,En estudio,colombia,Casa
+Ml7AOq2Ls49,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,49,M,En estudio,colombia,Casa
+MGi9Wh4qX28,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,28,M,Importado,Argentina,Casa
+MO8uanOek44,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,44,M,Relacionado,Colombia,Casa
+FuTlrtzZa28,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,28,F,En estudio,colombia,Casa
+MwdS54wHb50,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,50,M,En estudio,colombia,Casa
+FG12LVhB824,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,24,F,Relacionado,Colombia,Casa
+FtN8YciQL37,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,37,F,Relacionado,Colombia,Casa
+FkYUDt3Ql31,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,31,F,En estudio,colombia,Casa
+MmCYEzZ5L58,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,58,M,Relacionado,Colombia,Casa
+Fpz-Rt48529,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,29,F,En estudio,colombia,Casa
+F-PBkUBWr79,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,79,F,En estudio,colombia,Hospital
+MdYHO6HuT38,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
+Fb5wLqlSI34,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,34,F,Relacionado,Colombia,Casa
+FkAGFCGua60,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,60,F,Importado,España,Casa
+M2wzN9Qi630,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,30,M,Relacionado,Colombia,Casa
+M9G-dSAxa35,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,35,M,Relacionado,Colombia,Casa
+F54mWEXMu62,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,62,F,Relacionado,Colombia,Casa
+FtBWN6W9256,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,56,F,Relacionado,Colombia,Casa
+MhV0ST7Na42,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,42,M,En estudio,Colombia,Hospital
+ML75pB0bW59,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,59,M,Relacionado,Colombia,Casa
+MwYs8RrPA61,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,61,M,En estudio,Colombia,Casa
+M1ADmQWzE24,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,24,M,Relacionado,Colombia,Casa
+FXkhybVOs54,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,54,F,Relacionado,Colombia,Casa
+F8YGKIeCs48,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,48,F,Relacionado,Colombia,Hospital
+FIHEdWX2N28,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,28,F,Importado,Irlanda,Casa
+MhkFDq3iR61,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,61,M,Importado,Puerto Rico,Casa
+Fxsw1deqE30,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,30,F,Relacionado,Colombia,Casa
+MqCYtswN_31,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,31,M,Relacionado,Colombia,Casa
+FY5VdrK3f31,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,31,F,En estudio,Colombia,Casa
+FhD5gK7as32,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,32,F,En estudio,Colombia,Casa
+M03woRq-b53,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,53,M,En estudio,Colombia,Hospital
+Mr65hTQGL74,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,74,M,En estudio,Colombia,Hospital
+MpdtMbmw728,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,28,M,En estudio,Colombia,Hospital
+MoeTdbE_F43,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,43,M,En estudio,Colombia,Hospital
+FaYLvhekM48,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,48,F,En estudio,Colombia,Casa
+FcS5lhMbG48,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,48,F,En estudio,Colombia,Casa
+FfH_lp_Tk68,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,68,F,En estudio,Colombia,Hospital
+FKUQTqAsI29,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,29,F,En estudio,Colombia,Casa
+MzhI1iITm54,07/04/2020,07,04,2020,Abril,Martes,Puerto Tejada,Cauca,54,M,En estudio,Colombia,Hospital
+MB10qpxZh58,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,58,M,En estudio,Colombia,Hospital UCI
+FHeYznsy467,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,67,F,En estudio,Colombia,Hospital UCI
+MjHNbyNKw64,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,64,M,Relacionado,Colombia,Hospital
+MeICyPi7V36,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,36,M,Relacionado,Colombia,Hospital UCI
+MBA8J-qpn5,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,5,M,En estudio,Colombia,Casa
+M4MWfbWZE14,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,14,M,En estudio,Colombia,Hospital
+MFz5XwS2f45,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,45,M,Relacionado,Colombia,Casa
+F4tnIGD8151,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,51,F,Importado,República Dominicana,Casa
+MW0Q69quc45,07/04/2020,07,04,2020,Abril,Martes,Soacha,Cundinamarca,45,M,Relacionado,Colombia,Casa
+MRdtActYD55,07/04/2020,07,04,2020,Abril,Martes,Medeliin,Antioquia,55,M,En estudio,Colombia,Hospital
+F_lx6LRWT48,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,48,F,Importado,Panamá,Casa
+MkSoU4gfa58,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,58,M,En estudio,Colombia,Casa
+FZaq3T9SK62,07/04/2020,07,04,2020,Abril,Martes,Itagui,Antioquia,62,F,Relacionado,Colombia,Casa
+MGM5EgItj57,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,57,M,En estudio,Colombia,Casa
+FHJlgqPMO55,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,55,F,Importado,España,Casa
+ML6FB7F9_56,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,56,M,En estudio,Colombia,Casa
+FLm3YdtTz61,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,61,F,En estudio,Colombia,Casa
+FraFM9Fhz59,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,59,F,Importado,Marruecos,Casa
+Mz4e6vCLo53,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,53,M,Importado,España,Casa
+Mgwh9Dhb249,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,49,M,En estudio,Colombia,Hospital
+FBWPNtP3l34,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,34,F,Importado,Estados Unidos,Hospital
+FtOW_ZMbr31,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,31,F,Importado,Estados Unidos,Casa
+FT_hazFmt41,07/04/2020,07,04,2020,Abril,Martes,Ponedera,Atlantico,41,F,En estudio,Colombia,Casa
+MvX9xB9Ju35,07/04/2020,07,04,2020,Abril,Martes,Santo Tomas,Atlantico,35,M,En estudio,Colombia,Casa
+MSj-ze8NP59,07/04/2020,07,04,2020,Abril,Martes,Galapa,Atlantico,59,M,En estudio,Colombia,Casa
+FoXlB-RDg56,07/04/2020,07,04,2020,Abril,Martes,Cartagena,Cartagena D.T. y C,56,F,En estudio,Colombia,Hospital
+FzcX1Bs5a60,07/04/2020,07,04,2020,Abril,Martes,Cartagena,Cartagena D.T. y C,60,F,En estudio,Colombia,Hospital
+MeM0hcSBa43,07/04/2020,07,04,2020,Abril,Martes,Cartagena,Cartagena D.T. y C,43,M,En estudio,Colombia,Casa
+M1u-av-mA17,07/04/2020,07,04,2020,Abril,Martes,Cartagena,Cartagena D.T. y C,17,M,En estudio,Colombia,Casa
+MKLdU64VM43,07/04/2020,07,04,2020,Abril,Martes,Valledupar,Cesar,43,M,Relacionado,Colombia,Casa
+FQU930hPt28,07/04/2020,07,04,2020,Abril,Martes,Monteria,Cordoba,28,F,En estudio,Colombia,Hospital
+MEhuRAkJP6,07/04/2020,07,04,2020,Abril,Martes,Monteria,Cordoba,6,M,En estudio,Colombia,Hospital
+FkwLybD6n74,07/04/2020,07,04,2020,Abril,Martes,Cienaga de Oro,Cordoba,74,F,En estudio,Colombia,Hospital
+FWjXu51Ml47,07/04/2020,07,04,2020,Abril,Martes,Monteria,Cordoba,47,F,En estudio,Colombia,Hospital
+FoIFxmFeU40,07/04/2020,07,04,2020,Abril,Martes,Santa Marta,Santa Marta D.T. y C.,40,F,En estudio,Colombia,Casa
+Mcfs8_h6E42,07/04/2020,07,04,2020,Abril,Martes,Santa Marta,Santa Marta D.T. y C.,42,M,En estudio,Colombia,Hospital
+MNYyVGyqr69,07/04/2020,07,04,2020,Abril,Martes,Pasto,Narino,69,M,Importado,0,Hospital UCI
+FqA_4XPI14,07/04/2020,07,04,2020,Abril,Martes,Circasia,Quindio,4,F,Relacionado,Colombia,Casa
+F-Hi4SBTG25,07/04/2020,07,04,2020,Abril,Martes,Armenia,Quindio,25,F,En estudio,Colombia,Casa
+FCWSugRvK57,07/04/2020,07,04,2020,Abril,Martes,Armenia,Quindio,57,F,Relacionado,Colombia,Casa
+F6Lrdez2166,07/04/2020,07,04,2020,Abril,Martes,Armenia,Quindio,66,F,Relacionado,Colombia,Casa
+Me56Kvn2P42,07/04/2020,07,04,2020,Abril,Martes,Armenia,Quindio,42,M,Relacionado,Colombia,Casa
+MAxyUtFh540,07/04/2020,07,04,2020,Abril,Martes,Armenia,Antioquia,40,M,En estudio,Colombia,Casa
+Fb13F-Stp27,07/04/2020,07,04,2020,Abril,Martes,Armenia,Quindio,27,F,Relacionado,0,Casa
+Mk-aPMS1721,07/04/2020,07,04,2020,Abril,Martes,Armenia,Quindio,21,M,Relacionado,0,Casa
+F5UJb1DkG63,07/04/2020,07,04,2020,Abril,Martes,Calarca,Quindio,63,F,Relacionado,0,Casa
+MQpTJwThH72,07/04/2020,07,04,2020,Abril,Martes,Calarca,Quindio,72,M,Relacionado,0,Casa
+FRiPo-OBH18,07/04/2020,07,04,2020,Abril,Martes,Calarca,Quindio,18,F,Relacionado,0,Casa
+M8Cn4qPEQ33,07/04/2020,07,04,2020,Abril,Martes,Calarca,Quindio,33,M,Relacionado,0,Casa
+Fs5YKquCo33,07/04/2020,07,04,2020,Abril,Martes,Pereira,Risaralda,33,F,En estudio,Colombia,Casa
+FMJPNWO4r34,07/04/2020,07,04,2020,Abril,Martes,Pereira,Risaralda,34,F,En estudio,Colombia,Casa
+MKo59J5Ng45,07/04/2020,07,04,2020,Abril,Martes,Santa Rosa de Cabal,Risaralda,45,M,En estudio,Colombia,Casa
+Fd0RSmRB633,07/04/2020,07,04,2020,Abril,Martes,Dosquebradas,Risaralda,33,F,Importado,Estados Unidos,Casa
+FpxM01ae730,07/04/2020,07,04,2020,Abril,Martes,Pereira,Risaralda,30,F,Importado,España,Hospital
+M3fIeaDAU32,07/04/2020,07,04,2020,Abril,Martes,Pereira,Risaralda,32,M,En estudio,Colombia,Casa
+F4Ccfybta57,07/04/2020,07,04,2020,Abril,Martes,Pereira,Risaralda,57,F,En estudio,Colombia,Casa
+FZurAHkYh67,07/04/2020,07,04,2020,Abril,Martes,Pereira,Risaralda,67,F,Importado,España,Hospital UCI
+FD3WNH8ix29,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,29,F,En estudio,Colombia,Hospital
+MXI2nOFDW80,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,80,M,En estudio,Colombia,Hospital
+MBwesaLd831,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,31,M,En estudio,Colombia,Casa
+FbXrPGrQC53,07/04/2020,07,04,2020,Abril,Martes,Cartago,Valle del Cauca,53,F,Importado,Panamá,Casa
+M03ITEIws52,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,52,M,En estudio,Colombia,Hospital
+Fa43OQKwC59,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,59,F,En estudio,Colombia,Hospital
+MbrP1oy2w23,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,23,M,En estudio,Colombia,Hospital
+F-2vrTvBO25,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,25,F,En estudio,Colombia,Casa
+Mny6WN6Ag34,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,34,M,Importado,Ecuador,Casa
+MAeI0p6Co43,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,43,M,En estudio,Colombia,Casa
+MVn6_F1sf25,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,25,M,En estudio,Colombia,Casa
+FHn5ZE8DN58,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,58,F,En estudio,Colombia,Hospital
+M12G5LX3E21,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,21,M,En estudio,Colombia,Casa
+MK5RFNq4w32,07/04/2020,07,04,2020,Abril,Martes,Buga,Valle del Cauca,32,M,En estudio,Colombia,Casa
+Me7c5y8YM51,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,51,M,En estudio,Colombia,Casa
+FFxG39sIP49,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,49,F,En estudio,Colombia,Casa
+Mc-iupAbz49,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,49,M,En estudio,Colombia,Hospital
+FJvpjKM5W40,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,40,F,En estudio,Colombia,Casa
+MNfhYAh9w29,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,29,M,En estudio,Colombia,Casa
+M53VftVOd35,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,35,M,En estudio,Colombia,Casa
+McF0j4NCe23,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,23,M,Relacionado,Colombia,Casa
+FudpflpBD32,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,32,F,Relacionado,Colombia,Casa
+Mry7Y6BTl49,07/04/2020,07,04,2020,Abril,Martes,Cali,Valle del Cauca,49,M,En estudio,Colombia,Casa
+MKoySeZg625,07/04/2020,07,04,2020,Abril,Martes,Tulua,Valle del Cauca,25,M,Importado,Panamá,Casa
+MHvD2YDJK29,07/04/2020,07,04,2020,Abril,Martes,Tulua,Valle del Cauca,29,M,Importado,Panamá,Casa
+MZ28c3DF512,07/04/2020,07,04,2020,Abril,Martes,Palmira,Valle del Cauca,12,M,En estudio,Colombia,Casa
+MPCWUQWaJ36,07/04/2020,07,04,2020,Abril,Martes,Palmira,Valle del Cauca,36,M,Importado,Ecuador,Casa
+FmLO1jOFE15,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,15,F,Relacionado,0,Casa
