@@ -63,7 +63,7 @@ URL_DATASET = 'https://e.infogram.com/api/live/flex/bc384047-e71c-47d9-b606-1eb6
 
 # %%
 # Reading the json as a dict
-with requests.get(URL_DATASET) as original_dataset#error
+with requests.get(URL_DATASET) as original_dataset:
     data = original_dataset.json()
 #print(data)
 
