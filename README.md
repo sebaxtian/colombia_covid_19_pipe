@@ -19,7 +19,7 @@ See [./src](./src) directory.
 
 ## Datasets
 
-See [./output](./src) directory.
+See [./output](./output) directory.
 
 ## Documentation
 
