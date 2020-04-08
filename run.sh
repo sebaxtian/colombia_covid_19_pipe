@@ -9,8 +9,20 @@ cd ./src
 # Run Python script
 echo "Running Colombia Covid 19 Pipeline ..."
 python3 colombia_covid_19_pipe.py
-# Go back to main directory
-cd ../
-# Finish
-echo "Finished !"
-echo "The Pipeline output is generated within ./output directory."
+# Check any error
+if [ $? -eq 0 ]; then    
+    # Go back to main directory
+    cd ../
+    # Finish without error
+    echo "Finished !"
+    echo "The Pipeline output is generated within ./output directory."
+    # Success
+    exit 0
+else
+    # Go back to main directory
+    cd ../
+    # Finish with error
+    echo "Finish with errors ! FAIL"
+    # Fail
+    exit -1
+fi
