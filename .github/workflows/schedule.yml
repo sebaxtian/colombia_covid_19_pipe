@@ -8,7 +8,7 @@ on:
     - cron: '*/30 * * * *'
 
 jobs:
-  build-merge:
+  schedule:
 
     runs-on: ubuntu-latest
 
