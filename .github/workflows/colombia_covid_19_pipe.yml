@@ -15,24 +15,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.8
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-    - name: Colombia Covid 19 Pipeline
-      run: |
-        # Run Colombia Covid 19 Pipeline
-        ./run.sh
-    - uses: actions/checkout@master
-    - name: Merge to master branch
-      uses: devmasx/merge-branch@v1.1.0
-      with:
-        type: now
-        target_branch: 'master'
-      env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      # Setup Python
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      # Install Python dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      # Run Python Script
+      - name: Colombia Covid 19 Pipeline
+        run: |
+          # Run Colombia Covid 19 Pipeline
+          ./run.sh
+      # Setup Merge to master branch
+      - uses: actions/checkout@master
+      - name: Merge to master branch
+        uses: devmasx/merge-branch@v1.1.0
+        with:
+          type: now
+          target_branch: 'master'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
