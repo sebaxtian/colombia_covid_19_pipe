@@ -34,7 +34,7 @@ jobs:
       # Setup Merge to master branch
       - uses: actions/checkout@master
       - name: Merge to master branch
-        if: failure()
+        if: success()
         uses: devmasx/merge-branch@v1.1.0
         with:
           type: now
