@@ -10,7 +10,7 @@ on:
     branches: [ dev ]
 
 jobs:
-  build:
+  build-merge:
 
     runs-on: ubuntu-latest
 
@@ -34,6 +34,7 @@ jobs:
       # Setup Merge to master branch
       - uses: actions/checkout@master
       - name: Merge to master branch
+        if: failure()
         uses: devmasx/merge-branch@v1.1.0
         with:
           type: now
