@@ -1,6 +1,6 @@
-# Colombia Covid 19 Pipeline
+![Colombia Covid 19 Pipeline](https://github.com/sebaxtian/colombia_covid_19_pipe/workflows/Colombia%20Covid%2019%20Pipeline/badge.svg?branch=dev)
 
-![Colombia Covid 19 Pipeline](https://github.com/sebaxtian/colombia_covid_19_pipe/workflows/Colombia%20Covid%2019%20Pipeline/badge.svg)
+# Colombia Covid 19 Pipeline
 
 Pipeline to get dataset from [Instituto Nacional de Salud](https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx) daily report Coronavirus Covid 19 of Colombia.
 
