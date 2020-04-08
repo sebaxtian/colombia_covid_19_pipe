@@ -28,19 +28,11 @@ jobs:
       run: |
         # Run Colombia Covid 19 Pipeline
         ./run.sh
-        # Action Finish
-        echo "Action Finish"
-  
-  merge-branch:
-    
-    runs-on: ubuntu-latest
-    
-    steps:
-      - uses: actions/checkout@master
-      - name: Merge to master branch
-        uses: devmasx/merge-branch@v1.1.0
-        with:
-          type: now
-          target_branch: 'master'
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    - uses: actions/checkout@master
+    - name: Merge to master branch
+      uses: devmasx/merge-branch@v1.1.0
+      with:
+        type: now
+        target_branch: 'master'
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
