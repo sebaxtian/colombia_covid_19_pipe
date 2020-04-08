@@ -35,5 +35,5 @@ jobs:
           git config --global user.email 'sebaxtianrioss@gmail.com'
           git config --global user.name 'Sebastian Rios Sabogal'
           git add .
-          git commit -m '$DATE'
+          git commit -m "$DATE"
           git push origin master
