@@ -5,7 +5,7 @@ name: Schedule master branch
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   schedule:
