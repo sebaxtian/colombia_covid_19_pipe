@@ -26,10 +26,15 @@ jobs:
           pip install -r requirements.txt
       # Run Python Script
       - name: Colombia Covid 19 Pipeline
+        env:
+          USER_EMAIL: ${{ 'sebaxtianrioss@gmail.com' }}
+          USER_NAME: ${{ 'Sebastian Rios Sabogal' }}
         run: |
           # Run Colombia Covid 19 Pipeline
           ./run.sh
           DATE=$(date)
+          git config --global user.email $USER_EMAIL
+          git config --global user.name $USER_NAME
           git add .
           git commit -m '$DATE'
           git push origin master
