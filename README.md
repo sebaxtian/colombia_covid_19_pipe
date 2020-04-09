@@ -1,5 +1,9 @@
 ![master](https://github.com/sebaxtian/colombia_covid_19_pipe/workflows/Schedule%20master%20branch/badge.svg?branch=master)
 ![dev](https://github.com/sebaxtian/colombia_covid_19_pipe/workflows/Build%20dev%20branch%20and%20merge%20into%20master%20branch/badge.svg?branch=dev)
+![GitHub](https://img.shields.io/github/license/sebaxtian/colombia_covid_19_pipe?style=plastic)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/sebaxtian/colombia_covid_19_pipe?style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/sebaxtian/colombia_covid_19_pipe?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/sebaxtian/colombia_covid_19_pipe?color=09ca8c&style=plastic)
 
 # Colombia Covid 19 Pipeline
 
