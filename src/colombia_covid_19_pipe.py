@@ -269,6 +269,7 @@ def age_sex_intervals(dataframe):
 covid_df_by_age_sex_interval = covid_df_by_age_sex
 covid_df_by_age_sex_interval['age'] = pd.to_numeric(covid_df_by_age_sex_interval['age'])
 covid_df_by_age_sex_interval = age_sex_intervals(covid_df_by_age_sex_interval)
+covid_df_by_age_sex_interval.sort_values(ascending=False, inplace=True, by=['total'])
 # Show dataframe
 covid_df_by_age_sex_interval.head()
 
@@ -353,7 +354,8 @@ covid_df_by_dept_dist.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_dept_dist.csv
 
 # %%
 # Cases by Care by Date
-list_care = list(set(covid_df['care'].values))
+#list_care = list(set(covid_df['care'].values))
+list_care = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado']
 print('list_care', list_care)
 cases_by_care_by_date = []
 # Each Care
@@ -424,14 +426,14 @@ covid_df_by_kind.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_kind.csv'), index=
 # Reading the json as a dict
 with requests.get('https://infogram.com/api/live/flex/5eb73bf0-6714-4bac-87cc-9ef0613bf697/c9a25571-e7c5-43c6-a7ac-d834a3b5e872?') as original_dataset:
     data = original_dataset.json()
-#print(data['data'][0][3][0])
+#print(data['data'][0][4][0])
 
 # Get attributes and data
-attrs = data['data'][0][3][0]
+attrs = data['data'][0][4][0]
 del data
 #print(attrs)
 descarted_cases = attrs.split('<b>')[1].split('</b>')[0].replace('.', '')
-print(descarted_cases)
+print('Descarted Cases:', descarted_cases)
 
 # %% [markdown]
 # ---
@@ -456,7 +458,7 @@ data = data['data'][2]
 covid_df_samples_processed = pd.DataFrame(data=data, columns=attrs)
 
 # Size dataframe
-covid_df_samples_processed.head()
+covid_df_samples_processed.tail()
 
 
 # %%
@@ -466,7 +468,7 @@ covid_df_samples_processed.rename(columns={
     "Muestras procesadas": "total_samples",
     "Acumulado procesadas": "accum_samples"}, inplace=True)
 # Show dataframe
-covid_df_samples_processed.head()
+covid_df_samples_processed.tail()
 
 
 # %%
@@ -500,11 +502,11 @@ covid_df_samples_processed.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_samples_pro
 # %%
 # Resume
 data = []
-
+# cases_by_care_by_date[N] = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado']
 # Resume Attributes
 data.append(['Confirmados', covid_df_by_date.values[-1][-1]])
 data.append(['Recuperados', cases_by_care_by_date[4].values[-1][-1]])
-data.append(['Muertes', cases_by_care_by_date[2].values[-1][-1]])
+data.append(['Muertes', cases_by_care_by_date[3].values[-1][-1]])
 data.append(['Casos descartados', descarted_cases])
 data.append(['Importado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Importado'].values[0][-1]])
 data.append(['Relacionado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Relacionado'].values[0][-1]])
