@@ -4,10 +4,10 @@
 name: Schedule master branch
 
 on:
-  #push:
-  #  branches: [ master ]
-  schedule:
-    - cron: '*/30 * * * *'
+  push:
+    branches: [ master ]
+  #schedule:
+  #  - cron: '*/30 * * * *'
 
 jobs:
   schedule:
@@ -31,8 +31,13 @@ jobs:
         run: |
           # Run Colombia Covid 19 Pipeline
           ./run.sh
-          git config --global user.email 'sebaxtianrioss@gmail.com'
-          git config --global user.name 'Sebastian Rios Sabogal'
-          git add .
-          git commit -m "Updated at $(date)"
-          git push origin master
+          if [[ $(git status --porcelain) ]]; then
+              echo 'Update Colombia Covid 19 Datasets'
+              git config --global user.email 'sebaxtianrioss@gmail.com'
+              git config --global user.name 'Sebastian Rios Sabogal'
+              git add .
+              git commit -m "Updated at $(date)"
+              git push origin master
+          else
+              echo 'Not Changes'
+          fi
