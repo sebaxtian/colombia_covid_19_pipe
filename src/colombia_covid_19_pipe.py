@@ -19,15 +19,15 @@ from datetime import date
 from calendar import day_name, month_name
 
 # Short ID
-import subprocess
-import sys
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-try:
-    from shortid import ShortId
-except Exception:
-    install('shortid')
-    from shortid import ShortId
+#import subprocess
+#import sys
+#def install(package):
+#    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+#try:
+#    from shortid import ShortId
+#except Exception:
+#    install('shortid')
+#    from shortid import ShortId
 
 # Input data files are available in the "../input/" directory.
 # For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory
@@ -134,9 +134,11 @@ covid_df.head()
 
 # %%
 # Update Case ID
-covid_df['id_case'] = covid_df['id_case'].transform(lambda value: ShortId().generate())
-covid_df['id_case'] = covid_df['sex'] + covid_df['id_case'] + covid_df['age']
-covid_df.head()
+#covid_df['id_case'] = covid_df['id_case'].transform(lambda value: ShortId().generate())
+#covid_df['id_case'] = covid_df['sex'] + covid_df['id_case'] + covid_df['age']
+#covid_df.head()
+covid_df['id_case'] = covid_df.index
+covid_df.tail()
 
 
 # %%
