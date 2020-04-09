@@ -1,4 +1,4 @@
-![Colombia Covid 19 Pipeline](https://github.com/sebaxtian/colombia_covid_19_pipe/workflows/Colombia%20Covid%2019%20Pipeline/badge.svg?branch=dev)
+![Schedule master branch](https://github.com/sebaxtian/colombia_covid_19_pipe/workflows/Schedule%20master%20branch/badge.svg?branch=master)
 
 # Colombia Covid 19 Pipeline
 
