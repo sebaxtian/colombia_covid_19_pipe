@@ -2162,7 +2162,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2160,09/04/2020,09,04,2020,Abril,Jueves,Ipiales,Narino,56,F,En estudio,Colombia,Casa
 2161,09/04/2020,09,04,2020,Abril,Jueves,Cumbitara,Narino,13,M,En estudio,Colombia,Casa
 2162,09/04/2020,09,04,2020,Abril,Jueves,Cucuta,Norte de Santander,15,F,En estudio,Colombia,Casa
-2163,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Norte de Santander,33,F,En estudio,Colombia,Casa
+2163,09/04/2020,09,04,2020,Abril,Jueves,Cucuta,Norte de Santander,33,F,En estudio,Colombia,Casa
 2164,09/04/2020,09,04,2020,Abril,Jueves,Cucuta,Norte de Santander,75,M,En estudio,Colombia,Fallecido
 2165,09/04/2020,09,04,2020,Abril,Jueves,Cucuta,Norte de Santander,27,F,En estudio,Colombia,Casa
 2166,09/04/2020,09,04,2020,Abril,Jueves,Cucuta,Norte de Santander,1,M,En estudio,Colombia,Casa
@@ -2218,7 +2218,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2216,09/04/2020,09,04,2020,Abril,Jueves,Cali,Valle del Cauca,66,M,En estudio,Colombia,Hospital
 2217,09/04/2020,09,04,2020,Abril,Jueves,Cali,Valle del Cauca,77,F,En estudio,Colombia,Hospital
 2218,09/04/2020,09,04,2020,Abril,Jueves,Cali,Valle del Cauca,62,M,En estudio,Colombia,Hospital
-2219,09/04/2020,09,04,2020,Abril,Jueves,Manizales,Valle del Cauca,32,M,En estudio,Colombia,Casa
+2219,09/04/2020,09,04,2020,Abril,Jueves,Cali,Valle del Cauca,32,M,En estudio,Colombia,Casa
 2220,09/04/2020,09,04,2020,Abril,Jueves,Yopal,Casanare,43,F,En estudio,Colombia,Casa
 2221,09/04/2020,09,04,2020,Abril,Jueves,Espinal,Tolima,44,M,En estudio,Colombia,Casa
 2222,09/04/2020,09,04,2020,Abril,Jueves,Ipiales,Narino,42,M,En estudio,Colombia,Hospital
