@@ -490,421 +490,421 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 488,26/03/2020,26,03,2020,Marzo,Jueves,Tunja,Boyaca,69,M,Importado,España,Recuperado
 489,26/03/2020,26,03,2020,Marzo,Jueves,Cali,Valle del Cauca,32,M,Importado,Estados Unidos De América,Casa
 490,26/03/2020,26,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,84,M,Relacionado,Colombia,Fallecido
-491,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,85,M,Importado,España,Hospital UCI
-492,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,65,M,Relacionado,Colombia,Casa
-493,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,23,F,En estudio,Colombia,Casa
-494,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,35,M,Importado,Panama,Casa
-495,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,32,F,Importado,Panama,Casa
-496,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,34,M,Importado,Estados Unidos De América,Casa
-497,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,48,M,Importado,España,Casa
-498,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,42,F,Importado,España,Recuperado
-499,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,28,F,Importado,Chile,Casa
-500,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,28,M,Relacionado,Colombia,Casa
-501,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,31,M,Relacionado,Colombia,Casa
-502,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,50,M,Importado,Ecuador,Casa
-503,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,27,M,Importado,Brasil,Casa
-504,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,52,M,Importado,Francia,Casa
-505,27/3/2020,27,3,2020,Marzo,Viernes,Tocancipa,Cundinamarca,34,F,Importado,España,Casa
-506,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,47,F,Importado,España,Casa
-507,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,35,M,Importado,España,Casa
-508,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,37,M,En estudio,Colombia,Casa
-509,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,72,M,En estudio,Colombia,Fallecido
-510,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,74,F,En estudio,Colombia,Hospital
-511,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,35,M,Importado,España,Casa
-512,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,71,M,En estudio,Colombia,Casa
-513,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,71,M,Relacionado,Colombia,Fallecido
-514,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,50,M,Importado,España,Casa
-515,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,80,F,Importado,España,Casa
-516,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,30,F,Relacionado,Colombia,Casa
-517,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,24,F,Relacionado,Colombia,Casa
-518,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,20,M,Relacionado,Colombia,Casa
-519,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,47,M,Relacionado,Colombia,Casa
-520,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,26,M,Relacionado,Colombia,Casa
-521,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,24,F,Relacionado,Colombia,Casa
-522,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,62,F,Importado,Francia,Casa
-523,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,37,M,Importado,Estados Unidos De América,Casa
-524,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,32,M,Importado,Ecuador,Casa
-525,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,36,F,Relacionado,Colombia,Casa
-526,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,56,F,Relacionado,Colombia,Casa
-527,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
-528,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,51,M,Relacionado,Colombia,Casa
-529,27/3/2020,27,3,2020,Marzo,Viernes,Bogota,Bogota D.C.,43,M,Relacionado,Colombia,Casa
-530,27/3/2020,27,3,2020,Marzo,Viernes,Santa Marta,Santa Marta D.T. y C.,34,F,Relacionado,Colombia,Casa
-531,27/3/2020,27,3,2020,Marzo,Viernes,Puerto Colombia,Atlantico,47,F,En estudio,Colombia,Casa
-532,27/3/2020,27,3,2020,Marzo,Viernes,Barranquilla,Barranquilla D.E.,25,M,Importado,España,Fallecido
-533,27/3/2020,27,3,2020,Marzo,Viernes,Armenia,Quindio,26,M,Importado,Estados Unidos De América,Casa
-534,27/3/2020,27,3,2020,Marzo,Viernes,Soledad,Atlantico,50,M,Relacionado,Colombia,Fallecido
-535,27/3/2020,27,3,2020,Marzo,Viernes,Armenia,Quindio,24,M,Importado,Francia,Casa
-536,27/3/2020,27,3,2020,Marzo,Viernes,Armenia,Quindio,34,F,Relacionado,Colombia,Casa
-537,27/3/2020,27,3,2020,Marzo,Viernes,Santa Marta,Santa Marta D.T. y C.,49,F,Relacionado,Colombia,Casa
-538,27/3/2020,27,3,2020,Marzo,Viernes,Manizales,Caldas,81,M,Relacionado,Colombia,Casa
-539,28/3/2020,28,3,2020,Marzo,Sabado,Mosquera,Cundinamarca,37,M,Importado,Egipto,Recuperado
-540,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,57,F,Relacionado,Colombia,Casa
-541,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,30,M,Importado,Costa Rica,Casa
-542,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,51,M,Relacionado,Colombia,Fallecido
-543,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,27,F,Relacionado,Colombia,Casa
-544,28/3/2020,28,3,2020,Marzo,Sabado,Palmira,Valle del Cauca,9,M,Relacionado,Colombia,Casa
-545,28/3/2020,28,3,2020,Marzo,Sabado,Palmira,Valle del Cauca,60,F,Relacionado,Colombia,Casa
-546,28/3/2020,28,3,2020,Marzo,Sabado,Sahagun,Cordoba,29,F,Importado,España,Recuperado
-547,28/3/2020,28,3,2020,Marzo,Sabado,Pasto,Narino,54,M,Importado,Mexico,Casa
-548,28/3/2020,28,3,2020,Marzo,Sabado,Valledupar,Cesar,16,F,Importado,Inglaterra,Casa
-549,28/3/2020,28,3,2020,Marzo,Sabado,Polonuevo,Atlantico,16,M,En estudio,Colombia,Recuperado
-550,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,29,M,En estudio,Colombia,Casa
-551,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,40,M,Relacionado,Colombia,Casa
-552,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,33,M,Importado,Ecuador,Casa
-553,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,42,M,En estudio,Colombia,Casa
-554,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,39,M,Importado,Ecuador,Casa
-555,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,43,M,Importado,Mexico,Casa
-556,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,82,F,En estudio,Colombia,Casa
-557,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,41,M,Importado,Jamaica,Casa
-558,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,53,M,Relacionado,Colombia,Casa
-559,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,55,F,En estudio,Colombia,Hospital UCI
-560,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,49,M,En estudio,Colombia,Hospital UCI
-561,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,58,F,Relacionado,Colombia,Casa
-562,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,38,F,Relacionado,Colombia,Casa
-563,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,31,F,Relacionado,Colombia,Casa
-564,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,64,F,Relacionado,Colombia,Casa
-565,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,48,F,En estudio,Colombia,Fallecido
-566,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
-567,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
-568,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,57,F,En estudio,Colombia,Fallecido
-569,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,30,M,Relacionado,Colombia,Casa
-570,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,54,M,En estudio,Colombia,Casa
-571,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,53,F,Relacionado,Colombia,Casa
-572,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,38,F,Importado,Cuba,Recuperado
-573,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Hospital
-574,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,38,M,Importado,España,Casa
-575,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,31,F,Importado,Europa,Casa
-576,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
-577,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,37,M,Importado,España,Casa
-578,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,68,F,Importado,Estados Unidos De América,Hospital
-579,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,43,M,Relacionado,Colombia,Casa
-580,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,26,M,Relacionado,Colombia,Casa
-581,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,62,M,Relacionado,Colombia,Casa
-582,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Hospital
-583,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,37,M,Importado,Mexico,Casa
-584,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
-585,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,67,F,Importado,Jamaica,Hospital UCI
-586,28/3/2020,28,3,2020,Marzo,Sabado,Villapinzon,Cundinamarca,67,F,Relacionado,Colombia,Fallecido
-587,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,39,M,Relacionado,Colombia,Casa
-588,28/3/2020,28,3,2020,Marzo,Sabado,Bogota,Bogota D.C.,50,F,Importado,España,Casa
-589,28/3/2020,28,3,2020,Marzo,Sabado,Cartago,Valle del Cauca,58,M,Importado,España,Casa
-590,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,28,F,Relacionado,Colombia,Casa
-591,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,72,M,Importado,España,Hospital
-592,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,47,F,Importado,España,Casa
-593,28/3/2020,28,3,2020,Marzo,Sabado,Cali,Valle del Cauca,27,M,Relacionado,Colombia,Hospital
-594,28/3/2020,28,3,2020,Marzo,Sabado,Medellin,Antioquia,27,F,Importado,Estados Unidos De América,Recuperado
-595,28/3/2020,28,3,2020,Marzo,Sabado,Montebello,Antioquia,52,F,Importado,Panama,Casa
-596,28/3/2020,28,3,2020,Marzo,Sabado,Sabaneta,Antioquia,21,M,Importado,Alemania,Casa
-597,28/3/2020,28,3,2020,Marzo,Sabado,Medellin,Antioquia,24,F,Importado,Estados Unidos De América,Casa
-598,28/3/2020,28,3,2020,Marzo,Sabado,Medellin,Antioquia,32,F,Importado,Estados Unidos De América,Casa
-599,28/3/2020,28,3,2020,Marzo,Sabado,Chinchina,Caldas,25,M,Relacionado,Colombia,Casa
-600,28/3/2020,28,3,2020,Marzo,Sabado,Armenia,Quindio,59,M,Importado,Estados Unidos De América,Casa
-601,28/3/2020,28,3,2020,Marzo,Sabado,Medellin,Antioquia,46,F,Importado,España,Recuperado
-602,28/3/2020,28,3,2020,Marzo,Sabado,Santa Rosa,Antioquia,55,M,Importado,Jamaica,Casa
-603,28/3/2020,28,3,2020,Marzo,Sabado,Barranquilla,Barranquilla D.E.,54,M,Relacionado,Colombia,Casa
-604,28/3/2020,28,3,2020,Marzo,Sabado,Barranquilla,Barranquilla D.E.,37,F,Relacionado,Colombia,Casa
-605,28/3/2020,28,3,2020,Marzo,Sabado,Turbaco,Bolivar,58,M,Relacionado,Colombia,Casa
-606,28/3/2020,28,3,2020,Marzo,Sabado,Cartagena,Cartagena D.T. y C,31,M,Relacionado,Colombia,Casa
-607,28/3/2020,28,3,2020,Marzo,Sabado,Barranquilla,Barranquilla D.E.,47,M,Importado,España,Recuperado
-608,29/3/2020,29,3,2020,Marzo,Domingo,Envigado,Antioquia,51,F,Importado,Turquia,Casa
-609,29/3/2020,29,3,2020,Marzo,Domingo,Envigado,Antioquia,60,M,En estudio,Colombia,Hospital
-610,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,82,F,Importado,Panama,Casa
-611,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,42,M,Importado,España,Hospital UCI
-612,29/3/2020,29,3,2020,Marzo,Domingo,Bello,Antioquia,73,M,Importado,España,Casa
-613,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,64,F,Relacionado,Colombia,Casa
-614,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,46,M,Relacionado,Colombia,Casa
-615,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,12,F,Relacionado,Colombia,Casa
-616,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,32,M,Relacionado,Colombia,Casa
-617,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,62,F,Importado,Ecuador,Casa
-618,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,36,M,Relacionado,Colombia,Fallecido
-619,29/3/2020,29,3,2020,Marzo,Domingo,Palmira,Valle del Cauca,45,M,Importado,Emiratos Arabes,Casa
-620,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,25,M,Relacionado,Colombia,Casa
-621,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,42,F,Importado,España,Casa
-622,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,62,F,Importado,Alemania,Casa
-623,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
-624,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,45,F,Relacionado,Colombia,Casa
-625,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,45,F,Relacionado,Colombia,Casa
-626,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,45,M,Importado,Isla San Martin,Casa
-627,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,42,F,Relacionado,Colombia,Casa
-628,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,42,F,Relacionado,Colombia,Casa
-629,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,62,M,Importado,Puerto Rico,Hospital UCI
-630,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,29,M,Relacionado,Colombia,Casa
-631,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,70,M,Relacionado,Colombia,Casa
-632,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,60,F,Relacionado,Colombia,Casa
-633,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,50,F,Importado,Panama,Casa
-634,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,29,M,Relacionado,Colombia,Casa
-635,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,69,F,Importado,España,Casa
-636,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,52,M,Relacionado,Colombia,Casa
-637,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,58,F,Importado,Mexico,Hospital UCI
-638,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,46,M,Relacionado,Colombia,Casa
-639,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,68,M,En estudio,Colombia,Hospital
-640,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,26,F,Relacionado,Colombia,Casa
-641,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
-642,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,25,F,Importado,Estados Unidos De América,Casa
-643,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,22,F,Importado,Estados Unidos De América,Casa
-644,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,33,M,Relacionado,Colombia,Casa
-645,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,34,F,Importado,España,Casa
-646,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,28,F,Importado,Belgica,Casa
-647,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,42,F,Relacionado,Colombia,Casa
-648,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,51,M,Importado,España,Casa
-649,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,65,M,Relacionado,Colombia,Casa
-650,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,57,M,En estudio,Colombia,Hospital
-651,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,34,M,Relacionado,Colombia,Casa
-652,29/3/2020,29,3,2020,Marzo,Domingo,Bogota,Bogota D.C.,30,M,Relacionado,Colombia,Casa
-653,29/3/2020,29,3,2020,Marzo,Domingo,Bello,Antioquia,33,F,Importado,Jamaica,Casa
-654,29/3/2020,29,3,2020,Marzo,Domingo,Bello,Antioquia,29,M,Importado,Panama,Casa
-655,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,61,F,Relacionado,Colombia,Casa
-656,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,8,F,Relacionado,Colombia,Casa
-657,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,30,F,Relacionado,Colombia,Casa
-658,29/3/2020,29,3,2020,Marzo,Domingo,Neiva,Huila,26,M,Relacionado,Colombia,Casa
-659,29/3/2020,29,3,2020,Marzo,Domingo,Neiva,Huila,21,F,Relacionado,Colombia,Casa
-660,29/3/2020,29,3,2020,Marzo,Domingo,Cali,Valle del Cauca,26,M,Relacionado,Colombia,Casa
-661,29/3/2020,29,3,2020,Marzo,Domingo,Valledupar,Cesar,36,M,Importado,España,Casa
-662,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,16,F,Relacionado,Colombia,Casa
-663,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,42,F,Relacionado,Colombia,Casa
-664,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,24,F,Relacionado,Colombia,Casa
-665,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,24,F,Relacionado,Colombia,Casa
-666,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,29,F,Relacionado,Colombia,Casa
-667,29/3/2020,29,3,2020,Marzo,Domingo,Barranquilla,Barranquilla D.E.,64,M,Relacionado,Colombia,Hospital UCI
-668,29/3/2020,29,3,2020,Marzo,Domingo,Sincelejo,Sucre,21,F,Relacionado,Colombia,Recuperado
-669,29/3/2020,29,3,2020,Marzo,Domingo,Villamaria,Caldas,39,F,Importado,España,Casa
-670,29/3/2020,29,3,2020,Marzo,Domingo,Barranquilla,Barranquilla D.E.,28,F,Relacionado,Colombia,Casa
-671,29/3/2020,29,3,2020,Marzo,Domingo,Barranquilla,Barranquilla D.E.,1,M,Relacionado,Colombia,Casa
-672,29/3/2020,29,3,2020,Marzo,Domingo,Barranquilla,Barranquilla D.E.,35,M,Relacionado,Colombia,Casa
-673,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,33,F,Relacionado,Colombia,Fallecido
-674,29/3/2020,29,3,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,41,M,Importado,Estados Unidos De América,Casa
-675,29/3/2020,29,3,2020,Marzo,Domingo,La Ceja,Antioquia,24,M,En estudio,Colombia,Casa
-676,29/3/2020,29,3,2020,Marzo,Domingo,San Francisco,Antioquia,80,M,En estudio,Colombia,Hospital UCI
-677,29/3/2020,29,3,2020,Marzo,Domingo,Envigado,Antioquia,40,F,Relacionado,Colombia,Casa
-678,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,24,F,Importado,España,Casa
-679,29/3/2020,29,3,2020,Marzo,Domingo,Envigado,Antioquia,18,F,Relacionado,Colombia,Casa
-680,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,5,F,En estudio,Colombia,Casa
-681,29/3/2020,29,3,2020,Marzo,Domingo,Envigado,Antioquia,63,F,Importado,España,Casa
-682,29/3/2020,29,3,2020,Marzo,Domingo,Rionegro,Antioquia,50,M,Relacionado,Colombia,Casa
-683,29/3/2020,29,3,2020,Marzo,Domingo,Medellin,Antioquia,42,M,Importado,Estados Unidos De América,Casa
-684,29/3/2020,29,3,2020,Marzo,Domingo,Bucaramanga,Santander,80,F,Importado,Brasil,Casa
-685,29/3/2020,29,3,2020,Marzo,Domingo,Bucaramanga,Santander,58,M,Importado,Panama,Casa
-686,29/3/2020,29,3,2020,Marzo,Domingo,Bucaramanga,Santander,24,M,Importado,Mexico,Casa
-687,29/3/2020,29,3,2020,Marzo,Domingo,Floridablanca,Santander,46,M,Relacionado,Colombia,Casa
-688,29/3/2020,29,3,2020,Marzo,Domingo,Lorica,Cordoba,35,M,Relacionado,Colombia,Casa
-689,29/3/2020,29,3,2020,Marzo,Domingo,Oicata,Boyaca,72,F,Importado,Francia,Casa
-690,29/3/2020,29,3,2020,Marzo,Domingo,Dosquebradas,Risaralda,55,F,Importado,Turquia,Casa
-691,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,62,F,Relacionado,Colombia,Casa
-692,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,6,F,Relacionado,Colombia,Casa
-693,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,63,M,Relacionado,Colombia,Casa
-694,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,66,F,Relacionado,Colombia,Casa
-695,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,54,F,Relacionado,Colombia,Casa
-696,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,61,M,Relacionado,Colombia,Casa
-697,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,32,M,Relacionado,Colombia,Casa
-698,29/3/2020,29,3,2020,Marzo,Domingo,Dosquebradas,Risaralda,47,M,Importado,Panama,Casa
-699,29/3/2020,29,3,2020,Marzo,Domingo,Pereira,Risaralda,45,F,Importado,Francia,Casa
-700,29/3/2020,29,3,2020,Marzo,Domingo,Arjona,Bolivar,25,M,Relacionado,Colombia,Casa
-701,29/3/2020,29,3,2020,Marzo,Domingo,Arjona,Bolivar,22,F,Importado,Turquia,Casa
-702,30/3/2020,30,3,2020,Marzo,Lunes,Santana,Boyaca,73,F,Relacionado,Colombia,Casa
-703,30/3/2020,30,3,2020,Marzo,Lunes,Cucuta,Norte de Santander,21,F,Importado,Panama,Casa
-704,30/3/2020,30,3,2020,Marzo,Lunes,Sopo,Cundinamarca,60,M,Importado,Estados Unidos De América,Casa
-705,30/3/2020,30,3,2020,Marzo,Lunes,Chia,Cundinamarca,35,M,Importado,Ecuador,Casa
-706,30/3/2020,30,3,2020,Marzo,Lunes,Villapinzon,Cundinamarca,65,M,Relacionado,Colombia,Fallecido
-707,30/3/2020,30,3,2020,Marzo,Lunes,Soacha,Cundinamarca,54,F,Importado,Estados Unidos De América,Casa
-708,30/3/2020,30,3,2020,Marzo,Lunes,Neiva,Huila,32,F,Relacionado,Colombia,Casa
-709,30/3/2020,30,3,2020,Marzo,Lunes,Neiva,Huila,64,F,Relacionado,Colombia,Fallecido
-710,30/3/2020,30,3,2020,Marzo,Lunes,Neiva,Huila,27,F,Importado,España,Casa
-711,30/3/2020,30,3,2020,Marzo,Lunes,Palermo,Huila,45,M,Relacionado,Colombia,Casa
-712,30/3/2020,30,3,2020,Marzo,Lunes,Palermo,Huila,33,F,Importado,Ecuador,Casa
-713,30/3/2020,30,3,2020,Marzo,Lunes,Cartagena,Cartagena D.T. y C,44,F,Relacionado,Colombia,Fallecido
-714,30/3/2020,30,3,2020,Marzo,Lunes,Cartagena,Cartagena D.T. y C,36,F,Importado,Mexico,Casa
-715,30/3/2020,30,3,2020,Marzo,Lunes,Cartagena,Cartagena D.T. y C,49,F,Relacionado,Colombia,Hospital UCI
-716,30/3/2020,30,3,2020,Marzo,Lunes,Santa Marta,Santa Marta D.T. y C.,28,F,Relacionado,Colombia,Casa
-717,30/3/2020,30,3,2020,Marzo,Lunes,La Dorada,Caldas,65,F,Relacionado,Colombia,Casa
-718,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,26,F,Importado,Ecuador,Casa
-719,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,31,M,Importado,Estados Unidos De América,Casa
-720,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,45,F,Importado,España,Casa
-721,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,68,M,Relacionado,Colombia,Fallecido
-722,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,24,M,Relacionado,Colombia,Casa
-723,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,34,M,Importado,España,Casa
-724,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,37,F,Relacionado,Colombia,Casa
-725,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,36,M,En estudio,Colombia,Casa
-726,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,25,M,Importado,Londres,Casa
-727,30/3/2020,30,3,2020,Marzo,Lunes,La Estrella,Antioquia,53,M,Relacionado,Colombia,Casa
-728,30/3/2020,30,3,2020,Marzo,Lunes,Envigado,Antioquia,64,M,Relacionado,Colombia,Casa
-729,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,19,F,Relacionado,Colombia,Casa
-730,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,82,M,Importado,Estados Unidos De América,Casa
-731,30/3/2020,30,3,2020,Marzo,Lunes,Medellin,Antioquia,35,F,Relacionado,Colombia,Casa
-732,30/3/2020,30,3,2020,Marzo,Lunes,Barranquilla,Barranquilla D.E.,31,M,Relacionado,Colombia,Hospital UCI
-733,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Recuperado
-734,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,48,M,En estudio,Colombia,Recuperado
-735,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,32,M,En estudio,Colombia,Hospital
-736,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,26,M,Importado,Estados Unidos De América,Casa
-737,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,Relacionado,Colombia,Casa
-738,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,Importado,Londres,Casa
-739,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,29,F,Relacionado,Colombia,Casa
-740,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,36,F,Importado,Londres,Casa
-741,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
-742,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,75,F,En estudio,Colombia,Hospital UCI
-743,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,27,M,En estudio,Colombia,Hospital
-744,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,F,Importado,Estados Unidos De América,Casa
-745,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,54,F,En estudio,Colombia,Casa
-746,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,52,M,En estudio,Colombia,Casa
-747,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,23,M,Importado,Londres,Hospital
-748,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,50,M,Importado,Jamaica,Casa
-749,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,M,Importado,Jamaica,Casa
-750,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,F,Importado,Jamaica,Casa
-751,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,73,M,Relacionado,Colombia,Casa
-752,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,F,Relacionado,Colombia,Casa
-753,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,28,M,En estudio,Colombia,Casa
-754,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,33,F,Importado,Isla San Martin,Casa
-755,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,Importado,Isla San Martin,Casa
-756,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,F,Importado,Isla San Martin,Casa
-757,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,31,M,Importado,Isla San Martin,Casa
-758,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,74,M,Importado,Isla San Martin,Casa
-759,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,29,M,Importado,España,Casa
-760,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,F,Relacionado,Colombia,Hospital
-761,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,21,F,En estudio,Colombia,Casa
-762,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,57,M,Importado,Argentina,Casa
-763,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,F,En estudio,Colombia,Hospital UCI
-764,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
-765,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Casa
-766,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,31,F,Importado,Estados Unidos De América,Casa
-767,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,46,M,En estudio,Colombia,Casa
-768,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,84,M,Importado,Argentina,Casa
-769,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,En estudio,Colombia,Hospital
-770,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,72,F,Importado,Egipto,Fallecido
-771,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,65,M,Importado,España,Casa
-772,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,33,F,Importado,Turquia,Casa
-773,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,68,F,Importado,Estados Unidos De América,Casa
-774,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,M,Relacionado,Colombia,Casa
-775,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,2,M,Relacionado,Colombia,Casa
-776,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,Relacionado,Colombia,Casa
-777,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,44,M,En estudio,Colombia,Hospital UCI
-778,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Hospital
-779,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,30,F,Relacionado,Colombia,Casa
-780,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,27,F,En estudio,Colombia,Casa
-781,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,35,M,Importado,España,Casa
-782,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,36,M,Relacionado,Colombia,Casa
-783,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,28,M,Importado,España,Casa
-784,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,25,F,Relacionado,Colombia,Casa
-785,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,Relacionado,Colombia,Casa
-786,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,2,F,Relacionado,Colombia,Casa
-787,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,64,F,En estudio,Colombia,Hospital UCI
-788,30/3/2020,30,3,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,M,Importado,Francia,Casa
-789,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,66,M,Relacionado,Colombia,Casa
-790,30/3/2020,30,3,2020,Marzo,Lunes,Palmira,Valle del Cauca,88,M,Relacionado,Colombia,Casa
-791,30/3/2020,30,3,2020,Marzo,Lunes,Cartago,Valle del Cauca,26,F,Relacionado,Colombia,Casa
-792,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,27,M,Relacionado,Colombia,Casa
-793,30/3/2020,30,3,2020,Marzo,Lunes,Palmira,Valle del Cauca,55,F,Importado,España,Casa
-794,30/3/2020,30,3,2020,Marzo,Lunes,Palmira,Valle del Cauca,17,M,Relacionado,Colombia,Casa
-795,30/3/2020,30,3,2020,Marzo,Lunes,Palmira,Valle del Cauca,22,M,Importado,España,Casa
-796,30/3/2020,30,3,2020,Marzo,Lunes,Cali,Valle del Cauca,83,M,Relacionado,Colombia,Hospital
-797,30/3/2020,30,3,2020,Marzo,Lunes,Cartago,Valle del Cauca,63,F,Importado,Panama,Casa
-798,31/3/2020,31,3,2020,Marzo,Martes,Palmira,Valle del Cauca,69,F,Importado,España,Casa
-799,31/3/2020,31,3,2020,Marzo,Martes,Cartago,Valle del Cauca,25,F,Importado,España,Casa
-800,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,44,M,En estudio,Colombia,Casa
-801,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,54,M,Relacionado,Colombia,Hospital
-802,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,20,F,Importado,España,Casa
-803,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,28,M,Importado,España,Casa
-804,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,26,M,Relacionado,Colombia,Casa
-805,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,26,M,En estudio,Colombia,Hospital UCI
-806,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,32,M,Importado,España,Casa
-807,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,30,F,Importado,España,Casa
-808,31/3/2020,31,3,2020,Marzo,Martes,Cali,Valle del Cauca,38,M,Importado,España,Casa
-809,31/3/2020,31,3,2020,Marzo,Martes,Tumaco,Narino,0,M,Importado,Ecuador,Casa
-810,31/3/2020,31,3,2020,Marzo,Martes,Pasto,Narino,76,F,Importado,España,Casa
-811,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,46,M,Relacionado,Colombia,Casa
-812,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,41,M,Relacionado,Colombia,Recuperado
-813,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,38,M,Relacionado,Colombia,Casa
-814,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,31,M,Importado,Estados Unidos De América,Recuperado
-815,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,27,M,Relacionado,Colombia,Casa
-816,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,40,M,Relacionado,Colombia,Casa
-817,31/3/2020,31,3,2020,Marzo,Martes,Valledupar,Cesar,21,M,Relacionado,Colombia,Casa
-818,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,26,M,Importado,Estados Unidos De América,Casa
-819,31/3/2020,31,3,2020,Marzo,Martes,Riohacha,La Guajira,42,M,Importado,Estados Unidos De América,Casa
-820,31/3/2020,31,3,2020,Marzo,Martes,Santa Marta,Santa Marta D.T. y C.,70,M,Relacionado,Colombia,Casa
-821,31/3/2020,31,3,2020,Marzo,Martes,Santa Marta,Santa Marta D.T. y C.,43,M,Relacionado,Colombia,Casa
-822,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,57,F,Relacionado,Colombia,Casa
-823,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,32,F,Relacionado,Colombia,Casa
-824,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,44,M,Importado,España,Casa
-825,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,24,M,Importado,Estados Unidos De América,Casa
-826,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,25,M,Importado,Estados Unidos De América,Casa
-827,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,77,M,Importado,Turquia,Fallecido
-828,31/3/2020,31,3,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,30,F,Relacionado,Colombia,Casa
-829,31/3/2020,31,3,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,55,F,Relacionado,Colombia,Recuperado
-830,31/3/2020,31,3,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,30,F,Relacionado,Colombia,Casa
-831,31/3/2020,31,3,2020,Marzo,Martes,Sabaneta,Antioquia,59,M,Importado,Estados Unidos De América,Casa
-832,31/3/2020,31,3,2020,Marzo,Martes,Medellin,Antioquia,67,F,En estudio,Colombia,Hospital UCI
-833,31/3/2020,31,3,2020,Marzo,Martes,Medellin,Antioquia,66,M,Importado,Marruecos,Casa
-834,31/3/2020,31,3,2020,Marzo,Martes,Medellin,Antioquia,56,F,Relacionado,Colombia,Casa
-835,31/3/2020,31,3,2020,Marzo,Martes,Medellin,Antioquia,67,M,En estudio,Colombia,Hospital UCI
-836,31/3/2020,31,3,2020,Marzo,Martes,Chia,Cundinamarca,57,M,Importado,Mexico,Casa
-837,31/3/2020,31,3,2020,Marzo,Martes,Cota,Cundinamarca,19,M,Importado,Puerto Rico,Casa
-838,31/3/2020,31,3,2020,Marzo,Martes,Cota,Cundinamarca,50,F,Importado,Puerto Rico,Casa
-839,31/3/2020,31,3,2020,Marzo,Martes,Cota,Cundinamarca,57,M,Importado,Puerto Rico,Casa
-840,31/3/2020,31,3,2020,Marzo,Martes,Cota,Cundinamarca,42,F,Importado,Puerto Rico,Casa
-841,31/3/2020,31,3,2020,Marzo,Martes,Cajica,Cundinamarca,25,F,En estudio,Colombia,Casa
-842,31/3/2020,31,3,2020,Marzo,Martes,Cota,Cundinamarca,50,F,Relacionado,Colombia,Casa
-843,31/3/2020,31,3,2020,Marzo,Martes,Zipaquira,Cundinamarca,81,F,En estudio,Colombia,Fallecido
-844,31/3/2020,31,3,2020,Marzo,Martes,Cajica,Cundinamarca,47,F,Importado,Mexico,Casa
-845,31/3/2020,31,3,2020,Marzo,Martes,Villavicencio,Meta,31,F,Importado,Estados Unidos De América,Casa
-846,31/3/2020,31,3,2020,Marzo,Martes,Villavicencio,Meta,29,F,Importado,Estados Unidos De América,Casa
-847,31/3/2020,31,3,2020,Marzo,Martes,Villavicencio,Meta,29,F,Importado,Estados Unidos De América,Casa
-848,31/3/2020,31,3,2020,Marzo,Martes,Cucuta,Norte de Santander,42,M,En estudio,Colombia,Casa
-849,31/3/2020,31,3,2020,Marzo,Martes,Puerto Santander,Norte de Santander,26,M,Relacionado,Colombia,Casa
-850,31/3/2020,31,3,2020,Marzo,Martes,Cucuta,Norte de Santander,50,F,Importado,Canada,Casa
-851,31/3/2020,31,3,2020,Marzo,Martes,Bucaramanga,Santander,25,M,Importado,Mexico,Casa
-852,31/3/2020,31,3,2020,Marzo,Martes,Bucaramanga,Santander,34,M,Importado,Estados Unidos De América,Casa
-853,31/3/2020,31,3,2020,Marzo,Martes,Floridablanca,Santander,57,M,Importado,Estados Unidos De América,Casa
-854,31/3/2020,31,3,2020,Marzo,Martes,Neiva,Huila,36,M,Relacionado,Colombia,Casa
-855,31/3/2020,31,3,2020,Marzo,Martes,Neiva,Huila,33,F,Relacionado,Colombia,Casa
-856,31/3/2020,31,3,2020,Marzo,Martes,Neiva,Huila,61,F,Relacionado,Colombia,Casa
-857,31/3/2020,31,3,2020,Marzo,Martes,Pereira,Risaralda,18,F,Relacionado,Colombia,Casa
-858,31/3/2020,31,3,2020,Marzo,Martes,Pereira,Risaralda,9,M,Importado,España,Casa
-859,31/3/2020,31,3,2020,Marzo,Martes,Pereira,Risaralda,30,F,Importado,España,Casa
-860,31/3/2020,31,3,2020,Marzo,Martes,Pereira,Risaralda,32,F,Relacionado,Colombia,Hospital
-861,31/3/2020,31,3,2020,Marzo,Martes,Pereira,Risaralda,32,M,Importado,España,Casa
-862,31/3/2020,31,3,2020,Marzo,Martes,Pereira,Risaralda,22,F,Importado,Estados Unidos De América,Casa
-863,31/3/2020,31,3,2020,Marzo,Martes,Tunja,Boyaca,84,M,En estudio,Colombia,Fallecido
-864,31/3/2020,31,3,2020,Marzo,Martes,Togui,Boyaca,70,F,Relacionado,Colombia,Casa
-865,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,49,M,Relacionado,Colombia,Casa
-866,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,28,M,Relacionado,Colombia,Casa
-867,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,33,M,Relacionado,Colombia,Hospital
-868,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,69,M,Relacionado,Colombia,Casa
-869,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,2,F,Relacionado,Colombia,Casa
-870,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,39,F,Relacionado,Colombia,Casa
-871,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,50,M,Importado,Ecuador,Casa
-872,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,15,F,Importado,Estados Unidos De América,Casa
-873,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,30,M,Importado,Estados Unidos De América,Casa
-874,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,27,M,Relacionado,Colombia,Casa
-875,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,32,M,Relacionado,Colombia,Hospital UCI
-876,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,58,F,Importado,Turquia,Casa
-877,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,56,F,Relacionado,Colombia,Casa
-878,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,13,M,Relacionado,Colombia,Casa
-879,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,66,F,Relacionado,Colombia,Hospital UCI
-880,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,45,M,Relacionado,Colombia,Hospital
-881,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,40,F,Importado,Mexico,Recuperado
-882,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,55,F,Relacionado,Colombia,Casa
-883,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,18,M,Importado,Inglaterra,Casa
-884,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,56,M,Relacionado,Colombia,Casa
-885,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,65,F,En estudio,Colombia,Hospital UCI
-886,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,36,M,Relacionado,Colombia,Casa
-887,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
-888,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,31,M,En estudio,Colombia,Casa
-889,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,49,M,En estudio,Colombia,Hospital UCI
-890,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,43,F,En estudio,Colombia,Casa
-891,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,28,F,En estudio,Colombia,Casa
-892,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,32,M,En estudio,Colombia,Casa
-893,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,41,M,En estudio,Colombia,Casa
-894,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,38,F,Relacionado,Colombia,Casa
-895,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,18,M,En estudio,Colombia,Casa
-896,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Hospital
-897,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,31,F,Relacionado,Colombia,Casa
-898,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,20,F,Importado,Estados Unidos De América,Casa
-899,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,2,M,En estudio,Colombia,Casa
-900,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,37,M,En estudio,Colombia,Casa
-901,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
-902,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,38,M,En estudio,Colombia,Hospital
-903,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,54,F,En estudio,Colombia,Casa
-904,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,30,F,En estudio,Colombia,Casa
-905,31/3/2020,31,3,2020,Marzo,Martes,Bogota,Bogota D.C.,44,F,En estudio,Colombia,Casa
+491,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,85,M,Importado,España,Hospital UCI
+492,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,65,M,Relacionado,Colombia,Casa
+493,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,23,F,En estudio,Colombia,Casa
+494,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,35,M,Importado,Panama,Casa
+495,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,32,F,Importado,Panama,Casa
+496,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,34,M,Importado,Estados Unidos De América,Casa
+497,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,48,M,Importado,España,Casa
+498,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,42,F,Importado,España,Recuperado
+499,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,28,F,Importado,Chile,Casa
+500,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,28,M,Relacionado,Colombia,Casa
+501,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,31,M,Relacionado,Colombia,Casa
+502,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,50,M,Importado,Ecuador,Casa
+503,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,27,M,Importado,Brasil,Casa
+504,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,52,M,Importado,Francia,Casa
+505,27/03/2020,27,03,2020,Marzo,Viernes,Tocancipa,Cundinamarca,34,F,Importado,España,Casa
+506,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,47,F,Importado,España,Casa
+507,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,35,M,Importado,España,Casa
+508,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,37,M,En estudio,Colombia,Casa
+509,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,72,M,En estudio,Colombia,Fallecido
+510,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,74,F,En estudio,Colombia,Hospital
+511,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,35,M,Importado,España,Casa
+512,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,71,M,En estudio,Colombia,Casa
+513,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,71,M,Relacionado,Colombia,Fallecido
+514,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,50,M,Importado,España,Casa
+515,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,80,F,Importado,España,Casa
+516,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,30,F,Relacionado,Colombia,Casa
+517,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,24,F,Relacionado,Colombia,Casa
+518,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,20,M,Relacionado,Colombia,Casa
+519,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,47,M,Relacionado,Colombia,Casa
+520,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,26,M,Relacionado,Colombia,Casa
+521,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,24,F,Relacionado,Colombia,Casa
+522,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,62,F,Importado,Francia,Casa
+523,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,37,M,Importado,Estados Unidos De América,Casa
+524,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,32,M,Importado,Ecuador,Casa
+525,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,36,F,Relacionado,Colombia,Casa
+526,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,56,F,Relacionado,Colombia,Casa
+527,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
+528,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,51,M,Relacionado,Colombia,Casa
+529,27/03/2020,27,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,43,M,Relacionado,Colombia,Casa
+530,27/03/2020,27,03,2020,Marzo,Viernes,Santa Marta,Santa Marta D.T. y C.,34,F,Relacionado,Colombia,Casa
+531,27/03/2020,27,03,2020,Marzo,Viernes,Puerto Colombia,Atlantico,47,F,En estudio,Colombia,Casa
+532,27/03/2020,27,03,2020,Marzo,Viernes,Barranquilla,Barranquilla D.E.,25,M,Importado,España,Fallecido
+533,27/03/2020,27,03,2020,Marzo,Viernes,Armenia,Quindio,26,M,Importado,Estados Unidos De América,Casa
+534,27/03/2020,27,03,2020,Marzo,Viernes,Soledad,Atlantico,50,M,Relacionado,Colombia,Fallecido
+535,27/03/2020,27,03,2020,Marzo,Viernes,Armenia,Quindio,24,M,Importado,Francia,Casa
+536,27/03/2020,27,03,2020,Marzo,Viernes,Armenia,Quindio,34,F,Relacionado,Colombia,Casa
+537,27/03/2020,27,03,2020,Marzo,Viernes,Santa Marta,Santa Marta D.T. y C.,49,F,Relacionado,Colombia,Casa
+538,27/03/2020,27,03,2020,Marzo,Viernes,Manizales,Caldas,81,M,Relacionado,Colombia,Casa
+539,28/03/2020,28,03,2020,Marzo,Sabado,Mosquera,Cundinamarca,37,M,Importado,Egipto,Recuperado
+540,28/03/2020,28,03,2020,Marzo,Sabado,Cali,Valle del Cauca,57,F,Relacionado,Colombia,Casa
+541,28/03/2020,28,03,2020,Marzo,Sabado,Cali,Valle del Cauca,30,M,Importado,Costa Rica,Casa
+542,28/03/2020,28,03,2020,Marzo,Sabado,Cali,Valle del Cauca,51,M,Relacionado,Colombia,Fallecido
+543,28/03/2020,28,03,2020,Marzo,Sabado,Cali,Valle del Cauca,27,F,Relacionado,Colombia,Casa
+544,28/03/2020,28,03,2020,Marzo,Sabado,Palmira,Valle del Cauca,9,M,Relacionado,Colombia,Casa
+545,28/03/2020,28,03,2020,Marzo,Sabado,Palmira,Valle del Cauca,60,F,Relacionado,Colombia,Casa
+546,28/03/2020,28,03,2020,Marzo,Sabado,Sahagun,Cordoba,29,F,Importado,España,Recuperado
+547,28/03/2020,28,03,2020,Marzo,Sabado,Pasto,Narino,54,M,Importado,Mexico,Casa
+548,28/03/2020,28,03,2020,Marzo,Sabado,Valledupar,Cesar,16,F,Importado,Inglaterra,Casa
+549,28/03/2020,28,03,2020,Marzo,Sabado,Polonuevo,Atlantico,16,M,En estudio,Colombia,Recuperado
+550,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,29,M,En estudio,Colombia,Casa
+551,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,40,M,Relacionado,Colombia,Casa
+552,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,33,M,Importado,Ecuador,Casa
+553,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,42,M,En estudio,Colombia,Casa
+554,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,39,M,Importado,Ecuador,Casa
+555,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,43,M,Importado,Mexico,Casa
+556,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,82,F,En estudio,Colombia,Casa
+557,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,41,M,Importado,Jamaica,Casa
+558,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,53,M,Relacionado,Colombia,Casa
+559,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,55,F,En estudio,Colombia,Hospital UCI
+560,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,49,M,En estudio,Colombia,Hospital UCI
+561,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,58,F,Relacionado,Colombia,Casa
+562,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,38,F,Relacionado,Colombia,Casa
+563,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,31,F,Relacionado,Colombia,Casa
+564,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,64,F,Relacionado,Colombia,Casa
+565,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,48,F,En estudio,Colombia,Fallecido
+566,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
+567,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+568,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,57,F,En estudio,Colombia,Fallecido
+569,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,30,M,Relacionado,Colombia,Casa
+570,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,54,M,En estudio,Colombia,Casa
+571,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,53,F,Relacionado,Colombia,Casa
+572,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,38,F,Importado,Cuba,Recuperado
+573,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Hospital
+574,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,38,M,Importado,España,Casa
+575,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,31,F,Importado,Europa,Casa
+576,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
+577,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,37,M,Importado,España,Casa
+578,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,68,F,Importado,Estados Unidos De América,Hospital
+579,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,43,M,Relacionado,Colombia,Casa
+580,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,26,M,Relacionado,Colombia,Casa
+581,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,62,M,Relacionado,Colombia,Casa
+582,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Hospital
+583,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,37,M,Importado,Mexico,Casa
+584,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
+585,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,67,F,Importado,Jamaica,Hospital UCI
+586,28/03/2020,28,03,2020,Marzo,Sabado,Villapinzon,Cundinamarca,67,F,Relacionado,Colombia,Fallecido
+587,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,39,M,Relacionado,Colombia,Casa
+588,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,50,F,Importado,España,Casa
+589,28/03/2020,28,03,2020,Marzo,Sabado,Cartago,Valle del Cauca,58,M,Importado,España,Casa
+590,28/03/2020,28,03,2020,Marzo,Sabado,Cali,Valle del Cauca,28,F,Relacionado,Colombia,Casa
+591,28/03/2020,28,03,2020,Marzo,Sabado,Cali,Valle del Cauca,72,M,Importado,España,Hospital
+592,28/03/2020,28,03,2020,Marzo,Sabado,Cali,Valle del Cauca,47,F,Importado,España,Casa
+593,28/03/2020,28,03,2020,Marzo,Sabado,Cali,Valle del Cauca,27,M,Relacionado,Colombia,Hospital
+594,28/03/2020,28,03,2020,Marzo,Sabado,Medellin,Antioquia,27,F,Importado,Estados Unidos De América,Recuperado
+595,28/03/2020,28,03,2020,Marzo,Sabado,Montebello,Antioquia,52,F,Importado,Panama,Casa
+596,28/03/2020,28,03,2020,Marzo,Sabado,Sabaneta,Antioquia,21,M,Importado,Alemania,Casa
+597,28/03/2020,28,03,2020,Marzo,Sabado,Medellin,Antioquia,24,F,Importado,Estados Unidos De América,Casa
+598,28/03/2020,28,03,2020,Marzo,Sabado,Medellin,Antioquia,32,F,Importado,Estados Unidos De América,Casa
+599,28/03/2020,28,03,2020,Marzo,Sabado,Chinchina,Caldas,25,M,Relacionado,Colombia,Casa
+600,28/03/2020,28,03,2020,Marzo,Sabado,Armenia,Quindio,59,M,Importado,Estados Unidos De América,Casa
+601,28/03/2020,28,03,2020,Marzo,Sabado,Medellin,Antioquia,46,F,Importado,España,Recuperado
+602,28/03/2020,28,03,2020,Marzo,Sabado,Santa Rosa,Antioquia,55,M,Importado,Jamaica,Casa
+603,28/03/2020,28,03,2020,Marzo,Sabado,Barranquilla,Barranquilla D.E.,54,M,Relacionado,Colombia,Casa
+604,28/03/2020,28,03,2020,Marzo,Sabado,Barranquilla,Barranquilla D.E.,37,F,Relacionado,Colombia,Casa
+605,28/03/2020,28,03,2020,Marzo,Sabado,Turbaco,Bolivar,58,M,Relacionado,Colombia,Casa
+606,28/03/2020,28,03,2020,Marzo,Sabado,Cartagena,Cartagena D.T. y C,31,M,Relacionado,Colombia,Casa
+607,28/03/2020,28,03,2020,Marzo,Sabado,Barranquilla,Barranquilla D.E.,47,M,Importado,España,Recuperado
+608,29/03/2020,29,03,2020,Marzo,Domingo,Envigado,Antioquia,51,F,Importado,Turquia,Casa
+609,29/03/2020,29,03,2020,Marzo,Domingo,Envigado,Antioquia,60,M,En estudio,Colombia,Hospital
+610,29/03/2020,29,03,2020,Marzo,Domingo,Medellin,Antioquia,82,F,Importado,Panama,Casa
+611,29/03/2020,29,03,2020,Marzo,Domingo,Medellin,Antioquia,42,M,Importado,España,Hospital UCI
+612,29/03/2020,29,03,2020,Marzo,Domingo,Bello,Antioquia,73,M,Importado,España,Casa
+613,29/03/2020,29,03,2020,Marzo,Domingo,Cali,Valle del Cauca,64,F,Relacionado,Colombia,Casa
+614,29/03/2020,29,03,2020,Marzo,Domingo,Cali,Valle del Cauca,46,M,Relacionado,Colombia,Casa
+615,29/03/2020,29,03,2020,Marzo,Domingo,Cali,Valle del Cauca,12,F,Relacionado,Colombia,Casa
+616,29/03/2020,29,03,2020,Marzo,Domingo,Cali,Valle del Cauca,32,M,Relacionado,Colombia,Casa
+617,29/03/2020,29,03,2020,Marzo,Domingo,Cali,Valle del Cauca,62,F,Importado,Ecuador,Casa
+618,29/03/2020,29,03,2020,Marzo,Domingo,Cali,Valle del Cauca,36,M,Relacionado,Colombia,Fallecido
+619,29/03/2020,29,03,2020,Marzo,Domingo,Palmira,Valle del Cauca,45,M,Importado,Emiratos Arabes,Casa
+620,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,25,M,Relacionado,Colombia,Casa
+621,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,42,F,Importado,España,Casa
+622,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,62,F,Importado,Alemania,Casa
+623,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
+624,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,45,F,Relacionado,Colombia,Casa
+625,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,45,F,Relacionado,Colombia,Casa
+626,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,45,M,Importado,Isla San Martin,Casa
+627,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,42,F,Relacionado,Colombia,Casa
+628,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,42,F,Relacionado,Colombia,Casa
+629,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,62,M,Importado,Puerto Rico,Hospital UCI
+630,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,29,M,Relacionado,Colombia,Casa
+631,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,70,M,Relacionado,Colombia,Casa
+632,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,60,F,Relacionado,Colombia,Casa
+633,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,50,F,Importado,Panama,Casa
+634,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,29,M,Relacionado,Colombia,Casa
+635,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,69,F,Importado,España,Casa
+636,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,52,M,Relacionado,Colombia,Casa
+637,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,58,F,Importado,Mexico,Hospital UCI
+638,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,46,M,Relacionado,Colombia,Casa
+639,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,68,M,En estudio,Colombia,Hospital
+640,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,26,F,Relacionado,Colombia,Casa
+641,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
+642,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,25,F,Importado,Estados Unidos De América,Casa
+643,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,22,F,Importado,Estados Unidos De América,Casa
+644,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,33,M,Relacionado,Colombia,Casa
+645,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,34,F,Importado,España,Casa
+646,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,28,F,Importado,Belgica,Casa
+647,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,42,F,Relacionado,Colombia,Casa
+648,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,51,M,Importado,España,Casa
+649,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,65,M,Relacionado,Colombia,Casa
+650,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,57,M,En estudio,Colombia,Hospital
+651,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,34,M,Relacionado,Colombia,Casa
+652,29/03/2020,29,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,30,M,Relacionado,Colombia,Casa
+653,29/03/2020,29,03,2020,Marzo,Domingo,Bello,Antioquia,33,F,Importado,Jamaica,Casa
+654,29/03/2020,29,03,2020,Marzo,Domingo,Bello,Antioquia,29,M,Importado,Panama,Casa
+655,29/03/2020,29,03,2020,Marzo,Domingo,Medellin,Antioquia,61,F,Relacionado,Colombia,Casa
+656,29/03/2020,29,03,2020,Marzo,Domingo,Medellin,Antioquia,8,F,Relacionado,Colombia,Casa
+657,29/03/2020,29,03,2020,Marzo,Domingo,Medellin,Antioquia,30,F,Relacionado,Colombia,Casa
+658,29/03/2020,29,03,2020,Marzo,Domingo,Neiva,Huila,26,M,Relacionado,Colombia,Casa
+659,29/03/2020,29,03,2020,Marzo,Domingo,Neiva,Huila,21,F,Relacionado,Colombia,Casa
+660,29/03/2020,29,03,2020,Marzo,Domingo,Cali,Valle del Cauca,26,M,Relacionado,Colombia,Casa
+661,29/03/2020,29,03,2020,Marzo,Domingo,Valledupar,Cesar,36,M,Importado,España,Casa
+662,29/03/2020,29,03,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,16,F,Relacionado,Colombia,Casa
+663,29/03/2020,29,03,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,42,F,Relacionado,Colombia,Casa
+664,29/03/2020,29,03,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,24,F,Relacionado,Colombia,Casa
+665,29/03/2020,29,03,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,24,F,Relacionado,Colombia,Casa
+666,29/03/2020,29,03,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,29,F,Relacionado,Colombia,Casa
+667,29/03/2020,29,03,2020,Marzo,Domingo,Barranquilla,Barranquilla D.E.,64,M,Relacionado,Colombia,Hospital UCI
+668,29/03/2020,29,03,2020,Marzo,Domingo,Sincelejo,Sucre,21,F,Relacionado,Colombia,Recuperado
+669,29/03/2020,29,03,2020,Marzo,Domingo,Villamaria,Caldas,39,F,Importado,España,Casa
+670,29/03/2020,29,03,2020,Marzo,Domingo,Barranquilla,Barranquilla D.E.,28,F,Relacionado,Colombia,Casa
+671,29/03/2020,29,03,2020,Marzo,Domingo,Barranquilla,Barranquilla D.E.,1,M,Relacionado,Colombia,Casa
+672,29/03/2020,29,03,2020,Marzo,Domingo,Barranquilla,Barranquilla D.E.,35,M,Relacionado,Colombia,Casa
+673,29/03/2020,29,03,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,33,F,Relacionado,Colombia,Fallecido
+674,29/03/2020,29,03,2020,Marzo,Domingo,Cartagena,Cartagena D.T. y C,41,M,Importado,Estados Unidos De América,Casa
+675,29/03/2020,29,03,2020,Marzo,Domingo,La Ceja,Antioquia,24,M,En estudio,Colombia,Casa
+676,29/03/2020,29,03,2020,Marzo,Domingo,San Francisco,Antioquia,80,M,En estudio,Colombia,Hospital UCI
+677,29/03/2020,29,03,2020,Marzo,Domingo,Envigado,Antioquia,40,F,Relacionado,Colombia,Casa
+678,29/03/2020,29,03,2020,Marzo,Domingo,Medellin,Antioquia,24,F,Importado,España,Casa
+679,29/03/2020,29,03,2020,Marzo,Domingo,Envigado,Antioquia,18,F,Relacionado,Colombia,Casa
+680,29/03/2020,29,03,2020,Marzo,Domingo,Medellin,Antioquia,5,F,En estudio,Colombia,Casa
+681,29/03/2020,29,03,2020,Marzo,Domingo,Envigado,Antioquia,63,F,Importado,España,Casa
+682,29/03/2020,29,03,2020,Marzo,Domingo,Rionegro,Antioquia,50,M,Relacionado,Colombia,Casa
+683,29/03/2020,29,03,2020,Marzo,Domingo,Medellin,Antioquia,42,M,Importado,Estados Unidos De América,Casa
+684,29/03/2020,29,03,2020,Marzo,Domingo,Bucaramanga,Santander,80,F,Importado,Brasil,Casa
+685,29/03/2020,29,03,2020,Marzo,Domingo,Bucaramanga,Santander,58,M,Importado,Panama,Casa
+686,29/03/2020,29,03,2020,Marzo,Domingo,Bucaramanga,Santander,24,M,Importado,Mexico,Casa
+687,29/03/2020,29,03,2020,Marzo,Domingo,Floridablanca,Santander,46,M,Relacionado,Colombia,Casa
+688,29/03/2020,29,03,2020,Marzo,Domingo,Lorica,Cordoba,35,M,Relacionado,Colombia,Casa
+689,29/03/2020,29,03,2020,Marzo,Domingo,Oicata,Boyaca,72,F,Importado,Francia,Casa
+690,29/03/2020,29,03,2020,Marzo,Domingo,Dosquebradas,Risaralda,55,F,Importado,Turquia,Casa
+691,29/03/2020,29,03,2020,Marzo,Domingo,Pereira,Risaralda,62,F,Relacionado,Colombia,Casa
+692,29/03/2020,29,03,2020,Marzo,Domingo,Pereira,Risaralda,6,F,Relacionado,Colombia,Casa
+693,29/03/2020,29,03,2020,Marzo,Domingo,Pereira,Risaralda,63,M,Relacionado,Colombia,Casa
+694,29/03/2020,29,03,2020,Marzo,Domingo,Pereira,Risaralda,66,F,Relacionado,Colombia,Casa
+695,29/03/2020,29,03,2020,Marzo,Domingo,Pereira,Risaralda,54,F,Relacionado,Colombia,Casa
+696,29/03/2020,29,03,2020,Marzo,Domingo,Pereira,Risaralda,61,M,Relacionado,Colombia,Casa
+697,29/03/2020,29,03,2020,Marzo,Domingo,Pereira,Risaralda,32,M,Relacionado,Colombia,Casa
+698,29/03/2020,29,03,2020,Marzo,Domingo,Dosquebradas,Risaralda,47,M,Importado,Panama,Casa
+699,29/03/2020,29,03,2020,Marzo,Domingo,Pereira,Risaralda,45,F,Importado,Francia,Casa
+700,29/03/2020,29,03,2020,Marzo,Domingo,Arjona,Bolivar,25,M,Relacionado,Colombia,Casa
+701,29/03/2020,29,03,2020,Marzo,Domingo,Arjona,Bolivar,22,F,Importado,Turquia,Casa
+702,30/03/2020,30,03,2020,Marzo,Lunes,Santana,Boyaca,73,F,Relacionado,Colombia,Casa
+703,30/03/2020,30,03,2020,Marzo,Lunes,Cucuta,Norte de Santander,21,F,Importado,Panama,Casa
+704,30/03/2020,30,03,2020,Marzo,Lunes,Sopo,Cundinamarca,60,M,Importado,Estados Unidos De América,Casa
+705,30/03/2020,30,03,2020,Marzo,Lunes,Chia,Cundinamarca,35,M,Importado,Ecuador,Casa
+706,30/03/2020,30,03,2020,Marzo,Lunes,Villapinzon,Cundinamarca,65,M,Relacionado,Colombia,Fallecido
+707,30/03/2020,30,03,2020,Marzo,Lunes,Soacha,Cundinamarca,54,F,Importado,Estados Unidos De América,Casa
+708,30/03/2020,30,03,2020,Marzo,Lunes,Neiva,Huila,32,F,Relacionado,Colombia,Casa
+709,30/03/2020,30,03,2020,Marzo,Lunes,Neiva,Huila,64,F,Relacionado,Colombia,Fallecido
+710,30/03/2020,30,03,2020,Marzo,Lunes,Neiva,Huila,27,F,Importado,España,Casa
+711,30/03/2020,30,03,2020,Marzo,Lunes,Palermo,Huila,45,M,Relacionado,Colombia,Casa
+712,30/03/2020,30,03,2020,Marzo,Lunes,Palermo,Huila,33,F,Importado,Ecuador,Casa
+713,30/03/2020,30,03,2020,Marzo,Lunes,Cartagena,Cartagena D.T. y C,44,F,Relacionado,Colombia,Fallecido
+714,30/03/2020,30,03,2020,Marzo,Lunes,Cartagena,Cartagena D.T. y C,36,F,Importado,Mexico,Casa
+715,30/03/2020,30,03,2020,Marzo,Lunes,Cartagena,Cartagena D.T. y C,49,F,Relacionado,Colombia,Hospital UCI
+716,30/03/2020,30,03,2020,Marzo,Lunes,Santa Marta,Santa Marta D.T. y C.,28,F,Relacionado,Colombia,Casa
+717,30/03/2020,30,03,2020,Marzo,Lunes,La Dorada,Caldas,65,F,Relacionado,Colombia,Casa
+718,30/03/2020,30,03,2020,Marzo,Lunes,Cali,Valle del Cauca,26,F,Importado,Ecuador,Casa
+719,30/03/2020,30,03,2020,Marzo,Lunes,Cali,Valle del Cauca,31,M,Importado,Estados Unidos De América,Casa
+720,30/03/2020,30,03,2020,Marzo,Lunes,Cali,Valle del Cauca,45,F,Importado,España,Casa
+721,30/03/2020,30,03,2020,Marzo,Lunes,Cali,Valle del Cauca,68,M,Relacionado,Colombia,Fallecido
+722,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,24,M,Relacionado,Colombia,Casa
+723,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,34,M,Importado,España,Casa
+724,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,37,F,Relacionado,Colombia,Casa
+725,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,36,M,En estudio,Colombia,Casa
+726,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,25,M,Importado,Londres,Casa
+727,30/03/2020,30,03,2020,Marzo,Lunes,La Estrella,Antioquia,53,M,Relacionado,Colombia,Casa
+728,30/03/2020,30,03,2020,Marzo,Lunes,Envigado,Antioquia,64,M,Relacionado,Colombia,Casa
+729,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,19,F,Relacionado,Colombia,Casa
+730,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,82,M,Importado,Estados Unidos De América,Casa
+731,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,35,F,Relacionado,Colombia,Casa
+732,30/03/2020,30,03,2020,Marzo,Lunes,Barranquilla,Barranquilla D.E.,31,M,Relacionado,Colombia,Hospital UCI
+733,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Recuperado
+734,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,48,M,En estudio,Colombia,Recuperado
+735,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,32,M,En estudio,Colombia,Hospital
+736,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,26,M,Importado,Estados Unidos De América,Casa
+737,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,Relacionado,Colombia,Casa
+738,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,Importado,Londres,Casa
+739,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,29,F,Relacionado,Colombia,Casa
+740,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,36,F,Importado,Londres,Casa
+741,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
+742,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,75,F,En estudio,Colombia,Hospital UCI
+743,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,27,M,En estudio,Colombia,Hospital
+744,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,F,Importado,Estados Unidos De América,Casa
+745,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,54,F,En estudio,Colombia,Casa
+746,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,52,M,En estudio,Colombia,Casa
+747,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,23,M,Importado,Londres,Hospital
+748,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,50,M,Importado,Jamaica,Casa
+749,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,M,Importado,Jamaica,Casa
+750,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,F,Importado,Jamaica,Casa
+751,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,73,M,Relacionado,Colombia,Casa
+752,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,F,Relacionado,Colombia,Casa
+753,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,28,M,En estudio,Colombia,Casa
+754,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,33,F,Importado,Isla San Martin,Casa
+755,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,Importado,Isla San Martin,Casa
+756,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,F,Importado,Isla San Martin,Casa
+757,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,31,M,Importado,Isla San Martin,Casa
+758,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,74,M,Importado,Isla San Martin,Casa
+759,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,29,M,Importado,España,Casa
+760,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,F,Relacionado,Colombia,Hospital
+761,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,21,F,En estudio,Colombia,Casa
+762,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,57,M,Importado,Argentina,Casa
+763,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,F,En estudio,Colombia,Hospital UCI
+764,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+765,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Casa
+766,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,31,F,Importado,Estados Unidos De América,Casa
+767,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,46,M,En estudio,Colombia,Casa
+768,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,84,M,Importado,Argentina,Casa
+769,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,En estudio,Colombia,Hospital
+770,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,72,F,Importado,Egipto,Fallecido
+771,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,65,M,Importado,España,Casa
+772,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,33,F,Importado,Turquia,Casa
+773,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,68,F,Importado,Estados Unidos De América,Casa
+774,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,M,Relacionado,Colombia,Casa
+775,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,2,M,Relacionado,Colombia,Casa
+776,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,Relacionado,Colombia,Casa
+777,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,44,M,En estudio,Colombia,Hospital UCI
+778,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Hospital
+779,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,30,F,Relacionado,Colombia,Casa
+780,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,27,F,En estudio,Colombia,Casa
+781,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,35,M,Importado,España,Casa
+782,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,36,M,Relacionado,Colombia,Casa
+783,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,28,M,Importado,España,Casa
+784,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,25,F,Relacionado,Colombia,Casa
+785,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,Relacionado,Colombia,Casa
+786,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,2,F,Relacionado,Colombia,Casa
+787,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,64,F,En estudio,Colombia,Hospital UCI
+788,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,M,Importado,Francia,Casa
+789,30/03/2020,30,03,2020,Marzo,Lunes,Cali,Valle del Cauca,66,M,Relacionado,Colombia,Casa
+790,30/03/2020,30,03,2020,Marzo,Lunes,Palmira,Valle del Cauca,88,M,Relacionado,Colombia,Casa
+791,30/03/2020,30,03,2020,Marzo,Lunes,Cartago,Valle del Cauca,26,F,Relacionado,Colombia,Casa
+792,30/03/2020,30,03,2020,Marzo,Lunes,Cali,Valle del Cauca,27,M,Relacionado,Colombia,Casa
+793,30/03/2020,30,03,2020,Marzo,Lunes,Palmira,Valle del Cauca,55,F,Importado,España,Casa
+794,30/03/2020,30,03,2020,Marzo,Lunes,Palmira,Valle del Cauca,17,M,Relacionado,Colombia,Casa
+795,30/03/2020,30,03,2020,Marzo,Lunes,Palmira,Valle del Cauca,22,M,Importado,España,Casa
+796,30/03/2020,30,03,2020,Marzo,Lunes,Cali,Valle del Cauca,83,M,Relacionado,Colombia,Hospital
+797,30/03/2020,30,03,2020,Marzo,Lunes,Cartago,Valle del Cauca,63,F,Importado,Panama,Casa
+798,31/03/2020,31,03,2020,Marzo,Martes,Palmira,Valle del Cauca,69,F,Importado,España,Casa
+799,31/03/2020,31,03,2020,Marzo,Martes,Cartago,Valle del Cauca,25,F,Importado,España,Casa
+800,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,44,M,En estudio,Colombia,Casa
+801,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,54,M,Relacionado,Colombia,Hospital
+802,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,20,F,Importado,España,Casa
+803,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,28,M,Importado,España,Casa
+804,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,26,M,Relacionado,Colombia,Casa
+805,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,26,M,En estudio,Colombia,Hospital UCI
+806,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,32,M,Importado,España,Casa
+807,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,30,F,Importado,España,Casa
+808,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,38,M,Importado,España,Casa
+809,31/03/2020,31,03,2020,Marzo,Martes,Tumaco,Narino,0,M,Importado,Ecuador,Casa
+810,31/03/2020,31,03,2020,Marzo,Martes,Pasto,Narino,76,F,Importado,España,Casa
+811,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,46,M,Relacionado,Colombia,Casa
+812,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,41,M,Relacionado,Colombia,Recuperado
+813,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,38,M,Relacionado,Colombia,Casa
+814,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,31,M,Importado,Estados Unidos De América,Recuperado
+815,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,27,M,Relacionado,Colombia,Casa
+816,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,40,M,Relacionado,Colombia,Casa
+817,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,21,M,Relacionado,Colombia,Casa
+818,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,26,M,Importado,Estados Unidos De América,Casa
+819,31/03/2020,31,03,2020,Marzo,Martes,Riohacha,La Guajira,42,M,Importado,Estados Unidos De América,Casa
+820,31/03/2020,31,03,2020,Marzo,Martes,Santa Marta,Santa Marta D.T. y C.,70,M,Relacionado,Colombia,Casa
+821,31/03/2020,31,03,2020,Marzo,Martes,Santa Marta,Santa Marta D.T. y C.,43,M,Relacionado,Colombia,Casa
+822,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,57,F,Relacionado,Colombia,Casa
+823,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,32,F,Relacionado,Colombia,Casa
+824,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,44,M,Importado,España,Casa
+825,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,24,M,Importado,Estados Unidos De América,Casa
+826,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,25,M,Importado,Estados Unidos De América,Casa
+827,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,77,M,Importado,Turquia,Fallecido
+828,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,30,F,Relacionado,Colombia,Casa
+829,31/03/2020,31,03,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,55,F,Relacionado,Colombia,Recuperado
+830,31/03/2020,31,03,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,30,F,Relacionado,Colombia,Casa
+831,31/03/2020,31,03,2020,Marzo,Martes,Sabaneta,Antioquia,59,M,Importado,Estados Unidos De América,Casa
+832,31/03/2020,31,03,2020,Marzo,Martes,Medellin,Antioquia,67,F,En estudio,Colombia,Hospital UCI
+833,31/03/2020,31,03,2020,Marzo,Martes,Medellin,Antioquia,66,M,Importado,Marruecos,Casa
+834,31/03/2020,31,03,2020,Marzo,Martes,Medellin,Antioquia,56,F,Relacionado,Colombia,Casa
+835,31/03/2020,31,03,2020,Marzo,Martes,Medellin,Antioquia,67,M,En estudio,Colombia,Hospital UCI
+836,31/03/2020,31,03,2020,Marzo,Martes,Chia,Cundinamarca,57,M,Importado,Mexico,Casa
+837,31/03/2020,31,03,2020,Marzo,Martes,Cota,Cundinamarca,19,M,Importado,Puerto Rico,Casa
+838,31/03/2020,31,03,2020,Marzo,Martes,Cota,Cundinamarca,50,F,Importado,Puerto Rico,Casa
+839,31/03/2020,31,03,2020,Marzo,Martes,Cota,Cundinamarca,57,M,Importado,Puerto Rico,Casa
+840,31/03/2020,31,03,2020,Marzo,Martes,Cota,Cundinamarca,42,F,Importado,Puerto Rico,Casa
+841,31/03/2020,31,03,2020,Marzo,Martes,Cajica,Cundinamarca,25,F,En estudio,Colombia,Casa
+842,31/03/2020,31,03,2020,Marzo,Martes,Cota,Cundinamarca,50,F,Relacionado,Colombia,Casa
+843,31/03/2020,31,03,2020,Marzo,Martes,Zipaquira,Cundinamarca,81,F,En estudio,Colombia,Fallecido
+844,31/03/2020,31,03,2020,Marzo,Martes,Cajica,Cundinamarca,47,F,Importado,Mexico,Casa
+845,31/03/2020,31,03,2020,Marzo,Martes,Villavicencio,Meta,31,F,Importado,Estados Unidos De América,Casa
+846,31/03/2020,31,03,2020,Marzo,Martes,Villavicencio,Meta,29,F,Importado,Estados Unidos De América,Casa
+847,31/03/2020,31,03,2020,Marzo,Martes,Villavicencio,Meta,29,F,Importado,Estados Unidos De América,Casa
+848,31/03/2020,31,03,2020,Marzo,Martes,Cucuta,Norte de Santander,42,M,En estudio,Colombia,Casa
+849,31/03/2020,31,03,2020,Marzo,Martes,Puerto Santander,Norte de Santander,26,M,Relacionado,Colombia,Casa
+850,31/03/2020,31,03,2020,Marzo,Martes,Cucuta,Norte de Santander,50,F,Importado,Canada,Casa
+851,31/03/2020,31,03,2020,Marzo,Martes,Bucaramanga,Santander,25,M,Importado,Mexico,Casa
+852,31/03/2020,31,03,2020,Marzo,Martes,Bucaramanga,Santander,34,M,Importado,Estados Unidos De América,Casa
+853,31/03/2020,31,03,2020,Marzo,Martes,Floridablanca,Santander,57,M,Importado,Estados Unidos De América,Casa
+854,31/03/2020,31,03,2020,Marzo,Martes,Neiva,Huila,36,M,Relacionado,Colombia,Casa
+855,31/03/2020,31,03,2020,Marzo,Martes,Neiva,Huila,33,F,Relacionado,Colombia,Casa
+856,31/03/2020,31,03,2020,Marzo,Martes,Neiva,Huila,61,F,Relacionado,Colombia,Casa
+857,31/03/2020,31,03,2020,Marzo,Martes,Pereira,Risaralda,18,F,Relacionado,Colombia,Casa
+858,31/03/2020,31,03,2020,Marzo,Martes,Pereira,Risaralda,9,M,Importado,España,Casa
+859,31/03/2020,31,03,2020,Marzo,Martes,Pereira,Risaralda,30,F,Importado,España,Casa
+860,31/03/2020,31,03,2020,Marzo,Martes,Pereira,Risaralda,32,F,Relacionado,Colombia,Hospital
+861,31/03/2020,31,03,2020,Marzo,Martes,Pereira,Risaralda,32,M,Importado,España,Casa
+862,31/03/2020,31,03,2020,Marzo,Martes,Pereira,Risaralda,22,F,Importado,Estados Unidos De América,Casa
+863,31/03/2020,31,03,2020,Marzo,Martes,Tunja,Boyaca,84,M,En estudio,Colombia,Fallecido
+864,31/03/2020,31,03,2020,Marzo,Martes,Togui,Boyaca,70,F,Relacionado,Colombia,Casa
+865,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,49,M,Relacionado,Colombia,Casa
+866,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,28,M,Relacionado,Colombia,Casa
+867,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,33,M,Relacionado,Colombia,Hospital
+868,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,69,M,Relacionado,Colombia,Casa
+869,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,2,F,Relacionado,Colombia,Casa
+870,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,39,F,Relacionado,Colombia,Casa
+871,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,50,M,Importado,Ecuador,Casa
+872,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,15,F,Importado,Estados Unidos De América,Casa
+873,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,30,M,Importado,Estados Unidos De América,Casa
+874,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,27,M,Relacionado,Colombia,Casa
+875,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,32,M,Relacionado,Colombia,Hospital UCI
+876,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,58,F,Importado,Turquia,Casa
+877,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,56,F,Relacionado,Colombia,Casa
+878,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,13,M,Relacionado,Colombia,Casa
+879,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,66,F,Relacionado,Colombia,Hospital UCI
+880,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,45,M,Relacionado,Colombia,Hospital
+881,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,40,F,Importado,Mexico,Recuperado
+882,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,55,F,Relacionado,Colombia,Casa
+883,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,18,M,Importado,Inglaterra,Casa
+884,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,56,M,Relacionado,Colombia,Casa
+885,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,65,F,En estudio,Colombia,Hospital UCI
+886,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,36,M,Relacionado,Colombia,Casa
+887,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+888,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,31,M,En estudio,Colombia,Casa
+889,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,49,M,En estudio,Colombia,Hospital UCI
+890,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,43,F,En estudio,Colombia,Casa
+891,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,28,F,En estudio,Colombia,Casa
+892,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,32,M,En estudio,Colombia,Casa
+893,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,41,M,En estudio,Colombia,Casa
+894,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,38,F,Relacionado,Colombia,Casa
+895,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,18,M,En estudio,Colombia,Casa
+896,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Hospital
+897,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,31,F,Relacionado,Colombia,Casa
+898,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,20,F,Importado,Estados Unidos De América,Casa
+899,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,2,M,En estudio,Colombia,Casa
+900,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,37,M,En estudio,Colombia,Casa
+901,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
+902,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,38,M,En estudio,Colombia,Hospital
+903,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,54,F,En estudio,Colombia,Casa
+904,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,30,F,En estudio,Colombia,Casa
+905,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,44,F,En estudio,Colombia,Casa
 906,01/04/2020,01,04,2020,Abril,Miercoles,Montenegro,Quindio,9,F,Relacionado,Colombia,Casa
 907,01/04/2020,01,04,2020,Abril,Miercoles,Montenegro,Quindio,35,F,Relacionado,Colombia,Casa
 908,01/04/2020,01,04,2020,Abril,Miercoles,Bello,Antioquia,51,F,Relacionado,Colombia,Casa

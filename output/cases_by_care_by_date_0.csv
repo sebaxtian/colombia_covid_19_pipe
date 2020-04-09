@@ -4,11 +4,11 @@ date,care,total,cumsum
 23/03/2020,Hospital,2,4
 24/03/2020,Hospital,3,7
 25/03/2020,Hospital,2,9
-27/3/2020,Hospital,1,10
-28/3/2020,Hospital,5,15
-29/3/2020,Hospital,3,18
-30/3/2020,Hospital,7,25
-31/3/2020,Hospital,6,31
+27/03/2020,Hospital,1,10
+28/03/2020,Hospital,5,15
+29/03/2020,Hospital,3,18
+30/03/2020,Hospital,7,25
+31/03/2020,Hospital,6,31
 01/04/2020,Hospital,16,47
 02/04/2020,Hospital,6,53
 03/04/2020,Hospital,21,74
