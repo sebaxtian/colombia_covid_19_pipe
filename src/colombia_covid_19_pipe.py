@@ -116,6 +116,12 @@ covid_df.head()
 
 
 # %%
+# Setup date format
+covid_df['date'] = [value.strftime('%d/%m/%Y') for value in pd.to_datetime(covid_df['date'], format='%d/%m/%Y')]
+covid_df.head()
+
+
+# %%
 # Add Day, Month, Year, Month Name and Day Name
 covid_df['day'] = covid_df['date'].transform(lambda value: value.split('/')[0])
 covid_df['month'] = covid_df['date'].transform(lambda value: value.split('/')[1])
@@ -528,3 +534,79 @@ covid_df_resume.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_resume.csv'), index=Fa
 
 # %% [markdown]
 # ---
+
+# %%
+# Get time line by care [cases, recovered, deaths]
+def get_time_line_by_care(care):
+    # covid_df_report
+    covid_df_report = pd.DataFrame()
+    # Check care
+    if care == '*':
+        covid_df_report = covid_df.groupby('date')['date'].count()
+    else:
+        covid_df_report = covid_df[covid_df['care'] == care].groupby('date')['date'].count()
+    # Create dateset
+    covid_df_report = pd.DataFrame(data={'date': covid_df_report.index, 'total': covid_df_report.values}, columns=['date', 'total'])
+    covid_df_report['date_iso'] = pd.to_datetime(covid_df_report['date'], format='%d/%m/%Y')
+    covid_df_report = covid_df_report.sort_values(by=['date_iso'], ascending=True)
+    covid_df_report['accum'] = covid_df_report['total'].cumsum()
+    covid_df_report = covid_df_report.drop(columns=['date_iso'])
+    covid_df_report.reset_index(inplace=True, drop=True)
+    # Return
+    return covid_df_report
+
+# Time line by cases
+covid_df_cases = get_time_line_by_care('*')
+#print('covid_df_cases', '\n', covid_df_cases)
+
+# Time line by recovered
+covid_df_recovered = get_time_line_by_care('Recuperado')
+#print('covid_df_recovered', '\n', covid_df_recovered.head())
+
+# Time line by deaths
+covid_df_deaths = get_time_line_by_care('Fallecido')
+#print('covid_df_deaths', '\n', covid_df_deaths.head())
+
+# Get total
+def get_total(df_target, value):
+    num = [i for i in range(len(df_target['date'].values)) if df_target['date'].values[i] == value]
+    if num:
+        return df_target['total'].values[num[0]]
+    return 0
+
+# Get accumulator
+def get_accum(df_target, value):
+    num = [i for i in range(len(df_target['date'].values)) if df_target['date'].values[i] == value]
+    if num:
+        return df_target['accum'].values[num[0]]
+    return 0
+
+# Time line by care [cases, recovered, deaths]
+covid_19_time_line_by_care = pd.DataFrame(columns=['date', 'cases', 'accum_cases', 'recovered', 'accum_recovered', 'deaths', 'accum_deaths'])
+covid_19_time_line_by_care['date'] = [dti.strftime('%d/%m/%Y') for dti in pd.date_range(start='2020-03-01', end=date.today().isoformat(), freq='D')]
+
+# Cases
+covid_19_time_line_by_care['cases'] = covid_19_time_line_by_care['date'].transform(lambda value: get_total(covid_df_cases, value))
+covid_19_time_line_by_care['accum_cases'] = covid_19_time_line_by_care['date'].transform(lambda value: get_accum(covid_df_cases, value))
+# Recovered
+covid_19_time_line_by_care['recovered'] = covid_19_time_line_by_care['date'].transform(lambda value: get_total(covid_df_recovered, value))
+covid_19_time_line_by_care['accum_recovered'] = covid_19_time_line_by_care['date'].transform(lambda value: get_accum(covid_df_recovered, value))
+# Deaths
+covid_19_time_line_by_care['deaths'] = covid_19_time_line_by_care['date'].transform(lambda value: get_total(covid_df_deaths, value))
+covid_19_time_line_by_care['accum_deaths'] = covid_19_time_line_by_care['date'].transform(lambda value: get_accum(covid_df_deaths, value))
+
+# Show dataframe
+covid_19_time_line_by_care.tail()
+
+# %% [markdown]
+# ## Time Line by Care
+# > ***Output file***: covid_19_time_line_by_care.csv
+
+# %%
+# Save dataframe
+covid_19_time_line_by_care.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_time_line_by_care.csv'), index=False)
+
+
+# %%
+
+
