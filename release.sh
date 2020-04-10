@@ -21,6 +21,8 @@ if [ $? -eq 0 ]; then
     VERSION=$(echo $VERSION | cut -c2-)
     # Create new release
     echo "Creating new release $VERSION ..."
+    git config --global user.email 'sebaxtianrioss@gmail.com'
+    git config --global user.name 'Sebastian Rios Sabogal'
     git tag -a $VERSION -m "$VERSION" master
     git push --tags
     # Create covid19.zip file for assets release
