@@ -13,12 +13,10 @@ if [ $? -eq 0 ]; then
     LAST_VERSION=$(hub release | head -n 1)
     echo "Lastest release $LAST_VERSION"
     # Get the last patch
-    N=$(hub release | head -n 1 | tail -c 2)
+    N=$(echo $LAST_VERSION | tr "." "\n" | tail -n -1)
     N=$(($N + 1))
-    #echo "N: $N"
     # Create version tag
-    VERSION="$(date +%m).$(date +%d).$N"
-    VERSION=$(echo $VERSION | cut -c2-)
+    VERSION="$(($(date +%m))).$(date +%d).$N"
     # Create new release
     echo "Creating new release $VERSION ..."
     git config --global user.email 'sebaxtianrioss@gmail.com'
