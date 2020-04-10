@@ -19,7 +19,8 @@ You can get the datasets from [colombia_covid_19_pipe](https://www.kaggle.com/se
 
 ## Requirements
 
-See [requirements.txt](./requirements.txt) file.
+- **Python 3**:
+  - See [requirements.txt](./requirements.txt) file.
 
 ## Source Code
 

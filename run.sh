@@ -10,7 +10,7 @@ cd ./src
 echo "Running Colombia Covid 19 Pipeline ..."
 python3 colombia_covid_19_pipe.py
 # Check any error
-if [ $? -eq 0 ]; then    
+if [ $? -eq 0 ]; then
     # Go back to main directory
     cd ../
     # Finish without error
