@@ -29,11 +29,19 @@ if [ $? -eq 0 ]; then
     zip -r ./output/covid19.zip output/
     # Create GitHub release
     hub release create -a ./output/covid19.zip -m "v$VERSION" $VERSION
-    # Finish without error
-    echo "Finished !"
-    echo "Release $VERSION was created."
-    # Success
-    exit 0
+    # Check any error
+    if [ $? -eq 0 ]; then
+        # Finish without error
+        echo "Finished !"
+        echo "Release $VERSION was created."
+        # Success
+        exit 0
+    else
+        # Finish with error
+        echo "Finish with errors ! FAIL"
+        # Fail
+        exit -1
+    fi
 else
     # Finish with error
     echo "Finish with errors ! FAIL"
