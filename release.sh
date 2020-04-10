@@ -9,9 +9,10 @@
 echo ""
 # Check any error
 if [ $? -eq 0 ]; then
+    echo "Running Colombia Covid 19 Pipeline Release ..."
     # Check the last version tag
     LAST_VERSION=$(hub release | head -n 1)
-    echo "Last release $LAST_VERSION"
+    echo "Lastest release $LAST_VERSION"
     # Get the last patch
     N=$(hub release | head -n 1 | tail -c 2)
     N=$(($N + 1))

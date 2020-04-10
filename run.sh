@@ -15,7 +15,7 @@ if [ $? -eq 0 ]; then
     cd ../
     # Finish without error
     echo "Finished !"
-    echo "The Pipeline output is generated within ./output directory."
+    echo "Pipeline output is generated within ./output directory."
     # Success
     exit 0
 else
