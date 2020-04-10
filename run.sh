@@ -15,14 +15,16 @@ if [ $? -eq 0 ]; then
     cd ../
     # Finish without error
     echo "Finished !"
-    echo "Pipeline output is generated within ./output directory.\n"
+    echo "Pipeline output is generated within ./output directory."
+    echo ""
     # Success
     exit 0
 else
     # Go back to main directory
     cd ../
     # Finish with error
-    echo "Finish with errors ! FAIL\n"
+    echo "Finish with errors ! FAIL"
+    echo ""
     # Fail
     exit -1
 fi

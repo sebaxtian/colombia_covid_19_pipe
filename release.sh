@@ -32,17 +32,20 @@ if [ $? -eq 0 ]; then
         # Finish without error
         echo "Finished !"
         echo "Release $VERSION was created."
+        echo ""
         # Success
         exit 0
     else
         # Finish with error
         echo "Finish with errors ! FAIL"
+        echo ""
         # Fail
         exit -1
     fi
 else
     # Finish with error
     echo "Finish with errors ! FAIL"
+    echo ""
     # Fail
     exit -1
 fi
