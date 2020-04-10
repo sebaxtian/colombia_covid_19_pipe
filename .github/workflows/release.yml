@@ -1,16 +1,14 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-name: Schedule master
+name: New release
 
 on:
-  #push:
-  #  branches: [ master ]
-  schedule:
-    - cron: '*/30 * * * *'
+  push:
+    branches: [ master ]
 
 jobs:
-  schedule:
+  build-release:
 
     runs-on: ubuntu-latest
 
@@ -27,17 +25,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       # Run Python Script
-      - name: Colombia Covid 19 Pipeline Schedule
+      - name: Colombia Covid 19 Pipeline Release
         run: |
-          # Run Colombia Covid 19 Pipeline Schedule
-          ./run.sh
-          if [[ $(git status --porcelain) ]]; then
-              echo 'Update Colombia Covid 19 Datasets'
-              git config --global user.email 'sebaxtianrioss@gmail.com'
-              git config --global user.name 'Sebastian Rios Sabogal'
-              git add .
-              git commit -m "Updated at $(date)"
-              git push origin master
-          else
-              echo 'Not Changes'
-          fi
+          # Run Colombia Covid 19 Pipeline Release
+          ./release.sh
