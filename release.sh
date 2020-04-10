@@ -23,6 +23,10 @@ if [ $? -eq 0 ]; then
     echo "Creating new release $VERSION ..."
     git tag -a $VERSION -m "$VERSION" master
     git push --tags
+    # Create covid19.zip file for assets release
+    zip -r ./output/covid19.zip output/
+    # Create GitHub release
+    hub release create -a ./output/covid19.zip -m "v$VERSION" $VERSION
     # Finish without error
     echo "Finished !"
     echo "Release $VERSION was created."

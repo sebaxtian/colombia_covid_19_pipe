@@ -140,3 +140,4 @@ dmypy.json
 # Output
 #output/*
 #!output/README.md
+output/covid19co.zip
