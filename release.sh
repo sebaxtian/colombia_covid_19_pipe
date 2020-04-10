@@ -25,12 +25,12 @@ if [ $? -eq 0 ]; then
     git config --global user.name 'Sebastian Rios Sabogal'
     git tag -a $VERSION -m "$VERSION" master
     git push --tags
-    # Create covid19.zip file for assets release
-    zip -r ./output/covid19.zip output/
-    # Create GitHub release
-    hub release create -a ./output/covid19.zip -m "v$VERSION" $VERSION
     # Check any error
     if [ $? -eq 0 ]; then
+        # Create covid19.zip file for assets release
+        zip -r ./output/covid19.zip output/
+        # Create GitHub release
+        hub release create -a ./output/covid19.zip -m "v$VERSION" $VERSION
         # Finish without error
         echo "Finished !"
         echo "Release $VERSION was created."
