@@ -10,7 +10,7 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 #import geopandas as gpd # geodata processing
 # Get geolocation using geocoder
 from geopy.geocoders import Nominatim
-geolocator = Nominatim(user_agent='covid19co', timeout=None)
+geolocator = Nominatim(user_agent='colombia_covid_19_pipe', timeout=None)
 # Https requests
 import requests
 import unidecode
@@ -33,9 +33,9 @@ from calendar import day_name, month_name
 # For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory
 
 import os
-for dirname, _, filenames in os.walk('/kaggle/input'):
-    for filename in filenames:
-        print(os.path.join(dirname, filename))
+#for dirname, _, filenames in os.walk('/kaggle/input'):
+#    for filename in filenames:
+#        print(os.path.join(dirname, filename))
 
 # Any results you write to the current directory are saved as output.
 
@@ -56,7 +56,9 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 
 # %%
 # Any results you write to the current directory are saved as output.
-OUTPUT_DIR = '../output'
+OUTPUT_DIR = './'
+if os.path.split(os.path.abspath('.'))[-1] == 'src':
+    OUTPUT_DIR = '../output'
 # URL original dataset
 URL_DATASET = 'https://e.infogram.com/api/live/flex/bc384047-e71c-47d9-b606-1eb6a29962e3/664bc407-2569-4ab8-b7fb-9deb668ddb7a'
 
@@ -154,11 +156,11 @@ covid_df.head()
 
 # %% [markdown]
 # ## Covid 19 Dataset
-# > ***Output file***: covid19_co.csv
+# > ***Output file***: covid19.csv
 
 # %%
 # Save dataframe
-covid_df.to_csv(os.path.join(OUTPUT_DIR, 'covid19_co.csv'), index=False)
+covid_df.to_csv(os.path.join(OUTPUT_DIR, 'covid19.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -177,11 +179,11 @@ covid_df_by_date.tail()
 
 # %% [markdown]
 # ## Cases by Date
-# > ***Output file***: covid_19_by_date.csv
+# > ***Output file***: covid19_by_date.csv
 
 # %%
 # Save dataframe
-covid_df_by_date.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_date.csv'), index=False)
+covid_df_by_date.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_date.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -195,11 +197,11 @@ covid_df_by_care.head()
 
 # %% [markdown]
 # ## Cases by Care
-# > ***Output file***: covid_19_by_care.csv
+# > ***Output file***: covid19_by_care.csv
 
 # %%
 # Save dataframe
-covid_df_by_care.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_care.csv'), index=False)
+covid_df_by_care.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_care.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -213,11 +215,11 @@ covid_df_by_sex.head()
 
 # %% [markdown]
 # ## Cases by Sex
-# > ***Output file***: covid_19_by_sex.csv
+# > ***Output file***: covid19_by_sex.csv
 
 # %%
 # Save dataframe
-covid_df_by_sex.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_sex.csv'), index=False)
+covid_df_by_sex.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_sex.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -231,11 +233,11 @@ covid_df_by_age.head()
 
 # %% [markdown]
 # ## Cases by Age
-# > ***Output file***: covid_19_by_age.csv
+# > ***Output file***: covid19_by_age.csv
 
 # %%
 # Save dataframe
-covid_df_by_age.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_age.csv'), index=False)
+covid_df_by_age.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_age.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -249,11 +251,11 @@ covid_df_by_age_sex.head()
 
 # %% [markdown]
 # ## Cases by Age and Sex
-# > ***Output file***: covid_19_by_age_sex.csv
+# > ***Output file***: covid19_by_age_sex.csv
 
 # %%
 # Save dataframe
-covid_df_by_age_sex.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_age_sex.csv'), index=False)
+covid_df_by_age_sex.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_age_sex.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -281,11 +283,11 @@ covid_df_by_age_sex_interval.head()
 
 # %% [markdown]
 # ## Cases by Age and Sex Interval
-# > ***Output file***: covid_19_by_age_sex_interval.csv
+# > ***Output file***: covid19_by_age_sex_interval.csv
 
 # %%
 # Save dataframe
-covid_df_by_age_sex_interval.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_age_sex_interval.csv'), index=False)
+covid_df_by_age_sex_interval.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_age_sex_interval.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -320,11 +322,11 @@ covid_df_by_city.head()
 
 # %% [markdown]
 # ## Cases by City
-# > ***Output file***: covid_19_by_city.csv
+# > ***Output file***: covid19_by_city.csv
 
 # %%
 # Save dataframe
-covid_df_by_city.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_city.csv'), index=False)
+covid_df_by_city.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_city.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -349,11 +351,11 @@ covid_df_by_dept_dist.head()
 
 # %% [markdown]
 # ## Cases by Department or District
-# > ***Output file***: covid_19_by_dept_dist.csv
+# > ***Output file***: covid19_by_dept_dist.csv
 
 # %%
 # Save dataframe
-covid_df_by_dept_dist.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_dept_dist.csv'), index=False)
+covid_df_by_dept_dist.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_dept_dist.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -362,7 +364,7 @@ covid_df_by_dept_dist.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_dept_dist.csv
 # Cases by Care by Date
 #list_care = list(set(covid_df['care'].values))
 list_care = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado']
-print('list_care', list_care)
+#print('list_care', list_care)
 cases_by_care_by_date = []
 # Each Care
 for care in list_care:
@@ -376,17 +378,18 @@ for care in list_care:
     covid_df_care_by_date.reset_index(inplace=True, drop=True)
     cases_by_care_by_date.append(covid_df_care_by_date)
 # Show dataframe
-for i, care in enumerate(list_care):
-    print(care, '\n', cases_by_care_by_date[i].tail())
+#for i, care in enumerate(list_care):
+#    print(care, '\n', cases_by_care_by_date[i].tail())
 
 # %% [markdown]
 # ## Cases by Care by Date
-# > ***Output files***: cases_by_care_by_date_(int).csv
+# > ***Output files***: covid19_cases_by_care_by_date_(int).csv
 
 # %%
 # Save dataframe
+list_care_file = ['hospital', 'uci', 'casa', 'fallecido', 'recuperado']
 for i, care in enumerate(list_care):
-    cases_by_care_by_date[i].to_csv(os.path.join(OUTPUT_DIR, 'cases_by_care_by_date_' + str(i) + '.csv'), index=False)
+    cases_by_care_by_date[i].to_csv(os.path.join(OUTPUT_DIR, 'covid19_cases_by_' + list_care_file[i] + '_by_date.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -400,11 +403,11 @@ covid_df_by_country_origin.head()
 
 # %% [markdown]
 # ## Cases by Country Origin
-# > ***Output file***: covid_19_by_country_origin.csv
+# > ***Output file***: covid19_by_country_origin.csv
 
 # %%
 # Save dataframe
-covid_df_by_country_origin.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_country_origin.csv'), index=False)
+covid_df_by_country_origin.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_country_origin.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -418,11 +421,11 @@ covid_df_by_kind.head()
 
 # %% [markdown]
 # ## Cases by Kind
-# > ***Output file***: covid_19_by_kind.csv
+# > ***Output file***: covid19_by_kind.csv
 
 # %%
 # Save dataframe
-covid_df_by_kind.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_by_kind.csv'), index=False)
+covid_df_by_kind.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_kind.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -439,7 +442,7 @@ attrs = data['data'][0][4][0]
 del data
 #print(attrs)
 descarted_cases = attrs.split('<b>')[1].split('</b>')[0].replace('.', '')
-print('Descarted Cases:', descarted_cases)
+#print('Descarted Cases:', descarted_cases)
 
 # %% [markdown]
 # ---
@@ -496,11 +499,11 @@ covid_df_samples_processed.tail()
 
 # %% [markdown]
 # ## Samples Processed
-# > ***Output file***: covid_19_samples_processed.csv
+# > ***Output file***: covid19_samples_processed.csv
 
 # %%
 # Save dataframe
-covid_df_samples_processed.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_samples_processed.csv'), index=False)
+covid_df_samples_processed.to_csv(os.path.join(OUTPUT_DIR, 'covid19_samples_processed.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -526,11 +529,13 @@ covid_df_resume.head(10)
 
 # %% [markdown]
 # ## Resume
-# > ***Output file***: covid_19_resume.csv
+# > ***Output file***: covid19_resume.csv
 
 # %%
 # Save dataframe
-covid_df_resume.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_resume.csv'), index=False)
+covid_df_resume.to_csv(os.path.join(OUTPUT_DIR, 'covid19_resume.csv'), index=False)
+print('\nColombia Covid 19 Resumen:')
+print(covid_df_resume)
 
 # %% [markdown]
 # ---
@@ -600,11 +605,11 @@ covid_19_time_line_by_care.tail()
 
 # %% [markdown]
 # ## Time Line by Care
-# > ***Output file***: covid_19_time_line_by_care.csv
+# > ***Output file***: covid19_time_line_by_care.csv
 
 # %%
 # Save dataframe
-covid_19_time_line_by_care.to_csv(os.path.join(OUTPUT_DIR, 'covid_19_time_line_by_care.csv'), index=False)
+covid_19_time_line_by_care.to_csv(os.path.join(OUTPUT_DIR, 'covid19_time_line_by_care.csv'), index=False)
 
 
 # %%
