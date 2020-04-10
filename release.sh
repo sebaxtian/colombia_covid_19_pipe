@@ -5,7 +5,7 @@
 #
 
 # Run Colombia Covid 19 Pipeline
-#./run.sh
+./run.sh
 echo ""
 # Check any error
 if [ $? -eq 0 ]; then
