@@ -2176,7 +2176,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2174,09/04/2020,09,04,2020,Abril,Jueves,Pereira,Risaralda,59,F,Relacionado,Colombia,Casa
 2175,09/04/2020,09,04,2020,Abril,Jueves,Dosquebradas,Risaralda,53,M,En estudio,Colombia,Hospital
 2176,09/04/2020,09,04,2020,Abril,Jueves,San Andres,San Andres,49,M,En estudio,Colombia,Casa
-2177,09/04/2020,09,04,2020,Abril,Jueves,Fusagasuga,Cundinamarca,42,M,En estudio,Colombia,Casa
+2177,09/04/2020,09,04,2020,Abril,Jueves,,Cundinamarca,42,M,En estudio,Colombia,Casa
 2178,09/04/2020,09,04,2020,Abril,Jueves,Piedecuesta,Santander,39,F,En estudio,Colombia,Casa
 2179,09/04/2020,09,04,2020,Abril,Jueves,Cimitarra,Santander,26,F,En estudio,Colombia,Casa
 2180,09/04/2020,09,04,2020,Abril,Jueves,Concepcion,Santander,61,M,En estudio,Colombia,Casa
