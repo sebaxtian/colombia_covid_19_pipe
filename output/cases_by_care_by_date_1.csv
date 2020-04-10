@@ -14,8 +14,9 @@ date,care,total,cumsum
 01/04/2020,Hospital UCI,9,44
 02/04/2020,Hospital UCI,3,47
 03/04/2020,Hospital UCI,3,50
-04/04/2020,Hospital UCI,5,55
-05/04/2020,Hospital UCI,5,60
-06/04/2020,Hospital UCI,7,67
-07/04/2020,Hospital UCI,5,72
-08/04/2020,Hospital UCI,12,84
+04/04/2020,Hospital UCI,4,54
+05/04/2020,Hospital UCI,6,60
+06/04/2020,Hospital UCI,8,68
+07/04/2020,Hospital UCI,5,73
+08/04/2020,Hospital UCI,10,83
+10/04/2020,Hospital UCI,3,86
