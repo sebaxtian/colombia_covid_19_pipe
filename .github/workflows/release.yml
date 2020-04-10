@@ -29,3 +29,5 @@ jobs:
         run: |
           # Run Colombia Covid 19 Pipeline Release
           ./release.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

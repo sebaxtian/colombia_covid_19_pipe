@@ -6,7 +6,6 @@
 
 # Run Colombia Covid 19 Pipeline
 ./run.sh
-echo ""
 # Check any error
 if [ $? -eq 0 ]; then
     echo "Running Colombia Covid 19 Pipeline Release ..."
