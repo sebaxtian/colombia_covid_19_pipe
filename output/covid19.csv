@@ -88,7 +88,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 86,18/03/2020,18,03,2020,Marzo,Miercoles,Cajica,Cundinamarca,45,M,Importado,España,Recuperado
 87,18/03/2020,18,03,2020,Marzo,Miercoles,Ibague,Tolima,36,M,Relacionado,Colombia,Recuperado
 88,18/03/2020,18,03,2020,Marzo,Miercoles,Bucaramanga,Santander,39,F,Importado,España,Casa
-89,18/03/2020,18,03,2020,Marzo,Miercoles,Neiva,Huila,53,F,Relacionado,Colombia,Casa
+89,18/03/2020,18,03,2020,Marzo,Miercoles,Neiva,Huila,53,F,Relacionado,Colombia,Recuperado
 90,18/03/2020,18,03,2020,Marzo,Miercoles,Cajica,Cundinamarca,32,M,Importado,España,Recuperado
 91,18/03/2020,18,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,50,M,Relacionado,Colombia,Casa
 92,18/03/2020,18,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,26,F,Importado,España,Recuperado
@@ -117,7 +117,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 115,19/03/2020,19,03,2020,Marzo,Jueves,Bogota,Bogota D.C.,40,F,Relacionado,Colombia,Casa
 116,19/03/2020,19,03,2020,Marzo,Jueves,Cucuta,Norte de Santander,28,M,Importado,España,Casa
 117,19/03/2020,19,03,2020,Marzo,Jueves,Cucuta,Norte de Santander,50,M,Relacionado,Colombia,Recuperado
-118,19/03/2020,19,03,2020,Marzo,Jueves,Cucuta,Norte de Santander,24,M,Relacionado,Colombia,Casa
+118,19/03/2020,19,03,2020,Marzo,Jueves,Cucuta,Norte de Santander,24,M,Relacionado,Colombia,Recuperado
 119,19/03/2020,19,03,2020,Marzo,Jueves,Armenia,Quindio,23,F,Relacionado,Colombia,Recuperado
 120,19/03/2020,19,03,2020,Marzo,Jueves,Popayan,Cauca,61,M,Importado,España,Recuperado
 121,19/03/2020,19,03,2020,Marzo,Jueves,Popayan,Cauca,32,F,Importado,España,Recuperado
@@ -166,7 +166,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 164,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,32,F,Relacionado,Colombia,Casa
 165,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,45,F,Relacionado,Colombia,Casa
 166,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,46,F,Relacionado,Colombia,Casa
-167,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,25,F,Importado,España,Hospital
+167,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,25,F,Importado,España,Casa
 168,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,42,F,Relacionado,Colombia,Recuperado
 169,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,45,F,Importado,Grecia,Recuperado
 170,20/03/2020,20,03,2020,Marzo,Viernes,Bogota,Bogota D.C.,21,F,Relacionado,Colombia,Casa
@@ -193,7 +193,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 191,21/03/2020,21,03,2020,Marzo,Sabado,Cali,Valle del Cauca,30,F,Relacionado,Colombia,Recuperado
 192,21/03/2020,21,03,2020,Marzo,Sabado,Cali,Valle del Cauca,53,F,Importado,Italia,Recuperado
 193,21/03/2020,21,03,2020,Marzo,Sabado,Palmira,Valle del Cauca,63,F,Importado,España,Casa
-194,21/03/2020,21,03,2020,Marzo,Sabado,Pereira,Risaralda,65,F,Importado,Estados Unidos De América,Casa
+194,21/03/2020,21,03,2020,Marzo,Sabado,Pereira,Risaralda,65,F,Importado,Estados Unidos De América,Recuperado
 195,21/03/2020,21,03,2020,Marzo,Sabado,Neiva,Huila,50,F,Importado,España,Casa
 196,21/03/2020,21,03,2020,Marzo,Sabado,Cartagena,Cartagena D.T. y C,58,M,Relacionado,Colombia,Fallecido
 197,21/03/2020,21,03,2020,Marzo,Sabado,Medellin,Antioquia,39,M,Importado,España,Casa
@@ -207,7 +207,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 205,21/03/2020,21,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,60,F,Importado,España,Recuperado
 206,21/03/2020,21,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,41,M,Importado,Guatemala,Recuperado (Hospital)
 207,21/03/2020,21,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,62,M,Importado,España,Casa
-208,21/03/2020,21,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,68,F,Importado,Londres,Recuperado
+208,21/03/2020,21,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,68,F,Importado,Reino Unido,Recuperado
 209,21/03/2020,21,03,2020,Marzo,Sabado,Soacha,Cundinamarca,55,M,Importado,Turquia,Casa
 210,22/03/2020,22,03,2020,Marzo,Domingo,Calarca,Quindio,25,M,Importado,España,Casa
 211,22/03/2020,22,03,2020,Marzo,Domingo,Armenia,Quindio,58,F,Relacionado,Colombia,Casa
@@ -216,7 +216,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 214,22/03/2020,22,03,2020,Marzo,Domingo,Dosquebradas,Risaralda,57,F,Importado,Grecia,Casa
 215,22/03/2020,22,03,2020,Marzo,Domingo,Dosquebradas,Risaralda,45,M,Importado,España,Hospital UCI
 216,22/03/2020,22,03,2020,Marzo,Domingo,Pereira,Risaralda,33,M,Importado,España,Casa
-217,22/03/2020,22,03,2020,Marzo,Domingo,La Dorada,Caldas,24,F,Relacionado,Colombia,Casa
+217,22/03/2020,22,03,2020,Marzo,Domingo,La Dorada,Caldas,24,F,Relacionado,Colombia,Recuperado
 218,22/03/2020,22,03,2020,Marzo,Domingo,Chinchina,Caldas,51,M,Importado,España,Recuperado
 219,22/03/2020,22,03,2020,Marzo,Domingo,Chinchina,Caldas,47,F,Relacionado,Colombia,Recuperado
 220,22/03/2020,22,03,2020,Marzo,Domingo,Bucaramanga,Santander,49,F,Importado,Republica Dominicana,Recuperado
@@ -233,7 +233,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 231,22/03/2020,22,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,59,F,Relacionado,Colombia,Fallecido
 232,22/03/2020,22,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,64,M,Relacionado,Colombia,Recuperado
 233,22/03/2020,22,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,41,M,Relacionado,Colombia,Casa
-234,22/03/2020,22,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,47,M,Importado,España,Recuperado (Hospital)
+234,22/03/2020,22,03,2020,Marzo,Domingo,Bogota,Bogota D.C.,47,M,Importado,España,Recuperado
 235,22/03/2020,22,03,2020,Marzo,Domingo,Guatape,Antioquia,52,M,Relacionado,Colombia,Recuperado
 236,22/03/2020,22,03,2020,Marzo,Domingo,Medellin,Antioquia,32,M,Importado,España,Casa
 237,22/03/2020,22,03,2020,Marzo,Domingo,Medellin,Antioquia,61,F,Importado,España,Casa
@@ -255,7 +255,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 253,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,45,F,Importado,España,Recuperado
 254,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,19,F,Importado,Estados Unidos De América,Casa
 255,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,57,F,Importado,Turquia,Casa
-256,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,80,M,Relacionado,Colombia,Hospital
+256,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,80,M,Relacionado,Colombia,Casa
 257,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,26,M,Importado,Turquia,Recuperado
 258,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,35,M,Importado,España,Recuperado
 259,23/03/2020,23,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,41,M,Importado,Inglaterra,Recuperado (Hospital)
@@ -278,7 +278,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 276,23/03/2020,23,03,2020,Marzo,Lunes,Sabaneta,Antioquia,36,F,Importado,Estados Unidos De América,Casa
 277,23/03/2020,23,03,2020,Marzo,Lunes,Armenia,Quindio,64,M,Importado,España,Recuperado (Hospital)
 278,23/03/2020,23,03,2020,Marzo,Lunes,Villamaria,Caldas,29,M,Importado,Ecuador,Recuperado
-279,23/03/2020,23,03,2020,Marzo,Lunes,Palmira,Valle del Cauca,63,F,Importado,España,Casa
+279,23/03/2020,23,03,2020,Marzo,Lunes,Palmira,Valle del Cauca,63,F,Importado,España,Recuperado
 280,23/03/2020,23,03,2020,Marzo,Lunes,Trujillo,Valle del Cauca,51,M,Importado,España,Casa
 281,23/03/2020,23,03,2020,Marzo,Lunes,Cali,Valle del Cauca,40,M,Importado,Estados Unidos De América,Hospital UCI
 282,23/03/2020,23,03,2020,Marzo,Lunes,Cali,Valle del Cauca,56,M,Relacionado,Colombia,Recuperado
@@ -295,7 +295,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 293,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,30,F,Importado,Estados Unidos De América,Casa
 294,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,42,M,Relacionado,Colombia,Casa
 295,23/03/2020,23,03,2020,Marzo,Lunes,Medellin,Antioquia,25,F,Relacionado,Colombia,Casa
-296,23/03/2020,23,03,2020,Marzo,Lunes,Envigado,Antioquia,20,M,Importado,Londres,Casa
+296,23/03/2020,23,03,2020,Marzo,Lunes,Envigado,Antioquia,20,M,Importado,Reino Unido,Casa
 297,23/03/2020,23,03,2020,Marzo,Lunes,Villavicencio,Meta,58,M,Importado,Ecuador,Casa
 298,23/03/2020,23,03,2020,Marzo,Lunes,Villavicencio,Meta,60,F,Importado,Ecuador,Recuperado
 299,23/03/2020,23,03,2020,Marzo,Lunes,Sabaneta,Antioquia,29,F,Importado,Turquia,Casa
@@ -311,7 +311,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 309,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,28,F,Importado,Estados Unidos De América,Casa
 310,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,40,F,En estudio,Colombia,Recuperado
 311,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,18,F,En estudio,Colombia,Recuperado
-312,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,48,F,En estudio,Colombia,Recuperado
+312,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,48,F,Relacionado,Colombia,Recuperado
 313,24/03/2020,24,03,2020,Marzo,Martes,Ipiales,Narino,62,M,Importado,Ecuador,Fallecido
 314,24/03/2020,24,03,2020,Marzo,Martes,Cucuta,Norte de Santander,49,M,Importado,Canada,Casa
 315,24/03/2020,24,03,2020,Marzo,Martes,Cucuta,Norte de Santander,18,M,Importado,Estados Unidos De América,Casa
@@ -319,9 +319,9 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 317,24/03/2020,24,03,2020,Marzo,Martes,Cucuta,Norte de Santander,77,M,Relacionado,Colombia,Casa
 318,24/03/2020,24,03,2020,Marzo,Martes,Ibague,Tolima,62,F,Importado,España,Recuperado
 319,24/03/2020,24,03,2020,Marzo,Martes,Ibague,Tolima,56,M,Importado,España,Casa
-320,24/03/2020,24,03,2020,Marzo,Martes,Ibague,Tolima,23,F,Importado,Estados Unidos De América,Casa
+320,24/03/2020,24,03,2020,Marzo,Martes,Ibague,Tolima,23,F,Importado,Estados Unidos De América,Recuperado
 321,24/03/2020,24,03,2020,Marzo,Martes,Ibague,Tolima,55,F,Importado,España,Casa
-322,24/03/2020,24,03,2020,Marzo,Martes,Viterbo,Caldas,15,F,Relacionado,Colombia,Casa
+322,24/03/2020,24,03,2020,Marzo,Martes,Viterbo,Caldas,15,F,Relacionado,Colombia,Recuperado
 323,24/03/2020,24,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,57,M,Importado,Panama,Recuperado
 324,24/03/2020,24,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,19,F,Importado,España,Casa
 325,24/03/2020,24,03,2020,Marzo,Martes,Pereira,Risaralda,61,M,Relacionado,Colombia,Fallecido
@@ -336,8 +336,8 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 334,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,59,M,Relacionado,Colombia,Hospital UCI
 335,24/03/2020,24,03,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,24,M,Relacionado,Colombia,Casa
 336,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,22,M,Relacionado,Colombia,Casa
-337,24/03/2020,24,03,2020,Marzo,Martes,La Union,Valle del Cauca,56,F,Importado,Londres,Casa
-338,24/03/2020,24,03,2020,Marzo,Martes,Cartago,Valle del Cauca,34,F,Importado,España,Casa
+337,24/03/2020,24,03,2020,Marzo,Martes,La Union,Valle del Cauca,56,F,Importado,Reino Unido,Casa
+338,24/03/2020,24,03,2020,Marzo,Martes,Cartago,Valle del Cauca,34,F,Importado,España,Recuperado
 339,24/03/2020,24,03,2020,Marzo,Martes,Cartagena,Cartagena D.T. y C,36,M,Relacionado,Colombia,Casa
 340,24/03/2020,24,03,2020,Marzo,Martes,Neiva,Huila,68,M,Relacionado,Colombia,Casa
 341,24/03/2020,24,03,2020,Marzo,Martes,Cali,Valle del Cauca,47,F,Relacionado,Colombia,Casa
@@ -399,7 +399,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 397,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,51,F,Relacionado,Colombia,Casa
 398,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,21,M,Importado,España,Casa
 399,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,60,F,Importado,España,Casa
-400,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,30,F,Importado,Londres,Casa
+400,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,30,F,Importado,Reino Unido,Casa
 401,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,70,F,Importado,España,Casa
 402,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,21,M,Importado,Mexico,Casa
 403,24/03/2020,24,03,2020,Marzo,Martes,Bogota,Bogota D.C.,58,M,Importado,Puerto Rico,Casa
@@ -421,7 +421,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 419,25/03/2020,25,03,2020,Marzo,Miercoles,Santa Marta,Santa Marta D.T. y C.,58,M,Relacionado,Colombia,Casa
 420,25/03/2020,25,03,2020,Marzo,Miercoles,Soledad,Atlantico,21,F,Relacionado,Colombia,Casa
 421,25/03/2020,25,03,2020,Marzo,Miercoles,Cartagena,Cartagena D.T. y C,50,F,Relacionado,Colombia,Casa
-422,25/03/2020,25,03,2020,Marzo,Miercoles,Pereira,Risaralda,28,F,Relacionado,Colombia,Casa
+422,25/03/2020,25,03,2020,Marzo,Miercoles,Pereira,Risaralda,28,F,Relacionado,Colombia,Recuperado
 423,25/03/2020,25,03,2020,Marzo,Miercoles,Pereira,Risaralda,64,M,Importado,Estados Unidos De América,Casa
 424,25/03/2020,25,03,2020,Marzo,Miercoles,Cali,Valle del Cauca,80,F,Relacionado,Colombia,Fallecido
 425,25/03/2020,25,03,2020,Marzo,Miercoles,Cartagena,Cartagena D.T. y C,41,F,Relacionado,Colombia,Casa
@@ -437,7 +437,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 435,25/03/2020,25,03,2020,Marzo,Miercoles,Cartagena,Cartagena D.T. y C,38,F,Relacionado,Colombia,Casa
 436,25/03/2020,25,03,2020,Marzo,Miercoles,Cucuta,Norte de Santander,28,F,Relacionado,Colombia,Casa
 437,25/03/2020,25,03,2020,Marzo,Miercoles,Medellin,Antioquia,36,F,Relacionado,Colombia,Casa
-438,25/03/2020,25,03,2020,Marzo,Miercoles,La Dorada,Caldas,28,M,Relacionado,Colombia,Casa
+438,25/03/2020,25,03,2020,Marzo,Miercoles,La Dorada,Caldas,28,M,Relacionado,Colombia,Recuperado
 439,25/03/2020,25,03,2020,Marzo,Miercoles,Cucuta,Norte de Santander,73,F,Relacionado,Colombia,Casa
 440,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,43,F,Relacionado,Colombia,Casa
 441,25/03/2020,25,03,2020,Marzo,Miercoles,Bogota,Bogota D.C.,55,F,Relacionado,Colombia,Casa
@@ -535,7 +535,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 533,27/03/2020,27,03,2020,Marzo,Viernes,Armenia,Quindio,26,M,Importado,Estados Unidos De América,Casa
 534,27/03/2020,27,03,2020,Marzo,Viernes,Soledad,Atlantico,50,M,Relacionado,Colombia,Fallecido
 535,27/03/2020,27,03,2020,Marzo,Viernes,Armenia,Quindio,24,M,Importado,Francia,Casa
-536,27/03/2020,27,03,2020,Marzo,Viernes,Armenia,Quindio,34,F,Relacionado,Colombia,Casa
+536,27/03/2020,27,03,2020,Marzo,Viernes,Armenia,Quindio,34,F,Relacionado,Colombia,Recuperado
 537,27/03/2020,27,03,2020,Marzo,Viernes,Santa Marta,Santa Marta D.T. y C.,49,F,Relacionado,Colombia,Casa
 538,27/03/2020,27,03,2020,Marzo,Viernes,Manizales,Caldas,81,M,Relacionado,Colombia,Casa
 539,28/03/2020,28,03,2020,Marzo,Sabado,Mosquera,Cundinamarca,37,M,Importado,Egipto,Recuperado
@@ -546,7 +546,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 544,28/03/2020,28,03,2020,Marzo,Sabado,Palmira,Valle del Cauca,9,M,Relacionado,Colombia,Casa
 545,28/03/2020,28,03,2020,Marzo,Sabado,Palmira,Valle del Cauca,60,F,Relacionado,Colombia,Casa
 546,28/03/2020,28,03,2020,Marzo,Sabado,Sahagun,Cordoba,29,F,Importado,España,Recuperado
-547,28/03/2020,28,03,2020,Marzo,Sabado,Pasto,Narino,54,M,Importado,Mexico,Casa
+547,28/03/2020,28,03,2020,Marzo,Sabado,Pasto,Narino,54,M,Importado,Mexico,Recuperado
 548,28/03/2020,28,03,2020,Marzo,Sabado,Valledupar,Cesar,16,F,Importado,Inglaterra,Casa
 549,28/03/2020,28,03,2020,Marzo,Sabado,Polonuevo,Atlantico,16,M,En estudio,Colombia,Recuperado
 550,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,29,M,En estudio,Colombia,Casa
@@ -566,7 +566,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 564,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,64,F,Relacionado,Colombia,Casa
 565,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,48,F,En estudio,Colombia,Fallecido
 566,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
-567,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+567,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,35,M,Relacionado,Colombia,Casa
 568,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,57,F,En estudio,Colombia,Fallecido
 569,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,30,M,Relacionado,Colombia,Casa
 570,28/03/2020,28,03,2020,Marzo,Sabado,Bogota,Bogota D.C.,54,M,En estudio,Colombia,Casa
@@ -703,7 +703,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 701,29/03/2020,29,03,2020,Marzo,Domingo,Arjona,Bolivar,22,F,Importado,Turquia,Casa
 702,30/03/2020,30,03,2020,Marzo,Lunes,Santana,Boyaca,73,F,Relacionado,Colombia,Casa
 703,30/03/2020,30,03,2020,Marzo,Lunes,Cucuta,Norte de Santander,21,F,Importado,Panama,Recuperado
-704,30/03/2020,30,03,2020,Marzo,Lunes,Sopo,Cundinamarca,60,M,Importado,Estados Unidos De América,Casa
+704,30/03/2020,30,03,2020,Marzo,Lunes,Sopo,Cundinamarca,60,M,Importado,Estados Unidos De América,Hospital
 705,30/03/2020,30,03,2020,Marzo,Lunes,Chia,Cundinamarca,35,M,Importado,Ecuador,Casa
 706,30/03/2020,30,03,2020,Marzo,Lunes,Villapinzon,Cundinamarca,65,M,Relacionado,Colombia,Fallecido
 707,30/03/2020,30,03,2020,Marzo,Lunes,Soacha,Cundinamarca,54,F,Importado,Estados Unidos De América,Casa
@@ -725,7 +725,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 723,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,34,M,Importado,España,Casa
 724,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,37,F,Relacionado,Colombia,Casa
 725,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,36,M,En estudio,Colombia,Casa
-726,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,25,M,Importado,Londres,Casa
+726,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,25,M,Importado,Reino Unido,Casa
 727,30/03/2020,30,03,2020,Marzo,Lunes,La Estrella,Antioquia,53,M,Relacionado,Colombia,Casa
 728,30/03/2020,30,03,2020,Marzo,Lunes,Envigado,Antioquia,64,M,Relacionado,Colombia,Casa
 729,30/03/2020,30,03,2020,Marzo,Lunes,Medellin,Antioquia,19,F,Relacionado,Colombia,Casa
@@ -737,16 +737,16 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 735,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,32,M,En estudio,Colombia,Hospital
 736,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,26,M,Importado,Estados Unidos De América,Casa
 737,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,Relacionado,Colombia,Casa
-738,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,Importado,Londres,Casa
+738,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,Importado,Reino Unido,Casa
 739,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,29,F,Relacionado,Colombia,Casa
-740,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,36,F,Importado,Londres,Casa
+740,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,36,F,Importado,Reino Unido,Casa
 741,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
 742,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,75,F,En estudio,Colombia,Hospital UCI
 743,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,27,M,En estudio,Colombia,Hospital
 744,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,51,F,Importado,Estados Unidos De América,Casa
 745,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,54,F,En estudio,Colombia,Casa
 746,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,52,M,En estudio,Colombia,Casa
-747,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,23,M,Importado,Londres,Hospital
+747,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,23,M,Importado,Reino Unido,Hospital
 748,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,50,M,Importado,Jamaica,Casa
 749,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,M,Importado,Jamaica,Casa
 750,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,F,Importado,Jamaica,Casa
@@ -764,7 +764,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 762,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,57,M,Importado,Argentina,Casa
 763,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,61,F,En estudio,Colombia,Hospital UCI
 764,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
-765,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Casa
+765,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,30,M,Relacionado,Colombia,Casa
 766,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,31,F,Importado,Estados Unidos De América,Casa
 767,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,46,M,En estudio,Colombia,Casa
 768,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,84,M,Importado,Argentina,Casa
@@ -777,7 +777,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 775,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,2,M,Relacionado,Colombia,Casa
 776,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,47,F,Relacionado,Colombia,Casa
 777,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,44,M,En estudio,Colombia,Hospital UCI
-778,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Hospital
+778,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,50,M,En estudio,Colombia,Fallecido
 779,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,30,F,Relacionado,Colombia,Casa
 780,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,27,F,En estudio,Colombia,Casa
 781,30/03/2020,30,03,2020,Marzo,Lunes,Bogota,Bogota D.C.,35,M,Importado,España,Casa
@@ -798,7 +798,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 796,30/03/2020,30,03,2020,Marzo,Lunes,Cali,Valle del Cauca,83,M,Relacionado,Colombia,Hospital
 797,30/03/2020,30,03,2020,Marzo,Lunes,Cartago,Valle del Cauca,63,F,Importado,Panama,Casa
 798,31/03/2020,31,03,2020,Marzo,Martes,Palmira,Valle del Cauca,69,F,Importado,España,Casa
-799,31/03/2020,31,03,2020,Marzo,Martes,Cartago,Valle del Cauca,25,F,Importado,España,Casa
+799,31/03/2020,31,03,2020,Marzo,Martes,Cartago,Valle del Cauca,25,F,Importado,España,Recuperado
 800,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,44,M,En estudio,Colombia,Casa
 801,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,54,M,Relacionado,Colombia,Hospital
 802,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,20,F,Importado,España,Casa
@@ -808,7 +808,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 806,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,32,M,Importado,España,Casa
 807,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,30,F,Importado,España,Casa
 808,31/03/2020,31,03,2020,Marzo,Martes,Cali,Valle del Cauca,38,M,Importado,España,Casa
-809,31/03/2020,31,03,2020,Marzo,Martes,Tumaco,Narino,0,M,Importado,Ecuador,Casa
+809,31/03/2020,31,03,2020,Marzo,Martes,Tumaco,Narino,0,M,Importado,Ecuador,Recuperado
 810,31/03/2020,31,03,2020,Marzo,Martes,Pasto,Narino,76,F,Importado,España,Casa
 811,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,46,M,Relacionado,Colombia,Casa
 812,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,41,M,Relacionado,Colombia,Recuperado
@@ -816,13 +816,13 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 814,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,31,M,Importado,Estados Unidos De América,Recuperado
 815,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,27,M,Relacionado,Colombia,Casa
 816,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,40,M,Relacionado,Colombia,Casa
-817,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,21,M,Relacionado,Colombia,Casa
+817,31/03/2020,31,03,2020,Marzo,Martes,Valledupar,Cesar,21,M,Relacionado,Colombia,Recuperado
 818,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,26,M,Importado,Estados Unidos De América,Casa
-819,31/03/2020,31,03,2020,Marzo,Martes,Riohacha,La Guajira,42,M,Importado,Estados Unidos De América,Casa
+819,31/03/2020,31,03,2020,Marzo,Martes,Riohacha,La Guajira,42,M,Importado,Estados Unidos De América,Recuperado
 820,31/03/2020,31,03,2020,Marzo,Martes,Santa Marta,Santa Marta D.T. y C.,70,M,Relacionado,Colombia,Casa
 821,31/03/2020,31,03,2020,Marzo,Martes,Santa Marta,Santa Marta D.T. y C.,43,M,Relacionado,Colombia,Casa
 822,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,57,F,Relacionado,Colombia,Casa
-823,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,32,F,Relacionado,Colombia,Casa
+823,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,32,F,Relacionado,Colombia,Recuperado
 824,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,44,M,Importado,España,Casa
 825,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,24,M,Importado,Estados Unidos De América,Casa
 826,31/03/2020,31,03,2020,Marzo,Martes,Barranquilla,Barranquilla D.E.,25,M,Importado,Estados Unidos De América,Casa
@@ -884,14 +884,14 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 882,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,55,F,Relacionado,Colombia,Casa
 883,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,18,M,Importado,Inglaterra,Casa
 884,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,56,M,Relacionado,Colombia,Casa
-885,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,65,F,En estudio,Colombia,Hospital UCI
+885,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,65,F,Relacionado,Colombia,Hospital UCI
 886,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,36,M,Relacionado,Colombia,Casa
-887,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,35,M,En estudio,Colombia,Casa
+887,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,35,M,Importado,España,Casa
 888,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,31,M,En estudio,Colombia,Casa
-889,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,49,M,En estudio,Colombia,Hospital UCI
+889,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,49,M,En estudio,Colombia,Fallecido
 890,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,43,F,En estudio,Colombia,Casa
 891,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,28,F,En estudio,Colombia,Casa
-892,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,32,M,En estudio,Colombia,Casa
+892,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,32,M,Importado,Inglaterra,Casa
 893,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,41,M,En estudio,Colombia,Casa
 894,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,38,F,Relacionado,Colombia,Casa
 895,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,18,M,En estudio,Colombia,Casa
@@ -899,7 +899,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 897,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,31,F,Relacionado,Colombia,Casa
 898,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,20,F,Importado,Estados Unidos De América,Casa
 899,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,2,M,En estudio,Colombia,Casa
-900,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,37,M,En estudio,Colombia,Casa
+900,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,37,M,Importado,Panama,Casa
 901,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
 902,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,38,M,En estudio,Colombia,Hospital
 903,31/03/2020,31,03,2020,Marzo,Martes,Bogota,Bogota D.C.,54,F,En estudio,Colombia,Casa
@@ -1062,7 +1062,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1060,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,47,F,En estudio,Colombia,Hospital
 1061,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,60,F,En estudio,Colombia,Hospital UCI
 1062,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Hospital
-1063,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,33,M,En estudio,Colombia,Hospital UCI
+1063,01/04/2020,01,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,33,M,En estudio,Colombia,Fallecido
 1064,01/04/2020,01,04,2020,Abril,Miercoles,Santa Rosa,Antioquia,32,F,Importado,Panama,Casa
 1065,02/04/2020,02,04,2020,Abril,Jueves,Rionegro,Antioquia,40,F,Importado,Estados Unidos De América,Casa
 1066,02/04/2020,02,04,2020,Abril,Jueves,Envigado,Antioquia,51,F,Importado,Panama,Casa
@@ -1112,7 +1112,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1110,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,24,M,En estudio,Colombia,Casa
 1111,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,29,M,Importado,Estados Unidos De América,Casa
 1112,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,44,M,En estudio,Colombia,Casa
-1113,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,28,F,En estudio,Colombia,Casa
+1113,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,28,F,Relacionado,Colombia,Casa
 1114,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,50,F,En estudio,Colombia,Casa
 1115,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,38,F,Importado,Brasil,Casa
 1116,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,39,F,En estudio,Colombia,Casa
@@ -1134,7 +1134,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1132,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,59,M,En estudio,Colombia,Casa
 1133,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,28,F,Relacionado,Colombia,Casa
 1134,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,67,F,Importado,Estados Unidos De América,Casa
-1135,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,29,F,En estudio,Colombia,Casa
+1135,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,29,F,Relacionado,Colombia,Casa
 1136,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,32,F,En estudio,Colombia,Casa
 1137,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,40,M,Importado,Arabia,Casa
 1138,02/04/2020,02,04,2020,Abril,Jueves,Bogota,Bogota D.C.,25,F,En estudio,Colombia,Casa
@@ -1239,7 +1239,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1237,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,82,M,En estudio,Colombia,Fallecido
 1238,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,26,F,En estudio,Colombia,Casa
 1239,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,7,F,En estudio,Colombia,Casa
-1240,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,41,F,En estudio,Colombia,Casa
+1240,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,41,F,Relacionado,Colombia,Casa
 1241,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,51,F,En estudio,Colombia,Casa
 1242,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,58,M,Importado,Estados Unidos De América,Casa
 1243,03/04/2020,03,04,2020,Abril,Viernes,Bogota,Bogota D.C.,45,F,En estudio,Colombia,Casa
@@ -1297,7 +1297,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1295,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,28,M,En estudio,Colombia,Casa
 1296,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,60,F,En estudio,Colombia,Casa
 1297,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,42,F,En estudio,Colombia,Casa
-1298,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,93,F,En estudio,Colombia,Hospital
+1298,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,93,F,En estudio,Colombia,Fallecido
 1299,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,57,F,En estudio,Colombia,Casa
 1300,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,60,M,En estudio,Colombia,Casa
 1301,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,37,F,En estudio,Colombia,Casa
@@ -1323,7 +1323,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1321,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,66,F,En estudio,Colombia,Casa
 1322,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,55,M,Importado,Panama,Casa
 1323,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,30,M,En estudio,Colombia,Casa
-1324,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,12,M,En estudio,Colombia,Casa
+1324,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,12,M,Relacionado,Colombia,Casa
 1325,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,67,F,Importado,España,Casa
 1326,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,39,F,En estudio,Colombia,Casa
 1327,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,92,M,En estudio,Colombia,Casa
@@ -1394,7 +1394,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1392,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,73,F,Importado,Mexico,Casa
 1393,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,23,F,En estudio,Colombia,Casa
 1394,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,48,M,Importado,Honduras,Casa
-1395,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,36,M,En estudio,Colombia,Casa
+1395,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,36,M,Relacionado,Colombia,Casa
 1396,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,20,M,En estudio,Colombia,Casa
 1397,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,34,F,En estudio,Colombia,Casa
 1398,04/04/2020,04,04,2020,Abril,Sabado,Bogota,Bogota D.C.,33,F,En estudio,Colombia,Casa
@@ -1419,7 +1419,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1417,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,64,M,En estudio,Colombia,Hospital UCI
 1418,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,47,M,En estudio,Colombia,Hospital
 1419,05/04/2020,05,04,2020,Abril,Domingo,Guacari,Valle del Cauca,38,M,En estudio,Colombia,Casa
-1420,05/04/2020,05,04,2020,Abril,Domingo,Barranquilla,Barranquilla D.E.,38,F,Importado,Estados Unidos De América,Casa
+1420,05/04/2020,05,04,2020,Abril,Domingo,Barranquilla,Barranquilla D.E.,38,F,Importado,Estados Unidos,Casa
 1421,05/04/2020,05,04,2020,Abril,Domingo,Soledad,Atlantico,43,M,En estudio,Colombia,Fallecido
 1422,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,44,F,En estudio,Colombia,Hospital UCI
 1423,05/04/2020,05,04,2020,Abril,Domingo,Cali,Valle del Cauca,34,F,En estudio,Colombia,Hospital
@@ -1484,7 +1484,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1482,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,97,F,En estudio,Colombia,Hospital
 1483,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,75,M,En estudio,Colombia,Hospital
 1484,05/04/2020,05,04,2020,Abril,Domingo,Bogota,Bogota D.C.,56,F,En estudio,Colombia,Hospital
-1485,06/04/2020,06,04,2020,Abril,Lunes,Barrancabermeja,Santander,49,M,En estudio,Colombia,Fallecido
+1485,06/04/2020,06,04,2020,Abril,Lunes,Barrancabermeja,Santander,49,M,Relacionado,Colombia,Fallecido
 1486,06/04/2020,06,04,2020,Abril,Lunes,Floridablanca,Santander,65,M,Relacionado,Colombia,Hospital UCI
 1487,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,87,F,En estudio,Colombia,Hospital
 1488,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,25,M,En estudio,Colombia,Casa
@@ -1576,7 +1576,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1574,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,42,F,En estudio,Colombia,Casa
 1575,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,15,M,Relacionado,Colombia,Casa
 1576,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,30,F,En estudio,Colombia,Casa
-1577,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,55,F,En estudio,Colombia,Casa
+1577,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,55,F,Relacionado,Colombia,Casa
 1578,06/04/2020,06,04,2020,Abril,Lunes,Cartagena,Cartagena D.T. y C,73,M,En estudio,Colombia,Hospital UCI
 1579,07/04/2020,07,04,2020,Abril,Martes,Medellin,Antioquia,31,F,Importado,Panama,Casa
 1580,07/04/2020,07,04,2020,Abril,Martes,Cartagena,Cartagena D.T. y C,29,M,En estudio,Colombia,Casa
@@ -1675,7 +1675,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1673,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,56,F,Relacionado,Colombia,Casa
 1674,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,42,M,Relacionado,Colombia,Hospital
 1675,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,59,M,Relacionado,Colombia,Casa
-1676,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,61,M,En estudio,Colombia,Casa
+1676,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,61,M,En estudio,Colombia,Fallecido
 1677,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,24,M,Relacionado,Colombia,Casa
 1678,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,54,F,Relacionado,Colombia,Casa
 1679,07/04/2020,07,04,2020,Abril,Martes,Bogota,Bogota D.C.,48,F,Relacionado,Colombia,Hospital
@@ -1815,10 +1815,10 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1813,08/04/2020,08,04,2020,Abril,Miercoles,Santa Marta,Santa Marta D.T. y C.,48,F,En estudio,Colombia,Casa
 1814,08/04/2020,08,04,2020,Abril,Miercoles,Santa Marta,Santa Marta D.T. y C.,24,M,En estudio,Colombia,Casa
 1815,08/04/2020,08,04,2020,Abril,Miercoles,Santa Marta,Santa Marta D.T. y C.,30,M,En estudio,Colombia,Hospital UCI
-1816,08/04/2020,08,04,2020,Abril,Miercoles,Medellin,Antioquia,34,F,Importado,Estados Unidos De América,Casa
+1816,08/04/2020,08,04,2020,Abril,Miercoles,Medellin,Antioquia,34,F,Importado,Estados Unidos,Casa
 1817,08/04/2020,08,04,2020,Abril,Miercoles,Medellin,Antioquia,63,F,En estudio,Colombia,Casa
 1818,08/04/2020,08,04,2020,Abril,Miercoles,Manizales,Caldas,18,F,Relacionado,Colombia,Casa
-1819,08/04/2020,08,04,2020,Abril,Miercoles,La Dorada,Caldas,91,F,En estudio,Colombia,Hospital
+1819,08/04/2020,08,04,2020,Abril,Miercoles,La Dorada,Caldas,91,F,En estudio,Colombia,Fallecido
 1820,08/04/2020,08,04,2020,Abril,Miercoles,Manizales,Caldas,26,F,Relacionado,Colombia,Casa
 1821,08/04/2020,08,04,2020,Abril,Miercoles,Cucuta,Norte de Santander,42,F,Importado,España,Casa
 1822,08/04/2020,08,04,2020,Abril,Miercoles,Pereira,Risaralda,49,F,Relacionado,Colombia,Casa
@@ -1847,7 +1847,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1845,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,45,M,Importado,Brasil,Casa
 1846,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,52,F,En estudio,Colombia,Casa
 1847,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,27,M,En estudio,Colombia,Casa
-1848,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,83,M,En estudio,Colombia,Hospital UCI
+1848,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,83,M,En estudio,Colombia,Fallecido
 1849,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,14,M,En estudio,Colombia,Casa
 1850,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,64,M,En estudio,Colombia,Casa
 1851,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,48,F,En estudio,Colombia,Casa
@@ -1872,16 +1872,16 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1870,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,35,F,En estudio,Colombia,Casa
 1871,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,36,M,En estudio,Colombia,Casa
 1872,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,52,F,En estudio,Colombia,Hospital
-1873,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,19,M,En estudio,Colombia,Casa
+1873,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,19,M,Relacionado,Colombia,Casa
 1874,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,49,F,Importado,Israel,Casa
 1875,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,57,M,En estudio,Colombia,Hospital
 1876,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,59,M,En estudio,Colombia,Casa
-1877,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,82,M,En estudio,Colombia,Hospital
+1877,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,82,M,En estudio,Colombia,Fallecido
 1878,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,62,M,En estudio,Colombia,Hospital
 1879,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,70,M,Importado,Estados Unidos De América,Casa
 1880,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,40,F,En estudio,Colombia,Casa
 1881,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,30,F,Importado,Brasil,Casa
-1882,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,43,F,En estudio,Colombia,Casa
+1882,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,43,F,Relacionado,Colombia,Casa
 1883,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,64,F,En estudio,Colombia,Casa
 1884,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,61,M,Importado,Mexico,Casa
 1885,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,59,F,Importado,Alemania,Casa
@@ -1926,8 +1926,8 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1924,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,14,M,Importado,Mexico,Casa
 1925,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,33,F,En estudio,Colombia,Casa
 1926,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,66,M,En estudio,Colombia,Hospital
-1927,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,48,M,En estudio,Colombia,Hospital UCI
-1928,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,74,F,En estudio,Colombia,Hospital UCI
+1927,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,48,M,En estudio,Colombia,Fallecido
+1928,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,74,F,En estudio,Colombia,Fallecido
 1929,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,56,M,En estudio,Colombia,Hospital
 1930,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,67,M,En estudio,Colombia,Hospital
 1931,08/04/2020,08,04,2020,Abril,Miercoles,Bogota,Bogota D.C.,13,M,En estudio,Colombia,Casa
@@ -1974,8 +1974,8 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1972,08/04/2020,08,04,2020,Abril,Miercoles,Cali,Valle del Cauca,66,M,En estudio,Colombia,Hospital
 1973,08/04/2020,08,04,2020,Abril,Miercoles,Jamundi,Valle del Cauca,22,F,En estudio,Colombia,Casa
 1974,08/04/2020,08,04,2020,Abril,Miercoles,Cartagena,Cartagena D.T. y C,47,F,En estudio,Colombia,Casa
-1975,08/04/2020,08,04,2020,Abril,Miercoles,Cartagena,Cartagena D.T. y C,30,M,En estudio,Colombia,Casa
-1976,08/04/2020,08,04,2020,Abril,Miercoles,Bello,Antioquia,50,F,En estudio,Colombia,Casa
+1975,08/04/2020,08,04,2020,Abril,Miercoles,Cartagena,Cartagena D.T. y C,30,M,Relacionado,Colombia,Casa
+1976,08/04/2020,08,04,2020,Abril,Miercoles,Bello,Antioquia,50,F,Relacionado,Colombia,Casa
 1977,08/04/2020,08,04,2020,Abril,Miercoles,Medellin,Antioquia,54,M,Relacionado,Colombia,Casa
 1978,08/04/2020,08,04,2020,Abril,Miercoles,Medellin,Antioquia,55,M,Importado,Mexico,Casa
 1979,08/04/2020,08,04,2020,Abril,Miercoles,Medellin,Antioquia,56,M,En estudio,Colombia,Casa
@@ -2002,7 +2002,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2000,08/04/2020,08,04,2020,Abril,Miercoles,Cartagena,Cartagena D.T. y C,45,M,En estudio,Colombia,Hospital
 2001,08/04/2020,08,04,2020,Abril,Miercoles,Cartagena,Cartagena D.T. y C,20,F,En estudio,Colombia,Casa
 2002,08/04/2020,08,04,2020,Abril,Miercoles,Cartagena,Cartagena D.T. y C,32,M,En estudio,Colombia,Casa
-2003,08/04/2020,08,04,2020,Abril,Miercoles,Cartagena,Cartagena D.T. y C,32,F,Importado,Estados Unidos De América,Casa
+2003,08/04/2020,08,04,2020,Abril,Miercoles,Cartagena,Cartagena D.T. y C,32,F,Importado,Estados Unidos,Casa
 2004,08/04/2020,08,04,2020,Abril,Miercoles,Turbaco,Bolivar,39,F,Relacionado,Colombia,Casa
 2005,08/04/2020,08,04,2020,Abril,Miercoles,Turbaco,Bolivar,69,F,Relacionado,Colombia,Casa
 2006,08/04/2020,08,04,2020,Abril,Miercoles,Tenza,Boyaca,58,F,En estudio,Colombia,Casa
@@ -2100,14 +2100,14 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2098,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,48,F,Relacionado,Colombia,Hospital
 2099,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,2,M,Relacionado,Colombia,Casa
 2100,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,38,M,Importado,Egipto,Casa
-2101,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,83,F,En estudio,Colombia,Hospital
+2101,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,83,F,En estudio,Colombia,Fallecido
 2102,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,41,F,En estudio,Colombia,Hospital
 2103,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,65,M,En estudio,Colombia,Hospital
 2104,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,33,F,Relacionado,Colombia,Casa
 2105,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,15,M,Relacionado,Colombia,Casa
 2106,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,30,F,Importado,Turquia,Casa
 2107,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,79,F,En estudio,Colombia,Casa
-2108,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,83,M,En estudio,Colombia,Hospital
+2108,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,83,M,En estudio,Colombia,Fallecido
 2109,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,31,M,En estudio,Colombia,Casa
 2110,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,45,M,En estudio,Colombia,Casa
 2111,09/04/2020,09,04,2020,Abril,Jueves,Cucuta,Norte de Santander,39,M,En estudio,Colombia,Casa
@@ -2129,8 +2129,8 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2127,09/04/2020,09,04,2020,Abril,Jueves,Cartagena,Cartagena D.T. y C,66,M,En estudio,Colombia,Fallecido
 2128,09/04/2020,09,04,2020,Abril,Jueves,Cartagena,Cartagena D.T. y C,23,F,En estudio,Colombia,Casa
 2129,09/04/2020,09,04,2020,Abril,Jueves,Turbaco,Bolivar,71,M,Relacionado,Colombia,Fallecido
-2130,09/04/2020,09,04,2020,Abril,Jueves,Cartagena,Cartagena D.T. y C,31,M,En estudio,Colombia,Casa
-2131,09/04/2020,09,04,2020,Abril,Jueves,Cartagena,Cartagena D.T. y C,48,F,En estudio,Colombia,Casa
+2130,09/04/2020,09,04,2020,Abril,Jueves,Cartagena,Cartagena D.T. y C,31,M,Relacionado,Colombia,Casa
+2131,09/04/2020,09,04,2020,Abril,Jueves,Cartagena,Cartagena D.T. y C,48,F,Relacionado,Colombia,Casa
 2132,09/04/2020,09,04,2020,Abril,Jueves,Cartagena,Cartagena D.T. y C,78,M,Relacionado,Colombia,Hospital
 2133,09/04/2020,09,04,2020,Abril,Jueves,Togui,Boyaca,52,M,Relacionado,Colombia,Casa
 2134,09/04/2020,09,04,2020,Abril,Jueves,Togui,Boyaca,19,M,Relacionado,Colombia,Casa
@@ -2146,7 +2146,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2144,09/04/2020,09,04,2020,Abril,Jueves,Chia,Cundinamarca,53,F,En estudio,Colombia,Hospital
 2145,09/04/2020,09,04,2020,Abril,Jueves,Facatativa,Cundinamarca,32,M,En estudio,Colombia,Casa
 2146,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,26,F,En estudio,Colombia,Casa
-2147,09/04/2020,09,04,2020,Abril,Jueves,Villavicencio,Meta,71,F,Relacionado,Colombia,Hospital
+2147,09/04/2020,09,04,2020,Abril,Jueves,Villavicencio,Meta,71,F,Relacionado,Colombia,Casa
 2148,09/04/2020,09,04,2020,Abril,Jueves,Tumaco,Narino,6,F,En estudio,Colombia,Casa
 2149,09/04/2020,09,04,2020,Abril,Jueves,Ipiales,Narino,61,F,En estudio,Colombia,Casa
 2150,09/04/2020,09,04,2020,Abril,Jueves,Ipiales,Narino,51,F,En estudio,Colombia,Casa
@@ -2202,7 +2202,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2200,09/04/2020,09,04,2020,Abril,Jueves,Cali,Valle del Cauca,59,M,Importado,España,Hospital
 2201,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,56,M,Relacionado,Colombia,Casa
 2202,09/04/2020,09,04,2020,Abril,Jueves,Bogota,Bogota D.C.,47,M,Relacionado,Colombia,Casa
-2203,09/04/2020,09,04,2020,Abril,Jueves,Candelaria,Valle del Cauca,33,M,En estudio,Colombia,Casa
+2203,09/04/2020,09,04,2020,Abril,Jueves,Cali,Valle del Cauca,33,M,En estudio,Colombia,Casa
 2204,09/04/2020,09,04,2020,Abril,Jueves,Cali,Valle del Cauca,22,M,En estudio,Colombia,Casa
 2205,09/04/2020,09,04,2020,Abril,Jueves,Cali,Valle del Cauca,65,M,En estudio,Colombia,Hospital
 2206,09/04/2020,09,04,2020,Abril,Jueves,Cali,Valle del Cauca,62,M,En estudio,Colombia,Casa
@@ -2219,13 +2219,13 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2217,09/04/2020,09,04,2020,Abril,Jueves,Cali,Valle del Cauca,77,F,En estudio,Colombia,Hospital
 2218,09/04/2020,09,04,2020,Abril,Jueves,Cali,Valle del Cauca,62,M,En estudio,Colombia,Hospital
 2219,09/04/2020,09,04,2020,Abril,Jueves,Cali,Valle del Cauca,32,M,En estudio,Colombia,Casa
-2220,09/04/2020,09,04,2020,Abril,Jueves,Yopal,Casanare,43,F,En estudio,Colombia,Casa
+2220,09/04/2020,09,04,2020,Abril,Jueves,Yopal,Casanare,43,F,Relacionado,Colombia,Casa
 2221,09/04/2020,09,04,2020,Abril,Jueves,Espinal,Tolima,44,M,En estudio,Colombia,Casa
 2222,09/04/2020,09,04,2020,Abril,Jueves,Ipiales,Narino,42,M,En estudio,Colombia,Hospital
 2223,10/04/2020,10,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,50,M,Importado,Estados Unidos,Casa
 2224,10/04/2020,10,04,2020,Abril,Viernes,Medellin,Antioquia,22,F,Relacionado,Colombia,Casa
 2225,10/04/2020,10,04,2020,Abril,Viernes,Envigado,Antioquia,29,F,Relacionado,Colombia,Casa
-2226,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,21,F,Importado,Francia,Casa
+2226,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,21,F,Importado,Paris,Casa
 2227,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,30,F,En estudio,Colombia,Hospital
 2228,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,33,M,Importado,Mexico,Hospital
 2229,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,44,F,Relacionado,Colombia,Casa
@@ -2239,10 +2239,10 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2237,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,8,F,Relacionado,Colombia,Casa
 2238,10/04/2020,10,04,2020,Abril,Viernes,Guatape,Antioquia,39,F,Relacionado,Colombia,Casa
 2239,10/04/2020,10,04,2020,Abril,Viernes,Medellin,Antioquia,62,M,Relacionado,Colombia,Casa
-2240,10/04/2020,10,04,2020,Abril,Viernes,Medellin,Antioquia,56,M,Relacionado,Colombia,Hospital
-2241,10/04/2020,10,04,2020,Abril,Viernes,Medellin,Antioquia,62,F,Relacionado,Colombia,Hospital
+2240,10/04/2020,10,04,2020,Abril,Viernes,Medellin,Antioquia,55,M,Relacionado,Colombia,Hospital
+2241,10/04/2020,10,04,2020,Abril,Viernes,Medellin,Antioquia,62,F,En estudio,Colombia,Hospital
 2242,10/04/2020,10,04,2020,Abril,Viernes,Puerto Colombia,Atlantico,68,F,En estudio,Colombia,Casa
-2243,10/04/2020,10,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,14,M,Relacionado,0,Casa
+2243,10/04/2020,10,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,14,M,Relacionado,Colombia,Casa
 2244,10/04/2020,10,04,2020,Abril,Viernes,Santa Marta,Santa Marta D.T. y C.,48,M,Relacionado,Colombia,Hospital
 2245,10/04/2020,10,04,2020,Abril,Viernes,Palmira,Valle del Cauca,39,F,Relacionado,Colombia,Casa
 2246,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,58,F,Importado,Estados Unidos De América,Casa
@@ -2277,7 +2277,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2275,10/04/2020,10,04,2020,Abril,Viernes,Bogota,Bogota D.C.,60,F,En estudio,Colombia,Hospital UCI
 2276,10/04/2020,10,04,2020,Abril,Viernes,Bogota,Bogota D.C.,60,F,Importado,España,Casa
 2277,10/04/2020,10,04,2020,Abril,Viernes,Bogota,Bogota D.C.,66,M,En estudio,Colombia,Casa
-2278,10/04/2020,10,04,2020,Abril,Viernes,Bogota,Bogota D.C.,60,F,En estudio,Colombia,Hospital
+2278,10/04/2020,10,04,2020,Abril,Viernes,Tenjo,Cundinamarca,60,F,En estudio,Colombia,Fallecido
 2279,10/04/2020,10,04,2020,Abril,Viernes,Bogota,Bogota D.C.,35,F,En estudio,Colombia,Casa
 2280,10/04/2020,10,04,2020,Abril,Viernes,Bogota,Bogota D.C.,69,F,En estudio,Colombia,Casa
 2281,10/04/2020,10,04,2020,Abril,Viernes,Bogota,Bogota D.C.,65,F,Importado,Panamá,Hospital
@@ -2339,24 +2339,24 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2337,10/04/2020,10,04,2020,Abril,Viernes,Bogota,Bogota D.C.,86,F,En estudio,Colombia,Casa
 2338,10/04/2020,10,04,2020,Abril,Viernes,Bogota,Bogota D.C.,38,F,Importado,Mexico,Casa
 2339,10/04/2020,10,04,2020,Abril,Viernes,Bogota,Bogota D.C.,67,M,En estudio,Colombia,Casa
-2340,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,40,F,En estudio,Colombia,casa
-2341,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,50,M,En estudio,Colombia,casa
+2340,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,40,F,En estudio,Colombia,Casa
+2341,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,50,M,En estudio,Colombia,Casa
 2342,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,55,M,En estudio,Colombia,Casa
-2343,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,17,F,Relacionado,Colombia,casa
-2344,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,66,F,Relacionado,Colombia,casa
+2343,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,17,F,Relacionado,Colombia,Casa
+2344,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,66,F,Relacionado,Colombia,Casa
 2345,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,76,M,En estudio,Colombia,Hospital UCI
 2346,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,30,F,Relacionado,Colombia,Casa
-2347,10/04/2020,10,04,2020,Abril,Viernes,Nilo,Cundinamarca,24,M,Importado,Estados Unidos,Casa
+2347,10/04/2020,10,04,2020,Abril,Viernes,Cundinamarca,Cundinamarca,24,M,Importado,Estados Unidos,Casa
 2348,10/04/2020,10,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,25,F,Relacionado,Colombia,Casa
 2349,10/04/2020,10,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,32,M,Relacionado,Colombia,Casa
 2350,10/04/2020,10,04,2020,Abril,Viernes,Barranquilla,Barranquilla D.E.,56,F,Relacionado,Colombia,Casa
 2351,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,36,F,En estudio,Colombia,Casa
 2352,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,66,M,En estudio,Colombia,Hospital
-2353,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,1,F,Relacionado,0,Casa
+2353,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,1,F,Relacionado,Colombia,Casa
 2354,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,38,F,En estudio,Colombia,Casa
 2355,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,56,M,En estudio,Colombia,Casa
 2356,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,31,M,En estudio,Venezuela,Casa
-2357,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,56,F,En estudio,0,Casa
+2357,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,56,F,En estudio,Colombia,Casa
 2358,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,45,F,En estudio,Colombia,Casa
 2359,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,30,F,En estudio,Colombia,Casa
 2360,10/04/2020,10,04,2020,Abril,Viernes,Cartagena,Cartagena D.T. y C,31,F,En estudio,Colombia,Casa
@@ -2377,7 +2377,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2375,10/04/2020,10,04,2020,Abril,Viernes,Neiva,Huila,50,M,Relacionado,Colombia,Casa
 2376,10/04/2020,10,04,2020,Abril,Viernes,Neiva,Huila,94,F,Relacionado,Colombia,Casa
 2377,10/04/2020,10,04,2020,Abril,Viernes,Ipiales,Narino,38,F,En estudio,Colombia,Casa
-2378,10/04/2020,10,04,2020,Abril,Viernes,Ipiales,Narino,72,M,En estudio,Colombia,Hospital
+2378,10/04/2020,10,04,2020,Abril,Viernes,Ipiales,Narino,72,M,En estudio,Colombia,Fallecido
 2379,10/04/2020,10,04,2020,Abril,Viernes,Espinal,Tolima,57,M,En estudio,Colombia,Hospital UCI
 2380,10/04/2020,10,04,2020,Abril,Viernes,Santa Marta,Santa Marta D.T. y C.,34,M,En estudio,Colombia,Casa
 2381,10/04/2020,10,04,2020,Abril,Viernes,Santa Marta,Santa Marta D.T. y C.,28,M,En estudio,Colombia,Casa
@@ -2414,21 +2414,21 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2412,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,32,M,En estudio,Colombia,Casa
 2413,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,53,M,En estudio,Colombia,Hospital
 2414,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,63,F,En estudio,Colombia,Casa
-2415,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,54,M,En Estudio,Colombia,Casa
-2416,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,32,F,Relacionado,0,Casa
+2415,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,54,M,En estudio,Colombia,Casa
+2416,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,32,F,Relacionado,Colombia,Casa
 2417,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,32,M,Importado,México,Casa
 2418,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,32,F,En estudio,Colombia,Casa
 2419,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,43,F,Relacionado,Colombia,Casa
 2420,10/04/2020,10,04,2020,Abril,Viernes,Buga,Valle del Cauca,80,M,En estudio,Colombia,Hospital
 2421,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,60,M,En estudio,Colombia,Casa
 2422,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,69,F,En estudio,Colombia,Casa
-2423,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,33,M,En estudio,Colombia,Casa
+2423,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,85,F,En estudio,Colombia,Casa
 2424,10/04/2020,10,04,2020,Abril,Viernes,Bugalagrande,Valle del Cauca,24,M,Importado,Uruguay,Casa
 2425,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,64,M,En estudio,Colombia,Hospital
-2426,10/04/2020,10,04,2020,Abril,Viernes,Ubate,Cundinamarca,28,F,En estudio,Colombia,Hospital
-2427,10/04/2020,10,04,2020,Abril,Viernes,Soacha,Cundinamarca,72,M,En estudio,Colombia,Hospital
+2426,10/04/2020,10,04,2020,Abril,Viernes,Ubate,Cundinamarca,28,F,Relacionado,Colombia,Hospital
+2427,10/04/2020,10,04,2020,Abril,Viernes,Soacha,Cundinamarca,72,M,Importado,Colombia,Hospital
 2428,10/04/2020,10,04,2020,Abril,Viernes,Cucuta,Norte de Santander,93,F,En estudio,Colombia,Hospital
-2429,10/04/2020,10,04,2020,Abril,Viernes,Yopal,Casanare,39,M,En estudio,Colombia,Hospital
+2429,10/04/2020,10,04,2020,Abril,Viernes,Yopal,Casanare,39,M,En estudio,Colombia,Casa
 2430,10/04/2020,10,04,2020,Abril,Viernes,Tenjo,Cundinamarca,45,F,En estudio,Colombia,Casa
 2431,10/04/2020,10,04,2020,Abril,Viernes,Tenjo,Cundinamarca,24,F,En estudio,Colombia,Casa
 2432,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,58,F,En estudio,Colombia,Hospital
@@ -2458,7 +2458,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2456,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,38,M,En estudio,Colombia,Casa
 2457,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,27,F,En estudio,Colombia,Casa
 2458,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,20,M,En estudio,Colombia,Casa
-2459,10/04/2020,10,04,2020,Abril,Viernes,Soacha,Cundinamarca,30,M,En estudio,Colombia,Hospital
+2459,10/04/2020,10,04,2020,Abril,Viernes,Soacha,Cundinamarca,30,M,Importado,Colombia,Hospital
 2460,10/04/2020,10,04,2020,Abril,Viernes,Palmira,Valle del Cauca,6,F,En estudio,Colombia,Casa
 2461,10/04/2020,10,04,2020,Abril,Viernes,Palmira,Valle del Cauca,54,M,En estudio,Colombia,Casa
 2462,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,39,M,En estudio,Colombia,Hospital
@@ -2468,7 +2468,243 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2466,10/04/2020,10,04,2020,Abril,Viernes,Palmira,Valle del Cauca,52,F,En estudio,Colombia,Casa
 2467,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,25,M,En estudio,Colombia,Hospital
 2468,10/04/2020,10,04,2020,Abril,Viernes,Cali,Valle del Cauca,78,M,En estudio,Colombia,Casa
-2469,10/04/2020,10,04,2020,Abril,Viernes,Yopal,Casanare,71,F,En estudio,Colombia,Hospital
+2469,10/04/2020,10,04,2020,Abril,Viernes,Yopal,Casanare,71,F,Relacionado,Colombia,Casa
 2470,10/04/2020,10,04,2020,Abril,Viernes,Popayan,Cauca,35,M,Relacionado,Colombia,Casa
 2471,10/04/2020,10,04,2020,Abril,Viernes,Palmira,Valle del Cauca,69,F,En estudio,Colombia,Hospital
-2472,10/04/2020,10,04,2020,Abril,Viernes,Manizales,Caldas,30,F,Importado,Panamá,Casa
+2472,10/04/2020,10,04,2020,Abril,Viernes,La Dorada,Caldas,32,F,En estudio,Colombia,Casa
+2473,11/04/2020,11,04,2020,Abril,Sabado,Tocancipa,Cundinamarca,71,F,Importado,Colombia,Hospital
+2474,11/04/2020,11,04,2020,Abril,Sabado,Neiva,Huila,44,M,Relacionado,Colombia,Casa
+2475,11/04/2020,11,04,2020,Abril,Sabado,Chia,Cundinamarca,42,F,Relacionado,Colombia,Casa
+2476,11/04/2020,11,04,2020,Abril,Sabado,Chia,Cundinamarca,5,F,Relacionado,Colombia,Casa
+2477,11/04/2020,11,04,2020,Abril,Sabado,Chia,Cundinamarca,11,F,Relacionado,Colombia,Casa
+2478,11/04/2020,11,04,2020,Abril,Sabado,Chia,Cundinamarca,3,M,Relacionado,Colombia,Casa
+2479,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,30,F,Importado,Mexico,Casa
+2480,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,55,M,En estudio,Colombia,Hospital
+2481,11/04/2020,11,04,2020,Abril,Sabado,Chia,Cundinamarca,61,M,Importado,Colombia,Casa
+2482,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,0,F,En estudio,Colombia,Casa
+2483,11/04/2020,11,04,2020,Abril,Sabado,Medellin,Antioquia,40,F,Relacionado,Colombia,Casa
+2484,11/04/2020,11,04,2020,Abril,Sabado,Medellin,Antioquia,27,F,En estudio,Colombia,Casa
+2485,11/04/2020,11,04,2020,Abril,Sabado,Barrancabermeja,Santander,47,M,En estudio,Colombia,Casa
+2486,11/04/2020,11,04,2020,Abril,Sabado,Valledupar,Cesar,18,M,En estudio,Colombia,Casa
+2487,11/04/2020,11,04,2020,Abril,Sabado,Ipiales,Narino,35,F,En estudio,Colombia,Casa
+2488,11/04/2020,11,04,2020,Abril,Sabado,Ipiales,Narino,36,M,En estudio,Colombia,Hospital
+2489,11/04/2020,11,04,2020,Abril,Sabado,Barranquilla,Barranquilla D.E.,61,M,En estudio,Colombia,Hospital
+2490,11/04/2020,11,04,2020,Abril,Sabado,0,Valle del Cauca,51,M,En estudio,Colombia,Casa
+2491,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,53,M,Importado,Estados Unidos De América,Casa
+2492,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,2,M,En estudio,Colombia,Casa
+2493,11/04/2020,11,04,2020,Abril,Sabado,0,Valle del Cauca,60,F,En estudio,Colombia,Casa
+2494,11/04/2020,11,04,2020,Abril,Sabado,Medellin,Antioquia,53,F,En estudio,Colombia,Casa
+2495,11/04/2020,11,04,2020,Abril,Sabado,Medellin,Antioquia,47,F,Relacionado,Colombia,Casa
+2496,11/04/2020,11,04,2020,Abril,Sabado,Medellin,Antioquia,53,F,En estudio,Colombia,Casa
+2497,11/04/2020,11,04,2020,Abril,Sabado,Bello,Antioquia,48,F,Relacionado,Colombia,Casa
+2498,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,85,F,En estudio,Colombia,Hospital
+2499,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,68,M,En estudio,Colombia,Casa
+2500,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,73,F,En estudio,Colombia,Hospital
+2501,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,87,F,En estudio,Colombia,Hospital
+2502,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,38,M,En estudio,Colombia,Casa
+2503,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,20,M,En estudio,Colombia,Casa
+2504,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,72,F,En estudio,Colombia,Hospital
+2505,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,36,F,En estudio,Colombia,Casa
+2506,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,40,F,En estudio,Colombia,Casa
+2507,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,35,F,En estudio,Colombia,Casa
+2508,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,27,F,En estudio,Colombia,Casa
+2509,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,27,M,En estudio,Colombia,Casa
+2510,11/04/2020,11,04,2020,Abril,Sabado,Cienaga,Magdalena,34,M,En estudio,Colombia,Hospital
+2511,11/04/2020,11,04,2020,Abril,Sabado,Cartagena,Cartagena D.T. y C,39,M,En estudio,Colombia,Casa
+2512,11/04/2020,11,04,2020,Abril,Sabado,Cartagena,Cartagena D.T. y C,27,F,En estudio,Colombia,Casa
+2513,11/04/2020,11,04,2020,Abril,Sabado,Cartagena,Cartagena D.T. y C,66,M,En estudio,Colombia,Casa
+2514,11/04/2020,11,04,2020,Abril,Sabado,Cartagena,Cartagena D.T. y C,55,M,En estudio,Colombia,Hospital
+2515,11/04/2020,11,04,2020,Abril,Sabado,Cartagena,Cartagena D.T. y C,63,F,En estudio,Colombia,Hospital
+2516,11/04/2020,11,04,2020,Abril,Sabado,Cartagena,Cartagena D.T. y C,67,M,En estudio,Colombia,Hospital
+2517,11/04/2020,11,04,2020,Abril,Sabado,Cartagena,Cartagena D.T. y C,57,M,En estudio,Colombia,Casa
+2518,11/04/2020,11,04,2020,Abril,Sabado,Yumbo,Valle del Cauca,52,M,En estudio,Colombia,Hospital
+2519,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,89,F,Relacionado,Colombia,Fallecido
+2520,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,73,M,Relacionado,Colombia,Hospital
+2521,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,74,F,Relacionado,Colombia,Hospital
+2522,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,66,M,Relacionado,Colombia,Hospital
+2523,11/04/2020,11,04,2020,Abril,Sabado,Palmira,Valle del Cauca,51,F,Relacionado,Colombia,Hospital UCI
+2524,11/04/2020,11,04,2020,Abril,Sabado,Buenaventura,Buenaventura D.E.,65,F,En estudio,Colombia,Hospital UCI
+2525,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,72,M,En estudio,Colombia,Casa
+2526,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,3,M,Relacionado,Colombia,Casa
+2527,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,39,F,En estudio,Colombia,Casa
+2528,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,79,F,Relacionado,Colombia,Hospital UCI
+2529,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,27,M,En estudio,Colombia,Casa
+2530,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,47,F,Relacionado,Colombia,Hospital
+2531,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,47,F,En estudio,Colombia,Casa
+2532,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,38,M,Relacionado,Colombia,Casa
+2533,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,64,M,En estudio,Colombia,Hospital
+2534,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,32,F,En estudio,Colombia,Casa
+2535,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,89,F,En estudio,Colombia,Hospital
+2536,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,68,F,En estudio,Colombia,Casa
+2537,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,70,M,En estudio,Colombia,Hospital
+2538,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,37,F,En estudio,Colombia,Casa
+2539,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,60,F,En estudio,Colombia,Casa
+2540,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,33,F,En estudio,Colombia,Casa
+2541,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,37,M,Relacionado,Colombia,Casa
+2542,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,19,M,Relacionado,Colombia,Casa
+2543,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,49,M,En estudio,Colombia,Casa
+2544,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,91,M,En estudio,Colombia,Hospital
+2545,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,51,F,En estudio,Colombia,Hospital
+2546,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,36,F,En estudio,Colombia,Casa
+2547,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,61,F,En estudio,Colombia,Casa
+2548,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,47,M,En estudio,Colombia,Hospital
+2549,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,52,M,En estudio,Colombia,Hospital
+2550,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,27,M,En estudio,Colombia,Hospital
+2551,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,49,F,En estudio,Colombia,Casa
+2552,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,78,F,En estudio,Colombia,Casa
+2553,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,57,F,En estudio,Colombia,Casa
+2554,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,27,F,En estudio,Colombia,Casa
+2555,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,53,F,En estudio,Colombia,Casa
+2556,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,18,M,Relacionado,Colombia,Casa
+2557,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,40,F,En estudio,Colombia,Casa
+2558,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,87,M,En estudio,Colombia,Hospital
+2559,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,26,F,En estudio,Colombia,Casa
+2560,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,40,F,En estudio,Colombia,Hospital
+2561,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,28,M,En estudio,Colombia,Hospital UCI
+2562,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,37,M,En estudio,Colombia,Casa
+2563,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,34,F,En estudio,Colombia,Casa
+2564,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,77,M,En estudio,Colombia,Casa
+2565,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,67,F,En estudio,Colombia,Hospital
+2566,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,54,M,En estudio,Colombia,Hospital
+2567,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,31,M,En estudio,Colombia,Hospital
+2568,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,67,F,En estudio,Colombia,Hospital
+2569,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,8,M,En estudio,Colombia,Hospital
+2570,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,90,F,En estudio,Colombia,Hospital
+2571,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,31,M,Relacionado,Colombia,Casa
+2572,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,62,M,En estudio,Colombia,Hospital
+2573,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,46,F,Importado,Egipto,Casa
+2574,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,58,M,En estudio,Colombia,Casa
+2575,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,59,M,En estudio,Colombia,Casa
+2576,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,33,M,En estudio,Colombia,Casa
+2577,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,32,M,En estudio,Colombia,Casa
+2578,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,19,F,En estudio,Colombia,Casa
+2579,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,32,M,En estudio,Colombia,Casa
+2580,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,33,M,Relacionado,Colombia,Casa
+2581,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,49,M,Relacionado,Colombia,Hospital UCI
+2582,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,53,M,Relacionado,Colombia,Casa
+2583,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,60,M,Relacionado,Colombia,Hospital
+2584,11/04/2020,11,04,2020,Abril,Sabado,Barranquilla,Barranquilla D.E.,30,F,En estudio,Colombia,Casa
+2585,11/04/2020,11,04,2020,Abril,Sabado,Barranquilla,Barranquilla D.E.,22,M,En estudio,Colombia,Casa
+2586,11/04/2020,11,04,2020,Abril,Sabado,Cartagena,Cartagena D.T. y C,59,M,Relacionado,Colombia,Casa
+2587,11/04/2020,11,04,2020,Abril,Sabado,Sogamoso,Boyaca,18,F,Relacionado,Colombia,Casa
+2588,11/04/2020,11,04,2020,Abril,Sabado,Socha,Boyaca,66,F,En estudio,Colombia,Casa
+2589,11/04/2020,11,04,2020,Abril,Sabado,Socha,Boyaca,38,M,En estudio,Colombia,Casa
+2590,11/04/2020,11,04,2020,Abril,Sabado,Tunja,Boyaca,23,F,En estudio,Colombia,Casa
+2591,11/04/2020,11,04,2020,Abril,Sabado,La Dorada,Caldas,48,M,Relacionado,Colombia,Casa
+2592,11/04/2020,11,04,2020,Abril,Sabado,La Dorada,Caldas,57,F,Relacionado,Colombia,Casa
+2593,11/04/2020,11,04,2020,Abril,Sabado,La Dorada,Caldas,58,F,Relacionado,Colombia,Casa
+2594,11/04/2020,11,04,2020,Abril,Sabado,La Dorada,Caldas,88,F,Relacionado,Colombia,Casa
+2595,11/04/2020,11,04,2020,Abril,Sabado,La Dorada,Caldas,54,M,Relacionado,Colombia,Fallecido
+2596,11/04/2020,11,04,2020,Abril,Sabado,Villamaria,Caldas,55,M,En estudio,Colombia,Hospital UCI
+2597,11/04/2020,11,04,2020,Abril,Sabado,Yopal,Casanare,26,F,Relacionado,Colombia,Casa
+2598,11/04/2020,11,04,2020,Abril,Sabado,Yopal,Casanare,24,F,Relacionado,Colombia,Casa
+2599,11/04/2020,11,04,2020,Abril,Sabado,Valledupar,Cesar,24,M,En estudio,Colombia,Casa
+2600,11/04/2020,11,04,2020,Abril,Sabado,Valledupar,Cesar,35,F,En estudio,Colombia,Casa
+2601,11/04/2020,11,04,2020,Abril,Sabado,Valledupar,Cesar,40,F,Relacionado,Colombia,Casa
+2602,11/04/2020,11,04,2020,Abril,Sabado,Valledupar,Cesar,23,M,En estudio,Colombia,Casa
+2603,11/04/2020,11,04,2020,Abril,Sabado,Valledupar,Cesar,46,F,En estudio,Colombia,Casa
+2604,11/04/2020,11,04,2020,Abril,Sabado,Valledupar,Cesar,41,F,En estudio,Colombia,Casa
+2605,11/04/2020,11,04,2020,Abril,Sabado,Valledupar,Cesar,53,F,En estudio,Colombia,Casa
+2606,11/04/2020,11,04,2020,Abril,Sabado,Valledupar,Cesar,24,F,Relacionado,Colombia,Casa
+2607,11/04/2020,11,04,2020,Abril,Sabado,Valledupar,Cesar,33,M,En estudio,Colombia,Casa
+2608,11/04/2020,11,04,2020,Abril,Sabado,Cerete,Cordoba,49,M,En estudio,Colombia,Casa
+2609,11/04/2020,11,04,2020,Abril,Sabado,Monteria,Cordoba,41,M,En estudio,Colombia,Casa
+2610,11/04/2020,11,04,2020,Abril,Sabado,Monteria,Cordoba,31,F,En estudio,Colombia,Casa
+2611,11/04/2020,11,04,2020,Abril,Sabado,Tierralta,Cordoba,25,M,En estudio,Colombia,Casa
+2612,11/04/2020,11,04,2020,Abril,Sabado,Monteria,Cordoba,58,F,En estudio,Colombia,Casa
+2613,11/04/2020,11,04,2020,Abril,Sabado,Suesca,Cundinamarca,71,M,En estudio,Colombia,Fallecido
+2614,11/04/2020,11,04,2020,Abril,Sabado,Bogota,Bogota D.C.,45,F,En estudio,Colombia,Casa
+2615,11/04/2020,11,04,2020,Abril,Sabado,Soacha,Cundinamarca,26,F,En estudio,Colombia,Casa
+2616,11/04/2020,11,04,2020,Abril,Sabado,Zipaquira,Cundinamarca,1,F,En estudio,Colombia,Casa
+2617,11/04/2020,11,04,2020,Abril,Sabado,Facatativa,Cundinamarca,22,F,En estudio,Colombia,Casa
+2618,11/04/2020,11,04,2020,Abril,Sabado,Mosquera,Cundinamarca,69,M,En estudio,Colombia,Casa
+2619,11/04/2020,11,04,2020,Abril,Sabado,Cajica,Cundinamarca,32,M,En estudio,Colombia,Casa
+2620,11/04/2020,11,04,2020,Abril,Sabado,Zipaquira,Cundinamarca,38,M,En estudio,Colombia,Hospital
+2621,11/04/2020,11,04,2020,Abril,Sabado,Agrado,Huila,27,F,En estudio,Colombia,Hospital
+2622,11/04/2020,11,04,2020,Abril,Sabado,Gigante,Huila,89,M,En estudio,Colombia,Hospital
+2623,11/04/2020,11,04,2020,Abril,Sabado,Pitalito,Huila,78,F,En estudio,Colombia,Hospital
+2624,11/04/2020,11,04,2020,Abril,Sabado,Neiva,Huila,30,M,En estudio,Colombia,Casa
+2625,11/04/2020,11,04,2020,Abril,Sabado,Neiva,Huila,60,M,En estudio,Colombia,Casa
+2626,11/04/2020,11,04,2020,Abril,Sabado,Quibdo,Choco,47,F,En estudio,Colombia,Casa
+2627,11/04/2020,11,04,2020,Abril,Sabado,Neiva,Huila,79,M,Importado,Colombia,Fallecido
+2628,11/04/2020,11,04,2020,Abril,Sabado,Pereira,Risaralda,58,M,En estudio,Colombia,Casa
+2629,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,24,F,En estudio,Colombia,Hospital
+2630,11/04/2020,11,04,2020,Abril,Sabado,Santa Marta,Santa Marta D.T. y C.,39,M,En estudio,Colombia,Casa
+2631,11/04/2020,11,04,2020,Abril,Sabado,Villavicencio,Meta,77,M,Relacionado,Colombia,Fallecido
+2632,11/04/2020,11,04,2020,Abril,Sabado,Villavicencio,Meta,67,M,Relacionado,Colombia,Hospital UCI
+2633,11/04/2020,11,04,2020,Abril,Sabado,Pasto,Narino,24,M,En estudio,Colombia,Hospital UCI
+2634,11/04/2020,11,04,2020,Abril,Sabado,Pasto,Narino,31,M,En estudio,Colombia,Hospital
+2635,11/04/2020,11,04,2020,Abril,Sabado,Cumbal,Narino,14,M,En estudio,Colombia,Casa
+2636,11/04/2020,11,04,2020,Abril,Sabado,Ipiales,Narino,41,M,En estudio,Colombia,Hospital UCI
+2637,11/04/2020,11,04,2020,Abril,Sabado,Cucuta,Norte de Santander,57,M,En estudio,Colombia,Hospital
+2638,11/04/2020,11,04,2020,Abril,Sabado,Armenia,Quindio,69,F,Importado,Estados Unidos,Casa
+2639,11/04/2020,11,04,2020,Abril,Sabado,Armenia,Quindio,36,M,En estudio,Colombia,Hospital
+2640,11/04/2020,11,04,2020,Abril,Sabado,Armenia,Quindio,77,M,En estudio,Colombia,Fallecido
+2641,11/04/2020,11,04,2020,Abril,Sabado,Pereira,Risaralda,36,F,En estudio,Colombia,Casa
+2642,11/04/2020,11,04,2020,Abril,Sabado,Dosquebradas,Risaralda,36,F,En estudio,Colombia,Casa
+2643,11/04/2020,11,04,2020,Abril,Sabado,Floridablanca,Santander,56,F,Relacionado,Colombia,Casa
+2644,11/04/2020,11,04,2020,Abril,Sabado,Cimitarra,Santander,57,M,En estudio,Colombia,Casa
+2645,11/04/2020,11,04,2020,Abril,Sabado,Bucaramanga,Santander,54,F,En estudio,Colombia,Casa
+2646,11/04/2020,11,04,2020,Abril,Sabado,Barrancabermeja,Santander,27,F,En estudio,Colombia,Hospital
+2647,11/04/2020,11,04,2020,Abril,Sabado,Ibague,Tolima,66,F,En estudio,Colombia,Hospital UCI
+2648,11/04/2020,11,04,2020,Abril,Sabado,Ibague,Tolima,39,M,En estudio,Colombia,Hospital UCI
+2649,11/04/2020,11,04,2020,Abril,Sabado,Candelaria,Valle del Cauca,59,M,En estudio,Colombia,Casa
+2650,11/04/2020,11,04,2020,Abril,Sabado,Candelaria,Valle del Cauca,54,F,En estudio,Colombia,Casa
+2651,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,58,M,En estudio,Colombia,Casa
+2652,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,28,F,En estudio,Colombia,Casa
+2653,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,18,F,En estudio,Colombia,Casa
+2654,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,53,F,En estudio,Colombia,Casa
+2655,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,30,F,En estudio,Colombia,Casa
+2656,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,30,M,En estudio,Colombia,Hospital
+2657,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,55,M,En estudio,Colombia,Casa
+2658,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,39,F,En estudio,Colombia,Casa
+2659,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,26,M,En estudio,Colombia,Casa
+2660,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,66,M,En estudio,Colombia,Casa
+2661,11/04/2020,11,04,2020,Abril,Sabado,Jamundi,Valle del Cauca,53,M,En estudio,Colombia,Casa
+2662,11/04/2020,11,04,2020,Abril,Sabado,San Pedro,Valle del Cauca,27,F,En estudio,Colombia,Casa
+2663,11/04/2020,11,04,2020,Abril,Sabado,Yumbo,Valle del Cauca,57,F,En estudio,Colombia,Casa
+2664,11/04/2020,11,04,2020,Abril,Sabado,Yumbo,Valle del Cauca,39,F,En estudio,Colombia,Casa
+2665,11/04/2020,11,04,2020,Abril,Sabado,Yumbo,Valle del Cauca,36,F,En estudio,Colombia,Casa
+2666,11/04/2020,11,04,2020,Abril,Sabado,Barranquilla,Barranquilla D.E.,45,M,En estudio,Colombia,Hospital
+2667,11/04/2020,11,04,2020,Abril,Sabado,Barranquilla,Barranquilla D.E.,33,F,En estudio,Colombia,Casa
+2668,11/04/2020,11,04,2020,Abril,Sabado,Valledupar,Cesar,40,M,Relacionado,Colombia,Casa
+2669,11/04/2020,11,04,2020,Abril,Sabado,Valledupar,Cesar,25,M,En estudio,Colombia,Casa
+2670,11/04/2020,11,04,2020,Abril,Sabado,Soacha,Cundinamarca,2,F,Relacionado,Colombia,Casa
+2671,11/04/2020,11,04,2020,Abril,Sabado,Neiva,Huila,40,M,En estudio,Colombia,Casa
+2672,11/04/2020,11,04,2020,Abril,Sabado,Neiva,Huila,24,M,En estudio,Colombia,Casa
+2673,11/04/2020,11,04,2020,Abril,Sabado,Neiva,Huila,60,F,Relacionado,Colombia,Casa
+2674,11/04/2020,11,04,2020,Abril,Sabado,Neiva,Huila,44,F,Relacionado,Colombia,Casa
+2675,11/04/2020,11,04,2020,Abril,Sabado,Dosquebradas,Risaralda,35,M,Relacionado,Colombia,Casa
+2676,11/04/2020,11,04,2020,Abril,Sabado,0,Meta,0,M,En estudio,Colombia,Casa
+2677,11/04/2020,11,04,2020,Abril,Sabado,Bucaramanga,Santander,35,F,En estudio,Colombia,Casa
+2678,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,72,F,Importado,Colombia,Casa
+2679,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,27,F,Relacionado,Colombia,Casa
+2680,11/04/2020,11,04,2020,Abril,Sabado,El Cerrito,Valle del Cauca,22,F,Relacionado,Colombia,Casa
+2681,11/04/2020,11,04,2020,Abril,Sabado,El Cerrito,Valle del Cauca,48,M,Relacionado,Colombia,Casa
+2682,11/04/2020,11,04,2020,Abril,Sabado,El Cerrito,Valle del Cauca,40,F,Relacionado,Colombia,Casa
+2683,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,66,M,Importado,Colombia,Hospital
+2684,11/04/2020,11,04,2020,Abril,Sabado,Buenaventura,Buenaventura D.E.,21,M,En estudio,Colombia,Casa
+2685,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,32,F,Relacionado,Colombia,Casa
+2686,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,49,M,En estudio,Colombia,Casa
+2687,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,55,M,En estudio,Colombia,Casa
+2688,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,34,F,En estudio,Colombia,Casa
+2689,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,42,M,Relacionado,Colombia,Casa
+2690,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,68,F,Relacionado,Colombia,Hospital
+2691,11/04/2020,11,04,2020,Abril,Sabado,Cali,Valle del Cauca,65,F,En estudio,Colombia,Hospital
+2692,11/04/2020,11,04,2020,Abril,Sabado,Tumaco,Narino,45,M,Importado,Ecuador,Casa
+2693,11/04/2020,11,04,2020,Abril,Sabado,San Andres,San Andres,65,M,En estudio,Colombia,Casa
+2694,11/04/2020,11,04,2020,Abril,Sabado,Villavicencio,Meta,22,F,Importado,México,Casa
+2695,11/04/2020,11,04,2020,Abril,Sabado,Villavicencio,Meta,34,M,Importado,Estados Unidos De América,Casa
+2696,11/04/2020,11,04,2020,Abril,Sabado,Pereira,Risaralda,44,F,En estudio,Colombia,Casa
+2697,11/04/2020,11,04,2020,Abril,Sabado,Pereira,Risaralda,42,F,En estudio,Colombia,Casa
+2698,11/04/2020,11,04,2020,Abril,Sabado,Manizales,Caldas,22,F,En estudio,Colombia,Casa
+2699,11/04/2020,11,04,2020,Abril,Sabado,La Dorada,Caldas,28,F,En estudio,Colombia,Casa
+2700,11/04/2020,11,04,2020,Abril,Sabado,Soacha,Cundinamarca,23,F,En estudio,Colombia,Casa
+2701,11/04/2020,11,04,2020,Abril,Sabado,Subachoque,Cundinamarca,28,F,En estudio,Colombia,Casa
+2702,11/04/2020,11,04,2020,Abril,Sabado,Soacha,Cundinamarca,39,M,En estudio,Colombia,Casa
+2703,11/04/2020,11,04,2020,Abril,Sabado,Madrid,Cundinamarca,27,F,En estudio,Colombia,Casa
+2704,11/04/2020,11,04,2020,Abril,Sabado,Sopo,Cundinamarca,68,F,Importado,España,Casa
+2705,11/04/2020,11,04,2020,Abril,Sabado,Pacho,Cundinamarca,54,M,En estudio,Colombia,Casa
+2706,11/04/2020,11,04,2020,Abril,Sabado,Pacho,Cundinamarca,49,F,En estudio,Colombia,Hospital
+2707,11/04/2020,11,04,2020,Abril,Sabado,Monteria,Cordoba,26,F,En estudio,Colombia,Casa
+2708,11/04/2020,11,04,2020,Abril,Sabado,Medellin,Antioquia,72,M,En estudio,Colombia,Casa
