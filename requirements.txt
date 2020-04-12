@@ -5,3 +5,4 @@ geopy
 unidecode
 shortid
 jupyterlab
+pdfminer.six

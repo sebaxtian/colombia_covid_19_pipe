@@ -18,21 +18,30 @@ import unidecode
 from datetime import date
 from calendar import day_name, month_name
 
+import subprocess
+import sys
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 # Short ID
-#import subprocess
-#import sys
-#def install(package):
-#    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 #try:
 #    from shortid import ShortId
 #except Exception:
 #    install('shortid')
 #    from shortid import ShortId
+# PDFMiner pdfminer.six
+try:
+    from pdfminer.high_level import extract_text
+except Exception:
+    install('pdfminer.six')
+    from pdfminer.high_level import extract_text
+
+import tempfile
+import os
 
 # Input data files are available in the "../input/" directory.
 # For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory
 
-import os
 #for dirname, _, filenames in os.walk('/kaggle/input'):
 #    for filename in filenames:
 #        print(os.path.join(dirname, filename))
@@ -611,6 +620,109 @@ covid_19_time_line_by_care.tail()
 # Save dataframe
 covid_19_time_line_by_care.to_csv(os.path.join(OUTPUT_DIR, 'covid19_time_line_by_care.csv'), index=False)
 
+# %% [markdown]
+# ---
+
+# %%
+# Time line Google Community Mobility Reports - Colombia
+google_community_mobility_reports = pd.DataFrame(columns=['date', 'country', 'file', 'url'])
+google_community_mobility_reports['date'] = [dti.strftime('%Y-%m-%d') for dti in pd.date_range(start='2020-03-29', end=date.today().isoformat(), freq='D')]
+google_community_mobility_reports['country'] = ['Colombia' for country in range(len(google_community_mobility_reports['date'].values))]
+google_community_mobility_reports['file'] = [ date + '_CO_Mobility_Report_en.pdf' for date in google_community_mobility_reports['date'].values]
+# Get URL report
+def get_report_url(file):
+    with requests.get('https://www.gstatic.com/covid19/mobility/' + file) as community_mobility_report:
+        #print(community_mobility_report.status_code)
+        if community_mobility_report.status_code == 200:
+            #print('status_code: ', 200)
+            #print('url', community_mobility_report.url)
+            return community_mobility_report.url
+        else:
+            return np.nan
+# Get URL report
+google_community_mobility_reports['url'] = google_community_mobility_reports['file'].transform(lambda value: get_report_url(value))
+# Drop any report without URL
+google_community_mobility_reports.dropna(inplace=True)
+# Reset index
+google_community_mobility_reports.reset_index(inplace=True, drop=True)
+# Show dataframe
+google_community_mobility_reports.head()
+#print('community_mobility_report.content', community_mobility_report.content)
+            #with open(os.path.join(OUTPUT_DIR, '2020-04-05_CO_Mobility_Report_en.pdf'), 'wb') as f:
+            #    f.write(community_mobility_report.content)
+
+
+# %%
+# Add Mobility Changes
+#from pdfminer.high_level import extract_pages
+# Get mobility changes
+def get_mobility_changes(URL):
+    # Target changes
+    targets = ['Retail & recreation', 'Grocery & pharmacy', 'Parks', 'Transit stations', 'Workplaces', 'Residential']
+    # Mobility Changes
+    mobility_changes = []
+    # Get Mobility Report
+    with requests.get(URL) as mobility_report:
+        #print(mobility_report.status_code)
+        if mobility_report.status_code == 200:
+            temp = tempfile.NamedTemporaryFile()
+            temp.write(mobility_report.content)
+            #print('temp.name:', temp.name)
+            with open(temp.name, 'rb') as file:
+                # By pages
+                pdf_text = []
+                page = 0
+                while page != -1:
+                    text = extract_text(file, maxpages=1, page_numbers=[page])
+                    if text:
+                        #print('text', text)
+                        pdf_text.append(text.split('\n'))
+                        page += 1
+                    else:
+                        page = -1
+                # Pages
+                #print('Pages:', len(pdf_text))
+                # Page 1
+                page1 = pdf_text[0]
+                page1 = filter(lambda value: value != '', page1)
+                page1 = filter(lambda value: value in targets or value[-1] == '%', list(page1))
+                page1 = list(page1)[:6]
+                # Page 2
+                page2 = pdf_text[1]
+                page2 = filter(lambda value: value != '', page2)
+                page2 = filter(lambda value: value in targets or value[-1] == '%', list(page2))
+                page2 = list(page2)[:6]
+                # Merge
+                mobility_changes = page1 + page2
+    return mobility_changes
+# Add Mobility Changes
+google_community_mobility_reports['mobility_changes'] = google_community_mobility_reports['url'].transform(lambda value: get_mobility_changes(value))
+# By case
+google_community_mobility_reports['Retail & recreation'] = google_community_mobility_reports['mobility_changes'].transform(lambda value: value[1])
+google_community_mobility_reports['Grocery & pharmacy'] = google_community_mobility_reports['mobility_changes'].transform(lambda value: value[3])
+google_community_mobility_reports['Parks'] = google_community_mobility_reports['mobility_changes'].transform(lambda value: value[5])
+google_community_mobility_reports['Transit stations'] = google_community_mobility_reports['mobility_changes'].transform(lambda value: value[7])
+google_community_mobility_reports['Workplaces'] = google_community_mobility_reports['mobility_changes'].transform(lambda value: value[9])
+google_community_mobility_reports['Residential'] = google_community_mobility_reports['mobility_changes'].transform(lambda value: value[11])
+# Drop column
+google_community_mobility_reports.drop(columns=['mobility_changes'], inplace=True)
+# Sort columns
+google_community_mobility_reports = google_community_mobility_reports[['date', 'country', 'Retail & recreation', 'Grocery & pharmacy', 'Parks', 'Transit stations', 'Workplaces', 'Residential', 'file', 'url']]
+# Setup date format
+google_community_mobility_reports['date'] = [value.strftime('%d/%m/%Y') for value in pd.to_datetime(google_community_mobility_reports['date'], format='%Y-%m-%d')]
+# Show dataframe
+google_community_mobility_reports.head()
+
+# %% [markdown]
+# ## Google COVID-19 Community Mobility Reports - Colombia
+# > ***Output file***: google_community_mobility_reports.csv
+
+# %%
+# Save dataframe
+google_community_mobility_reports.to_csv(os.path.join(OUTPUT_DIR, 'google_community_mobility_reports.csv'), index=False)
+
+# %% [markdown]
+# ---
 
 # %%
 

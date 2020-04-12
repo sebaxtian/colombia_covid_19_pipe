@@ -5,6 +5,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/sebaxtian/colombia_covid_19_pipe?style=plastic)
 ![GitHub contributors](https://img.shields.io/github/contributors/sebaxtian/colombia_covid_19_pipe?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/sebaxtian/colombia_covid_19_pipe?color=09ca8c&style=plastic)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/sebaxtian/colombia_covid_19_pipe?style=plastic)
 
 # Colombia Covid 19 Pipeline
 
