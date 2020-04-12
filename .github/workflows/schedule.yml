@@ -28,6 +28,8 @@ jobs:
           pip install -r requirements.txt
       # Run Python Script
       - name: Colombia Covid 19 Pipeline Schedule
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Run Colombia Covid 19 Pipeline Schedule
           ./run.sh
@@ -38,6 +40,7 @@ jobs:
               git add .
               git commit -m "Updated at $(date)"
               git push origin master
+              ./release.sh
           else
               echo 'Not Changes'
           fi
