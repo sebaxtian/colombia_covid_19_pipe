@@ -1,4 +1,3 @@
-![New release](https://github.com/sebaxtian/colombia_covid_19_pipe/workflows/New%20release/badge.svg?branch=master&event=push)
 ![Schedule master](https://github.com/sebaxtian/colombia_covid_19_pipe/workflows/Schedule%20master/badge.svg?branch=master&event=schedule)
 ![Build and merge dev into master](https://github.com/sebaxtian/colombia_covid_19_pipe/workflows/Build%20and%20merge%20dev%20into%20master/badge.svg?branch=dev&event=push)
 ![GitHub](https://img.shields.io/github/license/sebaxtian/colombia_covid_19_pipe?style=plastic)
