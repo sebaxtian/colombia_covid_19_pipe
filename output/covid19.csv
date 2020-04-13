@@ -1450,7 +1450,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1448,05/04/2020,05,04,2020,Abril,Domingo,CALI,Valle del Cauca,31,M,En estudio,COLOMBIA,Hospital
 1449,05/04/2020,05,04,2020,Abril,Domingo,CALI,Valle del Cauca,35,M,En estudio,COLOMBIA,Hospital
 1450,05/04/2020,05,04,2020,Abril,Domingo,CALI,Valle del Cauca,43,F,En estudio,COLOMBIA,Hospital
-1451,05/04/2020,05,04,2020,Abril,Domingo,BUENAVENTURA,Valle del Cauca,26,M,En estudio,COLOMBIA,Hospital
+1451,05/04/2020,05,04,2020,Abril,Domingo,BUENAVENTURA,Buenaventura D.E.,26,M,En estudio,COLOMBIA,Hospital
 1452,05/04/2020,05,04,2020,Abril,Domingo,ACACIAS,Meta,37,M,Relacionado,COLOMBIA,Casa
 1453,05/04/2020,05,04,2020,Abril,Domingo,BOGOTA,Bogota D.C.,34,M,Importado,ESTADOS UNIDOS DE AMÉRICA,Casa
 1454,05/04/2020,05,04,2020,Abril,Domingo,BOGOTA,Bogota D.C.,59,F,En estudio,COLOMBIA,Casa
@@ -1504,7 +1504,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1502,06/04/2020,06,04,2020,Abril,Lunes,CALI,Valle del Cauca,48,M,Relacionado,COLOMBIA,Casa
 1503,06/04/2020,06,04,2020,Abril,Lunes,CALI,Valle del Cauca,49,M,Relacionado,COLOMBIA,Casa
 1504,06/04/2020,06,04,2020,Abril,Lunes,CALI,Valle del Cauca,59,M,Relacionado,COLOMBIA,Fallecido
-1505,06/04/2020,06,04,2020,Abril,Lunes,BUENAVENTURA,Valle del Cauca,39,M,Relacionado,COLOMBIA,Hospital UCI
+1505,06/04/2020,06,04,2020,Abril,Lunes,BUENAVENTURA,Buenaventura D.E.,39,M,Relacionado,COLOMBIA,Hospital UCI
 1506,06/04/2020,06,04,2020,Abril,Lunes,BARRANQUILLA,Barranquilla D.E.,20,M,Relacionado,COLOMBIA,Casa
 1507,06/04/2020,06,04,2020,Abril,Lunes,RIONEGRO,Antioquia,69,M,Relacionado,COLOMBIA,Casa
 1508,06/04/2020,06,04,2020,Abril,Lunes,MEDELLIN,Antioquia,11,F,Relacionado,COLOMBIA,Casa
@@ -1834,7 +1834,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 1832,08/04/2020,08,04,2020,Abril,Miercoles,JAMUNDI,Valle del Cauca,36,M,En estudio,COLOMBIA,Casa
 1833,08/04/2020,08,04,2020,Abril,Miercoles,CALI,Valle del Cauca,71,M,En estudio,COLOMBIA,Casa
 1834,08/04/2020,08,04,2020,Abril,Miercoles,CALI,Valle del Cauca,56,M,En estudio,COLOMBIA,Casa
-1835,08/04/2020,08,04,2020,Abril,Miercoles,BUENAVENTURA,Valle del Cauca,71,F,Relacionado,COLOMBIA,Hospital UCI
+1835,08/04/2020,08,04,2020,Abril,Miercoles,BUENAVENTURA,Buenaventura D.E.,71,F,Relacionado,COLOMBIA,Hospital UCI
 1836,08/04/2020,08,04,2020,Abril,Miercoles,CALI,Valle del Cauca,60,F,En estudio,COLOMBIA,Hospital UCI
 1837,08/04/2020,08,04,2020,Abril,Miercoles,CALI,Valle del Cauca,41,M,En estudio,COLOMBIA,Casa
 1838,08/04/2020,08,04,2020,Abril,Miercoles,BOGOTA,Bogota D.C.,58,M,Relacionado,COLOMBIA,Casa
@@ -2211,7 +2211,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2209,09/04/2020,09,04,2020,Abril,Jueves,CALI,Valle del Cauca,37,M,En estudio,COLOMBIA,Hospital
 2210,09/04/2020,09,04,2020,Abril,Jueves,CALI,Valle del Cauca,65,F,En estudio,COLOMBIA,Casa
 2211,09/04/2020,09,04,2020,Abril,Jueves,MIRANDA,Cauca,50,M,En estudio,COLOMBIA,Hospital
-2212,09/04/2020,09,04,2020,Abril,Jueves,BUENAVENTURA,Valle del Cauca,75,M,Relacionado,COLOMBIA,Hospital
+2212,09/04/2020,09,04,2020,Abril,Jueves,BUENAVENTURA,Buenaventura D.E.,75,M,Relacionado,COLOMBIA,Hospital
 2213,09/04/2020,09,04,2020,Abril,Jueves,CALI,Valle del Cauca,81,M,Relacionado,COLOMBIA,Hospital
 2214,09/04/2020,09,04,2020,Abril,Jueves,NEIVA,Huila,77,M,Relacionado,COLOMBIA,Casa
 2215,09/04/2020,09,04,2020,Abril,Jueves,CALI,Valle del Cauca,45,M,Relacionado,COLOMBIA,Hospital
@@ -2523,7 +2523,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2521,11/04/2020,11,04,2020,Abril,Sabado,CALI,Valle del Cauca,74,F,Relacionado,COLOMBIA,Hospital
 2522,11/04/2020,11,04,2020,Abril,Sabado,CALI,Valle del Cauca,66,M,Relacionado,COLOMBIA,Hospital
 2523,11/04/2020,11,04,2020,Abril,Sabado,PALMIRA,Valle del Cauca,51,F,Relacionado,COLOMBIA,Hospital UCI
-2524,11/04/2020,11,04,2020,Abril,Sabado,BUENAVENTURA,Valle del Cauca,65,F,En estudio,COLOMBIA,Hospital
+2524,11/04/2020,11,04,2020,Abril,Sabado,BUENAVENTURA,Buenaventura D.E.,65,F,En estudio,COLOMBIA,Hospital
 2525,11/04/2020,11,04,2020,Abril,Sabado,CALI,Valle del Cauca,72,M,En estudio,COLOMBIA,Casa
 2526,11/04/2020,11,04,2020,Abril,Sabado,CALI,Valle del Cauca,3,M,Relacionado,COLOMBIA,Casa
 2527,11/04/2020,11,04,2020,Abril,Sabado,CALI,Valle del Cauca,39,F,En estudio,COLOMBIA,Casa
@@ -2683,7 +2683,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2681,11/04/2020,11,04,2020,Abril,Sabado,EL CERRITO,Valle del Cauca,48,M,Relacionado,COLOMBIA,Casa
 2682,11/04/2020,11,04,2020,Abril,Sabado,EL CERRITO,Valle del Cauca,40,F,Relacionado,COLOMBIA,Casa
 2683,11/04/2020,11,04,2020,Abril,Sabado,CALI,Valle del Cauca,66,M,En estudio,COLOMBIA,Hospital
-2684,11/04/2020,11,04,2020,Abril,Sabado,BUENAVENTURA,Valle del Cauca,24,M,En estudio,COLOMBIA,Casa
+2684,11/04/2020,11,04,2020,Abril,Sabado,BUENAVENTURA,Buenaventura D.E.,24,M,En estudio,COLOMBIA,Casa
 2685,11/04/2020,11,04,2020,Abril,Sabado,CALI,Valle del Cauca,32,F,Relacionado,COLOMBIA,Casa
 2686,11/04/2020,11,04,2020,Abril,Sabado,CALI,Valle del Cauca,49,M,En estudio,COLOMBIA,Casa
 2687,11/04/2020,11,04,2020,Abril,Sabado,CALI,Valle del Cauca,55,M,En estudio,COLOMBIA,Casa
@@ -2722,7 +2722,7 @@ id_case,date,day,month,year,month_name,day_name,city,dept_dist,age,sex,kind,coun
 2720,12/04/2020,12,04,2020,Abril,Domingo,CALI,Valle del Cauca,1,M,En estudio,COLOMBIA,Casa
 2721,12/04/2020,12,04,2020,Abril,Domingo,FLORIDA,Valle del Cauca,90,M,En estudio,COLOMBIA,Hospital UCI
 2722,12/04/2020,12,04,2020,Abril,Domingo,GUACARI,Valle del Cauca,25,F,Importado,ESPAÑA,Casa
-2723,12/04/2020,12,04,2020,Abril,Domingo,BUENAVENTURA,Valle del Cauca,23,M,Relacionado,COLOMBIA,Casa
+2723,12/04/2020,12,04,2020,Abril,Domingo,BUENAVENTURA,Buenaventura D.E.,23,M,Relacionado,COLOMBIA,Casa
 2724,12/04/2020,12,04,2020,Abril,Domingo,ZIPAQUIRA,Cundinamarca,60,F,En estudio,COLOMBIA,Hospital
 2725,12/04/2020,12,04,2020,Abril,Domingo,CAJICA,Cundinamarca,42,F,En estudio,COLOMBIA,Casa
 2726,12/04/2020,12,04,2020,Abril,Domingo,CALI,Valle del Cauca,7,M,En estudio,COLOMBIA,Casa
