@@ -337,7 +337,7 @@ covid_df_by_city['lat'] = covid_df_by_city['geo'].transform(lambda value: value.
 covid_df_by_city['lng'] = covid_df_by_city['geo'].transform(lambda value: value.longitude)
 covid_df_by_city = covid_df_by_city.drop(columns=['geo'])
 # Show dataframe
-covid_df_by_city
+covid_df_by_city.head()
 
 # %% [markdown]
 # ## Cases by City
@@ -376,13 +376,18 @@ covid_df_by_dept_dist.head()
 # Save dataframe
 covid_df_by_dept_dist.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_dept_dist.csv'), index=False)
 
+
+# %%
+# List Care
+#list(set(covid_df['care'].values))
+
 # %% [markdown]
 # ---
 
 # %%
 # Cases by Care by Date
 #list_care = list(set(covid_df['care'].values))
-list_care = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado']
+list_care = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado', 'Recuperado (Hospital)']
 #print('list_care', list_care)
 cases_by_care_by_date = []
 # Each Care
@@ -406,7 +411,7 @@ for care in list_care:
 
 # %%
 # Save dataframe
-list_care_file = ['hospital', 'uci', 'casa', 'fallecido', 'recuperado']
+list_care_file = ['hospital', 'uci', 'casa', 'fallecido', 'recuperado', 'recuperado_hospital']
 for i, care in enumerate(list_care):
     cases_by_care_by_date[i].to_csv(os.path.join(OUTPUT_DIR, 'covid19_cases_by_' + list_care_file[i] + '_by_date.csv'), index=False)
 
@@ -452,22 +457,37 @@ covid_df_by_kind.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_kind.csv'), index=F
 # %%
 # Descarted Cases
 # Reading the json as a dict
-with requests.get('https://infogram.com/api/live/flex/5eb73bf0-6714-4bac-87cc-9ef0613bf697/c9a25571-e7c5-43c6-a7ac-d834a3b5e872?') as original_dataset:
+with requests.get('https://infogram.com/api/live/flex/4524241a-91a7-4bbd-a58e-63c12fb2952f/4dc066f9-6be5-4791-aefb-96fe4c523dfd?') as original_dataset:
     data = original_dataset.json()
-#print(data['data'][0][4][0])
+#print(data['data'][0][1][0])
 
 # Get attributes and data
-attrs = data['data'][0][4][0]
+attrs = data['data'][0][1][0]
 del data
 #print(attrs)
 descarted_cases = attrs.split('<b>')[1].split('</b>')[0].replace('.', '')
 #print('Descarted Cases:', descarted_cases)
 
+
+# %%
+# Samples Processed
+# Reading the json as a dict
+with requests.get('https://infogram.com/api/live/flex/4524241a-91a7-4bbd-a58e-63c12fb2952f/4dc066f9-6be5-4791-aefb-96fe4c523dfd?') as original_dataset:
+    data = original_dataset.json()
+#print(data['data'][0][0][0])
+
+# Get attributes and data
+attrs = data['data'][0][0][0]
+del data
+#print(attrs)
+samples_processed = attrs.split('<b>')[1].split('</b>')[0].replace('.', '')
+#print('Samples Processed:', samples_processed)
+
 # %% [markdown]
 # ---
 
 # %%
-# Samples Processed
+# Samples Processed Time Line
 # Reading the json as a dict
 with requests.get('https://infogram.com/api/live/flex/bc384047-e71c-47d9-b606-1eb6a29962e3/523ca417-2781-47f0-87e8-1ccc2d5c2839?') as original_dataset:
     data = original_dataset.json()
@@ -530,16 +550,16 @@ covid_df_samples_processed.to_csv(os.path.join(OUTPUT_DIR, 'covid19_samples_proc
 # %%
 # Resume
 data = []
-# cases_by_care_by_date[N] = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado']
+# cases_by_care_by_date[N] = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado', 'Recuperado (Hospital)']
 # Resume Attributes
 data.append(['Confirmados', covid_df_by_date.values[-1][-1]])
-data.append(['Recuperados', cases_by_care_by_date[4].values[-1][-1]])
+data.append(['Recuperados', cases_by_care_by_date[4].values[-1][-1] + cases_by_care_by_date[5].values[-1][-1]])
 data.append(['Muertes', cases_by_care_by_date[3].values[-1][-1]])
 data.append(['Casos descartados', descarted_cases])
 data.append(['Importado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Importado'].values[0][-1]])
 data.append(['Relacionado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Relacionado'].values[0][-1]])
 data.append(['En estudio', covid_df_by_kind[covid_df_by_kind['kind'] == 'En estudio'].values[0][-1]])
-data.append(['Muestras procesadas', covid_df_samples_processed.values[-1][-1]])
+data.append(['Muestras procesadas', samples_processed])
 
 # Resume Dataframe
 covid_df_resume = pd.DataFrame(data=data, columns=['title', 'total'])
@@ -715,14 +735,14 @@ for city in cities:
 
 # %% [markdown]
 # ## Time Line by Care and City
-# > ***Output file***: covid_19_time_line_city.csv
+# > ***Output file***: covid19_time_line_city.csv
 
 # %%
 # Save dataframe
 for city in covid_19_time_line_by_care_city:
     #print('city:', city)
     # Save dataframe
-    covid_19_time_line_by_care_city[city].to_csv(os.path.join(OUTPUT_DIR, 'covid_19_time_line_city_' + city + '.csv'), index=False)
+    covid_19_time_line_by_care_city[city].to_csv(os.path.join(OUTPUT_DIR, 'covid19_time_line_city_' + city + '.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -799,14 +819,14 @@ for dept_dist in depts_dists:
 
 # %% [markdown]
 # ## Time Line by Care and Department or District
-# > ***Output file***: covid_19_time_line_dept_dist.csv
+# > ***Output file***: covid19_time_line_dept_dist.csv
 
 # %%
 # Save dataframe
 for dept_dist in covid_19_time_line_by_care_dept_dist:
     #print('dept_dist:', dept_dist)
     # Save dataframe
-    covid_19_time_line_by_care_dept_dist[dept_dist].to_csv(os.path.join(OUTPUT_DIR, 'covid_19_time_line_dept_dist_' + dept_dist + '.csv'), index=False)
+    covid_19_time_line_by_care_dept_dist[dept_dist].to_csv(os.path.join(OUTPUT_DIR, 'covid19_time_line_dept_dist_' + dept_dist + '.csv'), index=False)
 
 # %% [markdown]
 # ---
