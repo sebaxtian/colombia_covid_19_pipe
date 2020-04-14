@@ -625,6 +625,10 @@ covid_19_time_line_by_care.fillna(0, inplace=True)
 #print(covid_19_time_line_by_care.dtypes)
 covid_19_time_line_by_care = covid_19_time_line_by_care.astype({'accum_cases': 'int64', 'accum_recovered': 'int64', 'accum_deaths': 'int64'})
 
+# Remove last day until update it
+if covid_df.values[-1][1] != covid_19_time_line_by_care.values[-1][0]:
+    covid_19_time_line_by_care.drop([covid_19_time_line_by_care.index[-1]], inplace=True)
+
 # Show dataframe
 covid_19_time_line_by_care.tail()
 
@@ -693,6 +697,10 @@ def get_time_line_by_care_city(city):
     covid_19_time_line_by_care_city.fillna(0, inplace=True)
     #print(covid_19_time_line_by_care_city.dtypes)
     covid_19_time_line_by_care_city = covid_19_time_line_by_care_city.astype({'accum_cases': 'int64', 'accum_recovered': 'int64', 'accum_deaths': 'int64'})
+
+    # Remove last day until update it
+    if covid_df.values[-1][1] != covid_19_time_line_by_care_city.values[-1][0]:
+        covid_19_time_line_by_care_city.drop([covid_19_time_line_by_care_city.index[-1]], inplace=True)
 
     # Return dataframe
     return covid_19_time_line_by_care_city
@@ -773,6 +781,10 @@ def get_time_line_by_care_dept_dist(dept_dist):
     covid_19_time_line_by_care_dept_dist.fillna(0, inplace=True)
     #print(covid_19_time_line_by_care_dept_dist.dtypes)
     covid_19_time_line_by_care_dept_dist = covid_19_time_line_by_care_dept_dist.astype({'accum_cases': 'int64', 'accum_recovered': 'int64', 'accum_deaths': 'int64'})
+
+    # Remove last day until update it
+    if covid_df.values[-1][1] != covid_19_time_line_by_care_dept_dist.values[-1][0]:
+        covid_19_time_line_by_care_dept_dist.drop([covid_19_time_line_by_care_dept_dist.index[-1]], inplace=True)
 
     # Return dataframe
     return covid_19_time_line_by_care_dept_dist
