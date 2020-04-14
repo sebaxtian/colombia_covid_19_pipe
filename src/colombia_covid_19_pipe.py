@@ -735,14 +735,14 @@ for city in cities:
 
 # %% [markdown]
 # ## Time Line by Care and City
-# > ***Output file***: covid_19_time_line_city.csv
+# > ***Output file***: covid19_time_line_city.csv
 
 # %%
 # Save dataframe
 for city in covid_19_time_line_by_care_city:
     #print('city:', city)
     # Save dataframe
-    covid_19_time_line_by_care_city[city].to_csv(os.path.join(OUTPUT_DIR, 'covid_19_time_line_city_' + city + '.csv'), index=False)
+    covid_19_time_line_by_care_city[city].to_csv(os.path.join(OUTPUT_DIR, 'covid19_time_line_city_' + city + '.csv'), index=False)
 
 # %% [markdown]
 # ---
@@ -819,14 +819,14 @@ for dept_dist in depts_dists:
 
 # %% [markdown]
 # ## Time Line by Care and Department or District
-# > ***Output file***: covid_19_time_line_dept_dist.csv
+# > ***Output file***: covid19_time_line_dept_dist.csv
 
 # %%
 # Save dataframe
 for dept_dist in covid_19_time_line_by_care_dept_dist:
     #print('dept_dist:', dept_dist)
     # Save dataframe
-    covid_19_time_line_by_care_dept_dist[dept_dist].to_csv(os.path.join(OUTPUT_DIR, 'covid_19_time_line_dept_dist_' + dept_dist + '.csv'), index=False)
+    covid_19_time_line_by_care_dept_dist[dept_dist].to_csv(os.path.join(OUTPUT_DIR, 'covid19_time_line_dept_dist_' + dept_dist + '.csv'), index=False)
 
 # %% [markdown]
 # ---
