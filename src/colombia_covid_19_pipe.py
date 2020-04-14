@@ -161,6 +161,16 @@ covid_df.tail()
 # %%
 # Sort columns
 covid_df = covid_df[['id_case', 'date', 'day', 'month', 'year', 'month_name', 'day_name', 'city', 'dept_dist', 'age', 'sex', 'kind', 'country_origin', 'care']]
+# Show dataframe
+covid_df.head()
+
+
+# %%
+# Setup string title format
+covid_df['city'] = covid_df['city'].transform(lambda value: value.title())
+covid_df['dept_dist'] = covid_df['dept_dist'].transform(lambda value: value.title())
+covid_df['country_origin'] = covid_df['country_origin'].transform(lambda value: value.title())
+# Show dataframe
 covid_df.head()
 
 # %% [markdown]
@@ -327,7 +337,7 @@ covid_df_by_city['lat'] = covid_df_by_city['geo'].transform(lambda value: value.
 covid_df_by_city['lng'] = covid_df_by_city['geo'].transform(lambda value: value.longitude)
 covid_df_by_city = covid_df_by_city.drop(columns=['geo'])
 # Show dataframe
-covid_df_by_city.head()
+covid_df_by_city
 
 # %% [markdown]
 # ## Cases by City
@@ -593,7 +603,7 @@ def get_accum(df_target, value):
     num = [i for i in range(len(df_target['date'].values)) if df_target['date'].values[i] == value]
     if num:
         return df_target['accum'].values[num[0]]
-    return 0
+    return np.nan
 
 # Time line by care [cases, recovered, deaths]
 covid_19_time_line_by_care = pd.DataFrame(columns=['date', 'cases', 'accum_cases', 'recovered', 'accum_recovered', 'deaths', 'accum_deaths'])
@@ -609,16 +619,182 @@ covid_19_time_line_by_care['accum_recovered'] = covid_19_time_line_by_care['date
 covid_19_time_line_by_care['deaths'] = covid_19_time_line_by_care['date'].transform(lambda value: get_total(covid_df_deaths, value))
 covid_19_time_line_by_care['accum_deaths'] = covid_19_time_line_by_care['date'].transform(lambda value: get_accum(covid_df_deaths, value))
 
+# Fill NaN values
+covid_19_time_line_by_care.fillna(method='ffill', inplace=True)
+covid_19_time_line_by_care.fillna(0, inplace=True)
+#print(covid_19_time_line_by_care.dtypes)
+covid_19_time_line_by_care = covid_19_time_line_by_care.astype({'accum_cases': 'int64', 'accum_recovered': 'int64', 'accum_deaths': 'int64'})
+
 # Show dataframe
 covid_19_time_line_by_care.tail()
 
 # %% [markdown]
 # ## Time Line by Care
-# > ***Output file***: covid19_time_line_by_care.csv
+# > ***Output file***: covid19_time_line.csv
 
 # %%
 # Save dataframe
-covid_19_time_line_by_care.to_csv(os.path.join(OUTPUT_DIR, 'covid19_time_line_by_care.csv'), index=False)
+covid_19_time_line_by_care.to_csv(os.path.join(OUTPUT_DIR, 'covid19_time_line.csv'), index=False)
+
+# %% [markdown]
+# ---
+
+# %%
+# Time Line by Care by City
+cities = []
+cities = list(set(covid_df['city'].values))
+
+# Get report by care and city [cases, recovered, deaths]
+def get_report_by_care_city(care, city):
+    # covid_df_report
+    covid_df_report = pd.DataFrame()
+    # Check care
+    if care == '*':
+        covid_df_report = covid_df[covid_df['city'] == city].groupby('date')['date'].count()
+    else:
+        covid_df_report = covid_df[(covid_df['care'] == care) & (covid_df['city'] == city)].groupby('date')['date'].count()
+    # Create dateset
+    covid_df_report = pd.DataFrame(data={'date': covid_df_report.index, 'total': covid_df_report.values}, columns=['date', 'total'])
+    covid_df_report['date_iso'] = pd.to_datetime(covid_df_report['date'], format='%d/%m/%Y')
+    covid_df_report = covid_df_report.sort_values(by=['date_iso'], ascending=True)
+    covid_df_report['accum'] = covid_df_report['total'].cumsum()
+    covid_df_report = covid_df_report.drop(columns=['date_iso'])
+    covid_df_report.reset_index(inplace=True, drop=True)
+    # Return
+    return covid_df_report
+
+# Get time line by care and city
+def get_time_line_by_care_city(city):
+    # Time line by cases and city
+    covid_df_cases = get_report_by_care_city('*', city)
+    # Time line by recovered and city
+    covid_df_recovered = get_report_by_care_city('Recuperado', city)
+    # Time line by deaths and city
+    covid_df_deaths = get_report_by_care_city('Fallecido', city)
+
+    # Time line by care and city [cases, recovered, deaths]
+    covid_19_time_line_by_care_city = pd.DataFrame(columns=['date', 'cases', 'accum_cases', 'recovered', 'accum_recovered', 'deaths', 'accum_deaths'])
+    covid_19_time_line_by_care_city['date'] = [dti.strftime('%d/%m/%Y') for dti in pd.date_range(start='2020-03-01', end=date.today().isoformat(), freq='D')]
+
+    # Cases
+    covid_19_time_line_by_care_city['cases'] = covid_19_time_line_by_care_city['date'].transform(lambda value: get_total(covid_df_cases, value))
+    covid_19_time_line_by_care_city['accum_cases'] = covid_19_time_line_by_care_city['date'].transform(lambda value: get_accum(covid_df_cases, value))
+
+    # Recovered
+    covid_19_time_line_by_care_city['recovered'] = covid_19_time_line_by_care_city['date'].transform(lambda value: get_total(covid_df_recovered, value))
+    covid_19_time_line_by_care_city['accum_recovered'] = covid_19_time_line_by_care_city['date'].transform(lambda value: get_accum(covid_df_recovered, value))
+
+    # Deaths
+    covid_19_time_line_by_care_city['deaths'] = covid_19_time_line_by_care_city['date'].transform(lambda value: get_total(covid_df_deaths, value))
+    covid_19_time_line_by_care_city['accum_deaths'] = covid_19_time_line_by_care_city['date'].transform(lambda value: get_accum(covid_df_deaths, value))
+
+    # Fill NaN values
+    covid_19_time_line_by_care_city.fillna(method='ffill', inplace=True)
+    covid_19_time_line_by_care_city.fillna(0, inplace=True)
+    #print(covid_19_time_line_by_care_city.dtypes)
+    covid_19_time_line_by_care_city = covid_19_time_line_by_care_city.astype({'accum_cases': 'int64', 'accum_recovered': 'int64', 'accum_deaths': 'int64'})
+
+    # Return dataframe
+    return covid_19_time_line_by_care_city
+
+
+# By city
+covid_19_time_line_by_care_city = {}
+for city in cities:
+    #print('city', city)
+    # Get time line by care and city
+    covid_19_time_line_by_care_city[city] = get_time_line_by_care_city(city)
+
+# %% [markdown]
+# ## Time Line by Care and City
+# > ***Output file***: covid_19_time_line_city.csv
+
+# %%
+# Save dataframe
+for city in covid_19_time_line_by_care_city:
+    #print('city:', city)
+    # Save dataframe
+    covid_19_time_line_by_care_city[city].to_csv(os.path.join(OUTPUT_DIR, 'covid_19_time_line_city_' + city + '.csv'), index=False)
+
+# %% [markdown]
+# ---
+
+# %%
+# Time Line by Care by Department or District
+depts_dists = []
+depts_dists = list(set(covid_df['dept_dist'].values))
+
+# Get report by care and dept_dist [cases, recovered, deaths]
+def get_report_by_care_dept_dist(care, dept_dist):
+    # covid_df_report
+    covid_df_report = pd.DataFrame()
+    # Check care
+    if care == '*':
+        covid_df_report = covid_df[covid_df['dept_dist'] == dept_dist].groupby('date')['date'].count()
+    else:
+        covid_df_report = covid_df[(covid_df['care'] == care) & (covid_df['dept_dist'] == dept_dist)].groupby('date')['date'].count()
+    # Create dateset
+    covid_df_report = pd.DataFrame(data={'date': covid_df_report.index, 'total': covid_df_report.values}, columns=['date', 'total'])
+    covid_df_report['date_iso'] = pd.to_datetime(covid_df_report['date'], format='%d/%m/%Y')
+    covid_df_report = covid_df_report.sort_values(by=['date_iso'], ascending=True)
+    covid_df_report['accum'] = covid_df_report['total'].cumsum()
+    covid_df_report = covid_df_report.drop(columns=['date_iso'])
+    covid_df_report.reset_index(inplace=True, drop=True)
+    # Return
+    return covid_df_report
+
+# Get time line by care and dept_dist
+def get_time_line_by_care_dept_dist(dept_dist):
+    # Time line by cases and dept_dist
+    covid_df_cases = get_report_by_care_dept_dist('*', dept_dist)
+    # Time line by recovered and dept_dist
+    covid_df_recovered = get_report_by_care_dept_dist('Recuperado', dept_dist)
+    # Time line by deaths and dept_dist
+    covid_df_deaths = get_report_by_care_dept_dist('Fallecido', dept_dist)
+
+    # Time line by care and dept_dist [cases, recovered, deaths]
+    covid_19_time_line_by_care_dept_dist = pd.DataFrame(columns=['date', 'cases', 'accum_cases', 'recovered', 'accum_recovered', 'deaths', 'accum_deaths'])
+    covid_19_time_line_by_care_dept_dist['date'] = [dti.strftime('%d/%m/%Y') for dti in pd.date_range(start='2020-03-01', end=date.today().isoformat(), freq='D')]
+
+    # Cases
+    covid_19_time_line_by_care_dept_dist['cases'] = covid_19_time_line_by_care_dept_dist['date'].transform(lambda value: get_total(covid_df_cases, value))
+    covid_19_time_line_by_care_dept_dist['accum_cases'] = covid_19_time_line_by_care_dept_dist['date'].transform(lambda value: get_accum(covid_df_cases, value))
+
+    # Recovered
+    covid_19_time_line_by_care_dept_dist['recovered'] = covid_19_time_line_by_care_dept_dist['date'].transform(lambda value: get_total(covid_df_recovered, value))
+    covid_19_time_line_by_care_dept_dist['accum_recovered'] = covid_19_time_line_by_care_dept_dist['date'].transform(lambda value: get_accum(covid_df_recovered, value))
+
+    # Deaths
+    covid_19_time_line_by_care_dept_dist['deaths'] = covid_19_time_line_by_care_dept_dist['date'].transform(lambda value: get_total(covid_df_deaths, value))
+    covid_19_time_line_by_care_dept_dist['accum_deaths'] = covid_19_time_line_by_care_dept_dist['date'].transform(lambda value: get_accum(covid_df_deaths, value))
+
+    # Fill NaN values
+    covid_19_time_line_by_care_dept_dist.fillna(method='ffill', inplace=True)
+    covid_19_time_line_by_care_dept_dist.fillna(0, inplace=True)
+    #print(covid_19_time_line_by_care_dept_dist.dtypes)
+    covid_19_time_line_by_care_dept_dist = covid_19_time_line_by_care_dept_dist.astype({'accum_cases': 'int64', 'accum_recovered': 'int64', 'accum_deaths': 'int64'})
+
+    # Return dataframe
+    return covid_19_time_line_by_care_dept_dist
+
+
+# By dept_dist
+covid_19_time_line_by_care_dept_dist = {}
+for dept_dist in depts_dists:
+    #print('dept_dist', dept_dist)
+    # Get time line by care and dept_dist
+    covid_19_time_line_by_care_dept_dist[dept_dist] = get_time_line_by_care_dept_dist(dept_dist)
+
+# %% [markdown]
+# ## Time Line by Care and Department or District
+# > ***Output file***: covid_19_time_line_dept_dist.csv
+
+# %%
+# Save dataframe
+for dept_dist in covid_19_time_line_by_care_dept_dist:
+    #print('dept_dist:', dept_dist)
+    # Save dataframe
+    covid_19_time_line_by_care_dept_dist[dept_dist].to_csv(os.path.join(OUTPUT_DIR, 'covid_19_time_line_dept_dist_' + dept_dist + '.csv'), index=False)
 
 # %% [markdown]
 # ---
