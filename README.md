@@ -22,6 +22,10 @@ You can view and collaborate to the analysis here:
 
 ---
 
+[![Colombia Covid19 Time Line](./chart/covid19_time_line.png "Colombia Covid19 Time Line")](https://www.datawrapper.de/_/b9YVt/)
+
+---
+
 ## Requirements
 
 - **Python 3**:
@@ -39,6 +43,7 @@ See [./output](./output) directory.
 
 | Directory | Readme    |
 |-----------|-----------|
+| ./chart   | [README.md](./chart/README.md) |
 | ./doc     | [README.md](./doc/README.md) |
 | ./input   | [README.md](./input/README.md) |
 | ./output  | [README.md](./output/README.md) |
