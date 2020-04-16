@@ -8,6 +8,7 @@
 #./run.sh
 # Check any error
 if [ $? -eq 0 ]; then
+    echo ""
     echo "Running Colombia Covid 19 Pipeline Release ..."
     # Check the last version tag
     LAST_VERSION=$(hub release | head -n 1)
