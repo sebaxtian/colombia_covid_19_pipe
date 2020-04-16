@@ -23,12 +23,6 @@ import sys
 
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-# Short ID
-#try:
-#    from shortid import ShortId
-#except Exception:
-#    install('shortid')
-#    from shortid import ShortId
 # PDFMiner pdfminer.six
 try:
     from pdfminer.high_level import extract_text
@@ -53,10 +47,12 @@ import os
 # Dataset is obtained from [Instituto Nacional de Salud](https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx) daily report Coronavirus 2019 from Colombia.
 # 
 # You can get the official dataset here: 
-# [INS - Official Report](https://e.infogram.com/api/live/flex/bc384047-e71c-47d9-b606-1eb6a29962e3/664bc407-2569-4ab8-b7fb-9deb668ddb7a)
+# [INS - Official Report](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr)
 # 
 # The number of new cases are increasing day by day around the world.
 # This dataset has information about reported cases from 32 Colombia departments.
+# 
+# You can get the Google COVID-19 Community Mobility Reports - Colombia.
 # 
 # You can view and collaborate to the analysis here:
 # [colombia_covid_19_analysis](https://www.kaggle.com/sebaxtian/colombia-covid-19-analysis) Kaggle Notebook Kernel.
@@ -68,26 +64,13 @@ import os
 OUTPUT_DIR = './'
 if os.path.split(os.path.abspath('.'))[-1] == 'src':
     OUTPUT_DIR = '../output'
-# URL original dataset
-URL_DATASET = 'https://e.infogram.com/api/live/flex/bc384047-e71c-47d9-b606-1eb6a29962e3/664bc407-2569-4ab8-b7fb-9deb668ddb7a'
+# URL INS - Official Report
+URL_DATASET = 'https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD'
 
 
 # %%
-# Reading the json as a dict
-with requests.get(URL_DATASET) as original_dataset:
-    data = original_dataset.json()
-#print(data)
-
-# Get attributes and data
-attrs = data['data'][0][0]
-del data['data'][0][0]
-data = data['data'][0]
-
-# Build dataframe
-covid_df = pd.DataFrame(data=data, columns=attrs)
-
-# Size dataframe
-covid_df.shape
+# Get Covid19 dataset
+covid_df = pd.read_csv(URL_DATASET)
 
 
 # %%
@@ -96,13 +79,18 @@ covid_df.tail()
 
 
 # %%
+# Show original columns
+#print(covid_df.columns.values)
+
+
+# %%
 # Rename columns
 covid_df.rename(columns={
     "ID de caso": "id_case",
     "Fecha de diagnóstico": "date",
     "Ciudad de ubicación": "city",
-    "Departamento o Distrito": "dept_dist",
-    "Atención**": "care",
+    "Departamento o Distrito ": "dept_dist",
+    "Atención": "care",
     "Edad": "age",
     "Sexo": "sex",
     "Tipo*": "kind",
@@ -113,7 +101,7 @@ covid_df.head()
 
 # %%
 # Clean empty rows
-covid_df = covid_df[(covid_df['id_case'] != '') | (covid_df['date'] != '')]
+covid_df = covid_df[covid_df['date'] != '']
 # Show dataframe
 covid_df.tail()
 
@@ -127,6 +115,23 @@ covid_df.head()
 
 
 # %%
+# Setup date format
+def setup_date(value):
+    value = value.split('/')
+    #print(value)
+    # Check day
+    if len(value[0]) == 1:
+        value[0] = '0' + value[0]
+    # Check mounth
+    if len(value[1]) == 1:
+        value[1] = '0' + value[1]
+    # Check year
+    if len(value[2]) == 2:
+        value[2] = value[2] + '20'
+    # Return new date format
+    return '/'.join(value)
+# Setup date format
+covid_df['date'] = covid_df['date'].transform(lambda value: setup_date(value))
 # Setup date format
 covid_df['date'] = [value.strftime('%d/%m/%Y') for value in pd.to_datetime(covid_df['date'], format='%d/%m/%Y')]
 covid_df.head()
@@ -151,9 +156,6 @@ covid_df.head()
 
 # %%
 # Update Case ID
-#covid_df['id_case'] = covid_df['id_case'].transform(lambda value: ShortId().generate())
-#covid_df['id_case'] = covid_df['sex'] + covid_df['id_case'] + covid_df['age']
-#covid_df.head()
 covid_df['id_case'] = covid_df.index
 covid_df.tail()
 
@@ -212,7 +214,7 @@ covid_df_by_date.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_date.csv'), index=F
 covid_df_by_care = covid_df.groupby('care')['care'].count().sort_values(ascending=False)
 covid_df_by_care = pd.DataFrame(data={'care': covid_df_by_care.index, 'total': covid_df_by_care.values}, columns=['care', 'total'])
 # Show dataframe
-covid_df_by_care.head()
+covid_df_by_care.head(10)
 
 # %% [markdown]
 # ## Cases by Care
@@ -321,16 +323,19 @@ covid_df_by_city.head()
 
 # %%
 # Find city geolocation
+"""
 def findgeopoint(city):
     geo = geolocator.geocode(city + ', Colombia')
     if geo:
         return geo.point
     else:
         return geolocator.geocode('Colombia').point
+"""
 
 
 # %%
 # Add city geolocation
+"""
 covid_df_by_city['geo'] = covid_df_by_city['city'].transform(lambda value: findgeopoint(value))
 # Add city latitude and longitude
 covid_df_by_city['lat'] = covid_df_by_city['geo'].transform(lambda value: value.latitude)
@@ -338,6 +343,7 @@ covid_df_by_city['lng'] = covid_df_by_city['geo'].transform(lambda value: value.
 covid_df_by_city = covid_df_by_city.drop(columns=['geo'])
 # Show dataframe
 covid_df_by_city.head()
+"""
 
 # %% [markdown]
 # ## Cases by City
@@ -360,6 +366,7 @@ covid_df_by_dept_dist.head()
 
 # %%
 # Add dept_dist geolocation
+"""
 covid_df_by_dept_dist['geo'] = covid_df_by_dept_dist['dept_dist'].transform(lambda value: findgeopoint(value))
 # Add city latitude and longitude
 covid_df_by_dept_dist['lat'] = covid_df_by_dept_dist['geo'].transform(lambda value: value.latitude)
@@ -367,6 +374,7 @@ covid_df_by_dept_dist['lng'] = covid_df_by_dept_dist['geo'].transform(lambda val
 covid_df_by_dept_dist = covid_df_by_dept_dist.drop(columns=['geo'])
 # Show dataframe
 covid_df_by_dept_dist.head()
+"""
 
 # %% [markdown]
 # ## Cases by Department or District
@@ -489,17 +497,17 @@ samples_processed = attrs.split('<b>')[1].split('</b>')[0].replace('.', '')
 # %%
 # Samples Processed Time Line
 # Reading the json as a dict
-with requests.get('https://infogram.com/api/live/flex/bc384047-e71c-47d9-b606-1eb6a29962e3/523ca417-2781-47f0-87e8-1ccc2d5c2839?') as original_dataset:
+with requests.get('https://infogram.com/api/live/flex/4524241a-91a7-4bbd-a58e-63c12fb2952f/0a859405-7279-44a1-80d9-ff127bdf4489?') as original_dataset:
     data = original_dataset.json()
 #print(data['data'])
-#print(data['data'][2])
+#print(data['data'][0])
 
 # Get attributes and data
-attrs = data['data'][2][0]
+attrs = data['data'][0][0]
 attrs[0] = 'Periodo'
-del data['data'][2][0]
+del data['data'][0][0]
 #print(attrs)
-data = data['data'][2]
+data = data['data'][0]
 #print(data)
 
 # Build dataframe
@@ -543,38 +551,6 @@ covid_df_samples_processed.tail()
 # %%
 # Save dataframe
 covid_df_samples_processed.to_csv(os.path.join(OUTPUT_DIR, 'covid19_samples_processed.csv'), index=False)
-
-# %% [markdown]
-# ---
-
-# %%
-# Resume
-data = []
-# cases_by_care_by_date[N] = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado', 'Recuperado (Hospital)']
-# Resume Attributes
-data.append(['Confirmados', covid_df_by_date.values[-1][-1]])
-data.append(['Recuperados', cases_by_care_by_date[4].values[-1][-1] + cases_by_care_by_date[5].values[-1][-1]])
-data.append(['Muertes', cases_by_care_by_date[3].values[-1][-1]])
-data.append(['Casos descartados', descarted_cases])
-data.append(['Importado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Importado'].values[0][-1]])
-data.append(['Relacionado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Relacionado'].values[0][-1]])
-data.append(['En estudio', covid_df_by_kind[covid_df_by_kind['kind'] == 'En estudio'].values[0][-1]])
-data.append(['Muestras procesadas', samples_processed])
-
-# Resume Dataframe
-covid_df_resume = pd.DataFrame(data=data, columns=['title', 'total'])
-# Show dataframe
-covid_df_resume.head(10)
-
-# %% [markdown]
-# ## Resume
-# > ***Output file***: covid19_resume.csv
-
-# %%
-# Save dataframe
-covid_df_resume.to_csv(os.path.join(OUTPUT_DIR, 'covid19_resume.csv'), index=False)
-print('\nColombia Covid 19 Resumen:')
-print(covid_df_resume)
 
 # %% [markdown]
 # ---
@@ -928,6 +904,38 @@ google_community_mobility_reports.head()
 # %%
 # Save dataframe
 google_community_mobility_reports.to_csv(os.path.join(OUTPUT_DIR, 'google_community_mobility_reports.csv'), index=False)
+
+# %% [markdown]
+# ---
+
+# %%
+# Resume
+data = []
+# cases_by_care_by_date[N] = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado', 'Recuperado (Hospital)']
+# Resume Attributes
+data.append(['Confirmados', covid_df_by_date.values[-1][-1]])
+data.append(['Recuperados', cases_by_care_by_date[4].values[-1][-1] + cases_by_care_by_date[5].values[-1][-1]])
+data.append(['Muertes', cases_by_care_by_date[3].values[-1][-1]])
+data.append(['Casos descartados', descarted_cases])
+data.append(['Importado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Importado'].values[0][-1]])
+data.append(['Relacionado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Relacionado'].values[0][-1]])
+data.append(['En estudio', covid_df_by_kind[covid_df_by_kind['kind'] == 'En estudio'].values[0][-1]])
+data.append(['Muestras procesadas', samples_processed])
+
+# Resume Dataframe
+covid_df_resume = pd.DataFrame(data=data, columns=['title', 'total'])
+# Show dataframe
+covid_df_resume.head(10)
+
+# %% [markdown]
+# ## Resume
+# > ***Output file***: covid19_resume.csv
+
+# %%
+# Save dataframe
+covid_df_resume.to_csv(os.path.join(OUTPUT_DIR, 'covid19_resume.csv'), index=False)
+print('\nColombia Covid 19 Resumen:')
+print(covid_df_resume)
 
 # %% [markdown]
 # ---
