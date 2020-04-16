@@ -323,16 +323,19 @@ covid_df_by_city.head()
 
 # %%
 # Find city geolocation
+"""
 def findgeopoint(city):
     geo = geolocator.geocode(city + ', Colombia')
     if geo:
         return geo.point
     else:
         return geolocator.geocode('Colombia').point
+"""
 
 
 # %%
 # Add city geolocation
+"""
 covid_df_by_city['geo'] = covid_df_by_city['city'].transform(lambda value: findgeopoint(value))
 # Add city latitude and longitude
 covid_df_by_city['lat'] = covid_df_by_city['geo'].transform(lambda value: value.latitude)
@@ -340,6 +343,7 @@ covid_df_by_city['lng'] = covid_df_by_city['geo'].transform(lambda value: value.
 covid_df_by_city = covid_df_by_city.drop(columns=['geo'])
 # Show dataframe
 covid_df_by_city.head()
+"""
 
 # %% [markdown]
 # ## Cases by City
@@ -362,6 +366,7 @@ covid_df_by_dept_dist.head()
 
 # %%
 # Add dept_dist geolocation
+"""
 covid_df_by_dept_dist['geo'] = covid_df_by_dept_dist['dept_dist'].transform(lambda value: findgeopoint(value))
 # Add city latitude and longitude
 covid_df_by_dept_dist['lat'] = covid_df_by_dept_dist['geo'].transform(lambda value: value.latitude)
@@ -369,6 +374,7 @@ covid_df_by_dept_dist['lng'] = covid_df_by_dept_dist['geo'].transform(lambda val
 covid_df_by_dept_dist = covid_df_by_dept_dist.drop(columns=['geo'])
 # Show dataframe
 covid_df_by_dept_dist.head()
+"""
 
 # %% [markdown]
 # ## Cases by Department or District
@@ -545,38 +551,6 @@ covid_df_samples_processed.tail()
 # %%
 # Save dataframe
 covid_df_samples_processed.to_csv(os.path.join(OUTPUT_DIR, 'covid19_samples_processed.csv'), index=False)
-
-# %% [markdown]
-# ---
-
-# %%
-# Resume
-data = []
-# cases_by_care_by_date[N] = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado', 'Recuperado (Hospital)']
-# Resume Attributes
-data.append(['Confirmados', covid_df_by_date.values[-1][-1]])
-data.append(['Recuperados', cases_by_care_by_date[4].values[-1][-1] + cases_by_care_by_date[5].values[-1][-1]])
-data.append(['Muertes', cases_by_care_by_date[3].values[-1][-1]])
-data.append(['Casos descartados', descarted_cases])
-data.append(['Importado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Importado'].values[0][-1]])
-data.append(['Relacionado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Relacionado'].values[0][-1]])
-data.append(['En estudio', covid_df_by_kind[covid_df_by_kind['kind'] == 'En estudio'].values[0][-1]])
-data.append(['Muestras procesadas', samples_processed])
-
-# Resume Dataframe
-covid_df_resume = pd.DataFrame(data=data, columns=['title', 'total'])
-# Show dataframe
-covid_df_resume.head(10)
-
-# %% [markdown]
-# ## Resume
-# > ***Output file***: covid19_resume.csv
-
-# %%
-# Save dataframe
-covid_df_resume.to_csv(os.path.join(OUTPUT_DIR, 'covid19_resume.csv'), index=False)
-print('\nColombia Covid 19 Resumen:')
-print(covid_df_resume)
 
 # %% [markdown]
 # ---
@@ -930,6 +904,38 @@ google_community_mobility_reports.head()
 # %%
 # Save dataframe
 google_community_mobility_reports.to_csv(os.path.join(OUTPUT_DIR, 'google_community_mobility_reports.csv'), index=False)
+
+# %% [markdown]
+# ---
+
+# %%
+# Resume
+data = []
+# cases_by_care_by_date[N] = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado', 'Recuperado (Hospital)']
+# Resume Attributes
+data.append(['Confirmados', covid_df_by_date.values[-1][-1]])
+data.append(['Recuperados', cases_by_care_by_date[4].values[-1][-1] + cases_by_care_by_date[5].values[-1][-1]])
+data.append(['Muertes', cases_by_care_by_date[3].values[-1][-1]])
+data.append(['Casos descartados', descarted_cases])
+data.append(['Importado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Importado'].values[0][-1]])
+data.append(['Relacionado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Relacionado'].values[0][-1]])
+data.append(['En estudio', covid_df_by_kind[covid_df_by_kind['kind'] == 'En estudio'].values[0][-1]])
+data.append(['Muestras procesadas', samples_processed])
+
+# Resume Dataframe
+covid_df_resume = pd.DataFrame(data=data, columns=['title', 'total'])
+# Show dataframe
+covid_df_resume.head(10)
+
+# %% [markdown]
+# ## Resume
+# > ***Output file***: covid19_resume.csv
+
+# %%
+# Save dataframe
+covid_df_resume.to_csv(os.path.join(OUTPUT_DIR, 'covid19_resume.csv'), index=False)
+print('\nColombia Covid 19 Resumen:')
+print(covid_df_resume)
 
 # %% [markdown]
 # ---
