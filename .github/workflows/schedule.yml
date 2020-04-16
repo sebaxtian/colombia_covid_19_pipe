@@ -30,16 +30,21 @@ jobs:
       - name: Colombia Covid 19 Pipeline Schedule
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            DATA_WRAPPER_TOKEN: ${{ secrets.DATA_WRAPPER_TOKEN }}
         run: |
           # Run Colombia Covid 19 Pipeline Schedule
           ./run.sh
+          # Update Chart Colombia Covid19 Time Line
+          curl --request GET --url 'https://api.datawrapper.de/v3/charts/b9YVt/export/png?unit=px&mode=rgb&plain=false&scale=2&borderWidth=20' --header "Authorization: Bearer $DATA_WRAPPER_TOKEN" --header 'accept: */*' --output './chart/covid19_time_line.png'
+          # Check any change
           if [[ $(git status --porcelain) ]]; then
-              echo 'Update Colombia Covid 19 Datasets'
+              echo 'Colombia Covid 19 Datasets Updated'
               git config --global user.email 'sebaxtianrioss@gmail.com'
               git config --global user.name 'Sebastian Rios Sabogal'
               git add .
               git commit -m "Updated at $(date)"
               git push origin master
+              # Create new release
               ./release.sh
           else
               echo 'Not Changes'
