@@ -8,13 +8,17 @@
 
 # Colombia Covid 19 Pipeline
 
-Pipeline to get dataset from [Instituto Nacional de Salud](https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx) daily report Coronavirus Covid 19 of Colombia.
+Dataset is obtained from [Instituto Nacional de Salud](https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx) daily report Coronavirus 2019 from Colombia.
 
-You can get the official dataset here: [INS - Official Report](https://e.infogram.com/api/live/flex/bc384047-e71c-47d9-b606-1eb6a29962e3/664bc407-2569-4ab8-b7fb-9deb668ddb7a)
+You can get the official dataset here: [INS - Official Report](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr)
 
-The number of new cases are increasing day by day around the world. This dataset has information about reported cases from 32 Colombia departments.
+The number of new cases are increasing day by day around the world.
+This dataset has information about reported cases from 32 Colombia departments.
 
-You can get the datasets from [colombia_covid_19_pipe](https://www.kaggle.com/sebaxtian/colombia-covid-19-pipe) Kaggle Notebook Kernel.
+You can get the Google COVID-19 Community Mobility Reports - Colombia.
+
+You can view and collaborate to the analysis here:
+[colombia_covid_19_analysis](https://www.kaggle.com/sebaxtian/colombia-covid-19-analysis) Kaggle Notebook Kernel.
 
 ---
 
@@ -74,6 +78,15 @@ The Pipeline output is generated within [./output](./output) directory.
 #### Step N
 
 > Work in progress ...
+
+---
+
+#### Jupyter Nootebook to Python Script
+
+```bash
+$promt> jupyter nbconvert --to script ./src/colombia-covid-19-pi
+pe.ipynb --output colombia_covid_19_pipe
+```
 
 ---
 
