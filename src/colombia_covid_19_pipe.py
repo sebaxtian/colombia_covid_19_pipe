@@ -148,16 +148,17 @@ covid_df.tail()
 
 # %%
 # Rename columns
-covid_df.rename(columns={
-    "Caso": "id_case",
-    "Fecha de diagnóstico": "date",
-    "Ciudad": "city",
-    "Departamento": "dept_dist",
-    "Ubicación": "care",
-    "Edad": "age",
-    "Sexo": "sex",
-    "Tipo": "kind",
-    "Pais de procedencia": "country_origin"}, inplace=True)
+#covid_df.rename(columns={
+#    "Caso": "id_case",
+#    "Fecha de diagnóstico": "date",
+#    "Ciudad": "city",
+#    "Departamento": "dept_dist",
+#    "Ubicación": "care",
+#    "Edad": "age",
+#    "Sexo": "sex",
+#    "Tipo": "kind",
+#    "Pais de procedencia": "country_origin"}, inplace=True)
+covid_df.columns = ['id_case', 'date', 'city', 'dept_dist', 'care', 'age', 'sex', 'kind', 'country_origin']
 # Show dataframe
 covid_df.head()
 
@@ -182,18 +183,21 @@ covid_df.head()
 def setup_date(value):
     #print('Cosa', value)
     value = value.split('/')
-    #print(value)
-    # Check day
-    if len(value[0]) == 1:
-        value[0] = '0' + value[0]
-    # Check mounth
-    if len(value[1]) == 1:
-        value[1] = '0' + value[1]
-    # Check year
-    if len(value[2]) == 2:
-        value[2] = value[2] + '20'
-    # Return new date format
-    return '/'.join(value)
+    #print('Values', value)
+    if len(value) == 3:
+        # Check day
+        if len(value[0]) == 1:
+            value[0] = '0' + value[0]
+        # Check mounth
+        if len(value[1]) == 1:
+            value[1] = '0' + value[1]
+        # Check year
+        if len(value[2]) == 2:
+            value[2] = value[2] + '20'
+        # Return new date format
+        return '/'.join(value)
+    else:
+        return ''
 # Check date format
 def check_date_format(value):
     try:
