@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #
-# Run the colombia_covid_19_pipe.py Python script
+# Run colombia_covid_19_pipe.py Python script
 #
 
 # Go to source code
 cd ./src
 # Run Python script
-echo "Running Colombia Covid 19 Pipeline ..."
+echo "Running Colombia Covid19 Pipeline ..."
 python3 colombia_covid_19_pipe.py
 # Check any error
 if [ $? -eq 0 ]; then
