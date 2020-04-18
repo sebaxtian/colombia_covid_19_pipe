@@ -15,6 +15,7 @@ geolocator = Nominatim(user_agent='colombia_covid_19_pipe', timeout=None)
 import requests
 import unidecode
 # Dates
+import datetime
 from datetime import date
 from calendar import day_name, month_name
 
@@ -64,13 +65,75 @@ import os
 OUTPUT_DIR = './'
 if os.path.split(os.path.abspath('.'))[-1] == 'src':
     OUTPUT_DIR = '../output'
-# URL INS - Official Report
-URL_DATASET = 'https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD'
+# Official Opendata Report, with anomalies
+#URL_DATASET = 'https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD'
+
+# Official Daily Report Until Now
+URL_DATASET = 'https://infogram.com/api/live/flex/4524241a-91a7-4bbd-a58e-63c12fb2952f/7109db63-a83b-4ba7-b5bc-565b2a7ee4bb?'
+
+# %% [markdown]
+# ---
+# %% [markdown]
+# ## Load Local Covid19 Report from Output
+
+# %%
+# Load local covid19_df from output
+covid19_df = pd.read_csv(os.path.join(OUTPUT_DIR, 'covid19.csv'))
+# Report last day
+covid19_df.shape
+
+# %% [markdown]
+# ---
+# %% [markdown]
+# ## Get Official Covid19 Daily Report
+
+# %%
+# Get Covid19 dataset daily report
+# Reading the json as a dict
+with requests.get(URL_DATASET) as original_dataset:
+    data = original_dataset.json()
+#print(data)
+
+# Department Report
+#print(data['data'][0])
+#department_report = data['data'][0]
+
+# National Report
+#print(len(data['data'][1:]))
+national_report = data['data'][1:]
+
+# New Cases
+new_cases = national_report[0]
+#print(new_cases)
+
+# Deaths
+new_deaths = national_report[1]
+#print(new_deaths)
+
+# Recovered
+new_recovered = national_report[2]
+#print(new_recovered)
+
+# Recovered Hostpital
+new_recovered_hospital = national_report[3]
+#print(new_recovered_hospital)
+
+
+# Get attributes and data
+attrs = new_cases[0]
+del new_cases[0]
+#print('new_cases', new_cases)
+
+# Build dataframe
+covid_df = pd.DataFrame(data=new_cases, columns=attrs)
+
+# Size dataframe
+covid_df.shape
 
 
 # %%
 # Get Covid19 dataset
-covid_df = pd.read_csv(URL_DATASET)
+#covid_df = pd.read_csv(URL_DATASET)
 
 
 # %%
@@ -86,15 +149,15 @@ covid_df.tail()
 # %%
 # Rename columns
 covid_df.rename(columns={
-    "ID de caso": "id_case",
+    "Caso": "id_case",
     "Fecha de diagnóstico": "date",
-    "Ciudad de ubicación": "city",
-    "Departamento o Distrito ": "dept_dist",
-    "Atención": "care",
+    "Ciudad": "city",
+    "Departamento": "dept_dist",
+    "Ubicación": "care",
     "Edad": "age",
     "Sexo": "sex",
-    "Tipo*": "kind",
-    "País de procedencia": "country_origin"}, inplace=True)
+    "Tipo": "kind",
+    "Pais de procedencia": "country_origin"}, inplace=True)
 # Show dataframe
 covid_df.head()
 
@@ -117,6 +180,7 @@ covid_df.head()
 # %%
 # Setup date format
 def setup_date(value):
+    #print('Cosa', value)
     value = value.split('/')
     #print(value)
     # Check day
@@ -130,11 +194,25 @@ def setup_date(value):
         value[2] = value[2] + '20'
     # Return new date format
     return '/'.join(value)
+# Check date format
+def check_date_format(value):
+    try:
+        new_date = datetime.datetime.strptime(value, '%d/%m/%Y')
+        #print('Fecha Valida:', value)
+        return new_date
+    except ValueError:
+        #print('Fecha con Error:', value)
+        #new_date = datetime.datetime.now().strptime('%d/%m/%Y')
+        return np.NaN
+
 # Setup date format
 covid_df['date'] = covid_df['date'].transform(lambda value: setup_date(value))
+covid_df['date'] = covid_df['date'].transform(lambda value: check_date_format(value))
+covid_df['date'].fillna(method='bfill', inplace=True)
 # Setup date format
 covid_df['date'] = [value.strftime('%d/%m/%Y') for value in pd.to_datetime(covid_df['date'], format='%d/%m/%Y')]
-covid_df.head()
+# Show dataframe
+covid_df.tail()
 
 
 # %%
@@ -156,8 +234,8 @@ covid_df.head()
 
 # %%
 # Update Case ID
-covid_df['id_case'] = covid_df.index
-covid_df.tail()
+#covid_df['id_case'] = covid_df.index
+#covid_df.tail()
 
 
 # %%
@@ -173,7 +251,41 @@ covid_df['city'] = covid_df['city'].transform(lambda value: value.title())
 covid_df['dept_dist'] = covid_df['dept_dist'].transform(lambda value: value.title())
 covid_df['country_origin'] = covid_df['country_origin'].transform(lambda value: value.title())
 # Show dataframe
-covid_df.head()
+covid_df.tail()
+
+# %% [markdown]
+# ## Merge Local Covid19 Report with Official Covid19 Daily Report
+
+# %%
+# Merge with the local covid19_df from output
+# Temporal update id_case
+#covid19_df['id_case'] = covid19_df['id_case'].transform(lambda value: value + 1) OJO
+# Check changes
+#print(covid_df['id_case'].values[0])
+#print(covid19_df['id_case'].values[-1])
+if int(covid_df['id_case'].values[0]) > int(covid19_df['id_case'].values[-1]):
+    covid_df = pd.concat([covid19_df, covid_df])
+else:
+    covid_df = covid19_df
+# Show dataframe
+covid_df.shape
+#covid_df.tail()
+
+
+# %%
+# Reset index
+covid_df.reset_index(inplace=True)
+covid_df.drop(columns=['index'], inplace=True)
+# Show dataframe
+covid_df.tail()
+
+
+# %%
+# Setup string title format
+covid_df['kind'] = covid_df['kind'].transform(lambda value: value.title())
+covid_df['care'] = covid_df['care'].transform(lambda value: value.title())
+# Show dataframe
+covid_df.tail()
 
 # %% [markdown]
 # ## Covid 19 Dataset
@@ -185,297 +297,22 @@ covid_df.to_csv(os.path.join(OUTPUT_DIR, 'covid19.csv'), index=False)
 
 # %% [markdown]
 # ---
-
-# %%
-# Cases by Date
-covid_df_by_date = covid_df.groupby('date')['date'].count()
-covid_df_by_date = pd.DataFrame(data={'date': covid_df_by_date.index, 'total': covid_df_by_date.values}, columns=['date', 'total'])
-covid_df_by_date['date_iso'] = pd.to_datetime(covid_df_by_date['date'], format='%d/%m/%Y')
-covid_df_by_date = covid_df_by_date.sort_values(by=['date_iso'], ascending=True)
-covid_df_by_date['cumsum'] = covid_df_by_date['total'].cumsum()
-covid_df_by_date = covid_df_by_date.drop(columns=['date_iso'])
-covid_df_by_date.reset_index(inplace=True, drop=True)
-# Show dataframe
-covid_df_by_date.tail()
-
 # %% [markdown]
-# ## Cases by Date
-# > ***Output file***: covid19_by_date.csv
+# ## Covid19 Daily Report Dataset Updated
 
 # %%
-# Save dataframe
-covid_df_by_date.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_date.csv'), index=False)
+# Show dataframe
+covid_df.head()
+
+
+# %%
+# Show dataframe
+covid_df.tail()
 
 # %% [markdown]
 # ---
-
-# %%
-# Cases by Care
-covid_df_by_care = covid_df.groupby('care')['care'].count().sort_values(ascending=False)
-covid_df_by_care = pd.DataFrame(data={'care': covid_df_by_care.index, 'total': covid_df_by_care.values}, columns=['care', 'total'])
-# Show dataframe
-covid_df_by_care.head(10)
-
 # %% [markdown]
-# ## Cases by Care
-# > ***Output file***: covid19_by_care.csv
-
-# %%
-# Save dataframe
-covid_df_by_care.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_care.csv'), index=False)
-
-# %% [markdown]
-# ---
-
-# %%
-# Cases by Sex
-covid_df_by_sex = covid_df.groupby('sex')['sex'].count().sort_values(ascending=False)
-covid_df_by_sex = pd.DataFrame(data={'sex': covid_df_by_sex.index, 'total': covid_df_by_sex.values}, columns=['sex', 'total'])
-# Show dataframe
-covid_df_by_sex.head()
-
-# %% [markdown]
-# ## Cases by Sex
-# > ***Output file***: covid19_by_sex.csv
-
-# %%
-# Save dataframe
-covid_df_by_sex.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_sex.csv'), index=False)
-
-# %% [markdown]
-# ---
-
-# %%
-# Cases by Age
-covid_df_by_age = covid_df.groupby('age')['age'].count().sort_values(ascending=False)
-covid_df_by_age = pd.DataFrame(data={'age': covid_df_by_age.index, 'total': covid_df_by_age.values}, columns=['age', 'total'])
-# Show dataframe
-covid_df_by_age.head()
-
-# %% [markdown]
-# ## Cases by Age
-# > ***Output file***: covid19_by_age.csv
-
-# %%
-# Save dataframe
-covid_df_by_age.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_age.csv'), index=False)
-
-# %% [markdown]
-# ---
-
-# %%
-# Cases by Age and Sex
-covid_df_by_age_sex = covid_df.groupby(['age', 'sex'])['id_case'].count().sort_values(ascending=False)
-covid_df_by_age_sex = pd.DataFrame(data={'age': covid_df_by_age_sex.index.get_level_values('age'), 'sex': covid_df_by_age_sex.index.get_level_values('sex'), 'total': covid_df_by_age_sex.values}, columns=['age', 'sex', 'total'])
-# Show dataframe
-covid_df_by_age_sex.head()
-
-# %% [markdown]
-# ## Cases by Age and Sex
-# > ***Output file***: covid19_by_age_sex.csv
-
-# %%
-# Save dataframe
-covid_df_by_age_sex.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_age_sex.csv'), index=False)
-
-# %% [markdown]
-# ---
-
-# %%
-# Build dataframe by Age and Sex using intervals
-def age_sex_intervals(dataframe):
-    intervals = []
-    i = 0
-    while i < 100:
-        interval_i = dataframe[(dataframe['age'] >= i) & (dataframe['age'] < i+10)]
-        interval_i = interval_i.groupby('sex')['total'].sum().sort_values(ascending=False)
-        if len(interval_i.values) > 0:
-            interval_i = pd.DataFrame(data={'age': [ str(i) + '-' + str(i+9), str(i) + '-' + str(i+9)], 'sex': interval_i.index, 'total': interval_i.values}, columns=['age', 'sex', 'total'])
-            intervals.append(interval_i)
-        i = i + 10
-    return pd.concat(intervals).reset_index(drop=True)
-# Cases by Age and Sex using intervals
-covid_df_by_age_sex_interval = covid_df_by_age_sex
-covid_df_by_age_sex_interval['age'] = pd.to_numeric(covid_df_by_age_sex_interval['age'])
-covid_df_by_age_sex_interval = age_sex_intervals(covid_df_by_age_sex_interval)
-covid_df_by_age_sex_interval.sort_values(ascending=False, inplace=True, by=['total'])
-# Show dataframe
-covid_df_by_age_sex_interval.head()
-
-# %% [markdown]
-# ## Cases by Age and Sex Interval
-# > ***Output file***: covid19_by_age_sex_interval.csv
-
-# %%
-# Save dataframe
-covid_df_by_age_sex_interval.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_age_sex_interval.csv'), index=False)
-
-# %% [markdown]
-# ---
-
-# %%
-# Cases by City
-covid_df_by_city = covid_df.groupby('city')['city'].count().sort_values(ascending=False)
-covid_df_by_city = pd.DataFrame(data={'city': covid_df_by_city.index, 'total': covid_df_by_city.values}, columns=['city', 'total'])
-# Show dataframe
-covid_df_by_city.head()
-
-
-# %%
-# Find city geolocation
-"""
-def findgeopoint(city):
-    geo = geolocator.geocode(city + ', Colombia')
-    if geo:
-        return geo.point
-    else:
-        return geolocator.geocode('Colombia').point
-"""
-
-
-# %%
-# Add city geolocation
-"""
-covid_df_by_city['geo'] = covid_df_by_city['city'].transform(lambda value: findgeopoint(value))
-# Add city latitude and longitude
-covid_df_by_city['lat'] = covid_df_by_city['geo'].transform(lambda value: value.latitude)
-covid_df_by_city['lng'] = covid_df_by_city['geo'].transform(lambda value: value.longitude)
-covid_df_by_city = covid_df_by_city.drop(columns=['geo'])
-# Show dataframe
-covid_df_by_city.head()
-"""
-
-# %% [markdown]
-# ## Cases by City
-# > ***Output file***: covid19_by_city.csv
-
-# %%
-# Save dataframe
-covid_df_by_city.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_city.csv'), index=False)
-
-# %% [markdown]
-# ---
-
-# %%
-# Cases by Department or District
-covid_df_by_dept_dist = covid_df.groupby('dept_dist')['dept_dist'].count().sort_values(ascending=False)
-covid_df_by_dept_dist = pd.DataFrame(data={'dept_dist': covid_df_by_dept_dist.index, 'total': covid_df_by_dept_dist.values}, columns=['dept_dist', 'total'])
-# Show dataframe
-covid_df_by_dept_dist.head()
-
-
-# %%
-# Add dept_dist geolocation
-"""
-covid_df_by_dept_dist['geo'] = covid_df_by_dept_dist['dept_dist'].transform(lambda value: findgeopoint(value))
-# Add city latitude and longitude
-covid_df_by_dept_dist['lat'] = covid_df_by_dept_dist['geo'].transform(lambda value: value.latitude)
-covid_df_by_dept_dist['lng'] = covid_df_by_dept_dist['geo'].transform(lambda value: value.longitude)
-covid_df_by_dept_dist = covid_df_by_dept_dist.drop(columns=['geo'])
-# Show dataframe
-covid_df_by_dept_dist.head()
-"""
-
-# %% [markdown]
-# ## Cases by Department or District
-# > ***Output file***: covid19_by_dept_dist.csv
-
-# %%
-# Save dataframe
-covid_df_by_dept_dist.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_dept_dist.csv'), index=False)
-
-
-# %%
-# List Care
-#list(set(covid_df['care'].values))
-
-# %% [markdown]
-# ---
-
-# %%
-# Cases by Care by Date
-#list_care = list(set(covid_df['care'].values))
-list_care = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado', 'Recuperado (Hospital)']
-#print('list_care', list_care)
-cases_by_care_by_date = []
-# Each Care
-for care in list_care:
-    covid_df_care_by_date = covid_df[covid_df['care'] == care]
-    covid_df_care_by_date = covid_df_care_by_date.groupby('date')['date'].count()
-    covid_df_care_by_date = pd.DataFrame(data={'date': covid_df_care_by_date.index, 'care': ([care] * len(covid_df_care_by_date.index)), 'total': covid_df_care_by_date.values}, columns=['date', 'care', 'total'])
-    covid_df_care_by_date['date_iso'] = pd.to_datetime(covid_df_care_by_date['date'], format='%d/%m/%Y')
-    covid_df_care_by_date = covid_df_care_by_date.sort_values(by=['date_iso'], ascending=True)
-    covid_df_care_by_date['cumsum'] = covid_df_care_by_date['total'].cumsum()
-    covid_df_care_by_date = covid_df_care_by_date.drop(columns=['date_iso'])
-    covid_df_care_by_date.reset_index(inplace=True, drop=True)
-    cases_by_care_by_date.append(covid_df_care_by_date)
-# Show dataframe
-#for i, care in enumerate(list_care):
-#    print(care, '\n', cases_by_care_by_date[i].tail())
-
-# %% [markdown]
-# ## Cases by Care by Date
-# > ***Output files***: covid19_cases_by_care_by_date_(int).csv
-
-# %%
-# Save dataframe
-list_care_file = ['hospital', 'uci', 'casa', 'fallecido', 'recuperado', 'recuperado_hospital']
-for i, care in enumerate(list_care):
-    cases_by_care_by_date[i].to_csv(os.path.join(OUTPUT_DIR, 'covid19_cases_by_' + list_care_file[i] + '_by_date.csv'), index=False)
-
-# %% [markdown]
-# ---
-
-# %%
-# Cases by Country Origin
-covid_df_by_country_origin = covid_df.groupby('country_origin')['country_origin'].count().sort_values(ascending=False)
-covid_df_by_country_origin = pd.DataFrame(data={'country_origin': covid_df_by_country_origin.index, 'total': covid_df_by_country_origin.values}, columns=['country_origin', 'total'])
-# Show dataframe
-covid_df_by_country_origin.head()
-
-# %% [markdown]
-# ## Cases by Country Origin
-# > ***Output file***: covid19_by_country_origin.csv
-
-# %%
-# Save dataframe
-covid_df_by_country_origin.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_country_origin.csv'), index=False)
-
-# %% [markdown]
-# ---
-
-# %%
-# Cases by Kind
-covid_df_by_kind = covid_df.groupby('kind')['kind'].count().sort_values(ascending=False)
-covid_df_by_kind = pd.DataFrame(data={'kind': covid_df_by_kind.index, 'total': covid_df_by_kind.values}, columns=['kind', 'total'])
-# Show dataframe
-covid_df_by_kind.head()
-
-# %% [markdown]
-# ## Cases by Kind
-# > ***Output file***: covid19_by_kind.csv
-
-# %%
-# Save dataframe
-covid_df_by_kind.to_csv(os.path.join(OUTPUT_DIR, 'covid19_by_kind.csv'), index=False)
-
-# %% [markdown]
-# ---
-
-# %%
-# Descarted Cases
-# Reading the json as a dict
-with requests.get('https://infogram.com/api/live/flex/4524241a-91a7-4bbd-a58e-63c12fb2952f/4dc066f9-6be5-4791-aefb-96fe4c523dfd?') as original_dataset:
-    data = original_dataset.json()
-#print(data['data'][0][1][0])
-
-# Get attributes and data
-attrs = data['data'][0][1][0]
-del data
-#print(attrs)
-descarted_cases = attrs.split('<b>')[1].split('</b>')[0].replace('.', '')
-#print('Descarted Cases:', descarted_cases)
-
+# ## Samples Processed
 
 # %%
 # Samples Processed
@@ -492,10 +329,29 @@ samples_processed = attrs.split('<b>')[1].split('</b>')[0].replace('.', '')
 #print('Samples Processed:', samples_processed)
 
 # %% [markdown]
-# ---
+# ## Samples Descarted
 
 # %%
-# Samples Processed Time Line
+# Descarted Cases
+# Reading the json as a dict
+with requests.get('https://infogram.com/api/live/flex/4524241a-91a7-4bbd-a58e-63c12fb2952f/4dc066f9-6be5-4791-aefb-96fe4c523dfd?') as original_dataset:
+    data = original_dataset.json()
+#print(data['data'][0][1][0])
+
+# Get attributes and data
+attrs = data['data'][0][1][0]
+del data
+#print(attrs)
+samples_descarted = attrs.split('<b>')[1].split('</b>')[0].replace('.', '')
+#print('Samples Descarted:', samples_descarted)
+
+# %% [markdown]
+# ---
+# %% [markdown]
+# ## Time Line Samples Processed
+
+# %%
+# Time Line Samples Processed
 # Reading the json as a dict
 with requests.get('https://infogram.com/api/live/flex/4524241a-91a7-4bbd-a58e-63c12fb2952f/0a859405-7279-44a1-80d9-ff127bdf4489?') as original_dataset:
     data = original_dataset.json()
@@ -545,7 +401,7 @@ covid_df_samples_processed['period'] = covid_df_samples_processed['period'].tran
 covid_df_samples_processed.tail()
 
 # %% [markdown]
-# ## Samples Processed
+# ## Time Line Samples Processed
 # > ***Output file***: covid19_samples_processed.csv
 
 # %%
@@ -554,6 +410,13 @@ covid_df_samples_processed.to_csv(os.path.join(OUTPUT_DIR, 'covid19_samples_proc
 
 # %% [markdown]
 # ---
+# %% [markdown]
+# ## Time Line by Care
+
+# %%
+# Care Classes
+list(set(covid_df['care'].values))
+
 
 # %%
 # Get time line by care [cases, recovered, deaths]
@@ -563,8 +426,11 @@ def get_time_line_by_care(care):
     # Check care
     if care == '*':
         covid_df_report = covid_df.groupby('date')['date'].count()
+    elif care == 'Recuperado':
+        covid_df_report = covid_df[(covid_df['care'] == 'Recuperado') | (covid_df['care'] == 'Recuperado (Hospital)')].groupby('date')['date'].count()
     else:
         covid_df_report = covid_df[covid_df['care'] == care].groupby('date')['date'].count()
+    # ---
     # Create dateset
     covid_df_report = pd.DataFrame(data={'date': covid_df_report.index, 'total': covid_df_report.values}, columns=['date', 'total'])
     covid_df_report['date_iso'] = pd.to_datetime(covid_df_report['date'], format='%d/%m/%Y')
@@ -640,6 +506,13 @@ covid_19_time_line_by_care.to_csv(os.path.join(OUTPUT_DIR, 'covid19_time_line.cs
 # ---
 
 # %%
+# Care Classes
+list(set(covid_df['care'].values))
+
+# %% [markdown]
+# ## Time Line by Care by City
+
+# %%
 # Time Line by Care by City
 cities = []
 cities = list(set(covid_df['city'].values))
@@ -651,6 +524,8 @@ def get_report_by_care_city(care, city):
     # Check care
     if care == '*':
         covid_df_report = covid_df[covid_df['city'] == city].groupby('date')['date'].count()
+    elif care == 'Recuperado':
+        covid_df_report = covid_df[((covid_df['care'] == 'Recuperado') | (covid_df['care'] == 'Recuperado (Hospital)')) & (covid_df['city'] == city)].groupby('date')['date'].count()
     else:
         covid_df_report = covid_df[(covid_df['care'] == care) & (covid_df['city'] == city)].groupby('date')['date'].count()
     # Create dateset
@@ -724,6 +599,13 @@ for city in covid_19_time_line_by_care_city:
 # ---
 
 # %%
+# Care Classes
+list(set(covid_df['care'].values))
+
+# %% [markdown]
+# ## Time Line by Care by Department or District
+
+# %%
 # Time Line by Care by Department or District
 depts_dists = []
 depts_dists = list(set(covid_df['dept_dist'].values))
@@ -735,6 +617,8 @@ def get_report_by_care_dept_dist(care, dept_dist):
     # Check care
     if care == '*':
         covid_df_report = covid_df[covid_df['dept_dist'] == dept_dist].groupby('date')['date'].count()
+    elif care == 'Recuperado':
+        covid_df_report = covid_df[((covid_df['care'] == 'Recuperado') | (covid_df['care'] == 'Recuperado (Hospital)')) & (covid_df['dept_dist'] == dept_dist)].groupby('date')['date'].count()
     else:
         covid_df_report = covid_df[(covid_df['care'] == care) & (covid_df['dept_dist'] == dept_dist)].groupby('date')['date'].count()
     # Create dateset
@@ -806,9 +690,11 @@ for dept_dist in covid_19_time_line_by_care_dept_dist:
 
 # %% [markdown]
 # ---
+# %% [markdown]
+# ## Google Community Mobility Reports - Colombia
 
 # %%
-# Time line Google Community Mobility Reports - Colombia
+# Google Community Mobility Reports - Colombia
 google_community_mobility_reports = pd.DataFrame(columns=['date', 'country', 'file', 'url'])
 google_community_mobility_reports['date'] = [dti.strftime('%Y-%m-%d') for dti in pd.date_range(start='2020-03-29', end=date.today().isoformat(), freq='D')]
 google_community_mobility_reports['country'] = ['Colombia' for country in range(len(google_community_mobility_reports['date'].values))]
@@ -909,17 +795,64 @@ google_community_mobility_reports.to_csv(os.path.join(OUTPUT_DIR, 'google_commun
 # ---
 
 # %%
+# Insights Colombia
+# Reading the json as a dict
+with requests.get('https://infogram.com/api/live/flex/4524241a-91a7-4bbd-a58e-63c12fb2952f/90df9eae-e3e5-4982-b71c-3e28e3c4273f?') as original_dataset:
+    data = original_dataset.json()
+#print(data['data'][0])
+#print(data['data'][0][1][0])
+
+total_cases = data['data'][0][0][0]
+#print(total_cases)
+total_cases = total_cases.split('<b>')[1].split('</b>')[0].replace('.', '')
+
+total_recovered = data['data'][0][1][0]
+#print(total_recovered)
+total_recovered = total_recovered.split('<b>')[1].split('</b>')[0].replace('.', '')
+
+total_deaths = data['data'][0][2][0]
+#print(total_deaths)
+total_deaths = total_deaths.split('<b>')[1].split('</b>')[0].replace('.', '')
+
+#print('Total Cases:', total_cases)
+#print('Total Recovered:', total_recovered)
+#print('Total Deaths:', total_deaths)
+
+
+# %%
+# Type of Case
+# Reading the json as a dict
+with requests.get('https://infogram.com/api/live/flex/4524241a-91a7-4bbd-a58e-63c12fb2952f/a991990b-3b23-4ab2-8452-0ed1162d4896?') as original_dataset:
+    data = original_dataset.json()
+#print(data['data'][0])
+#print(data['data'][0][0])
+
+type_imported = data['data'][0][0][0]
+
+type_related = data['data'][0][1][0]
+
+type_study = data['data'][0][2][0]
+
+
+#print('Total Importado:', type_imported)
+#print('Total Relacionado:', type_related)
+#print('Total Estudio:', type_study)
+
+# %% [markdown]
+# ## Resume
+
+# %%
 # Resume
 data = []
 # cases_by_care_by_date[N] = ['Hospital', 'Hospital UCI', 'Casa', 'Fallecido', 'Recuperado', 'Recuperado (Hospital)']
 # Resume Attributes
-data.append(['Confirmados', covid_df_by_date.values[-1][-1]])
-data.append(['Recuperados', cases_by_care_by_date[4].values[-1][-1] + cases_by_care_by_date[5].values[-1][-1]])
-data.append(['Muertes', cases_by_care_by_date[3].values[-1][-1]])
-data.append(['Casos descartados', descarted_cases])
-data.append(['Importado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Importado'].values[0][-1]])
-data.append(['Relacionado', covid_df_by_kind[covid_df_by_kind['kind'] == 'Relacionado'].values[0][-1]])
-data.append(['En estudio', covid_df_by_kind[covid_df_by_kind['kind'] == 'En estudio'].values[0][-1]])
+data.append(['Confirmados', total_cases])
+data.append(['Recuperados', total_recovered])
+data.append(['Fallecidos', total_deaths])
+data.append(['Muestras descartadas', samples_descarted])
+data.append(['Importado', type_imported])
+data.append(['Relacionado', type_related])
+data.append(['En estudio', type_study])
 data.append(['Muestras procesadas', samples_processed])
 
 # Resume Dataframe
@@ -934,7 +867,7 @@ covid_df_resume.head(10)
 # %%
 # Save dataframe
 covid_df_resume.to_csv(os.path.join(OUTPUT_DIR, 'covid19_resume.csv'), index=False)
-print('\nColombia Covid 19 Resumen:')
+print('\nColombia Covid19 Resumen:')
 print(covid_df_resume)
 
 # %% [markdown]
