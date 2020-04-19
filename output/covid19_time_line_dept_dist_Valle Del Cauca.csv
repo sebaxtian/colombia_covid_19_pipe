@@ -47,3 +47,4 @@ date,cases,accum_cases,recovered,accum_recovered,deaths,accum_deaths
 15/04/2020,24,540,0,63,0,25
 16/04/2020,35,575,1,64,1,26
 17/04/2020,38,613,0,64,0,26
+18/04/2020,0,613,0,64,0,26
