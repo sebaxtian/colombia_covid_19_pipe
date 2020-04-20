@@ -34,4 +34,13 @@ https://chis.pa/covid-19-cali-2020/
 
 ---
 
+---
+
+> ***Lunes 20 de Abril de 2020 - 11:19AM***
+Hola, el INS actualizó la estructura que hace de los reportes, perece que ahora mejoraron la estructura para cada reporte, aquí dicen la descripción de la actualización que hicieron y como van hacer las actualizaciones futuras que se presenten
+https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr
+Como tarea pendiente, actualizar el pipeline para procesar la nueva estructura de reportes del INS, hasta la fecha y hora no se han actualizado los datos relacionados a muestras procesadas por semana.
+
+---
+
 > Work in progress ...
