@@ -43,4 +43,11 @@ Como tarea pendiente, actualizar el pipeline para procesar la nueva estructura d
 
 ---
 
+---
+
+> ***Martes 21 de Abril de 2020 - 02:07PM***
+Realizo una reestructuración del código fuente del pipeline para poder procesar las nuevas fuentes de datos oficiales del INS relacionados a casos reportados por Covid19 y al histórico de muestras procesadas en Colombia.
+
+---
+
 > Work in progress ...
