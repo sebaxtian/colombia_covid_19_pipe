@@ -28,4 +28,26 @@ https://raw.githubusercontent.com/sebaxtian/colombia_covid_19_pipe/master/output
 
 ---
 
+> ***Sabado 18 de Abril de 2020 - 6:38PM***
+Al día de hoy el INS hace el reporte de casos relacionados al Covid19, las múltiples inconsistencias en los datos persisten a tal punto que a día de hoy en el reporte no existe ningún caso relacionda a la fecha 18/04/2020 pero en el número de casos positivos con coronavirus incrementó, esto me hace suponer que actualmente están actualizando casos registrados como "En estudio" a alguno de los tipos "Relacionado" o "Importado", o tal vez actualizan casos que tenian estado "Recuperado" a "Fallecido", hasta este punto las inconsistencias persisten, varias personas atraves de Twitter estan manifestando los mismos hallasgos y ahora en Chis.pa se ha publicado un post para abrir la discusión frente al manejo de datos abiertos por parte del INS y que se puede extender a varias entidades del gobierno en general, dejo aquí el link al post donde se puede tener un resumen detallado de las inconsistencias identificadas hasta la fecha.
+https://chis.pa/covid-19-cali-2020/
+
+---
+
+---
+
+> ***Lunes 20 de Abril de 2020 - 11:19AM***
+Hola, el INS actualizó la estructura que hace de los reportes, perece que ahora mejoraron la estructura para cada reporte, aquí dicen la descripción de la actualización que hicieron y como van hacer las actualizaciones futuras que se presenten
+https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr
+Como tarea pendiente, actualizar el pipeline para procesar la nueva estructura de reportes del INS, hasta la fecha y hora no se han actualizado los datos relacionados a muestras procesadas por semana.
+
+---
+
+---
+
+> ***Martes 21 de Abril de 2020 - 02:07PM***
+Realizo una reestructuración del código fuente del pipeline para poder procesar las nuevas fuentes de datos oficiales del INS relacionados a casos reportados por Covid19 y al histórico de muestras procesadas en Colombia.
+
+---
+
 > Work in progress ...
