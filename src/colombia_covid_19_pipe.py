@@ -16,6 +16,7 @@ import datetime
 import dateutil
 import subprocess
 import sys
+import json
 
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
@@ -237,7 +238,10 @@ covid19co.tail()
 # Official Samples Processed
 # Reading the json as a dict
 with requests.get(URL_SAMPLES_PROCESSED) as official_dataset:
-    open(os.path.join(INPUT_DIR, 'covid19co_samples_processed_official.json'), 'wb').write(official_dataset.content)
+    with open(os.path.join(INPUT_DIR, 'covid19co_samples_processed_official.json'), 'w') as json_file:
+        json_data = official_dataset.json()
+        del json_data['refreshed']
+        json.dump(json_data, json_file)
 
 #print(official_dataset.json()['data'][0])
 
