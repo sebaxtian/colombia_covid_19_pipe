@@ -614,6 +614,69 @@ covid19co_time_line_detail.to_csv(os.path.join(OUTPUT_DIR, 'covid19co_time_line_
 
 # %% [markdown]
 # ---
+# %% [markdown]
+# ## Time Line Cases Reported, Recupered and Deceased - Cali
+
+# %%
+# Filter Cases Reported in Cali
+covid19co_cali = covid19co[covid19co['CIUDAD DE UBICACION'] == 'Cali']
+
+
+# %%
+# Total Cases Reported in Cali
+covid19co_cali.shape
+
+
+# %%
+# Show dataframe
+covid19co_cali.head()
+
+
+# %%
+# Get Reported Time Line - Cali
+reported_time_line_cali = get_time_line_reported(covid19co_cali)
+# Show dataframe
+reported_time_line_cali.tail()
+
+
+# %%
+# Get Recupered Time Line - Cali
+dfrecupered_cali = covid19co_cali[covid19co_cali['ATENCION'] == 'Recuperado']
+# Get Reported Time Line - Cali
+recupered_time_line_cali = get_time_line_reported(dfrecupered_cali)
+# Rename columns
+recupered_time_line_cali.columns = ['date_recupered', 'recupered', 'accum_recupered']
+# Show dataframe
+recupered_time_line_cali.tail()
+
+
+# %%
+# Get Deceased Time Line - Cali
+dfdeceased_cali = covid19co_cali[covid19co_cali['ATENCION'] == 'Fallecido']
+# Get Deceased Time Line - Cali
+deceased_time_line_cali = get_time_line_reported(dfdeceased_cali)
+# Rename columns
+deceased_time_line_cali.columns = ['date_deceased', 'deceased', 'accum_deceased']
+# Show dataframe
+deceased_time_line_cali.tail()
+
+
+# %%
+# Merge Time Lines - Cali
+covid19co_time_line_cali_detail = pd.concat([reported_time_line_cali, recupered_time_line_cali, deceased_time_line_cali], axis=1, sort=False)
+# Delete Columns
+covid19co_time_line_cali_detail.drop(columns=['date_recupered', 'date_deceased'], inplace=True)
+# Show dataframe
+covid19co_time_line_cali_detail.tail()
+
+# %% [markdown]
+# ## Time Line Cases Reported, Recupered and Deceased - Cali
+# > ***Output file***: covid19co_time_line_cali_detail.csv
+
+# %%
+# Save dataframe
+covid19co_time_line_cali_detail.to_csv(os.path.join(OUTPUT_DIR, 'covid19co_time_line_cali_detail.csv'), index=False)
+
 
 # %%
 
