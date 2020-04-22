@@ -2625,7 +2625,7 @@ ID DE CASO,FECHA DE NOTIFICACION,CODIGO DIVIPOLA,CIUDAD DE UBICACION,DEPARTAMENT
 2624,02/04/2020,41551,Pitalito,Huila,Casa,78,F,En estudio,Leve,COLOMBIA,26/03/2020,-,11/04/2020,-,02,04,2020,Abril,Jueves,26,03,2020,Marzo,Jueves,-,-,-,-,-,11,04,2020,Abril,Sábado,-,-,-,-,-
 2625,03/04/2020,41001,Neiva,Huila,Casa,30,M,Relacionado,Leve,COLOMBIA,01/04/2020,-,11/04/2020,-,03,04,2020,Abril,Viernes,01,04,2020,Abril,Miércoles,-,-,-,-,-,11,04,2020,Abril,Sábado,-,-,-,-,-
 2626,05/04/2020,41001,Neiva,Huila,Hospital UCI,60,M,En estudio,Grave,COLOMBIA,29/03/2020,-,11/04/2020,-,05,04,2020,Abril,Domingo,29,03,2020,Marzo,Domingo,-,-,-,-,-,11,04,2020,Abril,Sábado,-,-,-,-,-
-2627,07/04/2020,27001,Quibdó,Chocó,Casa,47,F,En estudio,Leve,COLOMBIA,23/03/2020,-,11/04/2020,-,07,04,2020,Abril,Martes,23,03,2020,Marzo,Lunes,-,-,-,-,-,11,04,2020,Abril,Sábado,-,-,-,-,-
+2627,07/04/2020,27,Chocó,Chocó,Casa,47,F,N.d.,Leve,COLOMBIA,23/03/2020,-,11/04/2020,-,07,04,2020,Abril,Martes,23,03,2020,Marzo,Lunes,-,-,-,-,-,11,04,2020,Abril,Sábado,-,-,-,-,-
 2628,29/03/2020,41001,Neiva,Huila,Fallecido,79,M,Importado,Fallecido,ALEMANIA,18/03/2020,09/04/2020,11/04/2020,-,29,03,2020,Marzo,Domingo,18,03,2020,Marzo,Miércoles,09,04,2020,Abril,Jueves,11,04,2020,Abril,Sábado,-,-,-,-,-
 2629,07/04/2020,66001,Pereira,Risaralda,Casa,58,M,Relacionado,Leve,COLOMBIA,30/03/2020,-,11/04/2020,-,07,04,2020,Abril,Martes,30,03,2020,Marzo,Lunes,-,-,-,-,-,11,04,2020,Abril,Sábado,-,-,-,-,-
 2630,03/04/2020,47001,Santa Marta,Santa Marta D.T. y C.,Casa,24,F,Relacionado,Leve,COLOMBIA,30/03/2020,-,11/04/2020,-,03,04,2020,Abril,Viernes,30,03,2020,Marzo,Lunes,-,-,-,-,-,11,04,2020,Abril,Sábado,-,-,-,-,-
@@ -3417,10 +3417,10 @@ ID DE CASO,FECHA DE NOTIFICACION,CODIGO DIVIPOLA,CIUDAD DE UBICACION,DEPARTAMENT
 3416,17/04/2020,8001,Barranquilla,Barranquilla D.E.,Casa,54,F,Relacionado,Leve,COLOMBIA,-,-,17/04/2020,-,17,04,2020,Abril,Viernes,-,-,-,-,-,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
 3417,03/04/2020,25754,Soacha,Cundinamarca,Hospital,67,M,Relacionado,Moderado,COLOMBIA,27/03/2020,-,17/04/2020,-,03,04,2020,Abril,Viernes,27,03,2020,Marzo,Viernes,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
 3418,12/04/2020,41001,Neiva,Huila,Casa,40,M,En estudio,Leve,COLOMBIA,10/04/2020,-,17/04/2020,-,12,04,2020,Abril,Domingo,10,04,2020,Abril,Viernes,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
-3419,12/04/2020,27001,Quibdó,Chocó,Casa,47,F,Relacionado,Leve,COLOMBIA,06/04/2020,-,17/04/2020,-,12,04,2020,Abril,Domingo,06,04,2020,Abril,Lunes,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
-3420,12/04/2020,27001,Quibdó,Chocó,Casa,37,F,Relacionado,Leve,COLOMBIA,04/04/2020,-,17/04/2020,-,12,04,2020,Abril,Domingo,04,04,2020,Abril,Sábado,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
-3421,12/04/2020,27001,Quibdó,Chocó,Casa,49,F,Relacionado,Leve,COLOMBIA,09/04/2020,-,17/04/2020,-,12,04,2020,Abril,Domingo,09,04,2020,Abril,Jueves,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
-3422,12/04/2020,27001,Quibdó,Chocó,Casa,49,F,Relacionado,Leve,COLOMBIA,12/04/2020,-,17/04/2020,-,12,04,2020,Abril,Domingo,12,04,2020,Abril,Domingo,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
+3419,12/04/2020,27,Chocó,Chocó,Casa,47,F,N.d.,Leve,COLOMBIA,06/04/2020,-,17/04/2020,-,12,04,2020,Abril,Domingo,06,04,2020,Abril,Lunes,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
+3420,12/04/2020,27,Chocó,Chocó,Casa,37,F,N.d.,Leve,COLOMBIA,04/04/2020,-,17/04/2020,-,12,04,2020,Abril,Domingo,04,04,2020,Abril,Sábado,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
+3421,12/04/2020,27,Chocó,Chocó,Casa,49,F,N.d.,Leve,COLOMBIA,09/04/2020,-,17/04/2020,-,12,04,2020,Abril,Domingo,09,04,2020,Abril,Jueves,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
+3422,12/04/2020,27,Chocó,Chocó,Casa,49,F,N.d.,Leve,COLOMBIA,12/04/2020,-,17/04/2020,-,12,04,2020,Abril,Domingo,12,04,2020,Abril,Domingo,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
 3423,12/04/2020,25473,Mosquera,Cundinamarca,Casa,27,M,relacionado,Leve,COLOMBIA,01/04/2020,-,17/04/2020,-,12,04,2020,Abril,Domingo,01,04,2020,Abril,Miércoles,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
 3424,14/04/2020,17001,Manizales,Caldas,Casa,85,M,En estudio,Leve,COLOMBIA,12/04/2020,-,17/04/2020,-,14,04,2020,Abril,Martes,12,04,2020,Abril,Domingo,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
 3425,13/04/2020,76001,Cali,Valle del Cauca,Casa,40,F,En estudio,Leve,COLOMBIA,02/04/2020,-,17/04/2020,-,13,04,2020,Abril,Lunes,02,04,2020,Abril,Jueves,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
@@ -3436,7 +3436,7 @@ ID DE CASO,FECHA DE NOTIFICACION,CODIGO DIVIPOLA,CIUDAD DE UBICACION,DEPARTAMENT
 3435,16/04/2020,11001,Bogotá D.C.,Bogotá D.C.,Hospital,60,M,En estudio,Moderado,COLOMBIA,08/04/2020,-,17/04/2020,-,16,04,2020,Abril,Jueves,08,04,2020,Abril,Miércoles,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
 3436,16/04/2020,11001,Bogotá D.C.,Bogotá D.C.,Hospital,61,M,En estudio,Moderado,COLOMBIA,15/04/2020,-,17/04/2020,-,16,04,2020,Abril,Jueves,15,04,2020,Abril,Miércoles,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
 3437,14/04/2020,5001,Medellín,Antioquia,Casa,25,F,En estudio,Leve,COLOMBIA,14/04/2020,-,17/04/2020,-,14,04,2020,Abril,Martes,14,04,2020,Abril,Martes,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
-3438,14/04/2020,27001,Quibdó,Chocó,Casa,24,F,En estudio,Leve,COLOMBIA,05/04/2020,-,17/04/2020,-,14,04,2020,Abril,Martes,05,04,2020,Abril,Domingo,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
+3438,14/04/2020,27,Chocó,Chocó,Casa,24,F,N.d.,Leve,COLOMBIA,05/04/2020,-,17/04/2020,-,14,04,2020,Abril,Martes,05,04,2020,Abril,Domingo,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
 3439,14/04/2020,91001,Leticia,Amazonas,Casa,26,M,Relacionado,Leve,COLOMBIA,14/04/2020,-,17/04/2020,-,14,04,2020,Abril,Martes,14,04,2020,Abril,Martes,-,-,-,-,-,17,04,2020,Abril,Viernes,-,-,-,-,-
 3440,13/04/2020,91001,Leticia,Amazonas,Casa,47,F,Importado,Leve,BRASIL,12/04/2020,-,18/04/2020,-,13,04,2020,Abril,Lunes,12,04,2020,Abril,Domingo,-,-,-,-,-,18,04,2020,Abril,Sábado,-,-,-,-,-
 3441,15/04/2020,8001,Barranquilla,Barranquilla D.E.,Casa,59,M,En estudio,Leve,COLOMBIA,28/03/2020,-,18/04/2020,-,15,04,2020,Abril,Miércoles,28,03,2020,Marzo,Sábado,-,-,-,-,-,18,04,2020,Abril,Sábado,-,-,-,-,-
@@ -3485,8 +3485,8 @@ ID DE CASO,FECHA DE NOTIFICACION,CODIGO DIVIPOLA,CIUDAD DE UBICACION,DEPARTAMENT
 3484,17/04/2020,8001,Barranquilla,Barranquilla D.E.,Hospital,24,M,Relacionado,Moderado,COLOMBIA,15/04/2020,-,18/04/2020,-,17,04,2020,Abril,Viernes,15,04,2020,Abril,Miércoles,-,-,-,-,-,18,04,2020,Abril,Sábado,-,-,-,-,-
 3485,17/04/2020,8001,Barranquilla,Barranquilla D.E.,Hospital,52,F,Relacionado,Moderado,COLOMBIA,15/04/2020,-,18/04/2020,-,17,04,2020,Abril,Viernes,15,04,2020,Abril,Miércoles,-,-,-,-,-,18,04,2020,Abril,Sábado,-,-,-,-,-
 3486,14/04/2020,25430,Madrid,Cundinamarca,Casa,27,F,En estudio,Leve,COLOMBIA,02/04/2020,-,18/04/2020,-,14,04,2020,Abril,Martes,02,04,2020,Abril,Jueves,-,-,-,-,-,18,04,2020,Abril,Sábado,-,-,-,-,-
-3487,14/04/2020,27001,Quibdó,Chocó,Casa,43,F,Relacionado,Leve,COLOMBIA,02/04/2020,-,18/04/2020,-,14,04,2020,Abril,Martes,02,04,2020,Abril,Jueves,-,-,-,-,-,18,04,2020,Abril,Sábado,-,-,-,-,-
-3488,14/04/2020,27001,Quibdó,Chocó,Hospital,34,M,Relacionado,Grave,COLOMBIA,01/04/2020,-,18/04/2020,-,14,04,2020,Abril,Martes,01,04,2020,Abril,Miércoles,-,-,-,-,-,18,04,2020,Abril,Sábado,-,-,-,-,-
+3487,14/04/2020,27,Chocó,Chocó,Casa,43,F,N.d.,Leve,COLOMBIA,02/04/2020,-,18/04/2020,-,14,04,2020,Abril,Martes,02,04,2020,Abril,Jueves,-,-,-,-,-,18,04,2020,Abril,Sábado,-,-,-,-,-
+3488,14/04/2020,27,Chocó,Chocó,Hospital,34,M,N.d.,Grave,COLOMBIA,01/04/2020,-,18/04/2020,-,14,04,2020,Abril,Martes,01,04,2020,Abril,Miércoles,-,-,-,-,-,18,04,2020,Abril,Sábado,-,-,-,-,-
 3489,14/04/2020,25799,Tenjo,Cundinamarca,Hospital,37,M,En estudio,Moderado,COLOMBIA,14/04/2020,-,18/04/2020,-,14,04,2020,Abril,Martes,14,04,2020,Abril,Martes,-,-,-,-,-,18,04,2020,Abril,Sábado,-,-,-,-,-
 3490,15/04/2020,25799,Tenjo,Cundinamarca,Casa,38,M,Relacionado,Leve,COLOMBIA,-,-,18/04/2020,-,15,04,2020,Abril,Miércoles,-,-,-,-,-,-,-,-,-,-,18,04,2020,Abril,Sábado,-,-,-,-,-
 3491,15/04/2020,25740,Sibaté,Cundinamarca,Hospital UCI,59,M,En estudio,Grave,COLOMBIA,10/04/2020,-,18/04/2020,-,15,04,2020,Abril,Miércoles,10,04,2020,Abril,Viernes,-,-,-,-,-,18,04,2020,Abril,Sábado,-,-,-,-,-
@@ -4053,7 +4053,7 @@ ID DE CASO,FECHA DE NOTIFICACION,CODIGO DIVIPOLA,CIUDAD DE UBICACION,DEPARTAMENT
 4052,17/04/2020,76892,Yumbo,Valle del Cauca,Casa,32,M,En estudio,Leve,COLOMBIA,17/04/2020,-,21/04/2020,-,17,04,2020,Abril,Viernes,17,04,2020,Abril,Viernes,-,-,-,-,-,21,04,2020,Abril,Martes,-,-,-,-,-
 4053,17/04/2020,76001,Cali,Valle del Cauca,Casa,28,F,En estudio,Leve,COLOMBIA,13/04/2020,-,21/04/2020,-,17,04,2020,Abril,Viernes,13,04,2020,Abril,Lunes,-,-,-,-,-,21,04,2020,Abril,Martes,-,-,-,-,-
 4054,16/04/2020,76670,San Pedro,Valle del Cauca,Casa,28,M,En estudio,Leve,COLOMBIA,16/04/2020,-,21/04/2020,-,16,04,2020,Abril,Jueves,16,04,2020,Abril,Jueves,-,-,-,-,-,21,04,2020,Abril,Martes,-,-,-,-,-
-4055,17/04/2020,27810,Unión Panamericana,Chocó,Hospital,46,F,En estudio,Moderado,COLOMBIA,01/04/2020,-,21/04/2020,-,17,04,2020,Abril,Viernes,01,04,2020,Abril,Miércoles,-,-,-,-,-,21,04,2020,Abril,Martes,-,-,-,-,-
+4055,17/04/2020,27,Chocó,Chocó,Hospital,46,F,N.d.,Moderado,COLOMBIA,01/04/2020,-,21/04/2020,-,17,04,2020,Abril,Viernes,01,04,2020,Abril,Miércoles,-,-,-,-,-,21,04,2020,Abril,Martes,-,-,-,-,-
 4056,16/04/2020,47001,Santa Marta,Santa Marta D.T. y C.,Casa,36,F,En estudio,Leve,COLOMBIA,12/04/2020,-,21/04/2020,-,16,04,2020,Abril,Jueves,12,04,2020,Abril,Domingo,-,-,-,-,-,21,04,2020,Abril,Martes,-,-,-,-,-
 4057,16/04/2020,47001,Santa Marta,Santa Marta D.T. y C.,Casa,31,M,En estudio,Leve,COLOMBIA,12/04/2020,-,21/04/2020,-,16,04,2020,Abril,Jueves,12,04,2020,Abril,Domingo,-,-,-,-,-,21,04,2020,Abril,Martes,-,-,-,-,-
 4058,14/04/2020,47001,Santa Marta,Santa Marta D.T. y C.,Casa,33,M,En estudio,Leve,COLOMBIA,12/04/2020,-,21/04/2020,-,14,04,2020,Abril,Martes,12,04,2020,Abril,Domingo,-,-,-,-,-,21,04,2020,Abril,Martes,-,-,-,-,-
