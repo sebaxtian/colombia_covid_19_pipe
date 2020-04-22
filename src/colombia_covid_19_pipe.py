@@ -477,6 +477,58 @@ covid19co_time_line.tail()
 # Save dataframe
 covid19co_time_line.to_csv(os.path.join(OUTPUT_DIR, 'covid19co_time_line.csv'), index=False)
 
+# %% [markdown]
+# ---
+# %% [markdown]
+# ## Time Line Cases Reported - Cali
+
+# %%
+# Filter Cases Reported in Cali
+covid19co = covid19co[covid19co['CIUDAD DE UBICACION'] == 'Cali']
+
+
+# %%
+# Total Cases Reported
+covid19co.shape
+
+
+# %%
+# Show dataframe
+covid19co.head()
+
+
+# %%
+# Time line cases reported [date, cases, accum_cases]
+covid19co_time_line_cali = pd.DataFrame(columns=['date', 'cases', 'accum_cases'])
+covid19co_time_line_cali['date'] = [dti.strftime('%d/%m/%Y') for dti in pd.date_range(start='2020-03-01', end=datetime.date.today().isoformat(), freq='D')]
+# Show dataframe
+covid19co_time_line_cali.head()
+
+
+# %%
+# Total cases reported by date
+total_cases_by_date = get_total_cases_by_date()
+# Update Total Cases Reported by Date
+covid19co_time_line_cali['cases'] = covid19co_time_line_cali['date'].transform(lambda date: total_cases_by_date[date] if date in total_cases_by_date else 0)
+# Update Accumulative Sum Cases Reported by Date
+covid19co_time_line_cali['accum_cases'] = covid19co_time_line_cali['cases'].cumsum()
+# Drop the last one if doesn't have cases
+index_empty = covid19co_time_line_cali[covid19co_time_line_cali['date'] == datetime.date.today().strftime('%d/%m/%Y')]
+index_empty = index_empty[index_empty['cases'] == 0].index
+covid19co_time_line_cali.drop(index_empty, inplace=True)
+# Show dataframe
+covid19co_time_line_cali.tail()
+
+# %% [markdown]
+# ## Time Line Cases Reported - Cali
+# > ***Output file***: covid19co_time_line_cali.csv
+
+# %%
+# Save dataframe
+covid19co_time_line_cali.to_csv(os.path.join(OUTPUT_DIR, 'covid19co_time_line_cali.csv'), index=False)
+
+# %% [markdown]
+# ---
 
 # %%
 
