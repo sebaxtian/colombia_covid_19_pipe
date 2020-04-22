@@ -6,7 +6,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/sebaxtian/colombia_covid_19_pipe?color=09ca8c&style=plastic)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sebaxtian/colombia_covid_19_pipe?style=plastic)
 
-# Colombia Covid 19 Pipeline
+# Colombia Covid19 Pipeline
 
 Dataset is obtained from [Instituto Nacional de Salud](https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx) daily report Coronavirus 2019 from Colombia.
 

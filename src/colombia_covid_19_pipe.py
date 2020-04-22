@@ -17,7 +17,10 @@ import dateutil
 import subprocess
 import sys
 import json
+import tempfile
+import os
 
+# Install missing dependencies
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 # PDFMiner pdfminer.six
@@ -26,9 +29,6 @@ try:
 except Exception:
     install('pdfminer.six')
     from pdfminer.high_level import extract_text
-
-import tempfile
-import os
 
 # Input data files are available in the "../input/" directory.
 # For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory
@@ -411,6 +411,72 @@ google_community_mobility_reports.to_csv(os.path.join(OUTPUT_DIR, 'google_commun
 
 # %% [markdown]
 # ---
+# %% [markdown]
+# ## Time Line Cases Reported
+
+# %%
+# Total Cases Reported
+covid19co.shape
+
+
+# %%
+# Show dataframe
+covid19co.head()
+
+
+# %%
+# Time line cases reported [date, cases, accum_cases]
+covid19co_time_line = pd.DataFrame(columns=['date', 'cases', 'accum_cases'])
+covid19co_time_line['date'] = [dti.strftime('%d/%m/%Y') for dti in pd.date_range(start='2020-03-01', end=datetime.date.today().isoformat(), freq='D')]
+# Show dataframe
+covid19co_time_line.head()
+
+
+# %%
+# Total Cases Reported By Date
+def get_total_cases_by_date():
+    total_cases_by_date = {}
+    # Group by 'FECHA REPORTE WEB'
+    group_by_date = covid19co.groupby(['FECHA REPORTE WEB'], sort=False)
+    # For each date
+    for date_report in group_by_date.groups.keys():
+        total_cases_by_date[date_report] = group_by_date.get_group(date_report)['ID DE CASO'].count()
+    # Return
+    return total_cases_by_date
+# Total cases reported by date
+total_cases_by_date = get_total_cases_by_date()
+
+
+# %%
+# Update Total Cases Reported by Date
+covid19co_time_line['cases'] = covid19co_time_line['date'].transform(lambda date: total_cases_by_date[date] if date in total_cases_by_date else 0)
+# Show dataframe
+covid19co_time_line.head()
+
+
+# %%
+# Update Accumulative Sum Cases Reported by Date
+covid19co_time_line['accum_cases'] = covid19co_time_line['cases'].cumsum()
+# Show dataframe
+covid19co_time_line.tail()
+
+
+# %%
+# Drop the last one if doesn't have cases
+index_empty = covid19co_time_line[covid19co_time_line['date'] == datetime.date.today().strftime('%d/%m/%Y')]
+index_empty = index_empty[index_empty['cases'] == 0].index
+covid19co_time_line.drop(index_empty, inplace=True)
+# Show dataframe
+covid19co_time_line.tail()
+
+# %% [markdown]
+# ## Time Line Cases Reported
+# > ***Output file***: covid19co_time_line.csv
+
+# %%
+# Save dataframe
+covid19co_time_line.to_csv(os.path.join(OUTPUT_DIR, 'covid19co_time_line.csv'), index=False)
+
 
 # %%
 
