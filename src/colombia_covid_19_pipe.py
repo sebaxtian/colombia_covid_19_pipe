@@ -434,17 +434,17 @@ covid19co_time_line.head()
 
 # %%
 # Total Cases Reported By Date
-def get_total_cases_by_date():
+def get_total_cases_by_date(dfreport):
     total_cases_by_date = {}
     # Group by 'FECHA REPORTE WEB'
-    group_by_date = covid19co.groupby(['FECHA REPORTE WEB'], sort=False)
+    group_by_date = dfreport.groupby(['FECHA REPORTE WEB'], sort=False)
     # For each date
     for date_report in group_by_date.groups.keys():
         total_cases_by_date[date_report] = group_by_date.get_group(date_report)['ID DE CASO'].count()
     # Return
     return total_cases_by_date
 # Total cases reported by date
-total_cases_by_date = get_total_cases_by_date()
+total_cases_by_date = get_total_cases_by_date(covid19co)
 
 
 # %%
@@ -484,17 +484,17 @@ covid19co_time_line.to_csv(os.path.join(OUTPUT_DIR, 'covid19co_time_line.csv'), 
 
 # %%
 # Filter Cases Reported in Cali
-covid19co = covid19co[covid19co['CIUDAD DE UBICACION'] == 'Cali']
+covid19co_cali = covid19co[covid19co['CIUDAD DE UBICACION'] == 'Cali']
 
 
 # %%
 # Total Cases Reported
-covid19co.shape
+covid19co_cali.shape
 
 
 # %%
 # Show dataframe
-covid19co.head()
+covid19co_cali.head()
 
 
 # %%
@@ -507,7 +507,7 @@ covid19co_time_line_cali.head()
 
 # %%
 # Total cases reported by date
-total_cases_by_date = get_total_cases_by_date()
+total_cases_by_date = get_total_cases_by_date(covid19co_cali)
 # Update Total Cases Reported by Date
 covid19co_time_line_cali['cases'] = covid19co_time_line_cali['date'].transform(lambda date: total_cases_by_date[date] if date in total_cases_by_date else 0)
 # Update Accumulative Sum Cases Reported by Date
@@ -526,6 +526,91 @@ covid19co_time_line_cali.tail()
 # %%
 # Save dataframe
 covid19co_time_line_cali.to_csv(os.path.join(OUTPUT_DIR, 'covid19co_time_line_cali.csv'), index=False)
+
+# %% [markdown]
+# ---
+# %% [markdown]
+# ## Time Line Cases Reported, Recupered and Deceased
+
+# %%
+# Total Cases Reported
+covid19co.shape
+
+
+# %%
+# Show dataframe
+covid19co.head()
+
+
+# %%
+# Get Time Line Reported
+def get_time_line_reported(dfreport):
+    # Time line cases reported [date, cases, accum_cases]
+    dfreport_time_line = pd.DataFrame(columns=['date', 'cases', 'accum_cases'])
+    dfreport_time_line['date'] = [dti.strftime('%d/%m/%Y') for dti in pd.date_range(start='2020-03-01', end=datetime.date.today().isoformat(), freq='D')]
+    # Total Cases Reported By Date
+    total_cases_by_date = {}
+    # Group by 'FECHA REPORTE WEB'
+    group_by_date = dfreport.groupby(['FECHA REPORTE WEB'], sort=False)
+    # For each date
+    for date_report in group_by_date.groups.keys():
+        total_cases_by_date[date_report] = group_by_date.get_group(date_report)['ID DE CASO'].count()
+    # Update Total Cases Reported by Date
+    dfreport_time_line['cases'] = dfreport_time_line['date'].transform(lambda date: total_cases_by_date[date] if date in total_cases_by_date else 0)
+    # Update Accumulative Sum Cases Reported by Date
+    dfreport_time_line['accum_cases'] = dfreport_time_line['cases'].cumsum()
+    # Drop the last one if doesn't have cases
+    index_empty = dfreport_time_line[dfreport_time_line['date'] == datetime.date.today().strftime('%d/%m/%Y')]
+    index_empty = index_empty[index_empty['cases'] == 0].index
+    dfreport_time_line.drop(index_empty, inplace=True)
+    # Return
+    return dfreport_time_line
+
+
+# %%
+# Get Reported Time Line
+reported_time_line = get_time_line_reported(covid19co)
+# Show dataframe
+reported_time_line.tail()
+
+
+# %%
+# Get Recupered Time Line
+dfrecupered = covid19co[covid19co['ATENCION'] == 'Recuperado']
+# Get Reported Time Line
+recupered_time_line = get_time_line_reported(dfrecupered)
+# Rename columns
+recupered_time_line.columns = ['date_recupered', 'recupered', 'accum_recupered']
+# Show dataframe
+recupered_time_line.tail()
+
+
+# %%
+# Get Deceased Time Line
+dfdeceased = covid19co[covid19co['ATENCION'] == 'Fallecido']
+# Get Deceased Time Line
+deceased_time_line = get_time_line_reported(dfdeceased)
+# Rename columns
+deceased_time_line.columns = ['date_deceased', 'deceased', 'accum_deceased']
+# Show dataframe
+deceased_time_line.tail()
+
+
+# %%
+# Merge Time Lines
+covid19co_time_line_detail = pd.concat([reported_time_line, recupered_time_line, deceased_time_line], axis=1, sort=False)
+# Delete Columns
+covid19co_time_line_detail.drop(columns=['date_recupered', 'date_deceased'], inplace=True)
+# Show dataframe
+covid19co_time_line_detail.tail()
+
+# %% [markdown]
+# ## Time Line Cases Reported, Recupered and Deceased
+# > ***Output file***: covid19co_time_line_detail.csv
+
+# %%
+# Save dataframe
+covid19co_time_line_detail.to_csv(os.path.join(OUTPUT_DIR, 'covid19co_time_line_detail.csv'), index=False)
 
 # %% [markdown]
 # ---
