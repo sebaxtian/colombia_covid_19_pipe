@@ -4,12 +4,10 @@
 # Create new release tag
 #
 
-# Run Colombia Covid 19 Pipeline
-#./run.sh
 # Check any error
 if [ $? -eq 0 ]; then
     echo ""
-    echo "Running Colombia Covid 19 Pipeline Release ..."
+    echo "Running Colombia Covid19 Pipeline Release ..."
     # Check the last version tag
     LAST_VERSION=$(hub release | head -n 1)
     echo "Lastest release $LAST_VERSION"
@@ -26,10 +24,10 @@ if [ $? -eq 0 ]; then
     git push --tags
     # Check any error
     if [ $? -eq 0 ]; then
-        # Create covid19.zip file for assets release
-        zip -r ./output/covid19.zip output/
+        # Create covid19co.zip file for assets release
+        zip -r ./output/covid19co.zip output/
         # Create GitHub release
-        hub release create -a ./output/covid19.zip -m "v$VERSION" $VERSION
+        hub release create -a ./output/covid19co.zip -m "v$VERSION" $VERSION
         # Finish without error
         echo "Finished !"
         echo "Release $VERSION was created."
