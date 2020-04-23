@@ -50,4 +50,11 @@ Realizo una reestructuración del código fuente del pipeline para poder procesa
 
 ---
 
+---
+
+> ***Jueves 23 de Abril de 2020 - 12:26AM***
+Actualizo el codigo fuente del pipeline, segmento codigo para procesar en pipeline en un notebook y creo otro notebook para procesar el time line. El proceso de automatizacion del pipeline funcionó sin problemas el día Miercoles 22 de Abril de 2020, pendiente la nueva actualización para hoy.
+
+---
+
 > Work in progress ...
