@@ -113,7 +113,7 @@ covid19co.head()
 # Update texto to title text format
 for attr in covid19co.columns:
     if covid19co[attr].dtypes == 'object':
-        covid19co[attr] = covid19co[attr].transform(lambda value: value.title())
+        covid19co[attr] = covid19co[attr].transform(lambda value: str(value).title())
 # Show dataframe
 covid19co.head()
 
