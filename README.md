@@ -8,23 +8,11 @@
 
 # Colombia Covid19 Pipeline
 
-Dataset is obtained from [Instituto Nacional de Salud](https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx) daily report Coronavirus 2019 from Colombia.
-
-You can get the official dataset here: [INS - Official Report](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr)
-
-The number of new cases are increasing day by day around the world.
-This dataset has information about reported cases from 32 Colombia departments.
-
-You can get the Google COVID-19 Community Mobility Reports - Colombia.
-
-You can view and collaborate to the analysis here:
-[colombia_covid_19_analysis](https://www.kaggle.com/sebaxtian/colombia-covid-19-analysis) Kaggle Notebook Kernel.
+Pipeline to get data sources from Instituto Nacional de Salud - INS related to Covid19 cases daily report in Colombia to create datasets.
 
 ---
 
 [![Colombia Covid19 Time Line](./chart/covid19_time_line.png "Colombia Covid19 Time Line")](https://www.datawrapper.de/_/b9YVt/)
-
----
 
 ---
 
