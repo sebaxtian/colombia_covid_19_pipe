@@ -30,7 +30,7 @@ This dataset is updated from an automatic pipeline, you can find the GitHub code
 
 ### Acknowledgements
 
-Dataset is obtained from Instituto [Nacional de Salud - INS](https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx) daily report Covid19 in Colombia.
+Dataset is obtained from [Instituto Nacional de Salud - INS](https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx) daily report Covid19 in Colombia.
 You can get the official dataset here: [INS - Official Report](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr)
 
 
