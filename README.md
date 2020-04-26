@@ -109,7 +109,7 @@ The Pipeline output is generated within [./output](./output) directory.
 #### Jupyter Nootebook to Python Script
 
 ```bash
-$promt> jupyter nbconvert --to script ./src/colombia-covid-19-pipe.ipynb --output colombia_covid_19_pipe
+$promt> jupyter nbconvert --to script ./src/covid19co_pipe.ipynb --output covid19co_pipe
 ```
 
 ---
