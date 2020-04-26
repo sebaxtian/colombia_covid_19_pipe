@@ -28,7 +28,7 @@ This dataset uses the INS Covid19 report data source, I did clean the data sourc
 
 **covid19co_samples_processed.csv** -&gt; Daily report, Samples processed in Colombia
 
-This dataset is updated from an automatic pipeline, you can find the GitHub code repository here: [colombia_covid_19_pipe](https://github.com/sebaxtian/colombia_covid_19_pipe)
+This dataset is updated from an automatic pipeline, you can find the GitHub code repository here: [Colombia Covid19 Pipeline](https://sebaxtian.github.io/colombia_covid_19_pipe)
 
 ### Acknowledgements
 
