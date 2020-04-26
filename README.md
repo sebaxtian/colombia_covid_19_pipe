@@ -12,10 +12,6 @@ Pipeline to get data sources from Instituto Nacional de Salud - INS related to C
 
 ---
 
-[![Colombia Covid19 Time Line](./chart/covid19_time_line.png "Colombia Covid19 Time Line")](https://www.datawrapper.de/_/b9YVt/)
-
----
-
 ### Context
 
 The number of new cases is increasing day by day around the world. This dataset has information about reported cases from 32 Colombia departments.
@@ -27,6 +23,7 @@ Here you can find the result from my auto-learning process about data science, t
 This dataset uses the INS Covid19 report data source, I did clean the data source and fill the NaN values to generate this dataset with additional attributes like, day of the week, year, and month of the year.
 
 **covid19co.csv** -&gt; Daily report, Cases reported in Colombia
+
 **covid19co_samples_processed.csv** -&gt; Daily report, Samples processed in Colombia
 
 This dataset is updated from an automatic pipeline, you can find the GitHub code repository here: [colombia_covid_19_pipe](https://github.com/sebaxtian/colombia_covid_19_pipe)
@@ -42,6 +39,10 @@ You can get the official dataset here: [INS - Official Report](https://www.datos
 What questions do you want to see answered?
 
 You can view and collaborate with the analysis here: [colombia_covid_19_analysis](https://www.kaggle.com/sebaxtian/colombia-covid-19-analysis) Kaggle Notebook Kernel.
+
+---
+
+[![Colombia Covid19 Time Line](./chart/covid19_time_line.png "Colombia Covid19 Time Line")](https://www.datawrapper.de/_/b9YVt/)
 
 ---
 
