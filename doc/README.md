@@ -57,4 +57,9 @@ Actualizo el codigo fuente del pipeline, segmento codigo para procesar en pipeli
 
 ---
 
+> ***Sábado 25 de Abril de 2020 - 10:25PM***
+El proceso de automatización del pipeline finciona sin problemas hasta la fecha, datos actualizados diariamente con el ultimo reporte del INS.
+
+---
+
 > Work in progress ...
