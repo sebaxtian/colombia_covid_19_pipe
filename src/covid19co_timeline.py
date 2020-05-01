@@ -298,6 +298,10 @@ covid19co_samples_processed.head()
 # %%
 # Rename columns
 covid19co_samples_processed.columns = ['date', 'accum_samples']
+# Fill NaN
+covid19co_samples_processed['accum_samples'].fillna(0, inplace=True)
+# Update column type
+covid19co_samples_processed['accum_samples'] = covid19co_samples_processed['accum_samples'].astype('int64')
 # Show dataframe
 covid19co_samples_processed.head()
 
@@ -313,7 +317,7 @@ def get_accum(date_sample):
 # Update accum
 covid19co_samples_time_line['accum'] = covid19co_samples_time_line['date'].transform(lambda value: get_accum(value))
 # Add samples without date
-covid19co_samples_time_line.iloc[2] = list(covid19co_samples_processed.iloc[0])
+#covid19co_samples_time_line.iloc[2] = list(covid19co_samples_processed.iloc[0])
 # Show dataframe
 covid19co_samples_time_line.head()
 
