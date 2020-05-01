@@ -25,8 +25,11 @@ Here you can find the result from my auto-learning process about data science, t
 This dataset uses the INS Covid19 report data source, I did clean the data source and fill the NaN values to generate this dataset with additional attributes like, day of the week, year, and month of the year.
 
 **covid19co.csv** -&gt; Daily report, Cases reported in Colombia
-
 **covid19co_samples_processed.csv** -&gt; Daily report, Samples processed in Colombia
+**covid19co_time_line.csv** -&gt; Timeline about cases reported, recuperated, and deceased in Colombia.
+**covid19co_samples_time_line.csv** -&gt; Timeline about samples processed in Colombia.
+
+Date format DD/MM/YYYY for instance: 11/09/2001
 
 This dataset is updated from an automatic pipeline, you can find the GitHub code repository here: [Colombia Covid19 Pipeline](https://sebaxtian.github.io/colombia_covid_19_pipe)
 
