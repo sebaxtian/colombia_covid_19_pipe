@@ -70,7 +70,7 @@ if os.path.split(os.path.abspath('.'))[-1] == 'src':
 # Official Daily Report Until Now
 URL_OFFICIAL_DATASET = 'https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD'
 # Official Daily Samples Processed
-URL_SAMPLES_PROCESSED = 'https://infogram.com/api/live/flex/4524241a-91a7-4bbd-a58e-63c12fb2952f/96848e74-6055-4aa8-9944-502bf69ef6fc?'
+URL_SAMPLES_PROCESSED = 'https://e.infogram.com/api/live/flex/638d656c-c77b-4326-97d3-e50cb410c6ab/8188140c-8352-4994-85e3-2100a4dbd9db?'
 
 # %% [markdown]
 # ---
@@ -243,20 +243,21 @@ covid19co_samples_processed.head()
 def setup_date_samples(value):
     #print('date:', value)
     try:
-        value = value.split('/')
+        value = value.split(' ')
+        value = value[0].split('/')
         #print(len(value))
         if len(value) == 3:
-            # Month
+            # Day
             if len(value[0]) == 1:
                 value[0] = '0' + value[0]
-            # Day
+            # Month
             if len(value[1]) == 1:
                 value[1] = '0' + value[1]
             # Year
             if len(value[2]) == 2:
                 value[2] = value[2] + '20'
             # Date
-            value = value[1] + '/' + value[0] + '/' + value[2]
+            value = value[0] + '/' + value[1] + '/' + value[2]
         else:
             value = '-'
     except IndexError:
