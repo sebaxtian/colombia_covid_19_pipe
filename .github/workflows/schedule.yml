@@ -31,6 +31,8 @@ jobs:
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             DATA_WRAPPER_TOKEN: ${{ secrets.DATA_WRAPPER_TOKEN }}
+            KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+            KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         run: |
           # Run Colombia Covid19 Pipeline Schedule
           ./run.sh
