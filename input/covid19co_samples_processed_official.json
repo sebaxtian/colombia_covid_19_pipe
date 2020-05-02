@@ -252,6 +252,7 @@
     ],
     "allSheetNames": [
         "Histórico Muestras",
+        "Muestras procesadas",
         "Muestras diarias reportadas"
     ]
 }
