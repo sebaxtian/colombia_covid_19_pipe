@@ -1,0 +1,335 @@
+{
+  "id": "sebaxtian/covid19co",
+  "id_no": 610323,
+  "title": "covid19co",
+  "subtitle": "Covid19 Daily Report from Colombia",
+  "description": "### Context\n\nThe number of new cases is increasing day by day around the world. This dataset has information about reported cases from 32 Colombia departments.\n\nHere you can find the result from my auto-learning process about data science, this dataset has a daily report from Instituto Nacional de Salud - INS about Covid19 cases reported in Colombia, also has a history report from Instituto Nacional de Salud - INS about Covid19 Samples processed in Colombia.\n\n### Content\n\nThis dataset uses the INS Covid19 report data source, I did clean the data source and fill the NaN values to generate this dataset with additional attributes like, day of the week, year, and month of the year.\n\n**covid19co.csv** -&gt; Daily report, Cases reported in Colombia\n**covid19co_samples_processed.csv** -&gt; Daily report, Samples processed in Colombia\n**covid19co_time_line.csv** -&gt; Timeline about cases reported, recuperated, and deceased in Colombia.\n**covid19co_samples_time_line.csv** -&gt; Timeline about samples processed in Colombia.\n\nDate format DD/MM/YYYY for instance: 11/09/2001\n\nThis dataset is updated from an automatic pipeline, you can find the GitHub code repository here: [Colombia Covid19 Pipeline](https://sebaxtian.github.io/colombia_covid_19_pipe)\n\n### Acknowledgements\n\nDataset is obtained from [Instituto Nacional de Salud - INS](https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx) daily report Covid19 in Colombia.\nYou can get the official dataset here: [INS - Official Report](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr)\n\n\n### Inspiration\n\nWhat questions do you want to see answered?\n\nYou can view and collaborate with the analysis here: [colombia_covid_19_analysis](https://www.kaggle.com/sebaxtian/colombia-covid-19-analysis) Kaggle Notebook Kernel.",
+  "keywords": [
+    "computing",
+    "statistics",
+    "news",
+    "covid19",
+    "public health",
+    "data cleaning",
+    "databases"
+  ],
+  "resources": [
+    {
+      "path": "covid19co_samples_processed.csv",
+      "description": "Has a history report from Instituto Nacional de Salud - INS about Covid19 Samples processed in Colombia. Date format DD/MM/YYYY\n[INS Open Data](http://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx)",
+      "schema": {
+        "fields": [
+          {
+            "name": "FECHA",
+            "title": "Date of report format DD/MM/YYYY",
+            "type": "String"
+          },
+          {
+            "name": "MUESTRAS PROCESADAS SEGUN FECHA DE RESULTADO ACUMULADAS",
+            "title": "Cumulative total of samples processed",
+            "type": "Uuid"
+          }
+        ]
+      }
+    },
+    {
+      "path": "covid19co_samples_time_line.csv",
+      "description": "There is a timeline from Instituto Nacional de Salud - INS about Covid19 Samples processed in Colombia. Date format DD/MM/YYYY [INS Open Data](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr)",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "title": "Date, day by day",
+            "type": "String"
+          },
+          {
+            "name": "accum",
+            "title": "Accumulated samples processed",
+            "type": "Uuid"
+          }
+        ]
+      }
+    },
+    {
+      "path": "covid19co_time_line.csv",
+      "description": "There is a timeline from Instituto Nacional de Salud - INS about Covid19 cases reported, recuperated, and deceased in Colombia. Date format DD/MM/YYYY [INS Open Data](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr)",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "title": "Date, day by day",
+            "type": "String"
+          },
+          {
+            "name": "total_reported",
+            "title": "Total cases reported at date",
+            "type": "Uuid"
+          },
+          {
+            "name": "accum_reported",
+            "title": "Accumulated cases reported at date",
+            "type": "Uuid"
+          },
+          {
+            "name": "total_recupered",
+            "title": "Total cases recuperated at date",
+            "type": "Uuid"
+          },
+          {
+            "name": "accum_recupered",
+            "title": "Accumulated cases recuperated at date",
+            "type": "Uuid"
+          },
+          {
+            "name": "total_deceased",
+            "title": "Total cases deceased at date",
+            "type": "Uuid"
+          },
+          {
+            "name": "accum_deceased",
+            "title": "Accumulated cases deceased at date",
+            "type": "Uuid"
+          }
+        ]
+      }
+    },
+    {
+      "path": "covid19co.csv",
+      "description": "Has a daily report from Instituto Nacional de Salud - INS about Covid19 cases reported in Colombia. Date format DD/MM/YYYY\n[INS Open Data](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr)",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID DE CASO",
+            "title": "ID case",
+            "type": "Uuid"
+          },
+          {
+            "name": "FECHA DE NOTIFICACION",
+            "title": "Date of notification",
+            "type": "String"
+          },
+          {
+            "name": "CODIGO DIVIPOLA",
+            "title": "DIVIPOLA code",
+            "type": "Uuid"
+          },
+          {
+            "name": "CIUDAD DE UBICACION",
+            "title": "City",
+            "type": "String"
+          },
+          {
+            "name": "DEPARTAMENTO O DISTRITO",
+            "title": "Department or State",
+            "type": "String"
+          },
+          {
+            "name": "ATENCION",
+            "title": "Attention",
+            "type": "String"
+          },
+          {
+            "name": "EDAD",
+            "title": "Age",
+            "type": "Uuid"
+          },
+          {
+            "name": "SEXO",
+            "title": "Sex",
+            "type": "String"
+          },
+          {
+            "name": "TIPO",
+            "title": "Kind",
+            "type": "String"
+          },
+          {
+            "name": "ESTADO",
+            "title": "Status",
+            "type": "String"
+          },
+          {
+            "name": "PAIS DE PROCEDENCIA",
+            "title": "Country of origin",
+            "type": "String"
+          },
+          {
+            "name": "FIS",
+            "title": "Symptom onset date",
+            "type": "String"
+          },
+          {
+            "name": "FECHA DE MUERTE",
+            "title": "Death date",
+            "type": "String"
+          },
+          {
+            "name": "FECHA DIAGNOSTICO",
+            "title": "Date of diagnosis",
+            "type": "String"
+          },
+          {
+            "name": "FECHA RECUPERADO",
+            "title": "Recovery date",
+            "type": "String"
+          },
+          {
+            "name": "FECHA REPORTE WEB",
+            "title": "Report date",
+            "type": "String"
+          },
+          {
+            "name": "FECHA DE NOTIFICACION DIA",
+            "title": "Day of notification",
+            "type": "Uuid"
+          },
+          {
+            "name": "FECHA DE NOTIFICACION MES",
+            "title": "Month of notification",
+            "type": "Uuid"
+          },
+          {
+            "name": "FECHA DE NOTIFICACION ANIO",
+            "title": "Year of notification",
+            "type": "Uuid"
+          },
+          {
+            "name": "FECHA DE NOTIFICACION NOMBRE MES",
+            "title": "Month of year notification",
+            "type": "String"
+          },
+          {
+            "name": "FECHA DE NOTIFICACION DIA SEMANA",
+            "title": "Day of week notification",
+            "type": "String"
+          },
+          {
+            "name": "FIS DIA",
+            "title": "Day of symptom onset",
+            "type": "String"
+          },
+          {
+            "name": "FIS MES",
+            "title": "Month of symptom onset",
+            "type": "String"
+          },
+          {
+            "name": "FIS ANIO",
+            "title": "Year of symptom onset",
+            "type": "String"
+          },
+          {
+            "name": "FIS NOMBRE MES",
+            "title": "Month of year symptom onset",
+            "type": "String"
+          },
+          {
+            "name": "FIS DIA SEMANA",
+            "title": "Day of week symptom onset",
+            "type": "String"
+          },
+          {
+            "name": "FECHA DE MUERTE DIA",
+            "title": "Day of death",
+            "type": "String"
+          },
+          {
+            "name": "FECHA DE MUERTE MES",
+            "title": "Month of death",
+            "type": "String"
+          },
+          {
+            "name": "FECHA DE MUERTE ANIO",
+            "title": "Year of death",
+            "type": "String"
+          },
+          {
+            "name": "FECHA DE MUERTE NOMBRE MES",
+            "title": "Month of year death",
+            "type": "String"
+          },
+          {
+            "name": "FECHA DE MUERTE DIA SEMANA",
+            "title": "Day of week death",
+            "type": "String"
+          },
+          {
+            "name": "FECHA DIAGNOSTICO DIA",
+            "title": "Day of diagnosis",
+            "type": "Uuid"
+          },
+          {
+            "name": "FECHA DIAGNOSTICO MES",
+            "title": "Month of diagnosis",
+            "type": "Uuid"
+          },
+          {
+            "name": "FECHA DIAGNOSTICO ANIO",
+            "title": "Year of diagnosis",
+            "type": "Uuid"
+          },
+          {
+            "name": "FECHA DIAGNOSTICO NOMBRE MES",
+            "title": "Month of year diagnosis",
+            "type": "String"
+          },
+          {
+            "name": "FECHA DIAGNOSTICO DIA SEMANA",
+            "title": "Day of week diagnosis",
+            "type": "String"
+          },
+          {
+            "name": "FECHA RECUPERADO DIA",
+            "title": "Day of recovery",
+            "type": "String"
+          },
+          {
+            "name": "FECHA RECUPERADO MES",
+            "title": "Month of recovery",
+            "type": "String"
+          },
+          {
+            "name": "FECHA RECUPERADO ANIO",
+            "title": "Year of recovery",
+            "type": "String"
+          },
+          {
+            "name": "FECHA RECUPERADO NOMBRE MES",
+            "title": "Month of year recovery",
+            "type": "String"
+          },
+          {
+            "name": "FECHA RECUPERADO DIA SEMANA",
+            "title": "Day of week recovery",
+            "type": "String"
+          },
+          {
+            "name": "FECHA REPORTE WEB DIA",
+            "title": "Day of report",
+            "type": "Uuid"
+          },
+          {
+            "name": "FECHA REPORTE WEB MES",
+            "title": "Month of report",
+            "type": "Uuid"
+          },
+          {
+            "name": "FECHA REPORTE WEB ANIO",
+            "title": "Year of report",
+            "type": "Uuid"
+          },
+          {
+            "name": "FECHA REPORTE WEB NOMBRE MES",
+            "title": "Month of year report",
+            "type": "String"
+          },
+          {
+            "name": "FECHA REPORTE WEB DIA SEMANA",
+            "title": "Day of week report",
+            "type": "String"
+          }
+        ]
+      }
+    }
+  ]
+}

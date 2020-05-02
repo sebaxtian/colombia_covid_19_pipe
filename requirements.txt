@@ -4,3 +4,4 @@ numpy
 unidecode
 jupyterlab
 pdfminer.six
+kaggle

@@ -17,8 +17,18 @@ if [ $? -eq 0 ]; then
     # Go back to main directory
     cd ../
     # Finish without error
-    echo "Finished !"
     echo "Pipeline output is generated within ./output directory."
+    echo "Updating Kaggle Datasets ..."
+    # Copy datasets to kaggle
+    cp -fv output/covid19co.csv kaggle/
+    cp -fv output/covid19co_time_line.csv kaggle/
+    cp -fv output/covid19co_samples_processed.csv kaggle/
+    cp -fv output/covid19co_samples_time_line.csv kaggle/
+    # Upload and Update Kaggle Datasets
+    kaggle datasets version -p kaggle/ -m "Updated at $(date)"
+    # Finish
+    echo "Kaggle Datasets Updated"
+    echo "Finished !"
     echo ""
     # Success
     exit 0
