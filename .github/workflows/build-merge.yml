@@ -34,7 +34,20 @@ jobs:
           # Run Colombia Covid19 Pipeline
           ./run.sh
           # Update Chart Colombia Covid19 Time Line
+          echo "Updating Chart Colombia Covid19 Time Line ..."
           curl --request GET --url 'https://api.datawrapper.de/v3/charts/b9YVt/export/png?unit=px&mode=rgb&plain=false&scale=2&borderWidth=20' --header "Authorization: Bearer $DATA_WRAPPER_TOKEN" --header 'accept: */*' --output './chart/covid19co_time_line.png'
+          # Finish
+          echo "Chart Colombia Covid19 Time Line Updated"
+          echo "Updating Kaggle Datasets ..."
+          # Copy datasets to kaggle
+          cp -fv output/covid19co.csv kaggle/
+          cp -fv output/covid19co_time_line.csv kaggle/
+          cp -fv output/covid19co_samples_processed.csv kaggle/
+          cp -fv output/covid19co_samples_time_line.csv kaggle/
+          # Upload and Update Kaggle Datasets
+          kaggle datasets version -p kaggle/ -m "Updated at $(date)"
+          # Finish
+          echo "Kaggle Datasets Updated"
       # Setup Merge to master branch
       - uses: actions/checkout@master
       - name: Merge to master branch
