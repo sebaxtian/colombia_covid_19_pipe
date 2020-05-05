@@ -80,11 +80,46 @@ covid19co_samples_processed.shape
 # %% [markdown]
 # ---
 # %% [markdown]
+# ## Official Date Report
+
+# %%
+# URL Bogota Date
+URL_BOGOTA_TIME = 'http://worldtimeapi.org/api/timezone/America/Bogota'
+# Get Bogota Date
+with requests.get(URL_BOGOTA_TIME) as bogota_time:
+    bogota_time = bogota_time.json()
+# Bogota Date
+#print(bogota_time)
+bogota_date = datetime.date.fromtimestamp(bogota_time['unixtime']).isoformat()
+print('Bogota Date:', bogota_date)
+
+try:
+    # URL Date Report
+    URL_DATE_REPORT = 'https://e.infogram.com/api/live/flex/efcb7f88-4bd0-4e26-a497-14ae28f6d199/a90dbc02-108d-44be-8178-b1eb6ea1fdd9?'
+    # Get Official Date Report
+    with requests.get(URL_DATE_REPORT) as official_date_report:
+        official_date_report = official_date_report.json()
+    # Official Date Report
+    #print(official_date_report['data'][0][1][0])
+    official_date_report = official_date_report['data'][0][1][0]
+    #print(official_date_report)
+    # Date Format
+    date_format = official_date_report.split(' ')[4].split('-')
+    # YEAR-MONTH-DAY
+    official_date_report = datetime.date(int(date_format[2]), int(date_format[1]), int(date_format[0]))
+except:
+    official_date_report = bogota_date
+# Print
+print('Official Date Report:', official_date_report)
+
+# %% [markdown]
+# ---
+# %% [markdown]
 # ## Time Line Reported, Recupered and Deceased
 
 # %%
 # Show dataframe
-covid19co.head()
+covid19co.tail()
 
 
 # %%
@@ -92,7 +127,7 @@ covid19co.head()
 def get_time_line(dfreport):
     # Time Line [date, total, accum]
     dfreport_time_line = pd.DataFrame(columns=['date', 'total', 'accum'])
-    dfreport_time_line['date'] = [dti.strftime('%d/%m/%Y') for dti in pd.date_range(start='2020-03-01', end=datetime.date.today().isoformat(), freq='D')]
+    dfreport_time_line['date'] = [dti.strftime('%d/%m/%Y') for dti in pd.date_range(start='2020-03-01', end=official_date_report, freq='D')]
     # Total by Date
     total_by_date = {}
     # Group by 'FECHA REPORTE WEB'
@@ -309,7 +344,7 @@ covid19co_samples_processed.head()
 # %%
 # Time Line [date, accum]
 covid19co_samples_time_line = pd.DataFrame(columns=['date', 'accum'])
-covid19co_samples_time_line['date'] = [dti.strftime('%d/%m/%Y') for dti in pd.date_range(start='2020-03-01', end=datetime.date.today().isoformat(), freq='D')]
+covid19co_samples_time_line['date'] = [dti.strftime('%d/%m/%Y') for dti in pd.date_range(start='2020-03-01', end=official_date_report, freq='D')]
 # Get Accumulative Samples
 def get_accum(date_sample):
     accum = covid19co_samples_processed[covid19co_samples_processed['date'] == date_sample]['accum_samples'].values
@@ -319,7 +354,7 @@ covid19co_samples_time_line['accum'] = covid19co_samples_time_line['date'].trans
 # Add samples without date
 #covid19co_samples_time_line.iloc[2] = list(covid19co_samples_processed.iloc[0])
 # Show dataframe
-covid19co_samples_time_line.head()
+covid19co_samples_time_line.tail()
 
 # %% [markdown]
 # ## Time Line Samples Processed
