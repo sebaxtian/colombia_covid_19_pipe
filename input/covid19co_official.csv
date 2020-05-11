@@ -2857,7 +2857,7 @@ ID de caso,Fecha de notificación,Codigo DIVIPOLA,Ciudad de ubicación,Departame
 2856,2020-04-11T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,Recuperado,56,M,En estudio,Leve,Colombia,2020-04-07T00:00:00.000,-   -,2020-04-14T00:00:00.000,2020-04-27T00:00:00.000,2020-04-14T00:00:00.000
 2857,2020-04-11T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,Casa,36,M,Relacionado,Leve,Colombia,2020-04-09T00:00:00.000,-   -,2020-04-14T00:00:00.000,-   -,2020-04-14T00:00:00.000
 2858,2020-04-13T00:00:00.000,13620,San Cristóbal,Bolívar,Hospital UCI,63,M,Relacionado,Grave,Colombia,2020-04-05T00:00:00.000,-   -,2020-04-14T00:00:00.000,-   -,2020-04-14T00:00:00.000
-2859,2020-04-11T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,,17,M,Relacionado,,Colombia,2020-03-26T00:00:00.000,2020-04-17T00:00:00.000,2020-04-14T00:00:00.000,-   -,2020-04-14T00:00:00.000
+2859,2020-04-11T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,N/A,17,M,Relacionado,N/A,Colombia,2020-03-26T00:00:00.000,2020-04-17T00:00:00.000,2020-04-14T00:00:00.000,-   -,2020-04-14T00:00:00.000
 2860,2020-04-12T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,Recuperado,49,M,Relacionado,Leve,Colombia,2020-04-12T00:00:00.000,-   -,2020-04-14T00:00:00.000,2020-04-28T00:00:00.000,2020-04-14T00:00:00.000
 2861,2020-04-11T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,Fallecido,81,M,En estudio,Fallecido,Colombia,2020-04-08T00:00:00.000,2020-04-11T00:00:00.000,2020-04-14T00:00:00.000,-   -,2020-04-14T00:00:00.000
 2862,2020-04-12T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,Casa,56,F,Relacionado,Leve,Colombia,2020-04-06T00:00:00.000,-   -,2020-04-14T00:00:00.000,-   -,2020-04-14T00:00:00.000
@@ -4760,7 +4760,7 @@ ID de caso,Fecha de notificación,Codigo DIVIPOLA,Ciudad de ubicación,Departame
 4798,2020-04-23T00:00:00.000,11001,Bogotá D.C.,Bogotá D.C.,Recuperado,33,F,En estudio,Leve,Colombia,2020-04-14T00:00:00.000,-   -,2020-04-24T00:00:00.000,2020-05-05T00:00:00.000,2020-04-24T00:00:00.000
 4799,2020-04-23T00:00:00.000,11001,Bogotá D.C.,Bogotá D.C.,Hospital,63,F,En estudio,Moderado,Colombia,2020-04-17T00:00:00.000,-   -,2020-04-24T00:00:00.000,-   -,2020-04-24T00:00:00.000
 4800,2020-04-23T00:00:00.000,11001,Bogotá D.C.,Bogotá D.C.,Hospital,29,F,En estudio,Moderado,Colombia,2020-04-05T00:00:00.000,-   -,2020-04-24T00:00:00.000,-   -,2020-04-24T00:00:00.000
-4801,2020-04-22T00:00:00.000,11001,Bogotá D.C.,Bogotá D.C.,,20,F,En estudio,,Colombia,2020-04-16T00:00:00.000,2020-04-22T00:00:00.000,2020-04-24T00:00:00.000,-   -,2020-04-24T00:00:00.000
+4801,2020-04-22T00:00:00.000,11001,Bogotá D.C.,Bogotá D.C.,N/A,20,F,En estudio,N/A,Colombia,2020-04-16T00:00:00.000,2020-04-22T00:00:00.000,2020-04-24T00:00:00.000,-   -,2020-04-24T00:00:00.000
 4802,2020-04-23T00:00:00.000,11001,Bogotá D.C.,Bogotá D.C.,Casa,25,M,En estudio,Leve,Colombia,2020-04-21T00:00:00.000,-   -,2020-04-24T00:00:00.000,-   -,2020-04-24T00:00:00.000
 4803,2020-04-23T00:00:00.000,11001,Bogotá D.C.,Bogotá D.C.,Casa,11,M,Relacionado,Leve,Colombia,2020-04-18T00:00:00.000,-   -,2020-04-24T00:00:00.000,-   -,2020-04-24T00:00:00.000
 4804,2020-04-23T00:00:00.000,11001,Bogotá D.C.,Bogotá D.C.,Casa,41,F,En estudio,Leve,Colombia,2020-04-15T00:00:00.000,-   -,2020-04-24T00:00:00.000,-   -,2020-04-24T00:00:00.000
@@ -6191,7 +6191,7 @@ ID de caso,Fecha de notificación,Codigo DIVIPOLA,Ciudad de ubicación,Departame
 6230,2020-04-25T00:00:00.000,41551,Pitalito,Huila,Casa,60,M,En estudio,Leve,Colombia,2020-04-17T00:00:00.000,-   -,2020-04-30T00:00:00.000,-   -,2020-04-30T00:00:00.000
 6231,2020-04-25T00:00:00.000,41551,Pitalito,Huila,Hospital,61,F,En estudio,Moderado,Colombia,2020-04-23T00:00:00.000,-   -,2020-04-30T00:00:00.000,-   -,2020-04-30T00:00:00.000
 6232,2020-04-25T00:00:00.000,41020,Algeciras,Huila,Hospital,75,M,En estudio,Moderado,Colombia,2020-04-23T00:00:00.000,-   -,2020-04-30T00:00:00.000,-   -,2020-04-30T00:00:00.000
-6233,2020-04-25T00:00:00.000,41551,Pitalito,Huila,,40,M,En estudio,,Colombia,2020-04-25T00:00:00.000,2020-04-25T00:00:00.000,2020-04-30T00:00:00.000,-   -,2020-04-30T00:00:00.000
+6233,2020-04-25T00:00:00.000,41551,Pitalito,Huila,N/A,40,M,En estudio,N/A,Colombia,2020-04-25T00:00:00.000,2020-04-25T00:00:00.000,2020-04-30T00:00:00.000,-   -,2020-04-30T00:00:00.000
 6234,2020-04-23T00:00:00.000,41001,Neiva,Huila,Casa,69,F,En estudio,Leve,Colombia,2020-04-07T00:00:00.000,-   -,2020-04-30T00:00:00.000,-   -,2020-04-30T00:00:00.000
 6235,2020-04-25T00:00:00.000,47001,Santa Marta,Santa Marta D.T. y C.,Casa,88,F,En estudio,Asintomático,Colombia,Asintomático,-   -,2020-04-30T00:00:00.000,-   -,2020-04-30T00:00:00.000
 6236,2020-04-25T00:00:00.000,47001,Santa Marta,Santa Marta D.T. y C.,Casa,33,F,En estudio,Leve,Colombia,2020-04-22T00:00:00.000,-   -,2020-04-30T00:00:00.000,-   -,2020-04-30T00:00:00.000
@@ -6474,7 +6474,7 @@ ID de caso,Fecha de notificación,Codigo DIVIPOLA,Ciudad de ubicación,Departame
 6513,2020-04-27T00:00:00.000,11001,Bogotá D.C.,Bogotá D.C.,Casa,24,M,En estudio,Leve,Colombia,2020-04-17T00:00:00.000,-   -,2020-05-01T00:00:00.000,-   -,2020-05-01T00:00:00.000
 6514,2020-04-24T00:00:00.000,76147,Cartago,Valle del Cauca,Casa,3,M,Relacionado,Leve,Colombia,2020-04-24T00:00:00.000,-   -,2020-05-01T00:00:00.000,-   -,2020-05-01T00:00:00.000
 6515,2020-04-24T00:00:00.000,76147,Cartago,Valle del Cauca,Casa,11,F,Relacionado,Leve,Colombia,2020-04-24T00:00:00.000,-   -,2020-05-01T00:00:00.000,-   -,2020-05-01T00:00:00.000
-6516,2020-04-24T00:00:00.000,15223,Cubará,Boyacá,,91,F,En estudio,,Colombia,2020-04-23T00:00:00.000,2020-04-23T00:00:00.000,2020-05-01T00:00:00.000,-   -,2020-05-01T00:00:00.000
+6516,2020-04-24T00:00:00.000,15223,Cubará,Boyacá,N/A,91,F,En estudio,N/A,Colombia,2020-04-23T00:00:00.000,2020-04-23T00:00:00.000,2020-05-01T00:00:00.000,-   -,2020-05-01T00:00:00.000
 6517,2020-04-24T00:00:00.000,54001,Cúcuta,Norte de Santander,Casa,28,M,En estudio,Leve,Colombia,2020-04-19T00:00:00.000,-   -,2020-05-01T00:00:00.000,-   -,2020-05-01T00:00:00.000
 6518,2020-04-24T00:00:00.000,54001,Cúcuta,Norte de Santander,Casa,20,M,En estudio,Leve,Colombia,2020-04-19T00:00:00.000,-   -,2020-05-01T00:00:00.000,-   -,2020-05-01T00:00:00.000
 6519,2020-04-16T00:00:00.000,54001,Cúcuta,Norte de Santander,Casa,31,M,En estudio,Leve,Colombia,2020-04-16T00:00:00.000,-   -,2020-05-01T00:00:00.000,-   -,2020-05-01T00:00:00.000
@@ -8088,7 +8088,7 @@ ID de caso,Fecha de notificación,Codigo DIVIPOLA,Ciudad de ubicación,Departame
 8127,2020-04-30T00:00:00.000,19001,Popayán,Cauca,Casa,39,F,En estudio,Leve,Colombia,2020-04-29T00:00:00.000,-   -,2020-05-05T00:00:00.000,-   -,2020-05-05T00:00:00.000
 8128,2020-05-01T00:00:00.000,41306,Gigante,Huila,Casa,50,M,En estudio,Leve,Colombia,2020-05-01T00:00:00.000,-   -,2020-05-05T00:00:00.000,-   -,2020-05-05T00:00:00.000
 8129,2020-05-03T00:00:00.000,25754,Soacha,Cundinamarca,Casa,25,F,En estudio,Leve,Colombia,2020-04-23T00:00:00.000,-   -,2020-05-05T00:00:00.000,-   -,2020-05-05T00:00:00.000
-8130,2020-04-30T00:00:00.000,41551,Pitalito,Huila,,21,M,En estudio,,Colombia,2020-04-30T00:00:00.000,2020-04-30T00:00:00.000,2020-05-05T00:00:00.000,-   -,2020-05-05T00:00:00.000
+8130,2020-04-30T00:00:00.000,41551,Pitalito,Huila,N/A,21,M,En estudio,N/A,Colombia,2020-04-30T00:00:00.000,2020-04-30T00:00:00.000,2020-05-05T00:00:00.000,-   -,2020-05-05T00:00:00.000
 8131,2020-05-01T00:00:00.000,41020,Algeciras,Huila,Casa,74,M,En estudio,Leve,Colombia,2020-04-26T00:00:00.000,-   -,2020-05-05T00:00:00.000,-   -,2020-05-05T00:00:00.000
 8132,2020-04-27T00:00:00.000,52835,San Andrés de Tumaco,Nariño,Casa,59,M,En estudio,Leve,Colombia,2020-04-27T00:00:00.000,-   -,2020-05-05T00:00:00.000,-   -,2020-05-05T00:00:00.000
 8133,2020-04-28T00:00:00.000,52835,San Andrés de Tumaco,Nariño,Hospital,52,F,En estudio,Moderado,Colombia,2020-04-27T00:00:00.000,-   -,2020-05-05T00:00:00.000,-   -,2020-05-05T00:00:00.000
@@ -9996,7 +9996,7 @@ ID de caso,Fecha de notificación,Codigo DIVIPOLA,Ciudad de ubicación,Departame
 10035,2020-04-30T00:00:00.000,47001,Santa Marta,Santa Marta D.T. y C.,Casa,18,F,En estudio,Leve,Colombia,2020-04-28T00:00:00.000,-   -,2020-05-08T00:00:00.000,-   -,2020-05-08T00:00:00.000
 10036,2020-04-30T00:00:00.000,47189,Ciénaga,Magdalena,Casa,42,F,En estudio,Leve,Colombia,2020-04-21T00:00:00.000,-   -,2020-05-08T00:00:00.000,-   -,2020-05-08T00:00:00.000
 10037,2020-04-30T00:00:00.000,47189,Ciénaga,Magdalena,Casa,24,M,En estudio,Leve,Colombia,2020-04-29T00:00:00.000,-   -,2020-05-08T00:00:00.000,-   -,2020-05-08T00:00:00.000
-10038,2020-05-08T00:00:00.000,11001,Bogotá D.C.,Bogotá D.C.,,41,M,En estudio,,Colombia,2020-04-29T00:00:00.000,2020-04-30T00:00:00.000,2020-05-08T00:00:00.000,-   -,2020-05-08T00:00:00.000
+10038,2020-05-08T00:00:00.000,11001,Bogotá D.C.,Bogotá D.C.,N/A,41,M,En estudio,N/A,Colombia,2020-04-29T00:00:00.000,2020-04-30T00:00:00.000,2020-05-08T00:00:00.000,-   -,2020-05-08T00:00:00.000
 10039,2020-05-03T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,Fallecido,85,M,En estudio,Fallecido,Colombia,2020-04-29T00:00:00.000,2020-05-06T00:00:00.000,2020-05-08T00:00:00.000,-   -,2020-05-08T00:00:00.000
 10040,2020-05-03T00:00:00.000,8520,Palmar de Varela,Atlántico,Casa,45,M,En estudio,Leve,Colombia,2020-04-28T00:00:00.000,-   -,2020-05-08T00:00:00.000,-   -,2020-05-08T00:00:00.000
 10041,2020-05-03T00:00:00.000,8634,Sabanagrande,Atlántico,Casa,59,M,En estudio,Leve,Colombia,2020-04-28T00:00:00.000,-   -,2020-05-08T00:00:00.000,-   -,2020-05-08T00:00:00.000
@@ -10726,7 +10726,7 @@ ID de caso,Fecha de notificación,Codigo DIVIPOLA,Ciudad de ubicación,Departame
 10765,2020-05-01T00:00:00.000,47189,Ciénaga,Magdalena,Casa,13,F,En estudio,Asintomático,Colombia,Asintomático,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
 10766,2020-05-05T00:00:00.000,18001,Florencia,Caquetá,Casa,29,M,Relacionado,Asintomático,Colombia,Asintomático,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
 10767,2020-05-05T00:00:00.000,23001,Montería,Córdoba,Casa,43,F,En estudio,Asintomático,Colombia,Asintomático,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
-10768,2020-05-10T00:00:00.000,23,Córdoba,Córdoba,Casa,41,M,En estudio,Asintomático,Colombia,Asintomático,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
+10768,2020-05-10T00:00:00.000,23090,Canalete,Córdoba,Casa,41,M,En estudio,Asintomático,Colombia,Asintomático,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
 10769,2020-05-05T00:00:00.000,44430,Maicao,La Guajira,Casa,52,F,En estudio,Leve,Colombia,2020-04-30T00:00:00.000,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
 10770,2020-05-05T00:00:00.000,23001,Montería,Córdoba,Casa,9,F,En estudio,Asintomático,Colombia,Asintomático,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
 10771,2020-05-05T00:00:00.000,44279,Fonseca,La Guajira,Hospital UCI,27,F,En estudio,Grave,Colombia,2020-04-28T00:00:00.000,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
@@ -10814,7 +10814,7 @@ ID de caso,Fecha de notificación,Codigo DIVIPOLA,Ciudad de ubicación,Departame
 10853,2020-05-05T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,Casa,62,M,En estudio,Leve,Colombia,2020-05-02T00:00:00.000,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
 10854,2020-05-05T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,Casa,27,M,En estudio,Leve,Colombia,2020-05-02T00:00:00.000,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
 10855,2020-05-06T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,Hospital,43,M,En estudio,Moderado,Colombia,2020-04-30T00:00:00.000,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
-10856,2020-05-05T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,,70,F,En estudio,,Colombia,2020-05-02T00:00:00.000,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
+10856,2020-05-05T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,N/A,70,F,En estudio,N/A,Colombia,2020-05-02T00:00:00.000,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
 10857,2020-05-06T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,Casa,35,M,En estudio,Leve,Colombia,2020-05-03T00:00:00.000,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
 10858,2020-05-06T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,Casa,22,M,En estudio,Leve,Colombia,2020-05-04T00:00:00.000,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
 10859,2020-05-06T00:00:00.000,13001,Cartagena de Indias,Cartagena D.T. y C.,Casa,25,M,En estudio,Leve,Colombia,2020-05-04T00:00:00.000,-   -,2020-05-10T00:00:00.000,-   -,2020-05-10T00:00:00.000
