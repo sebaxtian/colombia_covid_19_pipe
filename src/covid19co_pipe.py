@@ -206,14 +206,6 @@ covid19co.to_csv(os.path.join(OUTPUT_DIR, 'covid19co.csv'), index=False)
 # ## Official Covid19 Colombia Samples Processed
 
 # %%
-"""
-# Official Samples Processed Until Now
-with requests.get(URL_SAMPLES_PROCESSED) as official_dataset:
-    with open(os.path.join(INPUT_DIR, 'covid19co_samples_processed_official.json'), 'w') as json_file:
-        json_data = official_dataset.json()
-        del json_data['refreshed']
-        json.dump(json_data, json_file, ensure_ascii=False, indent=4)
-"""
 # Official Samples Processed Until Now
 with requests.get(URL_SAMPLES_PROCESSED) as official_dataset:
     with open(os.path.join(INPUT_DIR, 'covid19co_samples_processed_official.csv'), 'wb') as dataset_file:
@@ -221,16 +213,6 @@ with requests.get(URL_SAMPLES_PROCESSED) as official_dataset:
 
 
 # %%
-"""
-# Open Official Samples Processed
-with open(os.path.join(INPUT_DIR, 'covid19co_samples_processed_official.json')) as official_dataset:
-    official_dataset = json.load(official_dataset)
-# Official Samples Processed
-official_dataset = official_dataset['data'][0]
-covid19co_samples_processed = pd.DataFrame(columns=official_dataset[0], data=official_dataset[1:])
-# Total Daily Report
-covid19co_samples_processed.shape
-"""
 # Open Official Samples Processed
 covid19co_samples_processed = pd.read_csv(os.path.join(INPUT_DIR, 'covid19co_samples_processed_official.csv'))
 # Total Daily Report
@@ -251,35 +233,6 @@ covid19co_samples_processed.head()
 
 
 # %%
-"""
-# Setup Date Format
-def setup_date_samples(value):
-    #print('date:', value)
-    try:
-        value = value.split(' ')
-        value = value[0].split('/')
-        #print(len(value))
-        if len(value) == 3:
-            # Day
-            if len(value[0]) == 1:
-                value[0] = '0' + value[0]
-            # Month
-            if len(value[1]) == 1:
-                value[1] = '0' + value[1]
-            # Year
-            if len(value[2]) == 2:
-                value[2] = value[2] + '20'
-            # Date
-            value = value[0] + '/' + value[1] + '/' + value[2]
-        else:
-            value = '-'
-    except IndexError:
-        value = '-'
-    #print('VALUE:', value)
-    if len(value) != 10 and len(value) != 1:
-        value = '-'
-    return value
-"""
 # Setup Date Format
 covid19co_samples_processed['FECHA'] = covid19co_samples_processed['FECHA'].transform(lambda value: setup_date(value))
 # Show dataframe
@@ -344,6 +297,8 @@ new_reports['url'] = new_reports['file'].transform(lambda value: get_report_url(
 new_reports.dropna(inplace=True)
 # Reset index
 new_reports.reset_index(inplace=True, drop=True)
+# Only new reports
+new_reports = new_reports.iloc[1:]
 # Show dataframe
 new_reports.head()
 
@@ -386,7 +341,7 @@ def get_mobility_changes(URL):
     return mobility_changes
 
 # Check new report
-if new_reports['date'].values[-1] != date_last_report:
+if len(new_reports['date'].values) and new_reports['date'].values[-1] != date_last_report:
     # New report
     print('New Google Community Mobility Reports - Colombia')
     # Add Mobility Changes
