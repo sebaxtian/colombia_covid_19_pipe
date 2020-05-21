@@ -70,7 +70,7 @@ if os.path.split(os.path.abspath('.'))[-1] == 'src':
 # Official Daily Report Until Now
 URL_OFFICIAL_DATASET = 'https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD'
 # Official Daily Samples Processed
-URL_SAMPLES_PROCESSED = 'https://e.infogram.com/api/live/flex/638d656c-c77b-4326-97d3-e50cb410c6ab/8188140c-8352-4994-85e3-2100a4dbd9db?'
+URL_SAMPLES_PROCESSED = 'https://www.datos.gov.co/api/views/8835-5baf/rows.csv?accessType=DOWNLOAD'
 
 # %% [markdown]
 # ---
@@ -206,21 +206,33 @@ covid19co.to_csv(os.path.join(OUTPUT_DIR, 'covid19co.csv'), index=False)
 # ## Official Covid19 Colombia Samples Processed
 
 # %%
+"""
 # Official Samples Processed Until Now
 with requests.get(URL_SAMPLES_PROCESSED) as official_dataset:
     with open(os.path.join(INPUT_DIR, 'covid19co_samples_processed_official.json'), 'w') as json_file:
         json_data = official_dataset.json()
         del json_data['refreshed']
         json.dump(json_data, json_file, ensure_ascii=False, indent=4)
+"""
+# Official Samples Processed Until Now
+with requests.get(URL_SAMPLES_PROCESSED) as official_dataset:
+    with open(os.path.join(INPUT_DIR, 'covid19co_samples_processed_official.csv'), 'wb') as dataset_file:
+        dataset_file.write(official_dataset.content)
 
 
 # %%
+"""
 # Open Official Samples Processed
 with open(os.path.join(INPUT_DIR, 'covid19co_samples_processed_official.json')) as official_dataset:
     official_dataset = json.load(official_dataset)
 # Official Samples Processed
 official_dataset = official_dataset['data'][0]
 covid19co_samples_processed = pd.DataFrame(columns=official_dataset[0], data=official_dataset[1:])
+# Total Daily Report
+covid19co_samples_processed.shape
+"""
+# Open Official Samples Processed
+covid19co_samples_processed = pd.read_csv(os.path.join(INPUT_DIR, 'covid19co_samples_processed_official.csv'))
 # Total Daily Report
 covid19co_samples_processed.shape
 
@@ -239,6 +251,7 @@ covid19co_samples_processed.head()
 
 
 # %%
+"""
 # Setup Date Format
 def setup_date_samples(value):
     #print('date:', value)
@@ -266,10 +279,18 @@ def setup_date_samples(value):
     if len(value) != 10 and len(value) != 1:
         value = '-'
     return value
+"""
 # Setup Date Format
-covid19co_samples_processed['FECHA'] = covid19co_samples_processed['FECHA'].transform(lambda value: setup_date_samples(value))
+covid19co_samples_processed['FECHA'] = covid19co_samples_processed['FECHA'].transform(lambda value: setup_date(value))
 # Show dataframe
 covid19co_samples_processed.head()
+
+
+# %%
+# Select Columns
+covid19co_samples_processed = covid19co_samples_processed[['FECHA', 'ACUMULADAS']]
+# Show dataframe
+covid19co_samples_processed.tail()
 
 # %% [markdown]
 # ## Covid19 Colombia Samples Processed Dataset
@@ -285,11 +306,31 @@ covid19co_samples_processed.to_csv(os.path.join(OUTPUT_DIR, 'covid19co_samples_p
 # ## Google Community Mobility Reports - Colombia
 
 # %%
-# Google Community Mobility Reports - Colombia
-google_community_mobility_reports = pd.DataFrame(columns=['date', 'country', 'file', 'url'])
-google_community_mobility_reports['date'] = [dti.strftime('%Y-%m-%d') for dti in pd.date_range(start='2020-03-29', end=datetime.date.today().isoformat(), freq='D')]
-google_community_mobility_reports['country'] = 'Colombia'
-google_community_mobility_reports['file'] = [date + '_CO_Mobility_Report_en.pdf' for date in google_community_mobility_reports['date'].values]
+# Open Official Google Community Mobility - Colombia
+google_community_mobility_reports = pd.read_csv(os.path.join(OUTPUT_DIR, 'google_community_mobility_reports.csv'))
+# Total Google Community Mobility - Colombia
+google_community_mobility_reports.shape
+
+
+# %%
+# Show dataframe
+google_community_mobility_reports.tail()
+
+
+# %%
+# Update Google Community Mobility Reports - Colombia
+date_last_report = google_community_mobility_reports['date'].values[-1]
+#print(date_last_report)
+# 13/05/2020
+date_last_report = date_last_report.split('/')
+date_last_report = date_last_report[2] + '-' + date_last_report[1] + '-' + date_last_report[0]
+#print(date_last_report)
+# 2020-05-13
+
+new_reports = pd.DataFrame(columns=['date', 'country', 'file', 'url'])
+new_reports['date'] = [dti.strftime('%Y-%m-%d') for dti in pd.date_range(start=date_last_report, end=datetime.date.today().isoformat(), freq='D')]
+new_reports['country'] = 'Colombia'
+new_reports['file'] = [date + '_CO_Mobility_Report_en.pdf' for date in new_reports['date'].values]
 # Get URL report
 def get_report_url(file):
     with requests.get('https://www.gstatic.com/covid19/mobility/' + file) as community_mobility_report:
@@ -298,13 +339,13 @@ def get_report_url(file):
         else:
             return np.nan
 # Get URL report
-google_community_mobility_reports['url'] = google_community_mobility_reports['file'].transform(lambda value: get_report_url(value))
+new_reports['url'] = new_reports['file'].transform(lambda value: get_report_url(value))
 # Drop any report without URL
-google_community_mobility_reports.dropna(inplace=True)
+new_reports.dropna(inplace=True)
 # Reset index
-google_community_mobility_reports.reset_index(inplace=True, drop=True)
+new_reports.reset_index(inplace=True, drop=True)
 # Show dataframe
-google_community_mobility_reports.head()
+new_reports.head()
 
 
 # %%
@@ -343,23 +384,34 @@ def get_mobility_changes(URL):
                 # Merge
                 mobility_changes = page1 + page2
     return mobility_changes
-# Add Mobility Changes
-google_community_mobility_reports['mobility_changes'] = google_community_mobility_reports['url'].transform(lambda value: get_mobility_changes(value))
-# By case
-google_community_mobility_reports['Retail & recreation'] = google_community_mobility_reports['mobility_changes'].transform(lambda value: value[1])
-google_community_mobility_reports['Grocery & pharmacy'] = google_community_mobility_reports['mobility_changes'].transform(lambda value: value[3])
-google_community_mobility_reports['Parks'] = google_community_mobility_reports['mobility_changes'].transform(lambda value: value[5])
-google_community_mobility_reports['Transit stations'] = google_community_mobility_reports['mobility_changes'].transform(lambda value: value[7])
-google_community_mobility_reports['Workplaces'] = google_community_mobility_reports['mobility_changes'].transform(lambda value: value[9])
-google_community_mobility_reports['Residential'] = google_community_mobility_reports['mobility_changes'].transform(lambda value: value[11])
-# Drop column
-google_community_mobility_reports.drop(columns=['mobility_changes'], inplace=True)
-# Sort columns
-google_community_mobility_reports = google_community_mobility_reports[['date', 'country', 'Retail & recreation', 'Grocery & pharmacy', 'Parks', 'Transit stations', 'Workplaces', 'Residential', 'file', 'url']]
-# Setup date format
-google_community_mobility_reports['date'] = [value.strftime('%d/%m/%Y') for value in pd.to_datetime(google_community_mobility_reports['date'], format='%Y-%m-%d')]
+
+# Check new report
+if new_reports['date'].values[-1] != date_last_report:
+    # New report
+    print('New Google Community Mobility Reports - Colombia')
+    # Add Mobility Changes
+    new_reports['mobility_changes'] = new_reports['url'].transform(lambda value: get_mobility_changes(value))
+    # By case
+    new_reports['Retail & recreation'] = new_reports['mobility_changes'].transform(lambda value: value[1])
+    new_reports['Grocery & pharmacy'] = new_reports['mobility_changes'].transform(lambda value: value[3])
+    new_reports['Parks'] = new_reports['mobility_changes'].transform(lambda value: value[5])
+    new_reports['Transit stations'] = new_reports['mobility_changes'].transform(lambda value: value[7])
+    new_reports['Workplaces'] = new_reports['mobility_changes'].transform(lambda value: value[9])
+    new_reports['Residential'] = new_reports['mobility_changes'].transform(lambda value: value[11])
+    # Drop column
+    new_reports.drop(columns=['mobility_changes'], inplace=True)
+    # Sort columns
+    new_reports = new_reports[['date', 'country', 'Retail & recreation', 'Grocery & pharmacy', 'Parks', 'Transit stations', 'Workplaces', 'Residential', 'file', 'url']]
+    # Setup date format
+    new_reports['date'] = [value.strftime('%d/%m/%Y') for value in pd.to_datetime(new_reports['date'], format='%Y-%m-%d')]
+    # Merge and Update
+    google_community_mobility_reports = pd.concat([google_community_mobility_reports, new_reports])
+else:
+    # Do nothing
+    print('Google Community Mobility Reports - Colombia All Updated')
+
 # Show dataframe
-google_community_mobility_reports.head()
+google_community_mobility_reports.tail()
 
 # %% [markdown]
 # ## Google Community Mobility Reports - Colombia
