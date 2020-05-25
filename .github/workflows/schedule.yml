@@ -36,13 +36,14 @@ jobs:
         run: |
           # Run Colombia Covid19 Pipeline Schedule
           ./run.sh
+          # Update Chart Colombia Covid19 Time Line
+          echo "Updating Chart Colombia Covid19 Time Line ..."
+          curl --request GET --url 'https://api.datawrapper.de/v3/charts/b9YVt/export/png?unit=px&mode=rgb&plain=false&scale=2&borderWidth=20' --header "Authorization: Bearer $DATA_WRAPPER_TOKEN" --header 'accept: */*' --output './chart/covid19co_time_line.png'
+          # Finish
+          echo "Chart Colombia Covid19 Time Line Updated"
+          echo ""
           # Check any change
           if [[ $(git status --porcelain) ]]; then
-              echo "Updating Chart Colombia Covid19 Time Line ..."
-              curl --request GET --url 'https://api.datawrapper.de/v3/charts/b9YVt/export/png?unit=px&mode=rgb&plain=false&scale=2&borderWidth=20' --header "Authorization: Bearer $DATA_WRAPPER_TOKEN" --header 'accept: */*' --output './chart/covid19co_time_line.png'
-              # Finish
-              echo "Chart Colombia Covid19 Time Line Updated"
-              echo ""
               echo "Updating Kaggle Datasets ..."
               # Copy datasets to kaggle
               cp -fv output/covid19co.csv kaggle/
