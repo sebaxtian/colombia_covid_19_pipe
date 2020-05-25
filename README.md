@@ -50,7 +50,7 @@ You can view and collaborate with the analysis here: [colombia_covid_19_analysis
 
 ---
 
-[![Colombia Covid19 Time Line](./chart/covid19_time_line.png "Colombia Covid19 Time Line")](https://www.datawrapper.de/_/b9YVt/)
+[![Colombia Covid19 Time Line](./chart/covid19co_time_line.png "Colombia Covid19 Time Line")](https://www.datawrapper.de/_/b9YVt/)
 
 ---
 
