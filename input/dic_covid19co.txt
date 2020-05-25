@@ -1,0 +1,47 @@
+ID DE CASO: ID case
+FECHA DE NOTIFICACION: Notification date
+CODIGO DIVIPOLA: DIVIPOLA code
+CIUDAD DE UBICACION: City
+DEPARTAMENTO O DISTRITO : Department of district
+ATENCION: Attention
+EDAD: Age
+SEXO: Sex
+TIPO: Kind
+ESTADO: Status
+PAIS DE PROCEDENCIA: Country origin
+FIS: Symptom onset date
+FECHA DE MUERTE: Death date
+FECHA DIAGNOSTICO: Diagnosis date
+FECHA RECUPERADO: Recovery date
+FECHA REPORTE WEB: Web reporting date
+FECHA DE NOTIFICACION DIA: Day notification date
+FECHA DE NOTIFICACION MES: Month notification date
+FECHA DE NOTIFICACION ANIO: Year notification date
+FECHA DE NOTIFICACION NOMBRE MES: Month name notification date
+FECHA DE NOTIFICACION DIA SEMANA: Day of week notification date
+FIS DIA: Day symptom onset date
+FIS MES: Month symptom onset date
+FIS ANIO: Year symptom onset date
+FIS NOMBRE MES: Month name symptom onset date
+FIS DIA SEMANA: Day of week symptom onset date
+FECHA DE MUERTE DIA: Day death date
+FECHA DE MUERTE MES: Month death date
+FECHA DE MUERTE ANIO: Year death date
+FECHA DE MUERTE NOMBRE MES: Month name death date
+FECHA DE MUERTE DIA SEMANA: Day of week death date
+FECHA DIAGNOSTICO DIA: Day diagnosis date
+FECHA DIAGNOSTICO MES: Month diagnosis date
+FECHA DIAGNOSTICO ANIO: Year diagnosis date
+FECHA DIAGNOSTICO NOMBRE MES: Month name diagnosis date
+FECHA DIAGNOSTICO DIA SEMANA: Day of week diagnosis date
+FECHA RECUPERADO DIA: Day recovery date
+FECHA RECUPERADO MES: Month recovery date
+FECHA RECUPERADO ANIO: Year recovery date
+FECHA RECUPERADO NOMBRE MES: Month name recovery date
+FECHA RECUPERADO DIA SEMANA: Day of week recovery date
+FECHA REPORTE WEB DIA: Day web reporting date
+FECHA REPORTE WEB MES: Month web reporting date
+FECHA REPORTE WEB ANIO: Year web reporting date
+FECHA REPORTE WEB NOMBRE MES: Month name web reporting date
+FECHA REPORTE WEB DIA SEMANA: Day of week web reporting date
+
