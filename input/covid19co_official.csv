@@ -1,1 +1,5 @@
-{"message":"Too many requests","errorCode":"too-many-requests","data":{}}
+{
+  "error" : true,
+  "message" : "Internal error",
+  "status" : 500
+}
