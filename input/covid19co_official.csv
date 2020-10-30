@@ -1,1 +1,1 @@
-{"message":"Internal error: please include code 4f24ce7a-1839-4bd6-98f1-ff0280589f6f if you report the error","errorCode":"internal-error","data":{"tag":"4f24ce7a-1839-4bd6-98f1-ff0280589f6f"}}
+{"message":"Invalid SoQL query","errorCode":"query.soql.invalid","data":{}}
