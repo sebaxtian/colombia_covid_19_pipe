@@ -1,1 +1,5 @@
-{"message":"Invalid SoQL query","errorCode":"query.soql.invalid","data":{}}
+{
+  "code" : "not_found",
+  "error" : true,
+  "message" : "Cannot find view with id gt2j-8ykr"
+}
